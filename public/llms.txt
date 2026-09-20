@@ -1,24 +1,37 @@
-# Tahira Syndicate — Wholesale Industrial Manufacturer & Master Distributor
+# Tahira Syndicate
 
-> Direct Manufacturer & Wholesale Master Distributor of Industrial Ropes, Nets, Webbing, Tarpaulins, Flexible Pipes, and Polymers in Karachi, Pakistan.
+> Direct manufacturer and wholesale master distributor of industrial ropes, agricultural shade nets, heavy-duty tarpaulins, flexible pipes, polymers, and synthetic webbing in Karachi, Pakistan.
 
-## Primary Business Information
+Tahira Syndicate provides bulk wholesale pricing, technical specifications, and factory-direct dispatch for commercial buyers, contractors, and industrial plants across Pakistan.
+
+## Primary Sections
+
+- [Wholesale Products Catalog](https://tahirasyndicate.com/products): Complete B2B inventory of ropes, shade nets, tarpaulins, PVC pipes, polymers, and strapping.
+- [Product Categories](https://tahirasyndicate.com/categories): Categorized material hubs for rapid procurement and bulk ordering.
+- [Installation Services](https://tahirasyndicate.com/services): Professional rigging, tensile canopy construction, basketball court covers, and shade netting installation.
+- [Projects & Case Studies](https://tahirasyndicate.com/projects): Documented real-world installations for Beaconhouse, Karachi Grammar School, and SLM Tyres.
+- [About Company](https://tahirasyndicate.com/about): Corporate history, warehouse facilities, wholesale manufacturing standards, and trade background.
+- [Contact & RFQ](https://tahirasyndicate.com/contact): Physical warehouse location on Shahra-e-Liaquat Road, Google Business profile, and direct WhatsApp RFQ line.
+
+## Product Silos & Specifications
+
+- [Ropes & Cordage](https://tahirasyndicate.com/categories/ropes): Manila natural fiber ropes, 3-strand PP Danline ropes, braided nylon cords, and polyester rigging ropes.
+- [Agricultural & Safety Nets](https://tahirasyndicate.com/categories/nets): 50%-90% UV-stabilized virgin HDPE green shade nets (hara parda), construction debris netting, and sports mesh.
+- [Webbing & Cargo Slings](https://tahirasyndicate.com/categories/safety-belts-webbing-slings): 1-10 Ton polyester webbing lifting slings, ratchet tie-down cargo belts, and safety harnesses.
+- [Tarpaulins & Canvas Tents](https://tahirasyndicate.com/categories/tarpaulins-canvas-tents): Waterproof multi-layer HDPE tarpaulins, wax-treated cotton canvas covers, and emergency relief tents.
+- [Pipes & Flexible Hosing](https://tahirasyndicate.com/categories/building-flexible-pipes): Heliflex suction hoses, deep-well boring pipes, and reinforced cotton PVC tubing.
+- [Polymers & Raw Materials](https://tahirasyndicate.com/categories/polythene-sheets-films): Virgin & recycled HDPE, LDPE, LLDPE, and PP plastic granules (plastic daana).
+- [Industrial Strapping & Packaging](https://tahirasyndicate.com/categories/packaging-strapping): Semi-automatic PP strapping rolls, high-tensile PET strapping, and metal crimp seals (patti kundi).
+
+## Business & Contact Details
+
 - **Company Name**: Tahira Syndicate
-- **Location**: Shop # 1, Thakurdwara Ln, Main Shahra-e-Liaquat Road, opp. Sindh Madarsa-tul-Islam, Searl Quarters, Karachi, 74000, Pakistan
-- **WhatsApp & Phone**: +92 321 2043552
-- **Direct RFQ / Orders**: Wholesale & Bulk Industrial Quotations on request
+- **Address**: Shop # 1, Thakurdwara Ln, Main Shahra-e-Liaquat Road, opp. Sindh Madarsa-tul-Islam, Searl Quarters, Karachi, 74000, Pakistan
+- **Phone / WhatsApp**: +92 321 2043552
+- **Email**: sales@tahirasyndicate.com
+- **Operating Hours**: Monday - Saturday: 10:00 AM - 7:00 PM PKT
+- **Payment & RFQ**: Wholesale Quotations via WhatsApp & On-Site Inquiries
 
-## Master Product Silos & Categories
-- **Ropes & Cordage**: Manila Natural Fiber Rope, Polypropylene (PP) Danline 3-Strand Rope, Nylon Braided Rope, High-Tenacity Polyester Rigging Cord.
-- **Nets & Mesh**: 75% Agricultural Green Shade Netting (Hara Parda), Heavy-Duty Construction Safety Debris Netting, Anti-Bird Cargo Mesh.
-- **Webbing & Cargo Control**: Polyester Webbing Lifting Slings (1-10 Ton, 2-Ply & 4-Ply), Heavy-Duty Ratchet Cargo Tie-Down Belts.
-- **Tarpaulins & Covers**: Waterproof High-Density HDPE Tarpaulins (Tarpal), Industrial Wax-Treated Heavy Cotton Canvas Tarpaulins.
-- **Flexible & Suction Pipes**: Flexible Deep-Well Boring Suction Pipes, Industrial Heliflex Heavy Water Delivery Hose, Reinforced PVC Tubing.
-- **Polymers & Granules**: Virgin & Reprocessed Polyethylene (HDPE/LDPE/LLDPE), Polypropylene (PP) Injection/Raffia Granules, PVC Compound.
-- **Industrial Strapping**: Polypropylene (PP) Semi-Automatic Box Strapping, High-Tensile PET Steel-Replacement Strapping, Galvanized Metal Strapping Seals (Patti Kundi).
+## Optional
 
-## AI Agent Integration & Endpoints
-- **Website**: https://tahirasyndicate.com
-- **Product Catalog**: https://tahirasyndicate.com/products
-- **Services**: https://tahirasyndicate.com/services
-- **Inquiry Processing**: https://wa.me/923212043552
+- [Full Content Directory](https://tahirasyndicate.com/llms-full.txt): Comprehensive plain-text documentation of all product specifications, FAQs, and company data for LLM context ingestion.
