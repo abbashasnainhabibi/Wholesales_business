@@ -171,10 +171,16 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+    max-width: 100%;
+    width: 100%;
   }
   body {
-    overflow-x: clip;
+    overflow-x: hidden;
     max-width: 100%;
+    width: 100%;
+    position: relative;
     @apply bg-background text-foreground;
   }
   * {
