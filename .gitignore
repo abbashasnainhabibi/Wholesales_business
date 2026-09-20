@@ -24,9 +24,6 @@ tsconfig.tsbuildinfo
 AGENTS.md
 scripts/
 
-# Archived/Deleted media preservation folder
-public/unused_media/
-
 # OS, Editor & IDE temporary files
 .DS_Store
 Thumbs.db

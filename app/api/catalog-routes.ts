@@ -209,26 +209,17 @@ export async function updateCatalog(request: Request, model: CatalogModel, id: s
   return json(await delegate(model).update({ where: { id: numericId }, data: rest }))
 }
 
-// Helper to preserve category media by moving files to unused_media folder
-async function preserveCategoryMedia(category: { slug: string; image?: string | null }) {
+// Helper to permanently delete category banner image from disk
+async function deleteCategoryMedia(category: { slug: string; image?: string | null }) {
   if (!category.image || !category.image.startsWith('/uploads/')) return
-  const categorySlug = category.slug || 'category'
-
-  const crmTargetDir = path.join(process.cwd(), 'public', 'unused_media', 'categories', categorySlug)
-  await fs.mkdir(crmTargetDir, { recursive: true }).catch(() => {})
-
   const relativePath = category.image.replace(/^\/+/, '')
-  const fileName = path.basename(relativePath)
-
-  // Move from CRM uploads to CRM unused_media
   const crmSource = path.join(process.cwd(), 'public', relativePath)
   try {
     await fs.access(crmSource)
-    await fs.rename(crmSource, path.join(crmTargetDir, fileName)).catch(async () => {
-      await fs.copyFile(crmSource, path.join(crmTargetDir, fileName))
-      await fs.unlink(crmSource).catch(() => {})
-    })
-  } catch {}
+    await fs.unlink(crmSource)
+  } catch (err) {
+    console.warn('Category image already missing or failed to delete:', err)
+  }
 }
 
 export async function deleteCatalog(request: Request, model: CatalogModel, id: string) {
@@ -256,8 +247,8 @@ export async function deleteCatalog(request: Request, model: CatalogModel, id: s
       )
     }
 
-    // 2. Preserve category media safely to unused_media directory
-    await preserveCategoryMedia(category)
+    // 2. Permanently delete category image file from disk
+    await deleteCategoryMedia(category)
 
     // 3. Delete category attributes & category record from MySQL
     await prisma.categoryAttribute.deleteMany({ where: { categoryId: numericId } })

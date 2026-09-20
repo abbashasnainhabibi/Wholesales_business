@@ -8,33 +8,31 @@ import { sanitizeImagePayload } from '@/app/api/catalog-routes'
 
 const patch = z.record(z.string(), z.unknown())
 
-// Helper to preserve images by moving them to unused_media folder
-async function preserveProductMedia(product: {
+// Helper to permanently delete product media files from disk
+async function deleteProductMedia(product: {
   slug: string
   category?: { slug: string } | null
   images: { src: string }[]
 }) {
-  const categorySlug = product.category?.slug || 'uncategorized'
-  const productSlug = product.slug || 'product'
-
-  const crmTargetDir = path.join(process.cwd(), 'public', 'unused_media', 'products', categorySlug, productSlug)
-  await fs.mkdir(crmTargetDir, { recursive: true }).catch(() => {})
-
   for (const img of product.images) {
     if (!img.src || !img.src.startsWith('/uploads/')) continue
-    const relativePath = img.src.replace(/^\/+/, '') // e.g. "uploads/products/nets/safety-net/..."
-    const fileName = path.basename(relativePath)
-
-    // Move from CRM uploads to CRM unused_media
+    const relativePath = img.src.replace(/^\/+/, '')
     const crmSource = path.join(process.cwd(), 'public', relativePath)
     try {
       await fs.access(crmSource)
-      await fs.rename(crmSource, path.join(crmTargetDir, fileName)).catch(async () => {
-        await fs.copyFile(crmSource, path.join(crmTargetDir, fileName))
-        await fs.unlink(crmSource).catch(() => {})
-      })
-    } catch {}
+      await fs.unlink(crmSource)
+    } catch (err) {
+      console.warn('Product image already missing or failed to delete:', err)
+    }
   }
+
+  // Also remove the empty product folder if clean
+  const categorySlug = product.category?.slug || 'uncategorized'
+  const productSlug = product.slug || 'product'
+  const productFolder = path.join(process.cwd(), 'public', 'uploads', 'products', categorySlug, productSlug)
+  try {
+    await fs.rm(productFolder, { recursive: true, force: true })
+  } catch {}
 }
 
 export async function GET(request: Request, { params }: { params: Promise<{ id: string }> }) {
@@ -257,8 +255,8 @@ export async function DELETE(request: Request, { params }: { params: Promise<{ i
       return notFound('Product not found')
     }
 
-    // Preserve media safely to unused-media directory
-    await preserveProductMedia(product)
+    // Permanently delete product media files from disk
+    await deleteProductMedia(product)
 
     // Delete product relations and product in DB
     await prisma.$transaction([

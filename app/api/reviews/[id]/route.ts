@@ -72,21 +72,16 @@ export async function DELETE(
 
     if (!review) return notFound('Review not found')
 
-    // Archive review image to unused_media/reviews
+    // Directly and permanently delete review image file from disk
     if (review.imageUrl && review.imageUrl.startsWith('/uploads/')) {
       const relativePath = review.imageUrl.replace(/^\/+/, '')
-      const fileName = path.basename(relativePath)
-      const targetDir = path.join(process.cwd(), 'public', 'unused_media', 'reviews')
-      await fs.mkdir(targetDir, { recursive: true }).catch(() => {})
-
       const srcPath = path.join(process.cwd(), 'public', relativePath)
       try {
         await fs.access(srcPath)
-        await fs.rename(srcPath, path.join(targetDir, fileName)).catch(async () => {
-          await fs.copyFile(srcPath, path.join(targetDir, fileName))
-          await fs.unlink(srcPath).catch(() => {})
-        })
-      } catch {}
+        await fs.unlink(srcPath)
+      } catch (err) {
+        console.warn('Review image file already missing or failed to delete:', err)
+      }
     }
 
     await prisma.review.delete({
