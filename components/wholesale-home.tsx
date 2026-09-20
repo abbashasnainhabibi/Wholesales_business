@@ -333,7 +333,7 @@ export function WholesaleHome({
               Why Buyers Choose Tahira Syndicate
             </h2>
             <p className="mt-3 text-base sm:text-lg text-slate-500 max-w-3xl mx-auto">
-              Over 10 years of direct factory supply, weighbridge-verified stock, and same-day dispatch from our Shahra-e-Liaquat Road warehouse.
+              Over 10 years of trusted wholesale supply. Real factory prices, honest weights, and fast delivery right from our Karachi warehouse.
             </p>
 
             {/* 4-Column Feature Grid (2 per row on mobile) with Aligned Circular Badges */}
@@ -345,10 +345,10 @@ export function WholesaleHome({
                     <Factory className="h-6 w-6 sm:h-9 sm:w-9" />
                   </div>
                   <h3 className="font-heading text-xs sm:text-base lg:text-lg font-black uppercase tracking-tight text-[#0F172A] group-hover:text-[#1877F2] transition leading-snug">
-                    Direct Factory Pricing
+                    Direct Factory Rates
                   </h3>
                   <p className="mt-1.5 sm:mt-2.5 text-xs sm:text-base text-slate-600 leading-snug sm:leading-relaxed max-w-xs">
-                    Buy straight from the factory floor and wholesale warehouse at competitive ex-factory rates without trading intermediaries.
+                    Buy directly from our factory and warehouse. You get genuine wholesale rates with zero middleman commissions.
                   </p>
                 </div>
                 <div className="mt-4 sm:mt-6 pt-1">
@@ -356,7 +356,7 @@ export function WholesaleHome({
                     href="/products"
                     className="inline-flex items-center gap-1 sm:gap-1.5 text-[11px] sm:text-sm font-bold text-[#1877F2] hover:underline"
                   >
-                    Explore Pricing <ArrowRight className="h-3 w-3 sm:h-3.5 sm:w-3.5" />
+                    Explore Products <ArrowRight className="h-3 w-3 sm:h-3.5 sm:w-3.5" />
                   </Link>
                 </div>
               </div>
@@ -368,10 +368,10 @@ export function WholesaleHome({
                     <Truck className="h-6 w-6 sm:h-9 sm:w-9" />
                   </div>
                   <h3 className="font-heading text-xs sm:text-base lg:text-lg font-black uppercase tracking-tight text-[#0F172A] group-hover:text-[#1877F2] transition leading-snug">
-                    Immediate Dispatch
+                    Ready Stock &amp; Fast Delivery
                   </h3>
                   <p className="mt-1.5 sm:mt-2.5 text-xs sm:text-base text-slate-600 leading-snug sm:leading-relaxed max-w-xs">
-                    Ready wholesale stock across Shahra-e-Liaquat Road and SITE warehouses ensures same-day Karachi delivery and fast up-country freight.
+                    We maintain ready bulk stock in our warehouses for same-day dispatch across Karachi and quick delivery all over Pakistan.
                   </p>
                 </div>
                 <div className="mt-4 sm:mt-6 pt-1">
@@ -379,7 +379,7 @@ export function WholesaleHome({
                     href="/contact"
                     className="inline-flex items-center gap-1 sm:gap-1.5 text-[11px] sm:text-sm font-bold text-[#1877F2] hover:underline"
                   >
-                    Warehouse Locations <ArrowRight className="h-3 w-3 sm:h-3.5 sm:w-3.5" />
+                    Our Locations <ArrowRight className="h-3 w-3 sm:h-3.5 sm:w-3.5" />
                   </Link>
                 </div>
               </div>
@@ -391,10 +391,10 @@ export function WholesaleHome({
                     <ShieldCheck className="h-6 w-6 sm:h-9 sm:w-9" />
                   </div>
                   <h3 className="font-heading text-xs sm:text-base lg:text-lg font-black uppercase tracking-tight text-[#0F172A] group-hover:text-[#059669] transition leading-snug">
-                    Certified Standards
+                    Honest Weight &amp; Quality
                   </h3>
                   <p className="mt-1.5 sm:mt-2.5 text-xs sm:text-base text-slate-600 leading-snug sm:leading-relaxed max-w-xs">
-                    Weighbridge-verified gross and tare weights, lab-tested polymer MFI, and certified pressure pipe batches with verified slips.
+                    No shortcuts on quality. Every order comes with verified scale weight slips and tested materials that match your exact specs.
                   </p>
                 </div>
                 <div className="mt-4 sm:mt-6 pt-1">
@@ -402,7 +402,7 @@ export function WholesaleHome({
                     href="/about"
                     className="inline-flex items-center gap-1 sm:gap-1.5 text-[11px] sm:text-sm font-bold text-[#059669] hover:underline"
                   >
-                    Quality Standards <ArrowRight className="h-3 w-3 sm:h-3.5 sm:w-3.5" />
+                    About Our Standards <ArrowRight className="h-3 w-3 sm:h-3.5 sm:w-3.5" />
                   </Link>
                 </div>
               </div>
@@ -414,10 +414,10 @@ export function WholesaleHome({
                     <Award className="h-6 w-6 sm:h-9 sm:w-9" />
                   </div>
                   <h3 className="font-heading text-xs sm:text-base lg:text-lg font-black uppercase tracking-tight text-[#0F172A] group-hover:text-[#1877F2] transition leading-snug">
-                    Expert Fabrication
+                    On-Site Installation Team
                   </h3>
                   <p className="mt-1.5 sm:mt-2.5 text-xs sm:text-base text-slate-600 leading-snug sm:leading-relaxed max-w-xs">
-                    In-house technical rigging crew for custom fall-arrest safety jaal, sports pitch netting, and heavy industrial shade structures.
+                    Our experienced team handles complete fitting and setup for shade structures, school sports nets, and safety netting.
                   </p>
                 </div>
                 <div className="mt-4 sm:mt-6 pt-1">
@@ -425,7 +425,7 @@ export function WholesaleHome({
                     href="/services"
                     className="inline-flex items-center gap-1 sm:gap-1.5 text-[11px] sm:text-sm font-bold text-[#1877F2] hover:underline"
                   >
-                    Rigging Services <ArrowRight className="h-3 w-3 sm:h-3.5 sm:w-3.5" />
+                    Installation Services <ArrowRight className="h-3 w-3 sm:h-3.5 sm:w-3.5" />
                   </Link>
                 </div>
               </div>
