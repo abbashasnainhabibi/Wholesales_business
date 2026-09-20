@@ -132,11 +132,13 @@ export function ReviewForm({
         : 'reviews/home'
       formData.append('folder', reviewFolder)
 
-      if (name.trim()) {
-        formData.append('customName', name.trim())
-      } else {
-        formData.append('customName', 'review-user')
-      }
+      const personName = name.trim() || 'client'
+      const messageSnippet = message.trim()
+        ? message.trim().split(/\s+/).slice(0, 4).join(' ')
+        : (contextTitle ? contextTitle.split(/\s+/).slice(0, 3).join(' ') : 'review')
+
+      const combinedCustomName = `${personName} ${messageSnippet}`
+      formData.append('customName', combinedCustomName)
 
       const res = await fetch('/api/upload', {
         method: 'POST',
