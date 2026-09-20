@@ -124,8 +124,11 @@ export function ReviewForm({
     try {
       const formData = new FormData()
       formData.append('file', file)
+      formData.append('folder', 'reviews')
       if (name.trim()) {
         formData.append('customName', name.trim())
+      } else {
+        formData.append('customName', 'review-user')
       }
 
       const res = await fetch('/api/upload', {
