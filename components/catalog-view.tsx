@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Search, Filter, ArrowRight, Phone, Grid, List, X, ShieldCheck, CheckCircle2, Check, ChevronLeft, ChevronRight } from 'lucide-react'
 import { fallbackSettings } from '@/lib/api/crm'
 import type { CompanySettings, ProductItem, ProductCategory } from '@/lib/types/crm'
-import { resolveMediaUrl } from '@/lib/utils'
+import { resolveMediaUrl, scrollToElement, scrollToTop } from '@/lib/utils'
 import {
   siteContainer,
   eyebrowText,
@@ -192,10 +192,7 @@ function CatalogViewContent({
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page)
-    const element = document.getElementById('catalog-products-top')
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }
+    scrollToTop()
   }
 
   const startItemIndex = filteredProducts.length === 0 ? 0 : (currentPage - 1) * ITEMS_PER_PAGE + 1

@@ -38,7 +38,7 @@ import { fallbackSettings, submitInquiry } from '@/lib/api/crm'
 import { installationServices } from '@/lib/data/services'
 import { SiteHeader, SiteFooter } from '@/components/site-navigation'
 import { ReviewForm } from '@/components/review-form'
-import { resolveMediaUrl } from '@/lib/utils'
+import { resolveMediaUrl, scrollToElement, scrollToTop } from '@/lib/utils'
 import {
   siteContainer,
   siteContainerWide,
@@ -572,10 +572,7 @@ export function ServicesPage({
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page)
-    const section = document.getElementById('services-list')
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }
+    scrollToTop()
   }
 
   return (
@@ -1143,10 +1140,7 @@ export function ProjectsPage({
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page)
-    const section = document.getElementById('case-studies-list')
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }
+    scrollToTop()
   }
 
   const startProjectIndex = filteredProjects.length === 0 ? 0 : (currentPage - 1) * ITEMS_PER_PAGE + 1

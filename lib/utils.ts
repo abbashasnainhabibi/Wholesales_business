@@ -53,3 +53,35 @@ export function getFrontendPublicDir(): string {
   return path.join(process.cwd(), 'public')
 }
 
+/**
+ * Smoothly scrolls to the very top of the page after DOM update / pagination.
+ * Safe against page height collapse / React re-renders.
+ */
+export function scrollToTop(behavior: ScrollBehavior = 'smooth') {
+  if (typeof window === 'undefined') return
+  requestAnimationFrame(() => {
+    window.scrollTo({ top: 0, behavior })
+  })
+}
+
+/**
+ * Smoothly scrolls to a specified element ID after DOM update, offset for sticky headers.
+ * Safe against page height collapse / React re-renders.
+ */
+export function scrollToElement(elementId?: string, offset = 90) {
+  if (typeof window === 'undefined') return
+  if (!elementId) {
+    scrollToTop()
+    return
+  }
+  requestAnimationFrame(() => {
+    const el = document.getElementById(elementId)
+    if (!el) {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+      return
+    }
+    const targetY = el.getBoundingClientRect().top + window.pageYOffset - offset
+    window.scrollTo({ top: Math.max(0, targetY), behavior: 'smooth' })
+  })
+}
+

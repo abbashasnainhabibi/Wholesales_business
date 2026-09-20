@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { ArrowRight, Search, Phone, Boxes, X, ChevronLeft, ChevronRight } from 'lucide-react'
 import type { ProductCategory, CompanySettings } from '@/lib/types/crm'
 import { fallbackSettings } from '@/lib/api/crm'
-import { resolveMediaUrl } from '@/lib/utils'
+import { resolveMediaUrl, scrollToElement, scrollToTop } from '@/lib/utils'
 import {
   siteContainer,
   eyebrowText,
@@ -66,10 +66,7 @@ export function CategoriesView({
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page)
-    const element = document.getElementById('categories-top')
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }
+    scrollToTop()
   }
 
   const startCategoryIndex = filteredCategories.length === 0 ? 0 : (currentPage - 1) * ITEMS_PER_PAGE + 1
