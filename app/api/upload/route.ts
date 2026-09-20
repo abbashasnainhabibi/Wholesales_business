@@ -12,7 +12,7 @@ export async function POST(request: Request) {
     const folderParam = formData.get('folder') as string | null
 
     // 1. Enforce admin authentication for all uploads except public review photos
-    if (folderParam !== 'reviews') {
+    if (!folderParam || !folderParam.startsWith('reviews')) {
       await requireAdmin(request)
     }
 

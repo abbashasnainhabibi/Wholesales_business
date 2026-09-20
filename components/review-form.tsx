@@ -124,7 +124,14 @@ export function ReviewForm({
     try {
       const formData = new FormData()
       formData.append('file', file)
-      formData.append('folder', 'reviews')
+      
+      const reviewFolder = productId
+        ? 'reviews/product'
+        : serviceId
+        ? 'reviews/service'
+        : 'reviews/home'
+      formData.append('folder', reviewFolder)
+
       if (name.trim()) {
         formData.append('customName', name.trim())
       } else {
