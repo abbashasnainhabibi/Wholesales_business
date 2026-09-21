@@ -215,16 +215,23 @@ function CatalogViewContent({
 
           {/* Clean Search Input */}
           <div className="mt-8 relative max-w-2xl">
+            <label htmlFor="catalog-material-search" className="sr-only">
+              Search wholesale catalog by material, size, or category
+            </label>
             <Search className="absolute left-4 top-4 h-5 w-5 text-slate-400" />
             <input
+              id="catalog-material-search"
+              name="catalog_query"
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search by material, size (e.g. 110mm, PE granules, shade net)..."
+              aria-label="Search wholesale catalog by material, size, or category"
               className="w-full rounded-sm border border-slate-300 bg-slate-50/70 pl-12 pr-12 py-3.5 text-base sm:text-lg text-[#0F172A] placeholder:text-slate-400 focus:bg-white focus:border-[#1877F2] focus:outline-none transition shadow-xs"
             />
             {searchQuery && (
               <button
+                type="button"
                 onClick={() => setSearchQuery('')}
                 className="absolute right-4 top-4 text-slate-400 hover:text-slate-700"
                 aria-label="Clear search"

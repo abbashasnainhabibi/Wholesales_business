@@ -623,8 +623,13 @@ export function ServicesPage({
           {/* Search Input Bar for Services */}
           <div className="mb-10 max-w-2xl relative">
             <div className="relative">
+              <label htmlFor="services-search" className="sr-only">
+                Search fabrication and installation services
+              </label>
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-slate-400" />
               <input
+                id="services-search"
+                name="service_query"
                 type="text"
                 placeholder="Search services (e.g. Cricket Net, Bird Net, Tensile Canopy, Scaffolding, Sports)..."
                 value={searchQuery}
@@ -632,6 +637,7 @@ export function ServicesPage({
                   setSearchQuery(e.target.value)
                   setCurrentPage(1)
                 }}
+                aria-label="Search fabrication and installation services"
                 className="w-full rounded-sm border border-slate-300 bg-slate-50/70 pl-12 pr-10 py-3.5 text-sm sm:text-base text-slate-900 outline-none transition focus:border-[#1877F2] focus:bg-white focus:ring-1 focus:ring-[#1877F2] shadow-2xs"
               />
               {searchQuery && (
@@ -1195,8 +1201,13 @@ export function ProjectsPage({
           {/* Search Input Bar for Case Studies */}
           <div className="mb-10 max-w-2xl relative">
             <div className="relative">
+              <label htmlFor="projects-search" className="sr-only">
+                Search completed projects and case studies
+              </label>
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-slate-400" />
               <input
+                id="projects-search"
+                name="project_query"
                 type="text"
                 placeholder="Search case studies (e.g. Karachi Grammar School, Beaconhouse, SLM Tyres, Tensile Canopy, Rooftop)..."
                 value={searchQuery}
@@ -1204,6 +1215,7 @@ export function ProjectsPage({
                   setSearchQuery(e.target.value)
                   setCurrentPage(1)
                 }}
+                aria-label="Search completed projects and case studies"
                 className="w-full rounded-sm border border-slate-300 bg-slate-50/70 pl-12 pr-10 py-3.5 text-sm sm:text-base text-slate-900 outline-none transition focus:border-[#1877F2] focus:bg-white focus:ring-1 focus:ring-[#1877F2] shadow-2xs"
               />
               {searchQuery && (
@@ -1663,12 +1675,16 @@ export function ContactPage({
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div>
-                    <label className="block text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                    <label htmlFor="contact-name" className="block text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-700 mb-1.5">
                       Your Name *
                     </label>
                     <input
+                      id="contact-name"
+                      name="name"
                       value={name}
                       onChange={(e) => setName(e.target.value)}
+                      autoComplete="name"
+                      aria-label="Your Full Name"
                       className="w-full rounded-sm border border-slate-300 bg-slate-50/70 px-4 py-3 text-sm sm:text-base text-[#0F172A] outline-none focus:bg-white focus:border-[#1877F2] transition shadow-2xs"
                       placeholder="e.g. Tariq Mehmood"
                       required
@@ -1676,13 +1692,17 @@ export function ContactPage({
                   </div>
 
                   <div>
-                    <label className="block text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                    <label htmlFor="contact-phone" className="block text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-700 mb-1.5">
                       WhatsApp / Mobile *
                     </label>
                     <input
+                      id="contact-phone"
+                      name="phone"
                       type="tel"
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
+                      autoComplete="tel"
+                      aria-label="WhatsApp or Mobile Phone Number"
                       className="w-full rounded-sm border border-slate-300 bg-slate-50/70 px-4 py-3 text-sm sm:text-base text-[#0F172A] outline-none focus:bg-white focus:border-[#1877F2] transition shadow-2xs"
                       placeholder="0321 2043552"
                       required
@@ -1692,24 +1712,31 @@ export function ContactPage({
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div>
-                    <label className="block text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                    <label htmlFor="contact-company" className="block text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-700 mb-1.5">
                       Company / Organization
                     </label>
                     <input
+                      id="contact-company"
+                      name="company"
                       value={company}
                       onChange={(e) => setCompany(e.target.value)}
+                      autoComplete="organization"
+                      aria-label="Company or Organization Name"
                       className="w-full rounded-sm border border-slate-300 bg-slate-50/70 px-4 py-3 text-sm sm:text-base text-[#0F172A] outline-none focus:bg-white focus:border-[#1877F2] transition shadow-2xs"
                       placeholder="e.g. Industrial Traders"
                     />
                   </div>
 
                   <div>
-                    <label className="block text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                    <label htmlFor="contact-material" className="block text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-700 mb-1.5">
                       Material / Category *
                     </label>
                     <input
+                      id="contact-material"
+                      name="material"
                       value={material}
                       onChange={(e) => setMaterial(e.target.value)}
+                      aria-label="Material or Category Needed"
                       className="w-full rounded-sm border border-slate-300 bg-slate-50/70 px-4 py-3 text-sm sm:text-base text-[#0F172A] outline-none focus:bg-white focus:border-[#1877F2] transition shadow-2xs"
                       placeholder="e.g. PE Granules, Shade Net"
                       required
@@ -1718,13 +1745,16 @@ export function ContactPage({
                 </div>
 
                 <div>
-                  <label className="block text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                  <label htmlFor="contact-details" className="block text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-700 mb-1.5">
                     Quantities, Sizes or Specs
                   </label>
                   <textarea
+                    id="contact-details"
+                    name="details"
                     value={details}
                     onChange={(e) => setDetails(e.target.value)}
                     rows={4}
+                    aria-label="Quantities, Sizes or Specifications"
                     className="w-full rounded-sm border border-slate-300 bg-slate-50/70 px-4 py-3 text-sm sm:text-base text-[#0F172A] outline-none focus:bg-white focus:border-[#1877F2] transition shadow-2xs"
                     placeholder="Enter estimated quantities (e.g. 100 bags 50kg, 20 rolls shade net 75%)..."
                   />
@@ -1734,6 +1764,7 @@ export function ContactPage({
                   <button
                     type="submit"
                     disabled={isSubmitting}
+                    aria-label="Send Request on WhatsApp"
                     className={`inline-flex items-center justify-center gap-2.5 rounded-sm bg-[#25D366] px-7 py-3.5 text-sm sm:text-base font-bold text-[#0F172A] shadow-xs transition hover:brightness-105 active:scale-95 w-full sm:w-auto ${
                       isSubmitting ? 'opacity-70 cursor-wait' : ''
                     }`}

@@ -217,12 +217,19 @@ export function WholesaleHome({
               <div className="relative mb-6 sm:mb-8">
                 <form onSubmit={handleSearchSubmit} className="flex flex-col sm:flex-row gap-3">
                   <div className="relative flex-1">
+                    <label htmlFor="home-material-search" className="sr-only">
+                      Search wholesale materials, polymers, pipes, and netting
+                    </label>
                     <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 sm:h-6 sm:w-6 text-slate-400" />
                     <input
+                      id="home-material-search"
+                      name="material_query"
                       type="text"
                       placeholder="Search by material, grade, diameter, GSM (e.g. HDPE, 75% Shade Net, 110mm Pipe)..."
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
+                      aria-label="Search wholesale materials, polymers, pipes, and netting"
+                      autoComplete="off"
                       className="w-full rounded-none border border-slate-300 bg-slate-50/50 pl-12 sm:pl-14 pr-10 py-4 text-base sm:text-lg text-slate-900 outline-none transition focus:border-[#1877F2] focus:bg-white focus:ring-1 focus:ring-[#1877F2]"
                     />
                     {searchQuery && (
@@ -238,6 +245,7 @@ export function WholesaleHome({
                   </div>
                   <button
                     type="submit"
+                    aria-label="Submit search for wholesale materials"
                     className="rounded-none bg-[#1877F2] px-8 py-4 text-base font-bold text-white transition hover:bg-blue-600"
                   >
                     Search
@@ -1069,39 +1077,67 @@ export function WholesaleHome({
                 Submit your Bill of Quantities (BOQ) or required material quantity for official proforma rates and immediate warehouse reservation.
               </p>
               <form onSubmit={handleQuoteSubmit} className="mt-8 grid gap-4 sm:gap-5 sm:grid-cols-2">
-                <input
-                  type="text"
-                  placeholder="Full Name / Company Name"
-                  value={formName}
-                  onChange={(e) => setFormName(e.target.value)}
-                  required
-                  className="w-full rounded-sm border border-slate-300 bg-slate-50/50 px-4 py-3.5 sm:py-4 text-base text-slate-900 outline-none placeholder:text-slate-400 focus:border-[#1877F2] focus:bg-white"
-                />
-                <input
-                  type="tel"
-                  placeholder="Mobile / WhatsApp (e.g. 0300 1234567)"
-                  value={formPhone}
-                  onChange={(e) => setFormPhone(e.target.value)}
-                  required
-                  className="w-full rounded-sm border border-slate-300 bg-slate-50/50 px-4 py-3.5 sm:py-4 text-base text-slate-900 outline-none placeholder:text-slate-400 focus:border-[#1877F2] focus:bg-white"
-                />
-                <input
-                  type="email"
-                  placeholder="Email Address (Optional)"
-                  value={formEmail}
-                  onChange={(e) => setFormEmail(e.target.value)}
-                  className="w-full rounded-sm border border-slate-300 bg-slate-50/50 px-4 py-3.5 sm:py-4 text-base text-slate-900 outline-none placeholder:text-slate-400 focus:border-[#1877F2] focus:bg-white sm:col-span-2"
-                />
-                <textarea
-                  placeholder="Required Material & Quantity (e.g. 50 rolls green shade net 75%, 200 bags PE granules 50kg, 500m HDPE 110mm PN10 pipe...)"
-                  rows={3}
-                  value={formMsg}
-                  onChange={(e) => setFormMsg(e.target.value)}
-                  required
-                  className="w-full rounded-sm border border-slate-300 bg-slate-50/50 px-4 py-3.5 sm:py-4 text-base text-slate-900 outline-none placeholder:text-slate-400 focus:border-[#1877F2] focus:bg-white sm:col-span-2"
-                />
+                <div>
+                  <label htmlFor="quote-name" className="sr-only">Full Name or Company Name</label>
+                  <input
+                    id="quote-name"
+                    name="name"
+                    type="text"
+                    placeholder="Full Name / Company Name"
+                    value={formName}
+                    onChange={(e) => setFormName(e.target.value)}
+                    required
+                    autoComplete="name"
+                    aria-label="Full Name or Company Name"
+                    className="w-full rounded-sm border border-slate-300 bg-slate-50/50 px-4 py-3.5 sm:py-4 text-base text-slate-900 outline-none placeholder:text-slate-400 focus:border-[#1877F2] focus:bg-white"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="quote-phone" className="sr-only">Mobile or WhatsApp Number</label>
+                  <input
+                    id="quote-phone"
+                    name="phone"
+                    type="tel"
+                    placeholder="Mobile / WhatsApp (e.g. 0300 1234567)"
+                    value={formPhone}
+                    onChange={(e) => setFormPhone(e.target.value)}
+                    required
+                    autoComplete="tel"
+                    aria-label="Mobile or WhatsApp Number"
+                    className="w-full rounded-sm border border-slate-300 bg-slate-50/50 px-4 py-3.5 sm:py-4 text-base text-slate-900 outline-none placeholder:text-slate-400 focus:border-[#1877F2] focus:bg-white"
+                  />
+                </div>
+                <div className="sm:col-span-2">
+                  <label htmlFor="quote-email" className="sr-only">Email Address (Optional)</label>
+                  <input
+                    id="quote-email"
+                    name="email"
+                    type="email"
+                    placeholder="Email Address (Optional)"
+                    value={formEmail}
+                    onChange={(e) => setFormEmail(e.target.value)}
+                    autoComplete="email"
+                    aria-label="Email Address (Optional)"
+                    className="w-full rounded-sm border border-slate-300 bg-slate-50/50 px-4 py-3.5 sm:py-4 text-base text-slate-900 outline-none placeholder:text-slate-400 focus:border-[#1877F2] focus:bg-white"
+                  />
+                </div>
+                <div className="sm:col-span-2">
+                  <label htmlFor="quote-message" className="sr-only">Required Material, Specifications & Quantity</label>
+                  <textarea
+                    id="quote-message"
+                    name="message"
+                    placeholder="Required Material & Quantity (e.g. 50 rolls green shade net 75%, 200 bags PE granules 50kg, 500m HDPE 110mm PN10 pipe...)"
+                    rows={3}
+                    value={formMsg}
+                    onChange={(e) => setFormMsg(e.target.value)}
+                    required
+                    aria-label="Required Material, Specifications & Quantity"
+                    className="w-full rounded-sm border border-slate-300 bg-slate-50/50 px-4 py-3.5 sm:py-4 text-base text-slate-900 outline-none placeholder:text-slate-400 focus:border-[#1877F2] focus:bg-white"
+                  />
+                </div>
                 <button
                   type="submit"
+                  aria-label="Send Quote Request via WhatsApp"
                   className="w-full sm:col-span-2 inline-flex items-center justify-center gap-2.5 rounded-sm bg-[#25D366] px-6 py-4 sm:py-4.5 text-base sm:text-lg font-bold text-[#0F172A] shadow-xs transition hover:brightness-105 active:scale-95 text-center"
                 >
                   <Phone className="h-5 w-5 shrink-0" /> Send Quote Request via WhatsApp
