@@ -252,15 +252,15 @@ export default async function ServiceDetailPage({
                 <div className="rounded-none border border-slate-200 bg-slate-50 p-4 flex items-center gap-3.5 shadow-xs">
                   <Wrench className="h-6 w-6 text-[#1877F2] shrink-0" />
                   <div>
-                    <p className="text-xs sm:text-sm font-bold text-slate-800">Certified Riggers</p>
-                    <p className="text-[11px] sm:text-xs text-slate-500">Experienced on-site installation crew</p>
+                    <p className="text-xs sm:text-sm font-bold text-slate-800">Experienced Riggers</p>
+                    <p className="text-[11px] sm:text-xs text-slate-500">Hands-on site crew across Karachi</p>
                   </div>
                 </div>
                 <div className="rounded-none border border-slate-200 bg-slate-50 p-4 flex items-center gap-3.5 shadow-xs">
                   <Truck className="h-6 w-6 text-[#059669] shrink-0" />
                   <div>
-                    <p className="text-xs sm:text-sm font-bold text-slate-800">Direct Delivery</p>
-                    <p className="text-[11px] sm:text-xs text-slate-500">Shahra-e-Liaquat Road &amp; SITE warehouse dispatch</p>
+                    <p className="text-xs sm:text-sm font-bold text-slate-800">Direct Warehouse Dispatch</p>
+                    <p className="text-[11px] sm:text-xs text-slate-500">Shahra-e-Liaquat counter &amp; SITE warehouse</p>
                   </div>
                 </div>
               </div>
@@ -310,7 +310,7 @@ export default async function ServiceDetailPage({
                 {/* Bullet Highlights */}
                 <div className="mt-5 rounded-none border border-slate-200 bg-slate-50/80 p-4 sm:p-5">
                   <p className="text-xs sm:text-sm font-black uppercase tracking-wider text-slate-700 mb-3">
-                    Key Service Capabilities:
+                    Key Highlights &amp; Specs:
                   </p>
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                     {service.bullets.map((bullet) => (
@@ -375,10 +375,10 @@ export default async function ServiceDetailPage({
           {/* Section: Technical Engineering Specifications Table */}
           <section className="mt-14 sm:mt-20 border-t border-slate-200 pt-12 sm:pt-16">
             <div className="max-w-3xl mb-8">
-              <p className={eyebrowText}>Engineering Standards</p>
+              <p className={eyebrowText}>Material Standards</p>
               <h2 className={h2Text}>Technical Specifications &amp; Material Data</h2>
               <p className={`mt-2 ${bodyText}`}>
-                Detailed polymer grade, mesh aperture, tensile strength, and hardware specifications for {service.title}.
+                Polymer grade, mesh sizes, weight, and hardware details for {service.title}.
               </p>
             </div>
 
@@ -416,10 +416,10 @@ export default async function ServiceDetailPage({
           {service.applications && service.applications.length > 0 && (
             <section className="mt-16 sm:mt-20 border-t border-slate-200 pt-12 sm:pt-16">
               <div className="max-w-3xl mb-8">
-                <p className={eyebrowText}>Use Cases &amp; Deployments</p>
-                <h2 className={h2Text}>Typical Commercial Applications</h2>
+                <p className={eyebrowText}>Where It Is Used</p>
+                <h2 className={h2Text}>Common Uses on Job Sites</h2>
                 <p className={`mt-2 ${bodyText}`}>
-                  Where our {service.title.toLowerCase()} is deployed across Karachi and Pakistan industrial sectors.
+                  Everyday uses for our {service.title.toLowerCase()} across construction sites, factories, and farms.
                 </p>
               </div>
 
@@ -448,10 +448,10 @@ export default async function ServiceDetailPage({
           {service.processSteps && service.processSteps.length > 0 && (
             <section className="mt-16 sm:mt-20 border-t border-slate-200 pt-12 sm:pt-16">
               <div className="max-w-3xl mb-8">
-                <p className={eyebrowText}>Step-by-Step Execution</p>
-                <h2 className={h2Text}>Manufacturing &amp; Installation Process</h2>
+                <p className={eyebrowText}>How We Work</p>
+                <h2 className={h2Text}>Manufacturing &amp; Installation Steps</h2>
                 <p className={`mt-2 ${bodyText}`}>
-                  Our proven 4-stage workflow from initial survey to quality handover.
+                  Our 4-step workflow from initial site survey to final tension check and handover.
                 </p>
               </div>
 
@@ -480,10 +480,10 @@ export default async function ServiceDetailPage({
           {service.faqs && service.faqs.length > 0 && (
             <section className="mt-16 sm:mt-20 border-t border-slate-200 pt-12 sm:pt-16">
               <div className="max-w-3xl mb-8">
-                <p className={eyebrowText}>Technical Support &amp; Queries</p>
+                <p className={eyebrowText}>Direct Answers</p>
                 <h2 className={h2Text}>Frequently Asked Questions</h2>
                 <p className={`mt-2 ${bodyText}`}>
-                  Answers to common questions regarding specifications, supply timelines, and installation procedures.
+                  Clear answers about mesh sizes, gauges, delivery timelines, and installation details.
                 </p>
               </div>
 
@@ -494,10 +494,10 @@ export default async function ServiceDetailPage({
           {/* Section: Customer Reviews & Ratings */}
           <section className="mt-16 sm:mt-20 border-t border-slate-200 pt-12 sm:pt-16">
             <div className="max-w-3xl mb-8">
-              <p className={eyebrowText}>Commercial Client Feedback</p>
+              <p className={eyebrowText}>Verified Feedback</p>
               <h2 className={h2Text}>Customer Reviews for {service.title}</h2>
               <p className={`mt-2 ${bodyText}`}>
-                Authentic feedback and site project testimonials from businesses and contractors who have used our supply and installation services.
+                Feedback from contractors, builders, and school administrators who use our supply and installation services.
               </p>
             </div>
 

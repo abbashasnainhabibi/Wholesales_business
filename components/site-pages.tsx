@@ -593,7 +593,7 @@ export function ServicesPage({
       <Intro
         eyebrow="B2B Manufacturing & On-Site Installation"
         title="Net Manufacturing, Custom Supply & Installation in Karachi"
-        copy="Direct factory netting production and on-site rigging for sports grounds, construction sites, residential buildings, and agro nurseries across Karachi. Direct trade rates with Shahra-e-Liaquat Road & SITE warehouse dispatch."
+        copy="We manufacture industrial and sports netting in-house and provide on-site installation across Karachi and Sindh. From cricket pitch cages and construction safety jaal to hara parda shading and heavy tarpaulin sheds, get direct factory rates with fast dispatch from our Shahra-e-Liaquat Road and SITE warehouses."
       />
       <main>
         {/* Section 1: What We Install & Supply */}
@@ -603,7 +603,7 @@ export function ServicesPage({
               <p className={`mb-2 sm:mb-2.5 ${eyebrowText}`}>Direct Manufacturing &amp; Rigging</p>
               <h2 className={h2Text}>What We Install &amp; Supply</h2>
               <p className={`mt-3 ${bodyLead}`}>
-                Custom mesh sizing, heavy-duty border cords, and on-site installation across Karachi and all Sindh industrial zones.
+                Custom mesh sizes, heavy border ropes, and full on-site installation across Karachi and Sindh industrial zones.
               </p>
             </div>
             <div className="flex items-center justify-between sm:justify-start gap-4 shrink-0 whitespace-nowrap pt-2 md:pt-0">
@@ -912,12 +912,12 @@ const realCaseStudies: ProjectCaseStudy[] = [
     serviceSlug: 'tarpaulin-canopy',
     dimensions: '72 ft × 56 ft',
     summary:
-      'Engineered wide-span canopy shed installed over the main school assembly ground. Custom fabricated steel truss framework designed with zero center column to provide completely unobstructed play and assembly space, engineered specifically for high coastal wind-load resistance.',
+      'Beaconhouse needed a covered assembly space that would not block sports or student line-ups with middle pillars. We fabricated and erected an open 72ft × 56ft curved steel truss canopy with zero center columns. It shelters the entire 4,032 sq ft ground for morning assemblies and cricket games while easily handling strong coastal winds.',
     specHighlights: [
-      'Engineered open span with zero center column',
+      'Wide 72ft × 56ft span without a single center pillar',
+      'Curved steel truss frame built for coastal Karachi winds',
       'Heavy-duty waterproof PVC canopy membrane',
-      'High wind-pressure structural steel anchoring',
-      'Full assembly ground & sports court coverage',
+      'Full coverage over student assembly & sports area',
     ],
     inquiryText:
       'Hi Tahira Syndicate, I would like to inquire about wide-span canopy sheds similar to the Beaconhouse Johar Campus project.',
@@ -949,12 +949,12 @@ const realCaseStudies: ProjectCaseStudy[] = [
     serviceSlug: 'tarpaulin-canopy',
     dimensions: '20 ft × 120 ft',
     summary:
-      'Long-span entrance walkway canopy covering student drop-off and reception corridors. Provides all-weather sun and rain protection with sleek curved arch steel rafters and heat-sealed commercial PVC fabric.',
+      'During summer heat and sudden monsoon showers, morning drop-offs at the school gate were tough on parents and young kids. We installed a 20ft wide by 120ft long covered walkway running straight from the main gate to reception. The curved steel arch rafters and heavy PVC canopy keep the walkway shaded and dry all year.',
     specHighlights: [
-      '120-foot continuous covered walkway corridor',
-      'Curved arch steel rafter framing',
-      'Heavy-duty waterproof tensile fabric',
-      'Student drop-off & entrance weather protection',
+      'Continuous 120ft long sheltered walkway corridor',
+      'Curved arch steel rafter frame anchored to side boundary',
+      'Heavy-duty waterproof and UV-blocking PVC fabric',
+      'Shaded gate-to-reception path for student drop-offs',
     ],
     inquiryText:
       'Hi Tahira Syndicate, I would like to inquire about entrance walkway canopies similar to the Beaconhouse Johar Entrance project.',
@@ -978,11 +978,11 @@ const realCaseStudies: ProjectCaseStudy[] = [
     serviceSlug: 'sport-nets',
     dimensions: '70 ft × 105 ft (Saddar) & 72 ft × 120 ft (Boat Basin)',
     summary:
-      'Major institutional installations across two historic KGS campuses. At the Saddar campus (near 7Days Hospital), engineered a 70ft × 105ft covered basketball court canopy structure. At the Boat Basin College campus, installed a 72ft × 120ft tensile canopy structure with integrated sports rigging.',
+      'We took on two separate campus installations for Karachi Grammar School. Over at the Saddar campus (near 7Days Hospital), we put up a 70ft × 105ft covered canopy over the basketball court so students can play in any weather. At the Boat Basin College campus in Clifton, we rigged a 72ft × 120ft shade canopy with high-impact sports netting and floodlight wiring.',
     specHighlights: [
       'Two campus installations: Saddar & Boat Basin',
-      '70ft × 105ft covered basketball court structure',
-      '72ft × 120ft Boat Basin college campus canopy',
+      '70ft × 105ft covered basketball court canopy in Saddar',
+      '72ft × 120ft multipurpose sports canopy at Boat Basin',
       'Integrated high-impact sports netting & floodlight rigging',
     ],
     inquiryText:
@@ -1013,12 +1013,12 @@ const realCaseStudies: ProjectCaseStudy[] = [
     serviceSlug: 'tarpaulin-canopy',
     dimensions: '500 ft × 20 ft (10,000 sq ft)',
     summary:
-      'Massive industrial parking canopy installation for Pakistan’s leading tyre manufacturer. Built with a continuous 500-foot cantilever steel framework spanning 20 feet in depth, delivering 10,000 sq ft of shade and storm protection for company fleet and staff vehicles.',
+      'Nooriabad desert heat beats down hard on factory vehicles. For Service Long March Tyres, we built a 10,000 sq ft parking canopy that stretches a continuous 500 feet with a 20-foot cantilever overhang. The heavy cantilever frame has zero front pillars, so transport trucks and staff cars can pull in and out without navigating around support posts.',
     specHighlights: [
-      '10,000 sq ft total covered parking area',
-      '500 ft continuous length × 20 ft cantilever depth',
-      'Heavy-duty industrial grade PVC shade cover',
-      'Engineered for extreme heat and industrial conditions',
+      '10,000 sq ft total shaded vehicle parking capacity',
+      '500ft long single-run cantilever frame with 20ft depth',
+      'Zero front columns for easy truck and car maneuvering',
+      'Heavy-duty industrial PVC cover built for extreme heat',
     ],
     inquiryText:
       'Hi Tahira Syndicate, I would like to inquire about large-scale commercial parking sheds similar to the SLM Tyres Nooriabad project.',
@@ -1048,12 +1048,12 @@ const realCaseStudies: ProjectCaseStudy[] = [
     serviceSlug: 'tarpaulin-canopy',
     dimensions: '40 ft × 30 ft + 16 ft × 16 ft',
     summary:
-      'Custom outdoor play area canopy structure combining a 40ft × 30ft main canopy section with an adjacent 16ft × 16ft connected shade wing. Built to protect students from intense solar radiation during sports and play hours.',
+      'The kindergarten playground at Maymar campus was too hot for kids during midday breaks. We designed and pitched an L-shaped shade canopy: a 40ft × 30ft main play section connected to a 16ft × 16ft side wing. The heavy shade fabric cuts direct solar heat while keeping the play area bright, breezy, and safe.',
     specHighlights: [
-      'Dual section canopy: 40ft × 30ft & 16ft × 16ft',
-      'High UV-blocking and heat reduction membrane',
+      'L-shaped layout: 40ft × 30ft main plus 16ft × 16ft wing',
+      'High UV-blocking membrane that cuts playground heat',
       'Rigid steel post anchoring with safety perimeter',
-      'Tailored for primary school outdoor play zones',
+      'Full playground shade for kindergarten and primary kids',
     ],
     inquiryText:
       'Hi Tahira Syndicate, I would like to inquire about play area canopy structures similar to the Beaconhouse Maymar Campus project.',
@@ -1073,12 +1073,12 @@ const realCaseStudies: ProjectCaseStudy[] = [
     serviceSlug: 'shade-nets',
     dimensions: 'Custom Arched Frame & Rooftop Coverage',
     summary:
-      'Supply and on-site tension rigging of 90% UV-treated high-density polyethylene (HDPE) green agro-shade netting over arched steel frames. Engineered to block solar heat while permitting natural ventilation for rooftop lawns, nurseries, and recreation spaces.',
+      'Open Karachi rooftops turn scorching hot by 11 AM. For our residential and restaurant clients, our rigging crew builds curved steel pipe frames and stretches 90% green shade net (Hara Parda) tightly across them. The mesh drops sitting area temperatures by 5°C to 10°C, cuts harsh glare, and lets the sea breeze blow right through.',
     specHighlights: [
-      '90% UV-stabilized virgin HDPE monofilament mesh',
-      'Arched steel frame tensioning and cable rigging',
-      '5°C to 10°C ambient temperature reduction',
-      'Custom fabricated edge webbing with heavy-duty eyelets',
+      '90% UV-stabilized virgin HDPE green shade net (Hara Parda)',
+      'Curved steel pipe frame with turnbuckle cable rigging',
+      'Cools open terraces and rooftop lawns by 5°C to 10°C',
+      'Custom stitched edge webbing with heavy-duty brass eyelets',
     ],
     inquiryText:
       'Hi Tahira Syndicate, I would like to inquire about commercial rooftop and agro shade net installations in Karachi.',
@@ -1162,9 +1162,9 @@ export function ProjectsPage({
       </nav>
 
       <Intro
-        eyebrow="Verified Supply & Installation Projects"
+        eyebrow="On-Site Canopy & Netting Installations"
         title="Completed Canopy, Netting & Industrial Supply Projects"
-        copy="Documented on-site installations for leading educational institutions, industrial plants, and commercial properties across Karachi and Sindh. Real dimensions, real engineering, and verified photo and video records."
+        copy="Take a look at the canopy sheds, sports netting cages, and commercial parking structures we have built for schools, factories, and commercial clients across Karachi and Nooriabad. Every project here has real dimensions, photos, and on-site video clips."
       />
 
       <main>
@@ -1173,13 +1173,13 @@ export function ProjectsPage({
           <div className="mb-8 sm:mb-10 flex flex-col sm:flex-row sm:items-end justify-between gap-4 sm:gap-5 border-b border-slate-200 pb-5 sm:pb-7">
             <div>
               <p className={`mb-2 sm:mb-2.5 ${eyebrowText}`}>
-                On-Site Execution Records
+                Documented On-Site Work
               </p>
               <h2 className={h2Text}>
                 Featured Client Case Studies
               </h2>
               <p className={`mt-3 max-w-3xl ${bodyLead}`}>
-                Explore our documented tensile canopies, sports netting structures, and large-scale industrial shade projects with actual on-site photos and video footage.
+                Take a closer look at our finished tensile canopies, basketball court sheds, and industrial shade installations with actual site measurements and job photos.
               </p>
             </div>
             <a

@@ -153,29 +153,28 @@ async function main() {
         "price": 0,
         "moq": 1,
         "tradeAliases": "Jahazi Rassa • Manila Rassa • Natural Abaca Rope • Jahaz Rassi",
-        "shortDescription": "Grade-A natural abaca fiber rope offering strong grip, high knot strength, and low stretch for marine rigging, cargo handling, and industrial lashing.",
-        "longDescription": "Manila rope is twisted from natural abaca plant fibers. It is known for its firm grip, minimal stretch, and resistance to direct sunlight and saltwater. Unlike synthetic ropes, Manila does not melt from friction heat, making it a reliable traditional option for marine rigging, pilot ladder steps, gym climbing ropes, stage rigging, and cargo lashing.",
+        "shortDescription": "Genuine 3-strand abaca fiber Jahazi Rassa. Gives a non-slip grip in wet hands, holds knots firmly, and will not melt under friction heat on ship decks and pilot ladders.",
+        "longDescription": "If you are working on a ship deck or rigging a pilot ladder at Karachi Port, you cannot use ropes that melt when rubbed hard against metal edges. Manila (Abaca) natural fiber rope is built for high-friction marine use. It does not stretch out under heavy pulls, handles saltwater and strong sunlight without degrading, and holds knots securely without slipping. We stock full 100m and 220m coils from 6mm up to 36mm at our Shahra-e-Liaquat Road counter.",
         "metaTitle": "Manila Natural Fiber Rope Wholesale Karachi & Global",
         "metaDescription": "Wholesale grade 3-strand Manila natural fiber ropes in Karachi, Pakistan. High tensile, marine and industrial grade, bulk coils for worldwide shipping.",
-        "usage": "Manila rope is twisted from natural abaca plant fibers. It is known for its firm grip, minimal stretch, and resistance to direct sunlight and saltwater. Unlike synthetic ropes, Manila does not melt from friction heat, making it a reliable traditional option for marine rigging, pilot ladder steps, gym climbing ropes, stage rigging, and cargo lashing.",
+        "usage": "Ideal for ship pilot ladders (Kaath Seerhi), tugboat mooring, cargo deck lashing, gymnasium climbing ropes, and construction barricades across Karachi and coastal ports.",
         "benefits": [
-            "High friction resistance and secure knot holding",
-            "Does not melt under surface friction or contact heat",
-            "Natural biodegradable abaca plant fiber construction",
-            "Low elasticity for stable pulling and static lashing"
-        ],
+          "Non-slip coarse grip that stays secure even with wet hands",
+          "Natural abaca fibers will not melt or fuse from friction heat",
+          "Very low stretch under heavy pulling and lashing tension",
+          "Biodegradable, eco-friendly natural plant cordage"
+],
         "suitedFor": [
-            "Marine rigging & deck work",
-            "Pilot ladder steps & vessel gangways",
-            "Tug & barge mooring lines",
-            "Cargo lashing & transport binding",
-            "Gym climbing & obstacle courses",
-            "Architectural barrier ropes & construction ties"
-        ],
+          "Marine rigging & deck work",
+          "Pilot ladder steps & vessel gangways",
+          "Tug & barge mooring lines",
+          "Cargo lashing & transport binding",
+          "Gym climbing & obstacle courses"
+],
         "notSuitedFor": [
-            "Direct acidic chemical exposure",
-            "Continuous damp storage without air drying"
-        ],
+          "Direct acidic chemical exposure",
+          "Continuous damp storage without air drying"
+],
         "bulkPricing": [],
         "images": [
             {
@@ -200,19 +199,19 @@ async function main() {
             }
         ],
         "faqs": [
-            {
-                "question": "What diameters are available for Manila rope in wholesale orders?",
-                "answer": "We stock standard Manila rope diameters from 6mm up to 36mm (including 6mm, 8mm, 10mm, 12mm, 16mm, 18mm, 20mm, 24mm, 28mm, 32mm, and 36mm) in full coils (100m/220m) and custom bundle lengths."
-            },
-            {
-                "question": "Why choose Manila rope over synthetic ropes for marine ladders and pilot steps?",
-                "answer": "Manila natural fiber rope provides a rough, non-slip grip even when wet with seawater and will not melt or fuse from surface friction, making it the globally trusted material for marine pilot ladder steps and deck safety lines."
-            },
-            {
-                "question": "How should Manila rope be stored to maximize lifespan?",
-                "answer": "Manila rope should be stored in a dry, well-ventilated area off the floor. If the rope gets wet during marine or outdoor use, allow it to dry thoroughly before coiling and storing to prevent mildew."
-            }
-        ],
+          {
+                    "question": "What diameters are available for Manila rope in wholesale orders?",
+                    "answer": "We stock standard Manila rope diameters from 6mm up to 36mm (including 6mm, 8mm, 10mm, 12mm, 16mm, 18mm, 20mm, 24mm, 28mm, 32mm, and 36mm) in full coils (100m/220m) and custom bundle lengths."
+          },
+          {
+                    "question": "Why choose Manila rope over synthetic ropes for marine ladders and pilot steps?",
+                    "answer": "Manila natural fiber rope provides a rough, non-slip grip even when wet with seawater and will not melt or fuse from surface friction, making it the globally trusted material for marine pilot ladder steps and deck safety lines."
+          },
+          {
+                    "question": "How should Manila rope be stored to maximize lifespan?",
+                    "answer": "Manila rope should be stored in a dry, well-ventilated area off the floor. If the rope gets wet during marine or outdoor use, allow it to dry thoroughly before coiling and storing to prevent mildew."
+          }
+],
         "attrValues": [
             {
                 "attr": "Available Diameters / Size (mm)",
@@ -247,27 +246,27 @@ async function main() {
         "price": 0,
         "moq": 1,
         "tradeAliases": "PP Rassa • Plastic Rassi • Polypropylene Mooring Rope • Hafte Wali Rassi",
-        "shortDescription": "Lightweight, waterproof 3-strand polypropylene rope that floats on water and resists rot, moisture, and common chemicals.",
-        "longDescription": "Our 3-strand twisted Polypropylene (PP) rope is a practical, all-purpose synthetic cordage. Because polypropylene has a low density, this rope floats on water and will not absorb moisture, rot, or swell. It offers dependable breaking strength and holds up well against acids, alkalis, and oils, making it widely used for boat mooring, truck cargo tying, construction site safety barriers, and agricultural netting.",
+        "shortDescription": "Lightweight, 100% waterproof 3-strand polypropylene rope that floats on water. Rot-proof and resistant to acids and oils for transport tying, marine docking, and farm use.",
+        "longDescription": "Polypropylene (PP) 3-strand rope is Karachi most widely used all-round synthetic rassa. Because PP resin has a low density, this rope floats right on the surface of water and will never absorb moisture, rot, or swell in rain. It handles acids, alkalis, and dirty workshop grease without weakening. Truck drivers across Maripur and contractors on construction sites rely on our PP coils for daily cargo lashing and boundary fencing.",
         "metaTitle": "PP 3-Strand Twisted Rope Wholesale Karachi & Pakistan",
         "metaDescription": "Premium polypropylene (PP) 3-strand twisted ropes in Karachi. Water-resistant, high tensile strength for industrial, marine, and commercial export packaging.",
-        "usage": "Our 3-strand twisted Polypropylene (PP) rope is a practical, all-purpose synthetic cordage. Because polypropylene has a low density, this rope floats on water and will not absorb moisture, rot, or swell. It offers dependable breaking strength and holds up well against acids, alkalis, and oils, making it widely used for boat mooring, truck cargo tying, construction site safety barriers, and agricultural netting.",
+        "usage": "Used for truck cargo tie-downs, fishing boat mooring lines, swimming area lane barriers, agricultural shade net ties, and general warehouse packaging across Pakistan.",
         "benefits": [
-            "Floats on water without absorbing moisture",
-            "Resists rot, mildew, marine growth, and chemical corrosion",
-            "Lightweight and easy to handle in wet conditions",
-            "High tensile strength for transport and mooring work"
-        ],
+          "Floats naturally on water without absorbing moisture",
+          "Completely immune to rot, mildew, marine growth, and chemical corrosion",
+          "Lightweight and easy for laborers to handle when wet",
+          "High tensile breaking strength for transport and mooring work"
+],
         "suitedFor": [
-            "Boat mooring & dock lines",
-            "Truck cargo securing & transport lashing",
-            "Agricultural shade net & greenhouse ties",
-            "Construction site safety barriers",
-            "General tarpaulin tie-downs & packaging"
-        ],
+          "Boat mooring & dock lines",
+          "Truck cargo securing & transport lashing",
+          "Agricultural shade net & greenhouse ties",
+          "Construction site safety barriers",
+          "General tarpaulin tie-downs & packaging"
+],
         "notSuitedFor": [
-            "High-friction winch drums where extreme surface heat is generated"
-        ],
+          "High-friction winch drums where extreme surface heat is generated"
+],
         "bulkPricing": [],
         "images": [
             {
@@ -292,19 +291,19 @@ async function main() {
             }
         ],
         "faqs": [
-            {
-                "question": "Does PP rope float on water?",
-                "answer": "Yes, polypropylene has a specific gravity lower than water (around 0.91), which means it naturally floats. This makes it ideal for water rescue lines, swimming pool lane markers, and marine mooring."
-            },
-            {
-                "question": "What sizes and colors of PP rope are stocked?",
-                "answer": "We supply PP ropes from 2mm up to 36mm in standard 200m/220m coils. Common colors include White, Blue, Yellow, Orange, and multi-color combinations."
-            },
-            {
-                "question": "Is PP rope resistant to chemicals and oils?",
-                "answer": "Yes, PP rope offers excellent resistance to acids, alkalis, oils, petrol, and organic solvents, making it widely used in chemical plants, workshops, and marine environments."
-            }
-        ],
+          {
+                    "question": "Does PP rope float on water?",
+                    "answer": "Yes, polypropylene has a specific gravity lower than water (around 0.91), which means it naturally floats. This makes it ideal for water rescue lines, swimming pool lane markers, and marine mooring."
+          },
+          {
+                    "question": "What sizes and colors of PP rope are stocked?",
+                    "answer": "We supply PP ropes from 2mm up to 36mm in standard 200m/220m coils. Common colors include White, Blue, Yellow, Orange, and multi-color combinations."
+          },
+          {
+                    "question": "Is PP rope resistant to chemicals and oils?",
+                    "answer": "Yes, PP rope offers excellent resistance to acids, alkalis, oils, petrol, and organic solvents, making it widely used in chemical plants, workshops, and marine environments."
+          }
+],
         "attrValues": [
             {
                 "attr": "Available Diameters / Size (mm)",
@@ -339,27 +338,26 @@ async function main() {
         "price": 0,
         "moq": 1,
         "tradeAliases": "Dura Rassi • Braided Dori • Round Braided Cord • Multipurpose Dura Rope",
-        "shortDescription": "Smooth braided synthetic cord with strong kink resistance and high wear strength for tarpaulins, awnings, blinds, and packaging.",
-        "longDescription": "Dura Braided Rope is a tightly woven circular synthetic cord built for clean handling and flexibility. Unlike twisted ropes, solid braided cords do not untwist or kink under tension. They pass smoothly through eyelets, pulleys, and grommets, making Dura cord a practical choice for securing tarpaulins, rigging awnings and window blinds, flagpole lines, and industrial packaging.",
+        "shortDescription": "Solid circular braided synthetic cord with strong kink resistance. Glides smoothly through tarpaulin eyelets and metal pulleys without untwisting or fraying.",
+        "longDescription": "If you have ever dealt with twisted ropes untwisting or jamming inside small pulleys, Dura Braided cord is the answer. It is woven with a solid circular braid so it stays round, flexible, and completely kink-free even under repetitive pulling. It slides through eyelets and tent grommets without snagging. We supply Dura cord in 2mm to 12mm diameters for tarpaulin tie-downs, window blinds, flagpoles, and carton bundling.",
         "metaTitle": "Dura Braided Utility Rope Wholesale Pakistan & Export",
         "metaDescription": "Heavy-duty Dura braided utility ropes wholesale in Karachi. Superior knot retention, abrasion resistance, and flexible handling for logistics across Pakistan.",
-        "usage": "Dura Braided Rope is a tightly woven circular synthetic cord built for clean handling and flexibility. Unlike twisted ropes, solid braided cords do not untwist or kink under tension. They pass smoothly through eyelets, pulleys, and grommets, making Dura cord a practical choice for securing tarpaulins, rigging awnings and window blinds, flagpole lines, and industrial packaging.",
+        "usage": "Best for tying tarpaulin sheets, window blind mechanisms, awning rigging, canopy lacing, flagpole halyards, and industrial bundle tying in warehouses.",
         "benefits": [
-            "Solid braided design that will not twist or kink",
-            "Runs smoothly through pulleys, rings, and eyelets",
-            "High surface abrasion resistance",
-            "Holds knots firmly without unraveling at cut ends"
-        ],
+          "Circular braided weave that will never untwist or kink",
+          "Glides cleanly through pulleys, rings, and tarpaulin eyelets",
+          "High surface resistance against abrasion and rubbing",
+          "Holds knots tightly without slipping loose under tension"
+],
         "suitedFor": [
-            "Tarpaulin grommet tie-downs",
-            "Awning cords & window blinds",
-            "Pulley lines & flagpole ropes",
-            "Tent guy-lines & camping setups",
-            "Commercial packaging & bundling"
-        ],
+          "Tarpaulin hem lacing & canopy tie-downs",
+          "Window blind & awning pull cords",
+          "Flagpole halyards & banner hanging",
+          "Heavy carton & parcel bundling"
+],
         "notSuitedFor": [
-            "Dynamic climbing safety systems requiring certified personal fall-arrest ratings"
-        ],
+          "Heavy crane hoisting where certified webbing slings are required"
+],
         "bulkPricing": [],
         "images": [
             {
@@ -384,19 +382,15 @@ async function main() {
             }
         ],
         "faqs": [
-            {
-                "question": "What is the advantage of Dura braided cord over twisted rope?",
-                "answer": "Dura braided cord has a circular, smooth surface that will not hockle, untwist, or kink under load. It travels smoothly through pulleys and grommet rings with less surface friction."
-            },
-            {
-                "question": "What diameters are available for Dura rope?",
-                "answer": "Dura rope is stocked in diameters from 2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm, 12mm up to 36mm in continuous spools, reels, and bundles."
-            },
-            {
-                "question": "Can Dura rope be heat-sealed at the ends?",
-                "answer": "Yes, being composed of high-tenacity synthetic polymers, cut ends can be easily heat-sealed with a lighter or hot knife to prevent fraying."
-            }
-        ],
+          {
+                    "question": "What makes Dura Braided rope different from standard 3-strand twisted rope?",
+                    "answer": "Dura Braided rope has a woven tubular structure that will not untwist, unravel, or spin under load, making it much smoother to handle through pulleys and grommets than twisted cordage."
+          },
+          {
+                    "question": "What diameters are available for Dura Braided cord?",
+                    "answer": "We stock Dura cord in 2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm, and 12mm spools and master coils for wholesale trade orders."
+          }
+],
         "attrValues": [
             {
                 "attr": "Available Diameters / Size (mm)",
@@ -430,28 +424,27 @@ async function main() {
         "slug": "nylon-industrial-rope",
         "price": 0,
         "moq": 1,
-        "tradeAliases": "Nylon Rassa • Polyamide Rope • High Tensile Nylon Rassi • Nylon Mooring Line",
-        "shortDescription": "High-strength polyamide rope built for heavy shock absorption, high elasticity, and demanding towing, mooring, and industrial rigging.",
-        "longDescription": "Nylon rope provides the highest breaking strength and elasticity among standard synthetic ropes. It can stretch under heavy dynamic load and return to its original length, absorbing sharp jerks and shocks that could snap other lines. Nylon stands up well against UV exposure, continuous abrasion, and surface friction, making it the industry standard for marine anchor lines, vessel towing, vehicle recovery, and general lifting applications.",
-        "metaTitle": "Nylon Industrial Rope Wholesale Supplier in Karachi",
-        "metaDescription": "High-tenacity nylon industrial ropes from Tahira Syndicate Karachi. Extreme shock absorption, UV resistance, and heavy lifting durability for global buyers.",
-        "usage": "Nylon rope provides the highest breaking strength and elasticity among standard synthetic ropes. It can stretch under heavy dynamic load and return to its original length, absorbing sharp jerks and shocks that could snap other lines. Nylon stands up well against UV exposure, continuous abrasion, and surface friction, making it the industry standard for marine anchor lines, vessel towing, vehicle recovery, and general lifting applications.",
+        "tradeAliases": "Nylon Rassa • Polyamide Rope • High Elasticity Rassa • Resham Rassi • White Nylon Rope",
+        "shortDescription": "High-strength 3-strand polyamide nylon rope. Delivers superior shock energy absorption, high breaking strength, and resistance to repeated sudden impact pulls.",
+        "longDescription": "When heavy vessels pitch against dock pilings or tow lines face sudden jerk loads, rigid ropes snap under shock. 3-strand Nylon (Polyamide) rope acts as a natural mechanical shock absorber, stretching safely under peak loads and springing back without structural damage. It delivers the highest tensile strength among common synthetic ropes and resists friction wear against bollards and fairleads.",
+        "metaTitle": "Nylon Industrial Rope Wholesale Karachi & Pakistan",
+        "metaDescription": "High-tenacity nylon 3-strand industrial ropes in Karachi. Superior shock absorption and breaking strength for marine towing, mooring, and heavy rigging.",
+        "usage": "Essential for ship towing hawsers, anchor rode lines, harbor mooring, recovery pull lines, heavy machinery tie-downs, and industrial safety lifelines.",
         "benefits": [
-            "High breaking strength with built-in shock absorption",
-            "Stretches under heavy dynamic load without snapping",
-            "High resistance to UV rays and abrasive friction",
-            "Flexible and easy to splice"
-        ],
+          "Highest shock absorption and elasticity among commercial synthetic ropes",
+          "High tensile breaking strength handles sudden heavy jerks",
+          "Excellent resistance against bollard and fairlead friction wear",
+          "Stays supple and easy for deckhands to coil even after heavy use"
+],
         "suitedFor": [
-            "Marine anchor warps & dock mooring lines",
-            "Boat towing & vessel recovery lines",
-            "Vehicle recovery strops & winch lines",
-            "Industrial safety lines & fall protection lanyards",
-            "Heavy machinery cargo lashing"
-        ],
+          "Vessel mooring lines & harbor anchor rodes",
+          "Towing hawsers & vehicle kinetic recovery lines",
+          "Industrial fall-arrest lifelines & safety lines",
+          "Heavy equipment dynamic tie-down lashing"
+],
         "notSuitedFor": [
-            "Static survey applications requiring zero stretch under load"
-        ],
+          "High-precision positioning lifts where zero stretch is required"
+],
         "bulkPricing": [],
         "images": [
             {
@@ -471,19 +464,15 @@ async function main() {
             }
         ],
         "faqs": [
-            {
-                "question": "Why is Nylon rope preferred for towing and mooring lines?",
-                "answer": "Nylon has natural elasticity (can stretch up to 20–25% under high shock loads) which absorbs sudden surges and wave impacts, protecting boat cleats and tow points from sudden shock fractures."
-            },
-            {
-                "question": "What diameters of Nylon rope are available?",
-                "answer": "We supply wholesale Nylon rope from 2mm to 36mm (including 6mm, 8mm, 10mm, 12mm, 14mm, 16mm, 18mm, 20mm, 24mm, 28mm, 32mm, and 36mm) in 100m, 200m, and 220m coils."
-            },
-            {
-                "question": "Does Nylon rope lose strength when wet?",
-                "answer": "Nylon experiences a slight temporary strength reduction of 10–15% when submerged in water, but regains its full rated tensile strength once dried."
-            }
-        ],
+          {
+                    "question": "Why is Nylon rope preferred for marine anchor and mooring lines?",
+                    "answer": "Nylon has natural elasticity that absorbs the shock of waves, wind gusts, and sudden vessel movements, protecting boat deck cleats and dock anchors from breaking under impact."
+          },
+          {
+                    "question": "What sizes of Nylon rope do you supply in Karachi?",
+                    "answer": "We stock Nylon rope from 4mm up to 40mm in standard 100m and 220m coils, as well as custom lengths for marine and industrial projects."
+          }
+],
         "attrValues": [
             {
                 "attr": "Available Diameters / Size (mm)",
@@ -518,27 +507,26 @@ async function main() {
         "price": 0,
         "moq": 1,
         "tradeAliases": "Sisal Rassa • Natural White Rassa • Agave Fiber Rope • Sisal Dori",
-        "shortDescription": "Stiff, biodegradable natural agave fiber rope with coarse texture, non-slip grip, and low stretch for agriculture and packaging.",
-        "longDescription": "Sisal rope is manufactured from the leaf fibers of the agave plant. It has a pale blonde color and a rough, hairy texture that gives it great friction and knot-holding security. Sisal is fully biodegradable, environmentally friendly, and does not stretch excessively under load. It is widely used for agricultural baling, tree tying, warehouse bundling, scratch posts, and decorative boundary fencing.",
+        "shortDescription": "Stiff, natural agave plant fiber rope with rough non-slip texture and low stretch. Perfect for agricultural baling, tree tying, parcel bundling, and cat scratch furniture.",
+        "longDescription": "Sisal rope is spun from the tough leaf fibers of the agave plant. It has a pale cream color and a rough, bristly texture that provides unmatched knot-holding security. Sisal is 100% biodegradable and does not stretch excessively under load. Farmers use it for baling straw and binding crops, while furniture makers buy our coils for pet scratching posts and rustic boundary barriers.",
         "metaTitle": "Sisal Natural Fiber Rope Wholesale Karachi & Pakistan",
         "metaDescription": "Eco-friendly 3-strand sisal fiber ropes in Karachi. Biodegradable, non-slip grip, heavy-duty bundling and agricultural tying coils ready for bulk shipment.",
-        "usage": "Sisal rope is manufactured from the leaf fibers of the agave plant. It has a pale blonde color and a rough, hairy texture that gives it great friction and knot-holding security. Sisal is fully biodegradable, environmentally friendly, and does not stretch excessively under load. It is widely used for agricultural baling, tree tying, warehouse bundling, scratch posts, and decorative boundary fencing.",
+        "usage": "Commonly used for agricultural baling, crop binding, nursery plant staking, parcel bundling, pet scratch posts, and rustic outdoor fencing across Sindh and Punjab.",
         "benefits": [
-            "100% natural, biodegradable plant fiber",
-            "Coarse texture provides non-slip grip and tight knot hold",
-            "Minimal stretch under tension",
-            "Safe for agricultural, animal, and landscaping use"
-        ],
+          "100% natural, biodegradable plant fiber with no synthetic chemicals",
+          "Rough, bristly texture provides tight, non-slip knot holding",
+          "Very low stretch under static loads",
+          "Safe for farm animals, plants, and domestic pet furniture"
+],
         "suitedFor": [
-            "Agricultural baling & crop binding",
-            "Warehouse parcel bundling & pallet tie-downs",
-            "Pet scratching posts & cat trees",
-            "Rustic interior decor & handicraft manufacturing",
-            "Boundary barriers & landscape tree support"
-        ],
+          "Agricultural baling & crop binding",
+          "Warehouse parcel bundling & pallet tie-downs",
+          "Cat scratching posts & pet furniture",
+          "Rustic interior decor & handicraft manufacturing"
+],
         "notSuitedFor": [
-            "Critical overhead life-support lifting where certified synthetic sling ropes are required"
-        ],
+          "Overhead crane lifting where certified synthetic slings are mandatory"
+],
         "bulkPricing": [],
         "images": [
             {
@@ -563,19 +551,15 @@ async function main() {
             }
         ],
         "faqs": [
-            {
-                "question": "What makes Sisal rope suitable for cat scratch posts and pet furniture?",
-                "answer": "Sisal is completely non-toxic, 100% natural, and has stiff, durable fibers that cats naturally love to scratch without exposing them to synthetic chemical toxins."
-            },
-            {
-                "question": "What sizes of Sisal rope are available?",
-                "answer": "We stock Sisal rope from thin 2mm, 3mm, 4mm, 6mm twines up to heavy 8mm, 10mm, 12mm, 14mm, 16mm, 18mm, 20mm, 24mm, 28mm, 32mm, and 36mm ropes in wholesale coils."
-            },
-            {
-                "question": "Is Sisal rope biodegradable?",
-                "answer": "Yes, Sisal is made entirely from renewable agave plant leaves and decomposes naturally in the soil, making it ideal for agricultural and gardening uses."
-            }
-        ],
+          {
+                    "question": "What makes Sisal rope suitable for cat scratch posts?",
+                    "answer": "Sisal is 100% natural, non-toxic, and has stiff, durable fibers that cats naturally love to scratch without exposing them to synthetic chemical toxins."
+          },
+          {
+                    "question": "What sizes of Sisal rope are available?",
+                    "answer": "We stock Sisal rope from thin 2mm, 3mm, 4mm, 6mm twines up to heavy 8mm, 10mm, 12mm, 16mm, 20mm, 24mm, 28mm, and 36mm ropes in wholesale coils."
+          }
+],
         "attrValues": [
             {
                 "attr": "Available Diameters / Size (mm)",
@@ -610,27 +594,26 @@ async function main() {
         "price": 0,
         "moq": 1,
         "tradeAliases": "Patson Rassi • Jute Sutli • Burlap Twine • Golden Fiber Rope • Jute Dori",
-        "shortDescription": "Biodegradable natural golden jute twine and rope for industrial carton bundling, sack stitching, agriculture, and handicrafts.",
-        "longDescription": "Jute twine and rope (commonly known as Patson or Sutli) are spun from natural jute fibers. It is an economical and environmentally sustainable cordage option. It is soft to work with by hand, ties firmly without slipping, and breaks down naturally in soil. Jute is widely used in warehouse carton packing, jute sack stitching, plant nursery tying, tobacco curing, and handicraft making.",
-        "metaTitle": "Jute & Hessian Twine Rope Wholesale Karachi Pakistan",
-        "metaDescription": "Natural jute and hessian twine ropes wholesale in Karachi. Biodegradable tying cords for agriculture, packaging, and industrial crafts at competitive rates.",
-        "usage": "Jute twine and rope (commonly known as Patson or Sutli) are spun from natural jute fibers. It is an economical and environmentally sustainable cordage option. It is soft to work with by hand, ties firmly without slipping, and breaks down naturally in soil. Jute is widely used in warehouse carton packing, jute sack stitching, plant nursery tying, tobacco curing, and handicraft making.",
+        "shortDescription": "Traditional natural golden jute twine and twisted rope. Soft on hands, easy to tie, 100% biodegradable, and cost-effective for stitching sacks, bundling, and farming.",
+        "longDescription": "Jute (Patson) is Pakistan most economical natural cordage. Spun from golden jute plant fibers, it is soft to handle, easy to cut with scissors or a knife, and grips tightly without snapping easily under hand tension. Wholesale traders and farmers across Pakistan use Jute Sutli to stitch 50kg grain bags, tie agricultural bundles, and wrap nursery roots. It decomposes naturally in soil without harming crops.",
+        "metaTitle": "Jute & Hessian Twine Rope Wholesale Karachi & Pakistan",
+        "metaDescription": "Wholesale Jute twine (sutli) and hessian ropes in Karachi, Pakistan. Eco-friendly, golden fiber cordage for sack stitching, agriculture, and packaging.",
+        "usage": "Used for stitching hessian and jute sacks, tying cotton bales, nursery tree root wrapping, handicraft production, and light packaging across wholesale markets.",
         "benefits": [
-            "100% natural biodegradable golden jute fiber",
-            "Soft on hands during fast manual tying",
-            "Holds knots securely without slipping",
-            "Cost-effective for high-volume commercial packaging"
-        ],
+          "Very economical cordage for high-volume commercial tying and stitching",
+          "Soft natural fibers that will not cut into plant stems or tender tree bark",
+          "100% compostable and eco-friendly — breaks down safely in farm soil",
+          "Holds tight friction knots with zero back-slip"
+],
         "suitedFor": [
-            "Carton packaging & warehouse bundling",
-            "Burlap sack stitching & bag closing",
-            "Agricultural plant tying & nursery staking",
-            "Craft manufacturing & macramé projects",
-            "Tobacco leaf binding & parcel wrapping"
-        ],
+          "Jute bag & agricultural grain sack stitching",
+          "Plant nursery root ball wrapping & vine training",
+          "Textile fabric roll binding & carton parcel tying",
+          "Handicraft macramé & eco-friendly packaging"
+],
         "notSuitedFor": [
-            "Continuous wet marine use or high-load industrial winching"
-        ],
+          "Mooring boats or permanent outdoor exposure to wet weather"
+],
         "bulkPricing": [],
         "images": [
             {
@@ -655,19 +638,15 @@ async function main() {
             }
         ],
         "faqs": [
-            {
-                "question": "What packaging sizes are available for Jute Sutli / Twine?",
-                "answer": "We supply Jute twine in 250g, 500g, and 1kg balls/spools for retail or workstation use, as well as 20kg to 50kg bulk master bales for wholesale factory supply."
-            },
-            {
-                "question": "What diameters are available in Jute rope?",
-                "answer": "Jute is available as fine 2-ply and 3-ply twine (2mm–4mm) as well as thick 3-strand twisted rope from 6mm up to 20mm."
-            },
-            {
-                "question": "Is Jute twine easy to cut and knot manually?",
-                "answer": "Yes, Jute is soft on the hands, knots very tightly with high friction, and can be cut effortlessly with standard utility scissors or blades."
-            }
-        ],
+          {
+                    "question": "What plies and thicknesses are available for Jute twine?",
+                    "answer": "We supply 2-ply, 3-ply, 4-ply, and multi-strand Jute cords and twisted ropes from 1mm up to 24mm in spools, balls, and 50kg pressed bales."
+          },
+          {
+                    "question": "Is Jute twine suitable for agricultural composting and organic farming?",
+                    "answer": "Yes, our natural jute is completely free of synthetic plastic additives and breaks down into natural organic matter in soil within months."
+          }
+],
         "attrValues": [
             {
                 "attr": "Available Diameters / Size (mm)",
@@ -701,28 +680,27 @@ async function main() {
         "slug": "pure-cotton-twisted-rope",
         "price": 0,
         "moq": 1,
-        "tradeAliases": "Sooti Rassa • Cotton Dori • Pure Cotton Rassi • White Cotton Cord",
-        "shortDescription": "Soft, pliable 100% pure cotton twisted rope with zero synthetic irritants, gentle on hands, breathable, and easy to knot for domestic, craft, and commercial use.",
-        "longDescription": "Pure Cotton Twisted Rope is made from 100% unbleached natural cotton fibers. It is soft, flexible, and comfortable to handle without causing rope burns or skin irritation. Cotton rope holds knots firmly, absorbs dyes easily, and does not generate static electricity. It is commonly used for macramé, textile crafts, awning cords, pet halters, clotheslines, and stage rigging.",
-        "metaTitle": "Pure Cotton Twisted Rope Wholesale Karachi Pakistan",
-        "metaDescription": "Pure cotton twisted ropes wholesale from Karachi, Pakistan. Soft-touch, high-strength natural cords for marine, textile, industrial, and decorative use.",
-        "usage": "Pure Cotton Twisted Rope is made from 100% unbleached natural cotton fibers. It is soft, flexible, and comfortable to handle without causing rope burns or skin irritation. Cotton rope holds knots firmly, absorbs dyes easily, and does not generate static electricity. It is commonly used for macramé, textile crafts, awning cords, pet halters, clotheslines, and stage rigging.",
+        "tradeAliases": "Sooti Rassi • Cotton Dori • White Cotton Cord • Cotton Twisted Rope • Soft Cotton Rassa",
+        "shortDescription": "Soft, 100% pure natural cotton twisted rope (Sooti Rassi). Skin-friendly, non-abrasive, and easy to wash for awnings, tent lacing, theater rigging, and crafts.",
+        "longDescription": "When you need a rope that feels gentle in bare hands, never causes friction rope burns, and ties into smooth decorative knots, Pure Cotton rope (Sooti Rassi) is the ideal choice. Spun from unbleached natural cotton yarns, it is soft, flexible, and completely free of harsh synthetic chemicals. It absorbs dyes easily, operates quietly through pulleys, and is widely used for awning cords, theater stage rigging, tent lacing, and interior decor.",
+        "metaTitle": "Pure Cotton Twisted Rope Wholesale Karachi & Pakistan",
+        "metaDescription": "Soft 100% pure cotton twisted ropes (Sooti Rassi) in Karachi. Non-abrasive, natural cotton cordage for awnings, stage rigging, crafts, and commercial use.",
+        "usage": "Best for shop awning pull cords, marquee tent lacing, theater stage curtain rigging, domestic clotheslines, pet toys, and handicraft macramé art.",
         "benefits": [
-            "100% natural cotton fibers, soft and skin-friendly",
-            "Easy to knot, unknot, and splice",
-            "No synthetic irritants or static charge",
-            "High liquid absorption and dye acceptance"
-        ],
+          "Ultra-soft natural feel that never causes rope burns on bare hands",
+          "Ties and unties easily without jamming or kinking",
+          "Absorbs moisture and dye evenly for custom color treatments",
+          "Runs quietly and smoothly through small wooden and brass pulleys"
+],
         "suitedFor": [
-            "Macramé, wall hangings & textile crafts",
-            "Animal halters & pet lead lines",
-            "Domestic clotheslines & laundry ropes",
-            "Drawstring bags & garment piping",
-            "Interior decorative cordage & stage rigging"
-        ],
+          "Awning & canopy retractable pull cords",
+          "Theater stage curtain rigging & backstage lines",
+          "Tent lacing & decorative marquee finishes",
+          "Macramé crafts, wall hangings & pet toys"
+],
         "notSuitedFor": [
-            "Long-term outdoor exposure in damp conditions without drying"
-        ],
+          "Harsh chemical wash plants or industrial high-tonnage lifting"
+],
         "bulkPricing": [],
         "images": [
             {
@@ -747,19 +725,15 @@ async function main() {
             }
         ],
         "faqs": [
-            {
-                "question": "Is this cotton rope 100% pure natural cotton?",
-                "answer": "Yes, our cotton ropes are twisted from 100% virgin natural cotton fibers without synthetic blends, giving a soft hand feel and excellent dye absorption."
-            },
-            {
-                "question": "What diameters are available in Cotton rope?",
-                "answer": "Diameters range from 2mm, 3mm, 4mm fine cordage up to 6mm, 8mm, 10mm, 12mm, 14mm, 16mm, 18mm, 20mm, and 25mm thick ropes in coils and spools."
-            },
-            {
-                "question": "Can cotton rope be dyed?",
-                "answer": "Yes, unbleached natural cotton fiber readily absorbs natural and synthetic textile dyes evenly."
-            }
-        ],
+          {
+                    "question": "Can cotton rope be washed and reused?",
+                    "answer": "Yes, pure cotton rope can be hand-washed with mild soap and air-dried. It retains its soft texture and strength through repeated gentle washings."
+          },
+          {
+                    "question": "What diameters of Cotton rope are available?",
+                    "answer": "We stock Cotton rope from 4mm up to 24mm in standard 50m, 100m, and 200m hanks and master spools."
+          }
+],
         "attrValues": [
             {
                 "attr": "Available Diameters / Size (mm)",
@@ -793,28 +767,27 @@ async function main() {
         "slug": "polyester-industrial-rope",
         "price": 0,
         "moq": 1,
-        "tradeAliases": "Polyester Rassa • Terylene Rope • Low Stretch Marine Rope • PES Rigging Rope",
-        "shortDescription": "High-strength, low-stretch synthetic rope offering strong resistance to UV rays, friction, and outdoor weather for marine halyards and safety lines.",
-        "longDescription": "Polyester rope provides an effective balance of high tensile strength, UV stability, and low stretch. Unlike nylon, polyester maintains its full strength when wet and does not stiffen or shrink with water exposure. It offers solid resistance against friction and edge wear, making it a reliable choice for boat halyards, flagpole ropes, static safety lifelines, industrial winch lines, and shade structure rigging.",
-        "metaTitle": "Polyester Industrial Rope Supplier Karachi Pakistan",
-        "metaDescription": "Heavy-duty polyester industrial ropes from Karachi. Low-stretch, weather-proof, chemical-resistant performance for marine rigging and industrial operations.",
-        "usage": "Polyester rope provides an effective balance of high tensile strength, UV stability, and low stretch. Unlike nylon, polyester maintains its full strength when wet and does not stiffen or shrink with water exposure. It offers solid resistance against friction and edge wear, making it a reliable choice for boat halyards, flagpole ropes, static safety lifelines, industrial winch lines, and shade structure rigging.",
+        "tradeAliases": "Polyester Rassa • PES Mooring Rope • High UV Resistance Rope • Low Stretch Marine Rope",
+        "shortDescription": "Premium low-stretch polyester industrial rope. Delivers high UV resistance, smooth winching performance, and wet breaking strength for marine yachting and heavy transport.",
+        "longDescription": "Unlike nylon which stretches under load or polypropylene which degrades faster under UV sun, Polyester (PES) rope maintains consistent length, does not lose strength when wet, and provides superior resistance against UV sunlight. It handles abrasive winch drums and capstans without melting or losing flexibility. Yacht captains, industrial riggers, and antenna mast technicians rely on polyester cordage for long-term outdoor installations.",
+        "metaTitle": "Polyester Industrial Rope Wholesale Karachi Pakistan",
+        "metaDescription": "High-tenacity low-stretch polyester industrial ropes in Karachi. Maximum UV resistance, high wet strength for marine rigging, winching, and transport.",
+        "usage": "The preferred choice for yacht running rigging, antenna guy lines, flagpole halyards, utility winch lines, and heavy-duty cargo securing across Pakistan.",
         "benefits": [
-            "Low elongation under load for precise positioning",
-            "Retains full rated breaking strength in wet conditions",
-            "High resistance to UV rays, weathering, and abrasion",
-            "Smooth exterior for easy handling"
-        ],
+          "Superior UV sunlight resistance for multi-year outdoor installations",
+          "Low elongation — holds exact tension without sagging over time",
+          "Retains 100% of its rated tensile breaking strength when wet",
+          "High resistance against abrasive surface rubbing and friction wear"
+],
         "suitedFor": [
-            "Sailboat halyards, sheets & marine rigging",
-            "Flagpole ropes & banner hoisting lines",
-            "Static safety lifelines & fall arrest anchors",
-            "Shade sail rigging & canopy perimeter lines",
-            "Industrial winch lines & crane taglines"
-        ],
+          "Marine yacht running rigging & halyards",
+          "Telecommunication tower & antenna guy lines",
+          "Flagpole ropes & outdoor commercial banner suspension",
+          "Winch pull lines & industrial safety barricades"
+],
         "notSuitedFor": [
-            "Applications requiring high dynamic stretch to absorb violent shock loads"
-        ],
+          "Applications requiring high kinetic shock absorption (use Nylon instead)"
+],
         "bulkPricing": [],
         "images": [
             {
@@ -834,19 +807,15 @@ async function main() {
             }
         ],
         "faqs": [
-            {
-                "question": "What is the main difference between Polyester rope and Nylon rope?",
-                "answer": "Polyester is low-stretch and retains 100% of its strength when wet, making it superior for static rigging and halyards. Nylon has high stretch and shock absorption, making it better for towing and anchor warps."
-            },
-            {
-                "question": "How well does Polyester rope resist sunlight and UV degradation?",
-                "answer": "Polyester has the highest UV and weathering resistance among standard synthetic fiber ropes, making it the top choice for outdoor rigging and flagpole lines."
-            },
-            {
-                "question": "What sizes are available for Polyester rope?",
-                "answer": "We stock Polyester ropes from 2mm to 36mm in 100m, 200m, and 220m coils, as well as bulk spools."
-            }
-        ],
+          {
+                    "question": "What is the main advantage of Polyester rope over Nylon rope?",
+                    "answer": "Polyester has significantly lower stretch than nylon and retains full strength when wet, making it better for guy lines, halyards, and applications where maintaining tight tension without sag is essential."
+          },
+          {
+                    "question": "What sizes are available in Polyester ropes?",
+                    "answer": "We stock 3-strand and braided Polyester ropes from 4mm up to 32mm in standard 100m and 220m coils for wholesale orders."
+          }
+],
         "attrValues": [
             {
                 "attr": "Available Diameters / Size (mm)",
@@ -880,28 +849,27 @@ async function main() {
         "slug": "coconut-coir-fiber-rope",
         "price": 0,
         "moq": 1,
-        "tradeAliases": "Naryal Ka Rassa • Coir Rassi • Coconut Fiber Rope • Kathya Rassa",
-        "shortDescription": "Rustic natural coir fiber rope made from coconut husks, naturally resistant to rot, saltwater, and soil weathering for agriculture and erosion control.",
-        "longDescription": "Coconut Coir Rope is spun from the fibrous husk of natural coconuts. It is durable, lightweight, and naturally resistant to saltwater damage and bacterial decay. The rough texture provides a firm, non-slip grip even in wet and muddy environments. Coir rope is widely used in agricultural vine support, oyster farming, soil bioengineering, erosion control logs, and rustic landscape fencing.",
-        "metaTitle": "Coconut Coir Fiber Rope Wholesale Karachi Pakistan",
-        "metaDescription": "Traditional coconut coir fiber ropes manufactured for marine, agricultural, and construction uses in Karachi, Pakistan. Durable, textured, and eco-friendly.",
-        "usage": "Coconut Coir Rope is spun from the fibrous husk of natural coconuts. It is durable, lightweight, and naturally resistant to saltwater damage and bacterial decay. The rough texture provides a firm, non-slip grip even in wet and muddy environments. Coir rope is widely used in agricultural vine support, oyster farming, soil bioengineering, erosion control logs, and rustic landscape fencing.",
+        "tradeAliases": "Naryal Ka Rassa • Coir Yarn Rope • Natural Coconut Cordage • Kathya Rassa • Coir Twine",
+        "shortDescription": "Traditional 100% natural coconut husk coir fiber rope (Naryal Ka Rassa). Lightweight, buoyant in seawater, naturally textured, and rot-resistant for marine and organic farm use.",
+        "longDescription": "Spun from the fibrous husk of coconuts, Coir rope (Naryal Ka Rassa) is one of nature most water-tolerant natural cordages. Unlike other natural fibers that rot quickly in water, coir fibers are naturally rich in lignin, giving them resistance to saltwater, mold, and bacterial breakdown. Coir rope floats on water, provides a coarse, high-friction grip, and is widely used for wooden boat caulking, tree staking, aquaculture oyster farming, and eco-geotextiles.",
+        "metaTitle": "Coconut Coir Fiber Rope Wholesale Karachi & Pakistan",
+        "metaDescription": "Natural coconut coir fiber ropes (Naryal Ka Rassa) in Karachi. Rot-resistant, eco-friendly cordage for marine caulking, farming, and soil erosion control.",
+        "usage": "Used for traditional wooden boat caulking, coastal aquaculture lines, agricultural plant and tree staking, soil erosion control, and rustic landscaping projects.",
         "benefits": [
-            "100% natural coconut husk fiber",
-            "Naturally resistant to saltwater decay and soil rot",
-            "Coarse surface gives strong grip in mud and wet conditions",
-            "Biodegradable for eco-friendly landscaping and farming"
-        ],
+          "Naturally resistant to saltwater rot and marine microorganism decay",
+          "Lightweight and buoyant — floats on surface water",
+          "100% biodegradable and organic natural coconut husk material",
+          "Rough coarse surface texture holds knots and binds soil naturally"
+],
         "suitedFor": [
-            "Marine aquaculture, oyster farming & fishing nets",
-            "Agricultural vine support & hop growing",
-            "Soil erosion control blankets & coir logs",
-            "Tree root wrapping & nursery landscaping",
-            "Rustic boundary fencing & outdoor decor"
-        ],
+          "Wooden fishing boat & dhow plank caulking",
+          "Tree staking, vineyard training & organic farming",
+          "Soil erosion control logs & coir geotextile blankets",
+          "Rustic themed landscape architecture & eco fencing"
+],
         "notSuitedFor": [
-            "Precision mechanical pulleys or high-speed winches"
-        ],
+          "High-tonnage mechanical lifting or motorized winch drums"
+],
         "bulkPricing": [],
         "images": [
             {
@@ -931,19 +899,15 @@ async function main() {
             }
         ],
         "faqs": [
-            {
-                "question": "Why is Coconut Coir rope used in marine aquaculture and oyster farming?",
-                "answer": "Coir fiber is naturally high in lignin, making it impervious to saltwater rot and bacterial breakdown in submerged marine environments for years."
-            },
-            {
-                "question": "What sizes are available in Coconut Coir rope?",
-                "answer": "Diameters range from 2mm, 4mm, 6mm, 8mm up to 10mm, 12mm, 16mm, 20mm, 24mm, 28mm, 32mm, and 36mm in coils, hanks, and compressed bales."
-            },
-            {
-                "question": "Is Coir rope eco-friendly?",
-                "answer": "Yes, it is made from 100% natural renewable coconut byproduct and is 100% biodegradable, making it popular in erosion control and environmental restoration."
-            }
-        ],
+          {
+                    "question": "Why is Coir rope used for wooden boat caulking in Karachi Fish Harbour?",
+                    "answer": "Coconut coir fiber swells slightly when wet, creating a tight, natural waterproof seal between wooden boat planks that resists saltwater rotting for years."
+          },
+          {
+                    "question": "What coil sizes are available for wholesale Coir rope?",
+                    "answer": "We supply Coir ropes from 6mm up to 28mm in standard bundles and bulk wholesale bales ready for immediate dispatch."
+          }
+],
         "attrValues": [
             {
                 "attr": "Available Diameters / Size (mm)",
@@ -977,28 +941,27 @@ async function main() {
         "slug": "georgette-marine-mooring-rope",
         "price": 0,
         "moq": 1,
-        "tradeAliases": "Georgette Rassa • Marine Mooring Line • Jahazi Georgette Rope • High Tenacity Ship Rope",
-        "shortDescription": "Heavy-duty marine poly-blend rope engineered for ship mooring, vessel docking, tugboat lines, and commercial fishing operations.",
-        "longDescription": "Georgette Marine Rope is a heavy-duty synthetic cordage manufactured from high-tenacity poly-composite fibers. Built for marine and harbor environments, it delivers high breaking strength, balanced flexibility, and strong resistance to saltwater wear and cyclic mooring fatigue. It floats on water for safer handling around vessel hulls and propellers, making it a reliable standard for port mooring, shipyard berthing, tug lines, and commercial fishing trawlers.",
-        "metaTitle": "Georgette Marine Mooring Rope Wholesale Karachi Port",
-        "metaDescription": "High-tenacity georgette marine mooring ropes in Karachi Port. Engineered for container vessels, tug boats, and extreme dock berthing with high tensile strength.",
-        "usage": "Georgette Marine Rope is a heavy-duty synthetic cordage manufactured from high-tenacity poly-composite fibers. Built for marine and harbor environments, it delivers high breaking strength, balanced flexibility, and strong resistance to saltwater wear and cyclic mooring fatigue. It floats on water for safer handling around vessel hulls and propellers, making it a reliable standard for port mooring, shipyard berthing, tug lines, and commercial fishing trawlers.",
+        "tradeAliases": "Georgette Rassa • High-Grip Synthetic Rope • Marine Mooring Line • Georgette Cordage",
+        "shortDescription": "Heavy-duty blended synthetic marine rope with crinkled georgette texture. Delivers non-slip grip in wet hands and high tensile strength for trawlers and cargo vessels.",
+        "longDescription": "Deckhands on marine trawlers at Karachi Fish Harbour and cargo barges face slippery decks where smooth plastic ropes slip from wet hands. Georgette Marine Rope is engineered with a specialized crinkled filament texture that gives a coarse, non-slip grip even when soaked with ocean water and fish slime. It combines high tensile strength, rot resistance, and UV protection for tough coastal maritime operations.",
+        "metaTitle": "Georgette Marine Mooring Rope Wholesale Karachi Supply",
+        "metaDescription": "Heavy-duty Georgette marine ropes in Karachi. Textured non-slip grip, rot-proof synthetic cordage for fishing trawlers, barge mooring, and coastal docking.",
+        "usage": "The go-to rope for fishing trawler nets, cargo vessel docking lines, harbor barge mooring, coastal fish farm anchoring, and heavy marine transport lashing.",
         "benefits": [
-            "High breaking strength built for heavy marine loads",
-            "Floats on water for safer handling around docks and hulls",
-            "Resists saltwater fatigue, rot, and marine weathering",
-            "Flexible and easy to handle during ship berthing"
-        ],
+          "Crinkled surface texture gives positive, non-slip hand grip when wet",
+          "100% waterproof and impervious to saltwater, fish slime, and oil",
+          "High tensile breaking strength handles heavy vessel surge loads",
+          "Resists fraying and abrasion against concrete docks and steel bollards"
+],
         "suitedFor": [
-            "Ship mooring & commercial vessel docking",
-            "Barge towing lines & harbor workboats",
-            "Shipyard berthing & drydock rigging",
-            "Commercial fishing trawler lines",
-            "Heavy port cargo securing"
-        ],
+          "Fishing trawler net lines & deck rigging",
+          "Harbor tug & barge mooring lines",
+          "Coastal fish farm cage anchoring",
+          "Heavy cargo transport deck tie-downs"
+],
         "notSuitedFor": [
-            "Direct contact with high-temperature exhaust pipes or open flames"
-        ],
+          "High-heat industrial furnace lines exceeding 90°C"
+],
         "bulkPricing": [],
         "images": [
             {
@@ -1023,19 +986,15 @@ async function main() {
             }
         ],
         "faqs": [
-            {
-                "question": "Why is Georgette rope preferred for ship and barge mooring?",
-                "answer": "Georgette rope combines high tensile breaking strength with positive buoyancy (it floats) and high resistance to cyclic marine fatigue and friction against dock bollards."
-            },
-            {
-                "question": "What diameters and coil lengths are supplied?",
-                "answer": "We supply Georgette rope from 6mm to 36mm in standard 220m marine mooring coils as well as custom lengths for ship chandlers and vessel operators."
-            },
-            {
-                "question": "Does Georgette rope absorb water?",
-                "answer": "No, the poly-composite construction does not absorb water, keeping the rope lightweight and easy to handle even during rough weather docking."
-            }
-        ],
+          {
+                    "question": "What makes Georgette rope better than standard smooth PP rope on fishing boats?",
+                    "answer": "Standard PP rope becomes very slippery when wet with seawater and fish slime. Georgette rope has a textured, ribbed filament surface that provides a secure hand grip even under wet deck conditions."
+          },
+          {
+                    "question": "What diameters are stocked in Georgette marine rope?",
+                    "answer": "We stock Georgette ropes from 8mm up to 36mm in standard 100m, 200m, and 220m coils at our Karachi wholesale warehouse."
+          }
+],
         "attrValues": [
             {
                 "attr": "Available Diameters / Size (mm)",
@@ -1165,7 +1124,7 @@ async function main() {
       image: '/uploads/categories/safety-belts-webbing-slings.jpeg',
       description: 'Certified polyester duplex webbing slings (1T-10T), endless round slings (gol patta), heavy ratchet cargo lashing tie-down belts, and 5-point full-body fall-arrest safety harnesses for industrial lifting, high-rise construction, and commercial transport in Karachi.',
       metaTitle: 'Wholesale Webbing Slings & Safety Belts Karachi | Tahira Syndicate',
-      metaDescription: 'Certified polyester lifting webbing slings (1T-10T), cargo ratchet tie-down belts & full body fall-arrest safety harnesses at wholesale rates in Karachi Pakistan.',
+      metaDescription: 'Certified polyester lifting webbing slings (1T-10T), ratchet tie-down belts and fall-arrest safety harnesses at wholesale rates in Karachi, Pakistan.',
     },
     create: {
       name: 'Safety Belts & Webbing Slings',
@@ -1173,7 +1132,7 @@ async function main() {
       image: '/uploads/categories/safety-belts-webbing-slings.jpeg',
       description: 'Certified polyester duplex webbing slings (1T-10T), endless round slings (gol patta), heavy ratchet cargo lashing tie-down belts, and 5-point full-body fall-arrest safety harnesses for industrial lifting, high-rise construction, and commercial transport in Karachi.',
       metaTitle: 'Wholesale Webbing Slings & Safety Belts Karachi | Tahira Syndicate',
-      metaDescription: 'Certified polyester lifting webbing slings (1T-10T), cargo ratchet tie-down belts & full body fall-arrest safety harnesses at wholesale rates in Karachi Pakistan.',
+      metaDescription: 'Certified polyester lifting webbing slings (1T-10T), ratchet tie-down belts and fall-arrest safety harnesses at wholesale rates in Karachi, Pakistan.',
     },
   })
   console.log('Safety Belts & Webbing Slings category initialized.')
@@ -1251,28 +1210,27 @@ async function main() {
         slug: 'flat-woven-duplex-webbing-sling',
         price: 1850,
         moq: 1,
-        tradeAliases: 'Lifting Patta, Crane Webbing Belt, Duplex Sling, Polyester Crane Patta, Double-Eye Webbing Sling, 2-Ply Cargo Sling',
-        shortDescription: '100% high-tenacity polyester 2-ply flat webbing sling with reinforced becketed eye loops. Color-coded from 1 Ton (Violet) to 10 Ton (Orange) capacities for crane lifting, dockside stevedoring, and industrial machinery rigging in Karachi.',
-        longDescription: 'Tahira Syndicate\'s flat woven duplex webbing slings (lifting patta) are engineered from multi-filament high-tenacity polyester yarn to deliver superior strength-to-weight ratio without damaging painted or delicate load surfaces. Featuring heavy 2-ply layered construction with anti-abrasion protective sleeves over both folded eye loops, our slings provide a reliable safety factor of 6:1. Widely utilized across Karachi Port (KPT), Port Qasim container terminals, heavy engineering workshops in SITE, and steel fabrication yards for secure vertical, choke, and basket hitch lifting.',
-        metaTitle: "Flat Woven Duplex Webbing Sling Wholesale Karachi",
-        metaDescription: "1T to 10T polyester duplex webbing slings (lifting patta) in Karachi. Color-coded, safety factor 7:1 for crane rigging, port cargo, and steel handling.",
-        usage: 'Engineered for overhead crane hoisting, port vessel cargo stevedoring at KPT and Port Qasim, structural steel beam handling, marble slab maneuvering, and heavy industrial machinery installation across Karachi and Hub Industrial Estate.',
-        benefits: [
-          '100% high-tenacity polyester with low elongation (<4%) prevents hazardous load bounce during crane hoisting.',
-          'Reinforced double-layer eye loops with protective cordura sleeves resist hook friction, tearing, and cutting edges.',
-          'Standard international color-coded tonnage stripes allow instant visual safety auditing on industrial job sites.',
-          'Flexible flat profile distributes lifting pressure evenly over delicate machinery and painted surfaces without scratching.',
-        ],
-        suitedFor: [
-          'Overhead crane hoisting in industrial factories and steel mills',
-          'Port Qasim & Karachi Port vessel cargo stevedoring and loading',
-          'Structural steel beam rigging, pipe bundling, and marble handling',
-          'Heavy transformer and industrial electric motor positioning',
-        ],
-        notSuitedFor: [
-          'Direct contact with razor-sharp un-beveled steel plate edges without polyurethane corner protection pads',
-          'Immersion in concentrated sulfuric acid baths or temperatures exceeding 100°C',
-        ],
+        "tradeAliases": "Webbing Sling • Crane Patta • Flat Lifting Belt • Duplex Sling • Polyester Hoist Belt • Chatta Patta",
+        "shortDescription": "Double-ply polyester duplex flat webbing sling (1-Ton to 10-Ton). Features reinforced becket eyes, color-coded capacities, and 6:1 safety factor for crane lifts without surface scratches.",
+        "longDescription": "Lifting heavy finished machinery, polished marble, painted steel, or yacht hulls with steel wire ropes leaves deep dents and scratches. Duplex Flat Webbing Slings provide high lifting strength with a broad, soft contact surface. Manufactured from 100% high-tenacity polyester webbing with reinforced folded becket eyes, these slings wrap securely around loads without damaging sensitive surfaces. Every sling is color-coded to international standards with woven capacity stripes.",
+        "metaTitle": "Flat Woven Duplex Webbing Sling (1T-10T) Karachi Wholesale",
+        "metaDescription": "Double-ply polyester duplex webbing slings (1 Ton to 10 Ton) in Karachi. Color-coded, SF 6:1 certified lifting belts for cranes, factories, and rigging.",
+        "usage": "Used across steel pipe handling, machinery assembly plants, shipping container yards, granite slab lifting, yacht hoisting, and high-rise construction crane rigging in Pakistan.",
+        "benefits": [
+          "Wide flat surface distributes lifting pressure and protects delicate painted finishes",
+          "Color-coded webbing with woven capacity stripes for instant safe load identification",
+          "Reinforced folded becket eye loops resist hook abrasion and wear",
+          "Lightweight and flexible — easy for crane riggers to handle and position"
+],
+        "suitedFor": [
+          "Machinery, transformer & generator hoisting",
+          "Polished stone, marble & glass pack handling",
+          "Painted pipe & structural steel bundle lifting",
+          "Marine boat & yacht haul-out lifting"
+],
+        "notSuitedFor": [
+          "Lifting sharp, bare metal edges without protective corner cut sleeves"
+],
         bulkPricing: [
           { minQty: 1, maxQty: 9, pricePerUnit: 1850, label: 'Standard Counter Rate' },
           { minQty: 10, maxQty: 49, pricePerUnit: 1650, label: 'Workshop Wholesale Pack' },
@@ -1285,11 +1243,16 @@ async function main() {
           { src: '/uploads/products/safety-belts-webbing-slings/flat-woven-duplex-webbing-sling/duplex-lifting-patta-hook-attachment.jpg', alt: 'Flat woven lifting sling connected to heavy crane swivel hook for industrial hoisting', sortOrder: 4 },
           { src: '/uploads/products/safety-belts-webbing-slings/flat-woven-duplex-webbing-sling/safety-belts-webbing-slings-warehouse-bulk-stock.jpeg', alt: 'Wholesale stock of polyester lifting slings and safety belts on shelves in Bohrapir shop Karachi', sortOrder: 5 },
         ],
-        faqs: [
-          { question: 'How do I know which color corresponds to which lifting capacity?', answer: 'International standards are color coded: Violet = 1 Ton, Green = 2 Ton, Yellow = 3 Ton, Grey = 4 Ton, Red = 5 Ton, Blue = 8 Ton, Orange = 10 Ton. Each black woven stripe also represents 1 Ton.' },
-          { question: 'Can these slings be used in choke hitch and basket hitch configurations?', answer: 'Yes. In straight vertical lift the capacity is 1.0× WLL; in choke hitch it is 0.8× WLL; in parallel basket hitch it safely doubles to 2.0× WLL.' },
-          { question: 'What is the MOQ for wholesale purchase in Karachi?', answer: 'Minimum order is 1 piece from our Bohrapir counter; carton wholesale lots of 10–50 pieces receive direct distributor rates.' },
-        ],
+        "faqs": [
+          {
+                    "question": "How do I identify the lifting capacity of a duplex webbing sling?",
+                    "answer": "Each sling follows international color codes: Violet (1 Ton), Green (2 Ton), Yellow (3 Ton), Grey (4 Ton), Red (5 Ton), Brown (6 Ton), Blue (8 Ton), and Orange (10 Ton). Each 25mm of webbing width corresponds to 1 Ton of capacity."
+          },
+          {
+                    "question": "What capacities and lengths are available in stock?",
+                    "answer": "We stock 1 Ton to 10 Ton slings in 1m, 2m, 3m, 4m, 6m, 8m, 10m, and 12m lengths, with custom multi-ton orders fabricated upon request."
+          }
+],
         attrValues: [
           { attr: 'Material Base', val: '100% High-Tenacity Polyester (PES)' },
           { attr: 'Working Load Limit (WLL)', val: '3 Ton (Yellow)' },
@@ -1305,28 +1268,27 @@ async function main() {
         slug: 'endless-tubular-round-webbing-sling',
         price: 2400,
         moq: 1,
-        tradeAliases: 'Gol Patta, Round Lifting Sling, Endless Polyester Sling, Tubular Crane Belt, Choke Hitch Gol Sling, Soft Round Sling',
-        shortDescription: 'Seamless continuous-yarn tubular polyester round sling with protective double-wall woven sleeve. Ideal for choke hitch lifting of cylindrical pipes, marine propeller shafts, steel coils, and delicate irregular machinery in Karachi.',
-        longDescription: 'Tahira Syndicate\'s endless tubular round slings (gol patta) consist of a continuous core of parallel high-tenacity 100% polyester filament yarn enclosed within a seamless woven protective tubular jacket. Because the internal load-bearing core never contacts the load directly, external jacket scuffs do not compromise structural lifting integrity. The circular endless design allows the user to rotate wear points continuously across the sling circumference, doubling the working lifespan compared to fixed-eye slings. Highly favored in Karachi shipyards, pipe mills, and oil terminals.',
-        metaTitle: "Endless Tubular Round Webbing Sling Karachi | 1T-20T",
-        metaDescription: "Heavy-duty endless tubular round slings (gol patta) in Karachi, Pakistan. Seamless polyester protective sleeve for delicate cylindrical loads up to 20 Tons.",
-        usage: 'Widely used for choke-hitch rigging around smooth cylindrical steel pipes, oil refinery heat exchangers, marine propeller shafts at Karachi Shipyard, paper mill rollers, and heavy irregular plant machinery.',
-        benefits: [
-          'Continuous endless loop design allows rotating bearing points each lift, doubling overall sling service life.',
-          'Seamless double-wall protective jacket shields load-bearing inner core fibers from external grime, grease, and UV.',
-          'Exceptionally pliable and soft texture hugs tightly around polished cylindrical loads without surface slippage.',
-          'Significantly lighter and more compact than wire rope grommets, allowing effortless transport by rigging personnel.',
-        ],
-        suitedFor: [
-          'Choke hitch rigging around heavy steel pipes and cylindrical tanks',
-          'Transformer hoisting, shipyard shaft handling, and turbine installation',
-          'Electric motor lifting and pump overhaul in industrial processing plants',
-          'Finished marble and polished stone positioning requiring zero surface marking',
-        ],
-        notSuitedFor: [
-          'Direct dragging over rough concrete without protective sliding sleeves',
-          'Operations where outer jacket is sliced open exposing internal load yarns',
-        ],
+        "tradeAliases": "Gol Patta • Endless Sling • Round Lifting Belt • Tubular Round Sling • Heavy Hoist Sling",
+        "shortDescription": "Seamless tubular endless round sling (Gol Patta). Features a load-bearing polyester yarn core inside a protective sleeve that rotates choke points for maximum rigging life.",
+        "longDescription": "Unlike flat eye-to-eye slings with fixed hook points, an Endless Round Sling (Gol Patta) is a continuous closed loop. This lets riggers rotate the choke point with each lift, preventing premature wear on a single spot. Inside the tough outer sleeve is a core of continuous parallel polyester filament strands that carry the entire load. It is extremely flexible, molds around irregular cylinders, and makes choke hitches on pipes and steel shafts simple and secure.",
+        "metaTitle": "Endless Round Lifting Sling (Gol Patta) Karachi Supply",
+        "metaDescription": "Heavy-duty endless round polyester lifting slings (Gol Patta) in Karachi. Continuous loop, flexible choke-hitch rigging for pipes and heavy machinery.",
+        "usage": "Perfect for choke-hitch lifting of large cylindrical pipes, turbine shafts, heavy electric transformers, oil drums, and precision industrial molds in workshops.",
+        "benefits": [
+          "Continuous loop design allows rotation of wear points for longer sling life",
+          "Molds flexibly around round, smooth, and cylindrical cargo loads",
+          "Seamless outer sleeve shields internal load-bearing yarns from dirt and grit",
+          "Ultra-compact and lightweight compared to heavy wire rope chokers"
+],
+        "suitedFor": [
+          "Cylindrical pipe & tube bundle lifting (choke hitch)",
+          "Heavy electric motor & transformer rigging",
+          "Turbine rotor & industrial shaft hoisting",
+          "Precision tooling & mold positioning in factories"
+],
+        "notSuitedFor": [
+          "Direct contact with sharp sheet metal burrs without cut-resistant sleeves"
+],
         bulkPricing: [
           { minQty: 1, maxQty: 9, pricePerUnit: 2400, label: 'Standard Single Unit' },
           { minQty: 10, maxQty: 49, pricePerUnit: 2150, label: 'Rigging Crew Pack' },
@@ -1338,11 +1300,16 @@ async function main() {
           { src: '/uploads/products/safety-belts-webbing-slings/endless-tubular-round-webbing-sling/tubular-polyester-gol-patta-core-structure.jpg', alt: 'Cross-section of continuous polyester filament core inside protective seamless tubular sleeve', sortOrder: 3 },
           { src: '/uploads/products/safety-belts-webbing-slings/endless-tubular-round-webbing-sling/safety-belts-webbing-slings-warehouse-bulk-stock.jpeg', alt: 'Wholesale inventory of lifting slings and safety belts stacked on shelves in Bohrapir Karachi shop', sortOrder: 4 },
         ],
-        faqs: [
-          { question: 'What is the advantage of an endless round sling over a flat eye-to-eye sling?', answer: 'An endless round sling conforms perfectly around cylindrical or irregular loads and allows you to shift the contact hook point each lift, preventing repetitive wear on a single spot.' },
-          { question: 'How do you inspect a round sling for internal damage?', answer: 'Check the outer cover; if the outer jacket is cut through and internal core yarns are exposed or severed, the sling must be retired immediately.' },
-          { question: 'Can you supply heavy 15T to 20T round slings for project lifting?', answer: 'Yes, we stock standard 1T–10T capacities and supply heavy 15T and 20T master round slings on short notice.' },
-        ],
+        "faqs": [
+          {
+                    "question": "Why choose a round sling (Gol Patta) over a flat webbing sling?",
+                    "answer": "Round slings mold tighter around cylindrical objects like pipes and allow you to rotate the contact point so the sling wears evenly, lasting significantly longer in heavy daily use."
+          },
+          {
+                    "question": "What happens if the outer sleeve gets scuffed?",
+                    "answer": "The outer tubular sleeve is a protective cover; the actual weight is carried by continuous inner core yarns. However, if the outer jacket is cut deeply enough to expose inner white yarns, the sling should be retired."
+          }
+],
         attrValues: [
           { attr: 'Material Base', val: '100% High-Tenacity Polyester (PES)' },
           { attr: 'Working Load Limit (WLL)', val: '5 Ton (Red)' },
@@ -1357,28 +1324,27 @@ async function main() {
         slug: 'ratchet-cargo-lashing-tie-down-belt',
         price: 2100,
         moq: 1,
-        tradeAliases: 'Patta Tie-Down, Ratchet Belt, Cargo Lashing Strap, Truck Belt, Container Tie-Down, Daala Lashing Belt, 2 Inch 5 Ton Ratchet Strap',
-        shortDescription: 'Heavy-duty 2-inch and 3-inch polyester ratchet tie-down lashing belt with forged steel double J-hooks and quick-tensioning ratchet buckle. Engineered for truck flatbeds, container cargo, and interstate freight transport across Pakistan.',
-        longDescription: 'Tahira Syndicate\'s ratchet cargo lashing tie-down belts (patta tie-down) provide high-tension cargo containment for commercial transport fleets, flatbed trailers, Mazda trucks, and shipping containers. Constructed with low-stretch, weather-resistant polyester webbing and a heat-treated zinc-plated steel ratchet tensioner, our tie-down assemblies eliminate cargo shifting and rope slack on bumpy highways. Designed with heavy forged double J-hooks that anchor securely into truck side rails, container D-rings, and trailer lashing points.',
-        metaTitle: "Ratchet Cargo Lashing Tie-Down Belt Karachi | 5T",
-        metaDescription: "50mm 5-Ton ratchet cargo lashing tie-down belts (truck patta) in Karachi. Heat-treated steel J-hooks with weather-proof polyester webbing for road transport.",
-        usage: 'Securing flatbed truck freight, Mazda daala cargo shipments from Maripur truck stand, shipping container internal bracing, steel coil and timber bundle lashing, and heavy machinery transport on national highways.',
-        benefits: [
-          'High-leverage ergonomic ratchet mechanism generates over 500kg of pre-tension clamping force effortlessly.',
-          'Heavy-gauge forged double J-hooks anchor firmly into trailer chassis rails, flatbed D-rings, and side pockets.',
-          'Low-stretch UV-stabilized polyester webbing maintains taut tension over long-distance highway journeys.',
-          'Fast single-operator tension and release mechanism reduces loading dock securing time by over 60%.',
-        ],
-        suitedFor: [
-          'Flatbed 22-wheeler trailers carrying steel rebar, pipes, and machinery',
-          'Mazda and Shehzore trucks hauling bags and crates from Maripur stand',
-          'Shipping container internal cargo blocking and sea-freight lashing',
-          'Heavy construction plant securing on low-bed transport trailers',
-        ],
-        notSuitedFor: [
-          'Overhead vertical crane hoisting (strictly engineered for horizontal cargo lashing)',
-          'Positioning over sharp metal cargo corners without edge protector guards',
-        ],
+        "tradeAliases": "Ratchet Belt • Cargo Lashing Patta • Truck Tie-Down Belt • Lashing Strap • Ratchet Strap",
+        "shortDescription": "Heavy-duty polyester cargo tie-down strap with hardened steel ratchet buckle and double J-hooks. Locks freight tightly on flatbed trucks, trailers, and shipping containers.",
+        "longDescription": "Tying down cargo on open flatbed trailers with loose ropes is slow and risks loads shifting during highway transit. Our heavy-duty ratchet lashing belts use high-tenacity polyester webbing with low elongation and a smooth, mechanical gear-locking ratchet handle. One operator can crank thousands of kilograms of tension across palletized freight in seconds. The double J-hooks latch securely onto truck chassis rails and container anchor rings.",
+        "metaTitle": "Heavy-Duty Cargo Ratchet Lashing Belt Wholesale Karachi",
+        "metaDescription": "Heavy duty ratchet tie-down lashing belts (25mm to 100mm) with J-hooks in Karachi. High tensile polyester strap for truck cargo securing and container lashing.",
+        "usage": "Engineered for flatbed truck transport, trailer cargo lashing, shipping container tie-downs, generator road securing, and heavy pallet freight transport across Pakistan highways.",
+        "benefits": [
+          "High mechanical leverage crank handle applies massive tension with minimal effort",
+          "Low-stretch polyester webbing keeps cargo completely locked over long highway journeys",
+          "Double J-hooks made from forged heat-treated alloy steel for secure chassis anchoring",
+          "Weather-proof, oil-resistant webbing that will not rot in coastal humidity"
+],
+        "suitedFor": [
+          "Flatbed trailer & truck bed freight securing",
+          "Shipping container internal cargo lashing",
+          "Heavy machinery, generator & transformer road transit",
+          "Steel coil & building material transport tie-downs"
+],
+        "notSuitedFor": [
+          "Vertical overhead crane hoisting (this is a lashing strap, not a lifting sling)"
+],
         bulkPricing: [
           { minQty: 1, maxQty: 9, pricePerUnit: 2100, label: 'Single Lashing Set' },
           { minQty: 10, maxQty: 49, pricePerUnit: 1850, label: 'Fleet Box Pack (10 Sets)' },
@@ -1390,11 +1356,16 @@ async function main() {
           { src: '/uploads/products/safety-belts-webbing-slings/ratchet-cargo-lashing-tie-down-belt/forged-double-j-hook-anchor-fitting.jpg', alt: 'Forged carbon steel double J-hook anchor fitting for truck bed rail lashing', sortOrder: 3 },
           { src: '/uploads/products/safety-belts-webbing-slings/ratchet-cargo-lashing-tie-down-belt/safety-belts-webbing-slings-warehouse-bulk-stock.jpeg', alt: 'Wholesale inventory of lifting slings and safety belts stacked on shelves in Bohrapir Karachi shop', sortOrder: 4 },
         ],
-        faqs: [
-          { question: 'What length is standard for a 22-wheeler flatbed trailer in Pakistan?', answer: 'For 40ft flatbed trailers carrying machinery or bundled pipes, 8-meter to 10-meter 50mm ratchet belts are standard.' },
-          { question: 'Does the webbing loosen when wet during monsoon rains?', answer: 'No, our 100% polyester webbing absorbs less than 1% moisture, ensuring tension remains locked even under continuous rain.' },
-          { question: 'Are replacement straps available if the webbing gets damaged while the ratchet is fine?', answer: 'Yes, we sell complete ratchet assemblies as well as standalone long-end replacement webbing straps with hooks.' },
-        ],
+        "faqs": [
+          {
+                    "question": "What widths and break strengths are available for ratchet lashing belts?",
+                    "answer": "We supply 25mm (1-Ton), 38mm (2-Ton to 3-Ton), 50mm (5-Ton), and 75mm/100mm (10-Ton) ratchet tie-down belts in standard 6m, 8m, 10m, and 12m lengths."
+          },
+          {
+                    "question": "Can ratchet belts be used to lift machinery with a crane?",
+                    "answer": "No. Ratchet straps are designed exclusively for static cargo tie-down and road transit lashing. For crane lifting, use certified Duplex Webbing Slings or Round Slings."
+          }
+],
         attrValues: [
           { attr: 'Material Base', val: '100% High-Tenacity Polyester (PES)' },
           { attr: 'Working Load Limit (WLL)', val: '5 Ton (Red)' },
@@ -1410,28 +1381,27 @@ async function main() {
         slug: 'full-body-fall-arrest-safety-harness',
         price: 3200,
         moq: 1,
-        tradeAliases: 'Complete Safety Belt, Full Body Harness, Scaffolding Safety Belt, High Altitude Fall Harness, 5-Point Safety Belt, Construction Harness',
-        shortDescription: 'Certified full-body 5-point fall-arrest safety harness fabricated with 45mm high-tenacity polyester webbing, dorsal forged D-ring, and adjustable chest and thigh buckles for scaffolding and high-rise construction in Karachi.',
-        longDescription: 'Tahira Syndicate\'s full-body fall-arrest safety harness (complete safety belt) is designed to protect industrial workers, scaffolders, tower maintenance crews, and roofing technicians against high-altitude falls. Featuring a 5-point ergonomic adjustment system (shoulder, chest, waist, and dual leg straps), the harness distributes impact deceleration forces evenly across the pelvic girdle and thighs in the event of a slip. Fitted with a heavy forged alloy-steel rear dorsal D-ring, corrosion-resistant pass-through mating buckles, and dual-color webbing for quick, mistake-free donning.',
-        metaTitle: "Full Body Fall-Arrest Safety Harness Belt Karachi",
-        metaDescription: "Industrial full body fall-arrest safety harness belts in Karachi, Pakistan. Certified dorsal D-rings and adjustable chest straps for high-altitude scaffolding.",
-        usage: 'Mandatory personal protective equipment (PPE) for high-rise commercial building construction, exterior facade glass cleaning, scaffolding erection, telecom tower maintenance, and industrial boiler repair.',
-        benefits: [
-          '5-point fully adjustable geometry distributes impact deceleration forces safely across pelvic bones and shoulders.',
-          'Heavy forged alloy steel dorsal D-ring provides proof-tested anchor point for shock-absorbing lanyards and lifelines.',
-          'Dual-color high-contrast webbing (yellow upper / black lower) prevents twisting and ensures fast error-free donning.',
-          'Tested to withstand dynamic drop impact forces exceeding 15 kN (1,500 kgf) without stitch failure or buckle slippage.',
-        ],
-        suitedFor: [
-          'High-rise building construction and exterior painting projects',
-          'Scaffolding erection and structural steel framework assembly',
-          'Telecommunication tower and high-voltage transmission line maintenance',
-          'Shipyard drydock hull inspection and industrial boiler servicing',
-        ],
-        notSuitedFor: [
-          'Horizontal vehicle towing or crane load hoisting',
-          'Use after sustaining an actual fall arrest event (must be retired immediately)',
-        ],
+        "tradeAliases": "Safety Belt • 5-Point Safety Harness • Construction Safety Belt • Fall Arrest Harness",
+        "shortDescription": "Full-body 5-point fall-arrest safety harness with dorsal D-ring, adjustable chest/thigh straps, and energy-absorbing lanyard for high-rise scaffolding and tower workers.",
+        "longDescription": "A standard waist belt can cause severe spinal injury in a fall. A certified 5-point full-body safety harness distributes fall impact forces across the shoulders, chest, and thighs. Our harnesses are built from high-strength polyester webbing with stamped alloy steel buckles, a heavy dorsal D-ring for lifeline attachment, and an optional shock-absorbing lanyard with double scaffold snap hooks for 100% tie-off safety on construction jobs.",
+        "metaTitle": "Full Body Fall-Arrest Safety Harness Belt Karachi Supply",
+        "metaDescription": "Certified 5-point full body fall-arrest safety harnesses with energy absorber lanyards in Karachi. High-strength construction safety belts for site workers.",
+        "usage": "Essential personal protective equipment (PPE) for high-rise scaffolding, elevator shaft work, steel building erection, cell tower maintenance, and industrial roofing.",
+        "benefits": [
+          "5-point ergonomic adjustment spreads fall shock forces across chest and thighs",
+          "High-tensile polyester webbing with high abrasion and chemical resistance",
+          "Heavy forged dorsal D-ring for quick snap hook and lifeline connection",
+          "Dual scaffold hooks on energy-absorbing lanyard allow 100% tie-off during movement"
+],
+        "suitedFor": [
+          "High-rise building scaffolding & facade maintenance",
+          "Structural steel erection & crane rigging access",
+          "Telecommunication tower & mast climbing",
+          "Elevator shaft, bridge & roof construction work"
+],
+        "notSuitedFor": [
+          "Chemical splash suits or high-heat direct welding operations without leather covers"
+],
         bulkPricing: [
           { minQty: 1, maxQty: 9, pricePerUnit: 3200, label: 'Single Safety Harness' },
           { minQty: 10, maxQty: 49, pricePerUnit: 2850, label: 'Contractor Crew Pack (10 Units)' },
@@ -1443,11 +1413,16 @@ async function main() {
           { src: '/uploads/products/safety-belts-webbing-slings/full-body-fall-arrest-safety-harness/5-point-high-altitude-harness-adjustment-straps.webp', alt: '5-point adjustable chest and thigh strapping on industrial safety belt', sortOrder: 3 },
           { src: '/uploads/products/safety-belts-webbing-slings/full-body-fall-arrest-safety-harness/safety-belts-webbing-slings-warehouse-bulk-stock.jpeg', alt: 'Wholesale inventory of lifting slings and safety belts stacked on shelves in Bohrapir Karachi shop', sortOrder: 4 },
         ],
-        faqs: [
-          { question: 'Does this full-body safety harness come with a lanyard?', answer: 'We supply the harness as a standalone unit or bundled with single/double shock-absorbing lanyards and scaffold hooks.' },
-          { question: 'How do workers adjust the harness for proper snug fit?', answer: 'Workers adjust the pass-through thigh and shoulder buckles until two flat fingers can fit snugly between the webbing and the body.' },
-          { question: 'What is the recommended service life of a polyester safety harness?', answer: 'Under regular construction use, harnesses should be inspected daily and retired within 3 to 5 years, or immediately following any fall arrest event.' },
-        ],
+        "faqs": [
+          {
+                    "question": "Why is a 5-point full body harness safer than a simple waist safety belt?",
+                    "answer": "A full body harness distributes the shock of a sudden fall across the pelvic bone and shoulders, keeping the worker upright and preventing severe internal spinal injuries caused by waist-only belts."
+          },
+          {
+                    "question": "Does the safety harness include a lanyard and snap hooks?",
+                    "answer": "Yes, we supply full sets complete with a shock-absorbing lanyard, double large forged steel scaffold hooks, and quick-connect carabiners for immediate on-site compliance."
+          }
+],
         attrValues: [
           { attr: 'Material Base', val: '100% High-Tenacity Polyester (PES)' },
           { attr: 'Webbing Width', val: '50mm (2")' },
@@ -1460,28 +1435,27 @@ async function main() {
         slug: 'shock-absorbing-double-lanyard-scaffold-hooks',
         price: 2800,
         moq: 1,
-        tradeAliases: 'Double Lanyard, Scaffold Hook Belt, Shock Absorber Lanyard, Y-Lanyard, Safety Belt Rassa, Fall Arrest Lanyard Set',
-        shortDescription: 'Y-shaped twin-leg shock-absorbing lanyard equipped with energy dissipation pack, forged steel snap hook, and two large 55mm opening scaffolding hooks for 100% tie-off safety during high-rise scaffold traversal in Karachi.',
-        longDescription: 'Tahira Syndicate\'s shock-absorbing twin-leg double lanyard is an essential lifeline connection connecting full-body harnesses to scaffolding pipes and structural steel framing. Featuring an integrated tear-webbing energy absorber pack, the lanyard limits peak deceleration arrest forces to under 6 kN, safeguarding the human spine against injury. The twin Y-arm configuration allows scaffolders and steel erectors to maintain 100% continuous tie-off safety by ensuring one hook remains anchored while transitioning to the next structure.',
-        metaTitle: "Shock-Absorbing Double Lanyard Scaffold Hooks Karachi",
-        metaDescription: "Twin shock-absorbing webbing lanyards with forged scaffolding hooks in Karachi. 100% tie-off fall arrest protection for construction workers and telecom towers.",
-        usage: 'High-rise scaffolding erection, structural steel girder climbing, communication tower maintenance, bridge inspection, and overhead crane runway maintenance requiring continuous 100% tie-off fall protection.',
+        tradeAliases: "Double Lanyard • Scaffold Hook Lanyard • Shock Absorber Lanyard • Fall Arrest Lanyard • Y-Lanyard",
+        shortDescription: "Twin-leg Y-lanyard with integrated tear-webbing shock absorber and double large steel scaffold hooks. Guarantees 100% continuous tie-off while transitioning across scaffolding.",
+        longDescription: "Moving along scaffolding beams and structural steel requires disconnecting and reconnecting your safety hook. With a single lanyard, a worker is unprotected during the transition. A Twin-Leg Shock-Absorbing Y-Lanyard solves this hazard by allowing the rigger to keep one scaffold hook anchored while moving the other. The integrated tear-webbing energy absorber deploys smoothly during a fall, reducing arrest forces on the body to below safe limits.",
+        metaTitle: "Shock Absorbing Double Lanyard Scaffold Hooks Karachi",
+        metaDescription: "Twin-leg shock absorbing lanyards with forged steel scaffold hooks in Karachi. Certified 100% tie-off fall protection for scaffolding and high-rise riggers.",
+        usage: "Used with full-body safety harnesses on high-rise building scaffolding, steel frame erection, transmission tower painting, and tower crane assembly.",
         benefits: [
-          'Twin-leg Y-configuration guarantees continuous 100% tie-off protection when navigating scaffolding pipes and trusses.',
-          'Progressive tear-stitch energy absorber pack cushions accidental drops, limiting arresting forces to under 6 kN.',
-          'Dual forged alloy steel scaffold hooks with 55mm wide gate openings latch effortlessly onto standard scaffolding tubes.',
-          'Self-locking double-action spring gates prevent accidental roll-out or opening under cyclic line movement.',
-        ],
+          "Twin-leg Y-design ensures worker remains 100% tied off at all times during movement",
+          "Tear-webbing energy absorber dampens sudden deceleration shock forces safely",
+          "Large forged alloy steel scaffold hooks fit over standard 50mm scaffold pipes",
+          "Abrasion-resistant tubular polyester webbing sleeve for prolonged outdoor life"
+],
         suitedFor: [
-          'High-rise construction scaffolding erection and steel girder climbing',
-          'Telecommunication tower and radio mast rigging',
-          'Bridge maintenance, overhead crane tracks, and industrial roofing',
-          'Industrial plant maintenance shutdowns requiring mobile fall arrest',
-        ],
+          "Scaffold pipe transit & steel beam walking",
+          "Tower crane maintenance & aerial platform rigging",
+          "Transmission line & mast climbing",
+          "Industrial plant pipe rack inspection"
+],
         notSuitedFor: [
-          'Attachment to standard waist positioning belts for fall arrest (must attach to full body harness dorsal D-ring)',
-          'Connecting both lanyard legs to the same anchorage point simultaneously',
-        ],
+          "Working with less than 5.5 meters of free fall clearance beneath the anchorage point"
+],
         bulkPricing: [
           { minQty: 1, maxQty: 9, pricePerUnit: 2800, label: 'Single Lanyard Set' },
           { minQty: 10, maxQty: 49, pricePerUnit: 2500, label: 'Scaffolding Team Pack (10 Sets)' },
@@ -1494,10 +1468,15 @@ async function main() {
           { src: '/uploads/products/safety-belts-webbing-slings/shock-absorbing-double-lanyard-scaffold-hooks/safety-belts-webbing-slings-warehouse-bulk-stock.jpeg', alt: 'Wholesale inventory of lifting slings and safety belts stacked on shelves in Bohrapir Karachi shop', sortOrder: 4 },
         ],
         faqs: [
-          { question: 'Why are two scaffold hooks necessary instead of a single hook lanyard?', answer: 'Double lanyards allow workers to keep one hook anchored to scaffolding while moving the second hook forward, maintaining 100% continuous fall protection.' },
-          { question: 'What happens to the shock absorber after an accidental fall?', answer: 'The internal stitching tears open to cushion the body. Once deployed, the lanyard has performed its life-saving duty and must be discarded immediately.' },
-          { question: 'Do the scaffold hooks fit standard 1.5" and 2" scaffolding pipes?', answer: 'Yes, our large 55mm gate scaffold hooks snap effortlessly around all standard scaffolding tubes and structural steel angle bars.' },
-        ],
+          {
+                    "question": "How does the tear-webbing energy absorber work?",
+                    "answer": "Inside the zippered pouch is a folded length of webbing stitched together with controlled-release threads. In a fall, the stitching tears progressively, absorbing kinetic energy and cushioning the worker body."
+          },
+          {
+                    "question": "What is the hook opening size on the scaffold hooks?",
+                    "answer": "The large forged alloy scaffold hooks feature a 55mm gate opening with an automatic double-locking spring gate that fits standard scaffolding pipes."
+          }
+],
         attrValues: [
           { attr: 'Material Base', val: '100% High-Tenacity Polyester (PES)' },
           { attr: 'Length Range', val: '2 Meters (6.6 ft)' },
@@ -1510,28 +1489,27 @@ async function main() {
         slug: 'heavy-duty-vehicle-towing-recovery-strap',
         price: 2900,
         moq: 1,
-        tradeAliases: 'Recovery Patta, Towing Belt, Snatch Strap, Heavy Truck Towing Strap, Breakdown Pulling Belt, 10 Ton Tow Strap',
-        shortDescription: 'High-tensile polyester recovery strap with reinforced double-stitched loop eyes for heavy vehicle recovery, commercial truck breakdown towing, and off-road plant pulling across Karachi and Superhighway transport routes.',
-        longDescription: 'Tahira Syndicate\'s heavy-duty vehicle towing and recovery straps (recovery patta) provide dependable pulling power for commercial logistics fleets, breakdown crane operators, and heavy transport contractors. Manufactured with multi-layer high-tenacity synthetic webbing (typically 75mm to 100mm widths) engineered with controlled elasticity, the strap absorbs sudden kinetic snatch shocks when jerking stuck 10-wheelers, Mazda trucks, and loaded dumper trucks out of sand, mud, or roadside drainage ditches. Finished with heavy-duty reinforced eye loops that fit standard bow shackles and pintle hooks.',
-        metaTitle: "Heavy-Duty Vehicle Towing & Recovery Strap Karachi",
-        metaDescription: "Heavy-duty 5T to 20T vehicle towing and recovery straps (recovery patta) in Karachi. Reinforced eye loops with low-elongation polyester for emergency pullouts.",
-        usage: 'Heavy commercial truck breakdown towing on the Karachi-Hyderabad M-9 Motorway and Superhighway, pulling stuck dumpers and transit mixers from mud, port chassis towing, and fleet roadside emergency kits.',
+        tradeAliases: "Tow Strap • Recovery Belt • Towing Patta • Truck Pulling Belt • Gari Khainchne Wala Patta",
+        shortDescription: "Heavy-duty 5-Ton to 20-Ton polyester vehicle recovery and towing strap with reinforced eye loops and forged steel shackles. Pulls stuck trucks, 4x4s, and trailers safely.",
+        longDescription: "Towing stuck trucks, loaded trailers, or construction equipment with rusty chains or steel cables risks snapped metal whipping through windshields. Heavy-Duty Polyester Towing & Recovery Straps provide a safer pulling solution with high tensile strength and controlled elasticity. They absorb the initial jolt when the tow vehicle accelerates, preventing transmission damage and chassis bending.",
+        metaTitle: "Vehicle Towing Recovery Strap (5T-20T) Karachi Wholesale",
+        metaDescription: "Heavy-duty vehicle recovery tow straps (5 Ton to 20 Ton) in Karachi. Reinforced loop ends and forged shackles for truck breakdown and off-road recovery.",
+        usage: "Carried by highway breakdown recovery fleets, heavy transport logistics trucks, off-road 4x4 vehicles, construction site dumpers, and agricultural tractors across Pakistan.",
         benefits: [
-          'Controlled kinetic elasticity cushions sudden snatch jerks, protecting truck chassis and towing points from snapping.',
-          'Reinforced folded eye loops lined with heavy wear sleeves withstand shackle pin abrasion under extreme pulling loads.',
-          'High-tonnage capacity ratings (8 Ton, 10 Ton, and 20 Ton) handle loaded commercial 6-wheeler and 10-wheeler trucks.',
-          '80% lighter than heavy metal tow chains — stores compactly behind truck cabins and prevents dangerous metal recoil.',
-        ],
+          "Controlled elasticity cushions initial jerk shock, protecting vehicle drivelines",
+          "Reinforced loop ends with Cordura protective sleeves prevent hook friction tears",
+          "Much lighter, safer, and easier to store in a vehicle boot than heavy steel chains",
+          "Weather-resistant polyester webbing that will not rust or weaken in mud and water"
+],
         suitedFor: [
-          'Heavy Mazda, Hino, and Bedford truck towing and roadside recovery',
-          'Dumper trucks, concrete mixers, and construction plant extraction',
-          'Port container trailer towing and yard recovery operations',
-          'Commercial logistics fleet breakdown kits and mobile crane recovery',
-        ],
+          "Highway breakdown truck & trailer towing",
+          "4x4 off-road mud, sand & rocky track recovery",
+          "Construction site dumper & excavator recovery",
+          "Agricultural tractor field towing"
+],
         notSuitedFor: [
-          'Overhead vertical crane hoisting (use certified duplex lifting slings TS-SLG-DUP-001 for vertical lifts)',
-          'Dragging across sharp bumper edges without protective sliding sleeves',
-        ],
+          "Kinetic snatch recoveries where 100% high-stretch nylon snatch straps are required"
+],
         bulkPricing: [
           { minQty: 1, maxQty: 9, pricePerUnit: 2900, label: 'Single Recovery Strap' },
           { minQty: 10, maxQty: 49, pricePerUnit: 2600, label: 'Fleet Emergency Pack (10 Straps)' },
@@ -1544,10 +1522,15 @@ async function main() {
           { src: '/uploads/products/safety-belts-webbing-slings/heavy-duty-vehicle-towing-recovery-strap/safety-belts-webbing-slings-warehouse-bulk-stock.jpeg', alt: 'Wholesale inventory of lifting slings and safety belts stacked on shelves in Bohrapir Karachi shop', sortOrder: 4 },
         ],
         faqs: [
-          { question: 'Why is a recovery strap better than a heavy metal chain for pulling stuck trucks?', answer: 'Synthetic recovery straps have controlled kinetic elasticity that cushions the pull, preventing sudden chassis snapping. They are also 80% lighter and far safer if an anchor point yields.' },
-          { question: 'Which shackle size is recommended for these recovery loop eyes?', answer: 'Our reinforced loop eyes easily accept standard 3.25 Ton to 6.5 Ton forged steel screw-pin bow shackles (3/4" to 7/8" pin size).' },
-          { question: 'Can these tow straps withstand being dragged over gravel and tarmac?', answer: 'Yes, our webbing features dense edge-weaving that resists road abrasion, though using corner sleeves over sharp bumper edges is recommended for maximum longevity.' },
-        ],
+          {
+                    "question": "What tonnages and lengths are available for recovery tow straps?",
+                    "answer": "We supply 5-Ton (50mm width), 10-Ton (75mm width), 15-Ton (100mm width), and heavy 20-Ton (150mm width) recovery straps in standard 6m, 9m, and 12m lengths."
+          },
+          {
+                    "question": "Can these straps be used with forged bow shackles?",
+                    "answer": "Yes, the reinforced becket eyes are sized to fit standard 3.25T, 4.75T, and 6.5T forged screw-pin bow shackles without binding."
+          }
+],
         attrValues: [
           { attr: 'Material Base', val: '100% High-Tenacity Polyester (PES)' },
           { attr: 'Working Load Limit (WLL)', val: '10 Ton (Orange)' },
@@ -1563,26 +1546,26 @@ async function main() {
         slug: 'industrial-polyester-webbing-niwar-roll',
         price: 3800,
         moq: 1,
-        tradeAliases: 'Polyester Niwar, Webbing Roll, Slotted Webbing, Sling Webbing Thaan, Industrial Tape Roll, 1 to 4 Inch Polyester Niwar',
-        shortDescription: 'High-tensile 1-inch to 4-inch continuous polyester webbing and niwar rolls (50m & 100m thaan) for sling fabrication, industrial cargo binding, shade net border reinforcement, and heavy commercial harness stitching in Karachi.',
-        metaTitle: "Industrial Polyester Webbing & Niwar Roll Karachi",
-        metaDescription: "High-tenacity industrial polyester webbing and heavy niwar rolls (1 inch to 4 inches) in Karachi, Pakistan. Tight weave rolls for cargo lashing and fabrication.",
-        usage: 'Heavy tarpaulin and canvas tent hem reinforcing, green shade net perimeter border stitching, commercial bag handle fabrication, industrial safety harness assembly, and heavy packaging bundling across Karachi.',
+        tradeAliases: "Polyester Niwar • Webbing Thaan • Industrial Tape Roll • Cargo Belt Webbing • Niwar Roll",
+        shortDescription: "Continuous 50m and 100m master rolls of high-tenacity polyester webbing and niwar (25mm to 100mm). For strap fabrication, bag handles, furniture borders, and heavy binding.",
+        metaTitle: "Industrial Polyester Webbing Niwar Roll Karachi Wholesale",
+        metaDescription: "High-tenacity polyester webbing rolls and industrial niwar (25mm to 100mm) in Karachi. Heavy-duty strap fabrication, tarpaulin edging, and luggage webbing.",
+        usage: "Used by strap fabricators, bag and backpack manufacturers, furniture makers, tarpaulin border stitchers, and logistics packaging operations across Karachi.",
         benefits: [
-          'Dense needle-loom woven structure with high-tenacity yarn ensures clean cuts and resists thread fraying.',
-          '100% virgin polyester yarn exhibits superior resistance to UV sunlight degradation, mold, and humidity.',
-          'Standard 50m and 100m continuous coils (thaan) feed smoothly into commercial walking-foot sewing machines.',
-          'High tensile load capacity ranging from 500 kg to over 6,000 kg across 1" to 4" widths.',
-        ],
+          "High-tenacity polyester yarns ensure high break strength across the entire roll",
+          "Tight, balanced weave resists edge fraying during stitching and hot-knife cutting",
+          "High UV sunlight and rot resistance for indoor and outdoor applications",
+          "Available in continuous 50m and 100m master rolls with minimal splices"
+],
         suitedFor: [
-          'Canvas tent, shamiana, and heavy tarpaulin perimeter hem reinforcement',
-          'Agricultural green shade net and cricket net border tape stitching',
-          'Industrial lifting sling and cargo lashing strap fabrication',
-          'Heavy-duty industrial bags, bulk sack handles, and commercial strapping',
-        ],
+          "Custom cargo strap & ratchet belt manufacturing",
+          "Tarpaulin hem & shade net border reinforcement stitching",
+          "Heavy luggage, military tactical gear & backpack straps",
+          "Industrial pipe bundling & godown shelf edge lashing"
+],
         notSuitedFor: [
-          'Direct overhead crane lifting without certified multi-ply stitching and reinforced eye terminations',
-        ],
+          "Direct human fall arrest without certified end termination stitching"
+],
         bulkPricing: [
           { minQty: 1, maxQty: 4, pricePerUnit: 3800, label: 'Single Roll (50m Thaan)' },
           { minQty: 5, maxQty: 19, pricePerUnit: 3400, label: 'Workshop Bundle (5 Rolls)' },
@@ -1595,10 +1578,15 @@ async function main() {
           { src: '/uploads/products/safety-belts-webbing-slings/industrial-polyester-webbing-niwar-roll/safety-belts-webbing-slings-warehouse-bulk-stock.jpeg', alt: 'Wholesale inventory of lifting slings and safety belts stacked on shelves in Bohrapir Karachi shop', sortOrder: 4 },
         ],
         faqs: [
-          { question: 'Can this webbing be stitched on standard commercial walking-foot sewing machines?', answer: 'Yes, our webbing is engineered with balanced weft density that allows smooth needle penetration using bonded nylon or polyester thread (#20 to #40).' },
-          { question: 'What width is standard for reinforcing green shade net borders?', answer: 'For green shade net (hara parda) border hems, 1.5-inch (38mm) and 2-inch (50mm) polyester niwar is most commonly used.' },
-          { question: 'What is the wholesale packaging format for bulk dispatch?', answer: 'Webbing is coiled into 50m or 100m rolls and packaged in 10-roll bundles or 50kg master sacks ready for immediate dispatch from Bohrapir.' },
-        ],
+          {
+                    "question": "What roll widths and colors are available for polyester niwar?",
+                    "answer": "We stock 25mm (1\"), 38mm (1.5\"), 50mm (2\"), 75mm (3\"), and 100mm (4\") widths in High-Visibility Orange, Yellow, Blue, Black, White, and Military Olive Green."
+          },
+          {
+                    "question": "Can this webbing be heat-sealed with a hot knife?",
+                    "answer": "Yes, polyester webbing cuts and seals cleanly with an electric hot knife cutter, preventing end fraying before stitching."
+          }
+],
         attrValues: [
           { attr: 'Material Base', val: '100% High-Tenacity Polyester (PES)' },
           { attr: 'Webbing Width', val: '50mm (2")' },
@@ -1793,29 +1781,27 @@ async function main() {
         slug: 'multi-color-hdpe-waterproof-tarpaulin',
         price: 1850,
         moq: 5,
-        tradeAliases: 'HDPE Tirpal, Cross Laminated Tarpal, Blue Orange Sheet, Barsati Tarpal, Plastic Waterproof Sheet, Galla Tarpal, PE Tirpal',
-        shortDescription: 'Multi-layer cross-laminated 100% waterproof HDPE tarpaulin with dual-side LDPE film coating, reinforced perimeter rope hem, and aluminum rust-proof eyelets every 3 feet.',
-        longDescription: 'Tahira Syndicate\'s multi-color HDPE waterproof tarpaulins are manufactured using high-density virgin polyethylene woven mesh laminated on both sides with UV-stabilized low-density polyethylene. Available in reversible dual-tone colors (Blue/Orange, Blue/Silver, Green/Silver) ranging from lightweight 90 GSM temporary site coverings to rugged 250 GSM commercial transport tarpals. Engineered with heat-welded joints, corner reinforcement triangular patches, and solid aluminum eyelets every 3 feet, these sheets offer 100% waterproof protection against heavy monsoon downpours, sun degradation, and dirt in open warehouse yards across Karachi and interior Sindh.',
-        metaTitle: "Multi-Color HDPE Waterproof Tarpaulin Sheet Karachi",
-        metaDescription: "100% waterproof multi-color HDPE tarpaulin rolls and sheets in Karachi. Heat-sealed hems with aluminum eyelets for truck covers, logistics, and shed shelters.",
-        usage: 'Open-yard cargo covering, building roof monsoon waterproofing, agricultural harvest drying, brick kiln rain protection, and temporary outdoor storage across Karachi, Sindh, and Punjab.',
+        tradeAliases: "Silpaulin • Blue/Orange Tirpal • Multilayer Tarpaulin Sheet • Waterproof Plastic Tarpal",
+        shortDescription: "Multi-layer cross-laminated HDPE waterproof tarpaulin. Ultra-lightweight, easy to fold, and highly tear-resistant with ultrasonic eyelets for quick temporary roof and site protection.",
+        longDescription: "Heavy PVC tarpaulins can be too heavy for 1 or 2 workers to spread quickly over a large area. Cross-laminated HDPE tarpaulins (Silpaulin type) give you 100% waterproof protection at a fraction of the weight. Built by cross-bonding high-density polyethylene films at alternating angles, this sheet will not tear even if punctured by a sharp point. It folds down compactly, handles extreme heat and cold, and comes equipped with ultrasonically sealed corner eyelets.",
+        metaTitle: "HDPE Cross-Laminated Tarpaulin Sheet Karachi Wholesale",
+        metaDescription: "Lightweight multi-layer cross-laminated HDPE waterproof tarpaulin sheets in Karachi. Tear-resistant, UV-treated blue/orange tirpal for construction and farming.",
+        usage: "Used for quick emergency roof leak covers, agricultural grain drying, hay covers, camp groundsheets, construction sand piles, and light commercial truck covers.",
         benefits: [
-          '100% virgin HDPE woven mesh laminated on both sides with waterproof LDPE film.',
-          'Heat-sealed ultrasonic seams guaranteed leak-proof under standing rainwater.',
-          'Rust-proof aluminum grommets punched through 4-layer reinforced rope-embedded hems.',
-          'High tensile and tear resistance suitable for truck transit, roofing underlayment, and grain protection.',
-        ],
+          "Lightweight and manageable — one person can cover large areas quickly",
+          "Cross-laminated film structure stops punctures from running into long tears",
+          "100% waterproof with ultrasonic sealed joints and hem eyelets",
+          "Folds down compactly for easy storage in vehicle boots and toolboxes"
+],
         suitedFor: [
-          'Open-yard bulk cargo and machinery storage',
-          'Monsoon building roof weatherproofing and leak control',
-          'Agricultural crop harvest drying and temporary grain covering',
-          'Brick kiln and cement block rain protection',
-          'Pickup truck and commercial vehicle freight covering',
-        ],
+          "Emergency roof leak & rain protection",
+          "Agricultural grain drying floors & crop piles",
+          "Light truck bed & pickup cargo covers",
+          "Construction scaffold weather screening"
+],
         notSuitedFor: [
-          'Direct contact with razor-sharp jagged steel scrap without buffer underlay',
-          'Covering hot industrial machinery exhaust pipes exceeding 80°C',
-        ],
+          "Permanent multi-year open canopy structures with continuous tension pulling"
+],
         bulkPricing: [
           { minQty: 5, maxQty: 24, pricePerUnit: 1850, label: 'Standard Wholesale Bundle' },
           { minQty: 25, maxQty: 99, pricePerUnit: 1700, label: 'Commercial Fleet Pack' },
@@ -1834,10 +1820,15 @@ async function main() {
           { src: '/uploads/products/tarpaulins-canvas-tents/multi-color-hdpe-waterproof-tarpaulin/tarpaulins-warehouse-stock-6.jpeg', alt: 'Multi-Color HDPE Waterproof Tarpaulin Bohrapir shop view', sortOrder: 10 },
         ],
         faqs: [
-          { question: 'What is the difference between 120 GSM and 200 GSM HDPE tarpals?', answer: '120 GSM is ideal for temporary short-season rain protection and light covering, whereas 200+ GSM is a heavy-duty grade designed for repeated truck cargo hauling and year-round outdoor sun exposure.' },
-          { question: 'Are the eyelets rust-proof in Karachi\'s coastal humidity?', answer: 'Yes, we use solid marine-grade aluminum and brass eyelets that do not rust or stain the tarpal fabric even in humid coastal areas like Bohrapir, Kemari, and Port Qasim.' },
-          { question: 'Can you fabricate custom oversized sheets for large warehouse godowns?', answer: 'Yes, in addition to standard bundle sizes, our workshop fabricates custom heat-sealed godown sheets up to 60x100 feet with heavy rope borders.' },
-        ],
+          {
+                    "question": "What is cross-lamination and why is it stronger?",
+                    "answer": "Cross-lamination places multiple polymer layers at crisscross angles to each other. This eliminates weak grain directions so tears cannot propagate across the sheet."
+          },
+          {
+                    "question": "What standard sizes are available in HDPE tarpaulins?",
+                    "answer": "We stock sizes from 12ft × 12ft, 15ft × 12ft, 18ft × 24ft, 24ft × 30ft, up to large 30ft × 40ft and 40ft × 60ft master tarpaulin sheets."
+          }
+],
         attrValues: [
           { attr: 'Material Composition', val: '100% Virgin HDPE (LDPE Laminated)' },
           { attr: 'Fabric Weight / Density', val: '180 GSM' },
@@ -1853,28 +1844,27 @@ async function main() {
         slug: 'heavy-duty-waterproof-cotton-canvas-tarpal',
         price: 8500,
         moq: 2,
-        tradeAliases: 'Canvas Tarpal, Truck Tirpal, Khadi Tirpal, Cotton Duck Tarpal, Fauji Tirpal, Wax Proof Canvas, Maripur Truck Sheet',
-        shortDescription: '100% heavy duck cotton canvas tarpal treated with water-repellent wax compounds and chemical rot-proofing. Maripur Truck Stand and National Highway fleet standard.',
-        longDescription: 'Engineered specifically for commercial freight carriers, long-haul trailers, and military logistic operations, Tahira Syndicate\'s heavy-duty cotton canvas tarpals are the gold standard for truck covering in Pakistan. Woven from tight 100% duck cotton yarn in 14oz (400 GSM), 16oz (480 GSM), and 18oz (550 GSM) weights, the fabric undergoes a specialized wax and chemical waterproofing immersion process. Unlike synthetic plastic sheets that cause condensation, canvas is breathable, allowing internal cargo moisture to evaporate while repelling heavy driving rain and road abrasion on routes between Karachi, Lahore, Peshawar, and Quetta.',
-        metaTitle: "Heavy-Duty Cotton Canvas Tarpal Wholesale Karachi",
-        metaDescription: "Water-repellent heavy cotton canvas tirpal in Karachi, Pakistan. Breathable, heavy-duty wax-proofed canvas covers for freight trucks and industrial machinery.",
-        usage: 'Long-haul flatbed trucks, Bedford trucks, cement and wheat bag transport, export container tops, and heavy machinery covers across Pakistan\'s freight corridors.',
+        tradeAliases: "Moom Jama • Waxed Canvas • Truck Tarpal • Cotton Duck Tarpaulin • Heavy Tirpal",
+        shortDescription: "Traditional waxed heavy cotton duck canvas (Moom Jama). Breathable and 100% water-repellent, preventing condensation buildup on wheat, cement, and long-haul truck freight.",
+        longDescription: "Plastic tarpaulins trap heat and cause condensation to sweat on cargo inside, which ruins wheat, sugar, flour, and cement bags. Heavy waxed Cotton Canvas (Moom Jama) solves this problem completely. The dense cotton duck fabric is impregnated with water-repellent wax and paraffin oil. When it rains, the cotton fibers swell and shed water while allowing hot air and vapor to breathe outward. It is the gold standard for long-haul highway transport in Pakistan.",
+        metaTitle: "Heavy Cotton Canvas Moom Jama Wholesale Karachi Pakistan",
+        metaDescription: "Waxed heavy-duty cotton canvas tarpaulin sheets (Moom Jama) in Karachi. Breathable, water-repellent cotton duck fabric for truck cargo and grain protection.",
+        usage: "The preferred choice for long-distance highway freight trucks carrying grain, flour, cotton, cement, and sugar across Pakistan, as well as army field storage covers.",
         benefits: [
-          'Heavy 100% duck cotton canvas with deep wax-immersion waterproofing.',
-          'Breathable natural fabric prevents sweating, dampness, and mold damage on agricultural produce, cotton bales, and sugar bags.',
-          'Heavy double-stitched flat-felled seams with rot-resistant polyester-core thread.',
-          'Solid brass eyelets inserted through triple-layer hem folds for high-tension tie-down rope lashing.',
-        ],
+          "Naturally breathable — prevents moisture condensation on flour, grain, and cement",
+          "Wax-impregnated cotton duck fabric sheds driving rain cleanly",
+          "Heavy cotton weave resists high-speed highway wind buffeting and road flap",
+          "Double-lock stitched seams with rot-proof nylon thread and solid brass eyelets"
+],
         suitedFor: [
-          'Long-haul freight trucks & Bedford transport fleets',
-          'Sugar, wheat, and raw cotton bale inter-city transit',
-          'Open-top railway wagon and container covers',
-          'Heavy industrial equipment and generator covers',
-        ],
+          "Long-haul highway truck & trailer cargo covers",
+          "Grain, sugar, rice & flour transport",
+          "Military outdoor field tents & marquee fabrication",
+          "Heavy machinery & generator breathable dust covers"
+],
         notSuitedFor: [
-          'Direct chemical acid containment',
-          'Static standing water pools without sufficient pitch or drainage slope',
-        ],
+          "Storing while wet in closed boxes (must be air-dried to prevent organic mildew)"
+],
         bulkPricing: [
           { minQty: 2, maxQty: 9, pricePerUnit: 8500, label: 'Transport Fleet Rate' },
           { minQty: 10, maxQty: 49, pricePerUnit: 7900, label: 'Goods Forwarder Pack' },
@@ -1892,10 +1882,15 @@ async function main() {
           { src: '/uploads/products/tarpaulins-canvas-tents/heavy-duty-waterproof-cotton-canvas-tarpal/tarpaulins-warehouse-stock-6.jpeg', alt: 'Heavy-Duty Waterproof Cotton Canvas Tarpal Bohrapir warehouse', sortOrder: 9 },
         ],
         faqs: [
-          { question: 'Why do truck drivers prefer cotton canvas over plastic HDPE tarpals?', answer: 'Canvas does not flap violently or tear easily in high-speed highway winds, provides superior puncture resistance against cargo edges, and breathes so perishable goods (wheat, sugar, cotton) do not spoil from condensation.' },
-          { question: 'Does the wax coating wash off in heavy rain?', answer: 'Our canvas is pressure-impregnated with hot paraffin wax and antifungal agents, ensuring multi-season waterproofing that maintains flexibility without cracking.' },
-          { question: 'What sizes are available for 10-wheeler and 22-wheeler trailers?', answer: 'We stock standard 18x24 ft and 20x30 ft sheets, and regularly custom-stitch 24x36 ft and 30x45 ft trailer covers at our Bohrapir workshop.' },
-        ],
+          {
+                    "question": "Why do truck drivers prefer Moom Jama canvas over PVC tarpal for grain cargo?",
+                    "answer": "Moom Jama breathes naturally. Plastic tarpaulins sweat condensation under direct sun, causing grain and flour bags to spoil and mold. Waxed canvas allows vapor to escape while blocking rain."
+          },
+          {
+                    "question": "What canvas weights are available?",
+                    "answer": "We supply cotton canvas Moom Jama in 10oz, 12oz, 14oz, 16oz, and heavy 18oz (350 GSM to 600 GSM) in standard truck cut sizes or custom stitched sheets."
+          }
+],
         attrValues: [
           { attr: 'Material Composition', val: '100% Breathable Duck Cotton Canvas' },
           { attr: 'Fabric Weight / Density', val: '16oz (480 GSM)' },
@@ -1911,27 +1906,27 @@ async function main() {
         slug: 'industrial-heavy-duty-pvc-coated-tarpaulin',
         price: 12500,
         moq: 1,
-        tradeAliases: 'PVC Tirpal, Vinyl Tarpal, Container Tirpal, Heavy Scrim Tarpal, 650 GSM Tirpal, German Tarpal, Dumper Cover',
-        shortDescription: '550–750+ GSM industrial PVC coated high-tenacity polyester scrim tarpaulin with maximum puncture resistance, 100% chemical impermeability, and flame-retardant grade.',
-        longDescription: 'Tahira Syndicate\'s industrial PVC coated tarpaulins represent the ultimate in heavy-duty waterproof barrier technology. Built upon a high-tenacity 1000D polyester woven inner scrim coated on both sides with heavy polyvinyl chloride (PVC) resin paste and acrylic top-lacquer, these sheets range from 550 GSM to 750+ GSM. Featuring high-frequency hot-air welded seams that are stronger than the base fabric itself, our PVC tarpals are completely impervious to water, grease, engine oils, diesel fuel, and industrial chemical splash. Ideal for heavy open-top shipping containers, mining dumpers, Port Qasim terminal storage, and factory equipment protection.',
-        metaTitle: "Industrial PVC Coated Tarpaulin 650 GSM Karachi",
-        metaDescription: "Commercial grade 650 GSM PVC coated heavy tarpaulins in Karachi. Tear-proof, 100% waterproof tarpaulin fabric for transport fleet covers and export cargo.",
-        usage: 'Shipping line container covers, port cargo yard storage, dumper truck rock hauling, chemical plant equipment jackets, and heavy architectural canopies.',
+        tradeAliases: "PVC Tarpal • Heavy Tirpal • Waterproof Godown Cover • Rubberized Tarpal • PVC Coated Sheet",
+        shortDescription: "Heavy-duty 100% waterproof PVC-coated tarpaulin sheet (450–750+ GSM). Built with high-frequency heat-welded seams, reinforced borders, and rust-free eyelets for outdoor godowns.",
+        longDescription: "When you need zero leaks under torrential monsoon rains, heavy PVC tarpaulin (Tarpal) is the ultimate industrial shield. Made from a polyester mesh base fabric coated on both sides with flexible PVC, it is completely impervious to water and resists tearing under high coastal winds. All seams are heat-fused with high-frequency welders so water cannot seep through stitching holes. We fabricate custom sizes with reinforced nylon edge tape and brass eyelets every 2 feet.",
+        metaTitle: "Waterproof Heavy PVC Tarpaulin (Tarpal) Karachi Wholesale",
+        metaDescription: "100% waterproof heavy PVC tarpaulin sheets (450 to 750+ GSM) in Karachi. Heat-welded seams, reinforced eyelets for outdoor godown storage and truck transport.",
+        usage: "Widely used for covering outdoor warehouse storage, open cargo freight on trailers, construction equipment sheds, grain heaps, and factory loading bays across Pakistan.",
         benefits: [
-          'High-tenacity 1000D x 1000D polyester woven base scrim for extreme tensile strength (>2500 N/5cm).',
-          'High-frequency welded seams creating an unbreakable, 100% hermetic waterproof bond.',
-          'Resistant to UV degradation, chemical acids, grease, oils, and industrial pollutants.',
-          'Smooth lacquered surface enables easy washing, dirt repellence, and long operational lifespan (5+ years).',
-        ],
+          "100% waterproof barrier with zero moisture penetration under heavy downpours",
+          "High-frequency thermal-welded seams that never leak or pull apart",
+          "Heavy tear and puncture resistance against sharp machinery edges",
+          "UV-stabilized coating prevents cracking and fading under intense sun"
+],
         suitedFor: [
-          'Shipping container top covers and marine terminal open storage',
-          'Mining dumper truck rocky load coverings',
-          'Chemical processing outdoor machinery jackets',
-          'Heavy-duty architectural tensile canopies and sheds',
-        ],
+          "Outdoor warehouse godown yard storage",
+          "Highway truck & trailer freight protection",
+          "Construction site raw material & cement covers",
+          "Temporary shed roofs & commercial drop curtains"
+],
         notSuitedFor: [
-          'Applications requiring ultra-lightweight manual handling where single-person folding is needed',
-        ],
+          "Breathable storage where natural air circulation is mandatory (use Moom Jama canvas instead)"
+],
         bulkPricing: [
           { minQty: 1, maxQty: 4, pricePerUnit: 12500, label: 'Single Unit Custom Cut' },
           { minQty: 5, maxQty: 19, pricePerUnit: 11600, label: 'Contractor Volume Pack' },
@@ -1949,10 +1944,15 @@ async function main() {
           { src: '/uploads/products/tarpaulins-canvas-tents/industrial-heavy-duty-pvc-coated-tarpaulin/tarpaulins-warehouse-stock-6.jpeg', alt: 'Industrial Heavy-Duty PVC Coated Tarpaulin Bohrapir warehouse', sortOrder: 9 },
         ],
         faqs: [
-          { question: 'How durable is PVC coated tarpaulin compared to standard PE sheets?', answer: 'PVC coated tarpals have over 5 times the tear strength and life expectancy of standard PE sheets, lasting 5 to 7 years in harsh sun and industrial chemical environments.' },
-          { question: 'Can damaged PVC tarpals be repaired on site?', answer: 'Yes, PVC tarpals can be easily patched using PVC adhesive solvent cement or heat gun welding patches without losing waterproof integrity.' },
-          { question: 'What colors are available for fleet branding?', answer: 'We stock Blue, Yellow, Green, White, Black, and Grey in full rolls and custom-fabricated covers.' },
-        ],
+          {
+                    "question": "What GSM weights are available in PVC tarpaulin sheets?",
+                    "answer": "We supply PVC tarpaulin in 450 GSM, 550 GSM, 650 GSM, and heavy 750+ GSM industrial grades in standard roll cuts or custom heat-welded dimensions."
+          },
+          {
+                    "question": "Are the seams stitched or welded?",
+                    "answer": "Our PVC tarpaulins are thermal-welded using high-frequency heating technology, creating a continuous, seamless waterproof bond that is far stronger than stitched seams."
+          }
+],
         attrValues: [
           { attr: 'Material Composition', val: 'High-Tenacity PVC Coated Scrim' },
           { attr: 'Fabric Weight / Density', val: '650–750+ GSM PVC' },
@@ -1968,27 +1968,27 @@ async function main() {
         slug: 'agricultural-fumigation-grain-storage-waterproof-cover',
         price: 6800,
         moq: 2,
-        tradeAliases: 'Fumigation Sheet, Galla Godown Sheet, Wheat Storage Tirpal, Gas-Proof Cover, Grain Protection Sheet, Pest Control Sheet',
-        shortDescription: 'Gas-tight, multi-layer laminated agricultural fumigation tarpaulin sheet designed for phosphine gas containment, grain stockpile sealing, and wheat godowns in Pakistan.',
-        longDescription: 'Tahira Syndicate manufactures and supplies certified gas-tight fumigation and grain storage tarpaulins for agricultural flour mills, rice processing facilities, grain storage corporations (PASSCO, Sindh Food Department), and pest control contractors. Engineered from specialized high-barrier, cross-laminated polymers with multi-layer gas-retention films, these sheets ensure zero leakage of phosphine gas (Aluminium Phosphide) during fumigation cycles. Simultaneously offering heavy waterproof and UV-blocking protection, they protect open-air grain and paddy stacks (galla mandis) from rain, morning dew condensation, rodents, and destructive insect infestation.',
-        metaTitle: "Agricultural Fumigation Sheet Cover Wholesale Karachi",
-        metaDescription: "Gas-tight PVC and HDPE fumigation sheets in Karachi, Pakistan. Heavy-duty containment covers for grain warehouses, rice storage silos, and pest fumigation.",
-        usage: 'Wheat, rice, pulses, and tobacco warehouse fumigation, open galla mandi temporary storage, and export grain shipment sealing.',
+        tradeAliases: "Fumigation Cover • Gas Proof Sheet • Grain Storage Cover • Tarpal Cover • Galla Godown Sheet",
+        shortDescription: "Gas-tight multi-layer waterproof fumigation sheet. Locks in aluminum phosphide fumigation gases to eliminate pests in stored grain, wheat stacks, and seed godowns.",
+        longDescription: "Fumigating wheat, rice, corn, and tobacco stockpiles requires gas-impermeable covers that prevent fumigant gases from escaping into warehouse air. Our Agricultural Fumigation Covers are manufactured with specialized multilayer barrier films that retain phosphine gas for the required 7 to 14 day treatment cycles. With sealed seams and heavy sand-snake weighted borders, they ensure 100% pest eradication in large open godown heaps.",
+        metaTitle: "Agricultural Fumigation Grain Cover Karachi Wholesale",
+        metaDescription: "Gas-tight agricultural grain fumigation covers in Karachi. Multi-layer gas proof sheets for wheat, rice, and seed pest eradication in warehouse godowns.",
+        usage: "Essential for PASSCO and provincial food department grain godowns, private flour mills, seed storage warehouses, and export crop fumigation stations across Pakistan.",
         benefits: [
-          'High gas-barrier polymer matrix ensures complete phosphine gas retention during fumigation cycles.',
-          'Multi-layer laminated construction resists pin-holing, sharp grain husk punctures, and crease tearing.',
-          'Heavy welded skirt borders allow effective sand-snaking and ground sealing along perimeter edges.',
-          'UV-treated for open outdoor grain bunker yards in high-temperature zones (Multan, Sukkur, Hyderabad, Dadu).',
-        ],
+          "Gas-tight barrier prevents fumigant gas leakage and ensures complete pest eradication",
+          "Multi-layer lamination provides high tear resistance over large stacked grain bags",
+          "100% waterproof surface protects grain stacks against roof leaks and condensation",
+          "Supplied in large single-sheet dimensions to minimize on-site taped joints"
+],
         suitedFor: [
-          'Wheat & paddy stack fumigation (PASSCO / Government Godowns)',
-          'Rice mill and flour mill outdoor open-yard storage',
-          'Pest control contractor phosphine gas treatments',
-          'Tobacco leaf curing and seasonal grain preservation covers',
-        ],
+          "Wheat & paddy rice bulk stack fumigation",
+          "Flour mill & seed warehouse pest control",
+          "Tobacco & pulses godown gas fumigation",
+          "Emergency grain storage outdoor buffer heaps"
+],
         notSuitedFor: [
-          'Direct abrasive dragging across rough broken concrete floors without corner edge padding',
-        ],
+          "Permanent high-wind open roofing without proper anchorage ballast"
+],
         bulkPricing: [
           { minQty: 2, maxQty: 9, pricePerUnit: 6800, label: 'Mandi Wholesale Pack' },
           { minQty: 10, maxQty: 49, pricePerUnit: 6300, label: 'Flour Mill Volume Lot' },
@@ -2006,10 +2006,15 @@ async function main() {
           { src: '/uploads/products/tarpaulins-canvas-tents/agricultural-fumigation-grain-storage-waterproof-cover/tarpaulins-warehouse-stock-6.jpeg', alt: 'Agricultural Fumigation Cover Bohrapir warehouse', sortOrder: 9 },
         ],
         faqs: [
-          { question: 'Does this sheet meet safety standards for Aluminum Phosphide gas fumigation?', answer: 'Yes, the polymer barrier is tested for low gas permeability, ensuring required gas concentration levels are maintained throughout the 72–120 hour fumigation window.' },
-          { question: 'How do we achieve an airtight ground seal?', answer: 'The sheet features an extended 2-foot border skirt designed to be weighed down with our heavy sand snakes or canvas sand tubes.' },
-          { question: 'Can these sheets be reused across multiple harvest seasons?', answer: 'Yes, our tear-resistant cross-laminated film can be folded, stored, and reused across multiple agricultural seasons.' },
-        ],
+          {
+                    "question": "How do fumigation sheets prevent gas leakage?",
+                    "answer": "Our fumigation sheets use specialized barrier polymers with near-zero gas permeability. When weighted down at the base with sand snakes, they maintain gas concentration throughout the fumigation cycle."
+          },
+          {
+                    "question": "What sheet sizes are standard for grain stacks?",
+                    "answer": "We fabricate standard 30ft × 40ft, 40ft × 60ft, and large 50ft × 80ft single-piece seamless covers tailored for 100-ton and 250-ton bag stacks."
+          }
+],
         attrValues: [
           { attr: 'Material Composition', val: '100% Virgin HDPE (LDPE Laminated)' },
           { attr: 'Fabric Weight / Density', val: '200 GSM' },
@@ -2025,27 +2030,27 @@ async function main() {
         slug: 'heavy-duty-relief-construction-shed-canvas-tents',
         price: 28500,
         moq: 1,
-        tradeAliases: 'Canvas Tent, Relief Khemey, Tambu, Site Mess Tent, Emergency Camp Tent, Fauji Tambu, Worker Shelter Tent',
-        shortDescription: 'Single and double-fly heavy waterproof canvas shelter tents complete with galvanized steel poles, guy ropes, and iron ground pegs for disaster relief and construction camps.',
-        longDescription: 'Tahira Syndicate is an established manufacturer of heavy-duty waterproof canvas tents for humanitarian disaster relief operations (NDMA, PDMA, NGOs), infrastructure construction site camps, mining exploration outposts, and security force temporary accommodations. Fabricated from 100% waterproof, rot-proof duck cotton canvas with heavy PVC mud-flaps, reinforced ridge seams, and high-strength galvanized steel framework, our tents provide secure, weather-proof living and working environments. Designed for fast field erection, extreme thermal insulation against scorching summer sun and winter chill, and high wind stability across rugged terrains from Balochistan to Gilgit-Baltistan.',
-        metaTitle: "Heavy Canvas Relief & Construction Tents Karachi",
-        metaDescription: "Wholesale emergency relief canvas tents and military shelter marquees in Karachi, Pakistan. Heavy-duty cotton canvas for humanitarian aid and field camps.",
-        usage: 'Flood & earthquake emergency relief camps, highway construction worker dormitories, military outposts, field engineering offices, and medical base camps.',
+        tradeAliases: "Relief Tambu • Emergency Khaima • A-Frame Canvas Tent • Disaster Shelter • NGO Relief Tent",
+        shortDescription: "Complete 4m × 4m and 5m × 4m family disaster relief canvas tent. Heavy water-repellent cotton duck canvas, steel center poles, ground pegs, mosquito-mesh windows, and PE floor liner.",
+        longDescription: "In flood and emergency relief situations, affected families need rapid shelter that stands up to rain, heat, and high winds. Our disaster relief tents (Khaimas and Tambus) are manufactured to international humanitarian standards. Constructed from rot-resistant, water-repellent cotton canvas, they feature a central steel ridge pole frame, breathable ventilation flaps with mosquito netting, a heavy waterproof groundsheet, and strong guy ropes with forged steel ground stakes.",
+        metaTitle: "Relief & Construction Canvas Tents Karachi Wholesale",
+        metaDescription: "Heavy canvas family disaster relief tents (Tambu & Khaima) in Karachi. Steel poles, waterproof groundsheet, and mosquito mesh for emergency NGO supply.",
+        usage: "Supplied in bulk to NGOs, government disaster management authorities (NDMA/PDMA), humanitarian relief missions, charity welfare trusts, and rural temporary field camps.",
         benefits: [
-          'Single-Fly and Double-Fly construction offering high thermal insulation and complete monsoon waterproofing.',
-          'Heavy 14oz / 16oz cotton canvas outer fly with optional breathable inner cotton lining.',
-          'Heavy-duty reinforced heavy PVC groundsheet and perimeter mud flaps to block rainwater infiltration and insects.',
-          'Complete field-ready kit including heavy galvanized steel poles, high-tensile guy ropes, tensioners, and iron stakes.',
-        ],
+          "Complete ready-to-pitch kit with steel poles, guy ropes, ground stakes, and floor liner",
+          "Heavy-duty water-repellent and rot-resistant cotton canvas construction",
+          "Ventilated side walls with insect-proof mosquito mesh screens",
+          "Spacious family design (160 sq ft to 220 sq ft) comfortably sleeps 6 to 8 persons"
+],
         suitedFor: [
-          'Disaster relief emergency shelters (NDMA/PDMA standard)',
-          'Infrastructure highway worker dormitories',
-          'Mining & geological field camps',
-          'Temporary medical triage and field offices',
-        ],
+          "Flood, earthquake & humanitarian disaster relief camps",
+          "Refugee & displaced person emergency housing",
+          "Remote construction site labor accommodation",
+          "Security guard posts & military temporary bivouacs"
+],
         notSuitedFor: [
-          'Permanent multi-year brick-and-mortar building replacements',
-        ],
+          "Permanent concrete building replacement without structural foundation ties"
+],
         bulkPricing: [
           { minQty: 1, maxQty: 4, pricePerUnit: 28500, label: 'Single Unit Camp Kit' },
           { minQty: 5, maxQty: 24, pricePerUnit: 26500, label: 'Contractor Shelter Pack' },
@@ -2062,10 +2067,15 @@ async function main() {
           { src: '/uploads/products/tarpaulins-canvas-tents/heavy-duty-relief-construction-shed-canvas-tents/tarpaulins-warehouse-stock-6.jpeg', alt: 'Canvas Relief Tents Bohrapir warehouse', sortOrder: 8 },
         ],
         faqs: [
-          { question: 'What is the difference between single-fly and double-fly tents?', answer: 'Single-fly is lighter and faster to deploy for temporary shelter, while double-fly features a second outer roof canopy that creates an insulating air gap, keeping the tent cooler in summer and warmer in winter.' },
-          { question: 'Are all poles, ropes, and pegs included in the wholesale tent package?', answer: 'Yes, each tent comes packed in a heavy-duty canvas carry bag containing full galvanized steel poles, guy ropes, wooden/metal tensioners, ground pegs, and mallet.' },
-          { question: 'Can you supply bulk orders for relief organizations on short notice?', answer: 'Yes, our Karachi manufacturing workshop and central warehouse maintain ready stock and can rapidly produce hundreds of standardized relief units.' },
-        ],
+          {
+                    "question": "What is included in a standard relief tent package?",
+                    "answer": "Each tent comes packed in a durable canvas bag containing the outer canvas shell, waterproof groundsheet, galvanized steel center poles, side wall poles, high-tenacity guy ropes, and forged steel ground pegs."
+          },
+          {
+                    "question": "How quickly can Tahira Syndicate fulfill large relief tent orders?",
+                    "answer": "With our dedicated stitching floor and large canvas stock in Karachi, we can fulfill urgent emergency orders of 500 to 5,000+ relief tents on fast schedules during disaster relief operations."
+          }
+],
         attrValues: [
           { attr: 'Material Composition', val: '100% Breathable Duck Cotton Canvas' },
           { attr: 'Fabric Weight / Density', val: '14oz (400 GSM)' },
@@ -2081,27 +2091,27 @@ async function main() {
         slug: 'transparent-clear-pvc-waterproof-curtain-tarpaulin',
         price: 4500,
         moq: 2,
-        tradeAliases: 'Clear PVC Sheet, Transparent Tirpal, Shisha Tarpal, Restaurant Patio Curtain, Cold Storage Curtain, Transparent Weather Screen',
-        shortDescription: '0.5mm – 2.0mm optical clear flexible PVC tarpaulin with heavy-duty reinforced colored borders, brass eyelets, and UV resistance for restaurant outdoor patios and cleanrooms.',
-        longDescription: 'Tahira Syndicate\'s transparent clear PVC waterproof curtains (shisha tarpal) combine optical glass-like transparency with rugged weatherproofing. Manufactured from flexible, double-polished clear PVC film (0.5mm to 2.0mm thickness) bordered with heavy 50mm reinforced colored webbing or PVC hem strips, these curtains block wind, heavy monsoon rain, dust, and insects without obstructing ambient light or outdoor visibility. Widely installed across open-air restaurant terraces in Clifton and DHA Karachi, industrial cold-storage doorways, cleanroom partitions, and commercial retail storefronts.',
-        metaTitle: "Clear Transparent PVC Tarpaulin Curtain Karachi",
-        metaDescription: "Crystal-clear transparent PVC curtain sheets in Karachi. Waterproof, cold-crack resistant roll covers for industrial partitions and cold storage rooms.",
-        usage: 'Commercial restaurant and cafe outdoor patio winter enclosures, food processing partitions, cold storage doorways, and car wash spray bays.',
+        tradeAliases: "Tarpal Parda • Sliding Dock Curtain • Godown Partition • Weatherproof Drop Curtain",
+        shortDescription: "Heavy waterproof sliding tarpaulin curtains (Tarpal Parda) with steel roller hooks and guide tracks. Protects loading docks and warehouse bays from wind-blown rain and dust.",
+        longDescription: "Open loading docks leave warehouse inventory exposed to driving rain, dust storms, and blistering heat. Our sliding Tarpal Parda systems provide instant industrial weather protection that glides open and shut with zero effort. Fabricated from 550–650 GSM PVC with clear vision windows if needed, these curtains hang from heavy-duty galvanized steel tracks on ball-bearing roller trolleys. When trucks arrive, workers slide the curtain open in seconds.",
+        metaTitle: "Clear PVC Waterproof Curtain Tarpaulin Karachi Supply",
+        metaDescription: "Industrial sliding tarpaulin curtains (Tarpal Parda) with roller tracks in Karachi. Protect loading docks and warehouse bays from driving rain and dust.",
+        usage: "Installed on factory loading docks, warehouse open doorways, automotive spray booths, food plant washdown areas, and commercial workshop partitions.",
         benefits: [
-          '100% crystal-clear optical clarity (glass-like see-through visibility).',
-          'Heavy 50mm perimeter webbing hem prevents edge tearing under strong coastal sea breezes.',
-          'Blocks 100% wind, rain, and street dust while maintaining natural daylight illumination.',
-          'Rust-resistant brass eyelets or sliding pulley track rollers for smooth opening and closing.',
-        ],
+          "Smooth ball-bearing roller tracks allow easy one-person sliding operation",
+          "Creates instant weatherproof closure over wide loading dock doors",
+          "Heavy 550+ GSM PVC fabric blocks wind-driven rain, dust, and direct sun",
+          "Optional clear transparent PVC window panels maintain indoor visibility"
+],
         suitedFor: [
-          'Restaurant & cafe outdoor winter patio weatherproofing',
-          'Food processing and pharmaceutical dust partitions',
-          'Cold storage warehouse doorway curtains',
-          'Car wash and spray painting isolation bays',
-        ],
+          "Warehouse loading & unloading dock bays",
+          "Factory internal dust & noise partitions",
+          "Car wash & paint spray booth enclosures",
+          "Open godown shutter weather screening"
+],
         notSuitedFor: [
-          'Direct contact with open fire braziers or high heat radiating industrial heaters',
-        ],
+          "High-security anti-theft barriers (this is a weatherproof curtain, not a steel shutter)"
+],
         bulkPricing: [
           { minQty: 2, maxQty: 9, pricePerUnit: 4500, label: 'Standard Retail Roll Rate' },
           { minQty: 10, maxQty: 49, pricePerUnit: 4100, label: 'Cafe & Commercial Pack' },
@@ -2117,10 +2127,15 @@ async function main() {
           { src: '/uploads/products/tarpaulins-canvas-tents/transparent-clear-pvc-waterproof-curtain-tarpaulin/tarpaulins-warehouse-stock-6.jpeg', alt: 'Transparent Clear PVC Curtain Bohrapir warehouse', sortOrder: 7 },
         ],
         faqs: [
-          { question: 'Does the clear PVC sheet turn yellow or cloudy over time in Karachi sun?', answer: 'Our clear sheets are manufactured with anti-UV and anti-oxidant additives to maintain crystal clarity and prevent premature yellowing or embrittlement.' },
-          { question: 'How can we clean transparent PVC curtains?', answer: 'Simply wipe down with mild soapy water and a soft microfiber cloth; avoid abrasive scrubbing pads to prevent surface micro-scratches.' },
-          { question: 'Can zippers or sliding rollers be installed for door entry?', answer: 'Yes, we custom-fabricate clear curtains with heavy-duty commercial dual-side zippers and track rollers for effortless doorway opening and closing.' },
-        ],
+          {
+                    "question": "Does the sliding curtain system include the overhead track and rollers?",
+                    "answer": "Yes, we supply complete turnkey sets including galvanized steel overhead tracks, heavy-duty ball-bearing roller trolleys, wall anchor brackets, and the custom-fabricated PVC curtain."
+          },
+          {
+                    "question": "Can clear transparent PVC viewing windows be added to the curtain?",
+                    "answer": "Yes, we can thermal-weld crystal clear transparent PVC panels at eye level so your warehouse staff can see approaching forklifts and trucks while the curtain is closed."
+          }
+],
         attrValues: [
           { attr: 'Material Composition', val: 'Optical Clear Flexible PVC' },
           { attr: 'Fabric Weight / Density', val: '250 GSM' },
@@ -2230,7 +2245,7 @@ async function main() {
       image: '/uploads/categories/building-flexible-pipes.jpeg',
       description: 'Heavy-duty flexible PVC garden pipes, braided water suction hoses, layflat canvas discharge pipes, corrugated electrical conduit tubing, and clear PVC level tubes for construction, agricultural tubewells, and industrial fluid transfer in Pakistan.',
       metaTitle: 'Wholesale Building & Flexible Pipes Karachi | Tahira Syndicate',
-      metaDescription: 'Heavy-duty PVC garden pipes, spiral suction hoses (1.5"-8"), canvas discharge delivery pipes & conduit pipes at factory wholesale rates in Bohrapir Karachi Pakistan.',
+      metaDescription: 'Heavy-duty PVC garden pipes, spiral suction hoses, canvas delivery pipes and conduit pipes at factory wholesale rates in Bohrapir Karachi, Pakistan.',
     },
     create: {
       name: 'Building & Flexible Pipes',
@@ -2238,7 +2253,7 @@ async function main() {
       image: '/uploads/categories/building-flexible-pipes.jpeg',
       description: 'Heavy-duty flexible PVC garden pipes, braided water suction hoses, layflat canvas discharge pipes, corrugated electrical conduit tubing, and clear PVC level tubes for construction, agricultural tubewells, and industrial fluid transfer in Pakistan.',
       metaTitle: 'Wholesale Building & Flexible Pipes Karachi | Tahira Syndicate',
-      metaDescription: 'Heavy-duty PVC garden pipes, spiral suction hoses (1.5"-8"), canvas discharge delivery pipes & conduit pipes at factory wholesale rates in Bohrapir Karachi Pakistan.',
+      metaDescription: 'Heavy-duty PVC garden pipes, spiral suction hoses, canvas delivery pipes and conduit pipes at factory wholesale rates in Bohrapir Karachi, Pakistan.',
     },
   })
   console.log('Building & Flexible Pipes category initialized.')
@@ -2317,28 +2332,27 @@ async function main() {
         slug: 'heavy-duty-braided-pvc-flexible-garden-pipe',
         price: 2600,
         moq: 5,
-        tradeAliases: 'Mali Pipe, Garden Pipe, Braided Water Pipe, Nalkay Ka Pipe, Green Flexible Pipe, Car Wash Hose, 3-Ply Water Pipe',
-        shortDescription: 'High-durability 3-ply cross-braided flexible PVC water hose pipe with polyester yarn reinforcement. Kink-resistant, weather-proof, and designed for heavy commercial landscaping, construction curing, and car wash stations in Karachi.',
-        longDescription: 'Tahira Syndicate\'s heavy-duty braided PVC flexible garden pipes (mali pipe) are engineered for extreme durability under harsh Pakistani summer heat and high city water pressures. Constructed with a virgin PVC inner core, intermediate high-tenacity cross-woven polyester thread braiding, and an abrasion-resistant outer protective layer, this hose prevents bulging, twisting, and kinking under continuous flow. Widely used across commercial nurseries, building slab concrete curing, residential complexes in DHA and Clifton, municipal parks, and auto service stations throughout Karachi.',
-        metaTitle: "Braided PVC Flexible Garden Hose Pipe Karachi | Mali",
-        metaDescription: "Reinforced braided PVC flexible garden hose pipes in Karachi, Pakistan. Kink-resistant, high-pressure nylon yarn braid for landscaping and construction sites.",
-        usage: 'Construction site concrete slab curing, commercial nursery landscaping, high-pressure car wash washdowns, factory floor cleaning, and residential villa water supply.',
+        tradeAliases: "Mali Pipe • Garden Pipe • Braided Water Pipe • Nalkay Ka Pipe • Green Flexible Pipe • Car Wash Hose • 3-Ply Water Pipe",
+        shortDescription: "High-durability 3-ply braided PVC garden water pipe. High burst pressure resistance, kink-free flexibility, and all-weather UV protection for landscaping and car washing.",
+        longDescription: "Thin, unreinforced garden hoses easily kink, crack under direct sun, and burst when water taps are left pressurized. Our Heavy-Duty Braided PVC Garden Pipe (Mali Pipe) is built with a tough 3-layer construction: a smooth virgin PVC inner core, high-tensile braided polyester cross-mesh reinforcement, and an abrasion-resistant, UV-stabilized outer skin. It bends smoothly without kinking, resists bursting under municipal water pressure, and stays supple in summer heat and winter cold.",
+        metaTitle: "Braided PVC Garden Water Pipe (Mali Pipe) Karachi Wholesale",
+        metaDescription: "Heavy-duty 3-ply braided PVC flexible garden pipes (Mali Pipe) in Karachi. Kink-resistant, high burst pressure water hose for lawns, car wash, and washdown.",
+        usage: "The preferred water pipe for commercial lawn landscaping, residential gardening, car wash service centers, building terrace cleaning, and factory floor washdowns across Pakistan.",
         benefits: [
-          'High-tenacity cross-braided polyester yarn reinforcement prevents pipe bursting and high-pressure ballooning.',
-          'Formulated with 100% virgin flexible PVC compounds with anti-algae inner lining for clean water delivery.',
-          'UV-stabilized outer skin resists cracking, brittleness, and surface stickiness under 45°C+ summer sun.',
-          'Thick-wall kink-resistant design ensures uninterrupted water flow around tight building corners and garden bends.',
-        ],
+          "3-ply polyester yarn reinforcement prevents pipe bursting under high water pressure",
+          "Kink-resistant construction maintains continuous, uninterrupted water flow",
+          "UV-stabilized outer compound will not crack, fade, or stiffen under direct sunlight",
+          "Glass-smooth inner core delivers maximum water volume with zero internal algae buildup"
+],
         suitedFor: [
-          'Construction site concrete slab curing',
-          'Commercial nursery landscaping and lawn irrigation',
-          'High-pressure car wash and auto detailing washdowns',
-          'Factory floor washing and municipal park maintenance',
-        ],
+          "Commercial landscape & residential garden watering",
+          "Automotive service station & car wash washdown lines",
+          "Construction site curing & water barrel filling",
+          "Building roof & floor washdown operations"
+],
         notSuitedFor: [
-          'Boiling water lines exceeding 60°C',
-          'Petroleum fuel, diesel, or chemical solvent transfer',
-        ],
+          "High-pressure steam or hot oil lines exceeding 60°C"
+],
         bulkPricing: [
           { minQty: 5, maxQty: 24, label: 'Standard Wholesale Bundle' },
           { minQty: 25, maxQty: 99, label: 'Commercial Landscaper / Builder Pack' },
@@ -2351,10 +2365,15 @@ async function main() {
           { src: '/uploads/products/building-flexible-pipes/heavy-duty-braided-pvc-flexible-garden-pipe/pipes-warehouse-stock-1.jpeg', alt: 'Heavy-Duty Braided PVC Flexible Garden Pipe Bohrapir warehouse inventory', sortOrder: 4 },
         ],
         faqs: [
-          { question: 'Does this garden pipe crack or stiffen during cold winter mornings or hot Karachi summers?', answer: 'No, our virgin plasticizers keep the hose soft, pliable, and crack-resistant across temperatures from -5°C up to +55°C.' },
-          { question: 'Which size is recommended for building curing and motor washing?', answer: 'For concrete curing and residential pressure motors, 3/4" (19mm) provides the ideal balance between high flow volume and maneuverability.' },
-          { question: 'Can standard brass nozzles and quick-connect clamps fit this pipe?', answer: 'Yes, our pipe dimensions match standard 1/2", 3/4", and 1" brass fittings, hose menders, and Jubilee worm-drive clamps.' },
-        ],
+          {
+                    "question": "What diameters and roll lengths are available for braided garden pipe?",
+                    "answer": "We stock standard 1/2\" (12mm), 3/4\" (19mm), and 1\" (25mm) internal diameters in 30-meter (100 ft), 45-meter (150 ft), and 90-meter (300 ft) continuous coils."
+          },
+          {
+                    "question": "Will this pipe crack if left outside in Karachi summer sun?",
+                    "answer": "No, our garden pipe is extruded with premium UV stabilizers and virgin plasticizers that keep the PVC flexible and crack-free even during peak summer months."
+          }
+],
         attrValues: [
           { attr: 'Material Base', val: '100% Virgin Flexible PVC' },
           { attr: 'Nominal Diameter (Bore Size)', val: '3/4" (19mm)' },
@@ -2370,28 +2389,27 @@ async function main() {
         slug: 'heavy-duty-pvc-spiral-reinforced-suction-hose',
         price: 7800,
         moq: 2,
-        tradeAliases: 'Suction Pipe, Kheenchan Pipe, Green Suction Hose, Tubewell Suction Pipe, Dewatering Hose, Spiral PVC Hose, Sucker Pipe',
-        shortDescription: 'Rigid PVC spiral-reinforced heavy suction hose for agricultural tubewells, construction site basement dewatering, municipal slurry pumps, and tanker water suction in Karachi.',
-        longDescription: 'Tahira Syndicate\'s heavy-duty PVC spiral reinforced suction hoses (kheenchan pipe) are built to handle full vacuum suction without collapsing or ovalizing under negative pressure. Constructed from a flexible PVC wall with an embedded, crush-resistant white rigid PVC spiral helix, this hose delivers extreme structural strength while remaining flexible for swift field deployment. Highly demanded by tubewell drillers, Karachi Water & Sewerage Board contractors, municipal rainwater dewatering squads, and industrial chemical processing plants for non-corrosive fluid and slurry extraction.',
-        metaTitle: 'PVC Spiral Suction Hose Pipe Karachi | 1.5"-8"',
-        metaDescription: "Heavy-duty PVC spiral reinforced suction hose pipes (kheenchan pipe) in Karachi. Rigid PVC helix prevents vacuum collapse for dewatering pumps and bulk slurry.",
-        usage: 'Agricultural diesel tubewell water suction, basement stormwater dewatering pumps, water bowser / tanker filling and discharge, and industrial factory slurry extraction.',
+        tradeAliases: "Hara Pipe • Kisan Suction Pipe • Tube Well Suction Pipe • Green PVC Hose • Heavy Suction Pipe",
+        shortDescription: "Heavy green PVC suction pipe with rigid spiral reinforcement. Will not collapse under high vacuum pressure on diesel water pumps, tube wells, and construction dewatering.",
+        longDescription: "When a diesel engine or agricultural tube well pump pulls deep suction, thin hoses collapse inward and choke off water flow. Our green PVC suction pipe (Hara Pipe) is extruded with a heavy rigid PVC spiral helix embedded inside flexible PVC walls. It withstands deep vacuum without flattening, resists gritty sludge and mud abrasion, and flexes easily over uneven canal banks and muddy trenches. Available in 1-inch up to 8-inch inner diameters.",
+        metaTitle: "Heavy Duty PVC Green Suction Pipe Karachi Wholesale",
+        metaDescription: "Heavy-duty green PVC suction pipes (1\" to 8\") in Karachi. Non-collapsing rigid spiral helix for tube well pumping and dewatering across Pakistan.",
+        usage: "The standard choice for agricultural tube well water drawing, construction pit dewatering, tanker loading/unloading, sewage bypass pumping, and industrial sludge suction.",
         benefits: [
-          'Embedded rigid PVC spiral helix prevents vacuum collapse, hose crushing, and flow stoppage under high pump suction.',
-          'Smooth mirror-finish internal bore minimizes friction losses and prevents sediment and fibrous slurry clogs.',
-          'Transparent wall sections allow visual monitoring of liquid flow and rapid detection of air locks or priming issues.',
-          'Chemical and abrasion resistant outer surface withstands dragging over rough gravel, mud, and construction slurry.',
-        ],
+          "Rigid PVC spiral helix prevents pipe collapse under powerful engine vacuum",
+          "Smooth inner bore maximizes water flow rate and stops sludge blockages",
+          "Abrasion-resistant green outer wall handles dragging over gravel and rocky ground",
+          "Flexible radius bends easily around trench corners and canal banks"
+],
         suitedFor: [
-          'Agricultural diesel tubewell water suction',
-          'Basement stormwater dewatering pumps (KMC / KWSB standard)',
-          'Water bowser and tanker high-speed suction and delivery',
-          'Industrial factory slurry and non-corrosive chemical handling',
-        ],
+          "Agricultural tube well & tractor engine water suction",
+          "Construction foundation dewatering & mud pumping",
+          "Water tanker truck suction & delivery lines",
+          "Industrial wastewater & effluent transfer"
+],
         notSuitedFor: [
-          'Direct suction of hot oils or gasoline fuels',
-          'Dynamic high-pressure hydraulic lines',
-        ],
+          "High-pressure steam lines or boiling water transfer over 65°C"
+],
         bulkPricing: [
           { minQty: 2, maxQty: 5, label: 'Standard Contractor Lot' },
           { minQty: 6, maxQty: 19, label: 'Tubewell Driller / Rental Fleet Pack' },
@@ -2404,10 +2422,15 @@ async function main() {
           { src: '/uploads/products/building-flexible-pipes/heavy-duty-pvc-spiral-reinforced-suction-hose/pipes-warehouse-stock-1.jpeg', alt: 'Heavy-Duty PVC Spiral Reinforced Suction Hose Bohrapir warehouse inventory', sortOrder: 4 },
         ],
         faqs: [
-          { question: 'Does this suction pipe collapse when connected to a heavy 16HP diesel tubewell engine?', answer: 'Absolutely not. The heavy rigid PVC spiral helix is engineered specifically to withstand full negative vacuum pressure from high-output diesel and electric pumps.' },
-          { question: 'How can we connect this hose to a pump inlet or foot valve?', answer: 'Heat the pipe end gently with hot water or a heat gun to expand slightly, slip over the barbed nipple / foot valve, and secure tightly with heavy T-bolt suction clamps.' },
-          { question: 'Are 6-inch and 8-inch large bore diameters available in stock in Karachi?', answer: 'Yes, we stock standard 1.5" to 4" at our Bohrapir shop and supply large 6" and 8" dewatering coils directly from our SITE warehouse.' },
-        ],
+          {
+                    "question": "What diameters and coil lengths are available for green suction pipe?",
+                    "answer": "We supply green suction pipe in 1\", 1.25\", 1.5\", 2\", 2.5\", 3\", 4\", 5\", 6\", and 8\" internal diameters in standard 30-meter coils and cut lengths."
+          },
+          {
+                    "question": "Can this pipe handle muddy water and sand slurry?",
+                    "answer": "Yes, the thick PVC compound is formulated specifically to resist abrasive sand, gravel, and muddy slurry without thinning or puncturing the wall."
+          }
+],
         attrValues: [
           { attr: 'Material Base', val: 'Rigid PVC Spiral Reinforcement' },
           { attr: 'Nominal Diameter (Bore Size)', val: '3" (75mm)' },
@@ -2423,28 +2446,27 @@ async function main() {
         slug: 'high-pressure-layflat-canvas-delivery-hose-pipe',
         price: 6500,
         moq: 2,
-        tradeAliases: 'Canvas Delivery Pipe, Layflat Hose, Tubewell Delivery Pipe, Canvas Water Pipe, Nikasi Pipe, Fire Hose Pipe, Khet Nikasi Pipe',
-        shortDescription: 'High-strength circular woven synthetic canvas delivery hose lined with flexible rubber/PVC. Rolls completely flat for compact transport and high-volume agricultural and dewatering discharge.',
-        longDescription: 'Tahira Syndicate\'s high-pressure layflat canvas delivery hoses (canvas delivery pipe) are the primary choice for agricultural flood irrigation, flood rescue dewatering, and municipal wastewater discharge across Pakistan. Manufactured with an exterior circular seamless woven jacket of high-tenacity polyester filament and an inner extruded rubber/PVC water-tight liner, this hose handles high discharge volumes without leaking. When empty, it rolls completely flat, allowing hundreds of meters to be loaded easily onto Mazdas, tractor trolleys, or Shahzores for fast redeployment across fields and project sites.',
-        metaTitle: "High-Pressure Layflat Canvas Delivery Hose Karachi",
-        metaDescription: 'Industrial 2" to 8" canvas layflat delivery hose pipes in Karachi, Pakistan. High pressure discharge water delivery for agriculture and flooding drainage.',
-        usage: 'Agricultural tubewell field discharge, municipal flood dewatering, construction site drainage, temporary water bypass mains, and fire-fighting backup lines.',
+        tradeAliases: "Canvas Delivery Pipe • Fire Hose Pipe • Kheti Canvas Pipe • High Pressure Water Delivery Hose • White Canvas Pipe",
+        shortDescription: "Heavy-duty woven canvas fire-grade water discharge hose with internal rubber lining. Handles high pump delivery pressures and rolls up flat for rapid farm deployment.",
+        longDescription: "When high-horsepower turbine pumps or tractor engines discharge water under high pressure, plastic layflat pipes can balloon and burst. Canvas Delivery Hose features a high-tenacity woven circular polyester/canvas jacket lined with smooth vulcanized rubber. It handles high operating pressures without stretching out of shape, glides over rough stones and stubble fields without punctures, and folds completely flat onto compact storage reels.",
+        metaTitle: "High-Pressure Canvas Water Delivery Hose Karachi Wholesale",
+        metaDescription: "Heavy-duty canvas layflat water delivery hose pipes (2\" to 6\") in Karachi. High-pressure rubber lined discharge hose for agriculture and flood dewatering.",
+        usage: "Engineered for high-pressure agricultural farm irrigation, emergency flood dewatering, civil engineering drainage, and municipal firefighting water supply lines.",
         benefits: [
-          'Seamless circular woven polyester canvas jacket provides superior tensile strength against burst pressure.',
-          'Smooth synthetic rubber / PVC inner lining prevents friction head loss, maximizing pump discharge volume.',
-          'Rolls 100% flat and compact — a 30m coil occupies minimal storage space compared to rigid pipes.',
-          'Mildew, rot, and UV resistant fabric construction designed for mud, standing canal water, and open outdoor agricultural fields.',
-        ],
+          "Woven canvas jacket provides high burst pressure resistance against engine surges",
+          "Seamless vulcanized rubber inner liner ensures zero water leakage and friction loss",
+          "Rolls flat compactly — 100 meters can be stored in minimal space on a truck bed",
+          "High abrasion resistance against dragging over rocky fields and concrete curbs"
+],
         suitedFor: [
-          'Agricultural tubewell field flood irrigation',
-          'Municipal stormwater and flood rescue dewatering',
-          'Construction site basement slurry pumping',
-          'Temporary emergency water bypass lines',
-        ],
+          "High-pressure tractor & turbine pump water delivery",
+          "Agricultural field flood irrigation & canal bypass",
+          "Municipal flood dewatering & emergency drainage",
+          "Construction foundation discharge lines"
+],
         notSuitedFor: [
-          'Suction pump inlet lines (collapses under vacuum; strictly for discharge)',
-          'High-temperature steam lines',
-        ],
+          "Pump suction intake side (must be used for discharge only)"
+],
         bulkPricing: [
           { minQty: 2, maxQty: 5, label: 'Standard Farmer / Contractor Pack' },
           { minQty: 6, maxQty: 24, label: 'Agricultural Cooperatives / Rental Lot' },
@@ -2457,10 +2479,15 @@ async function main() {
           { src: '/uploads/products/building-flexible-pipes/high-pressure-layflat-canvas-delivery-hose-pipe/pipes-warehouse-stock-1.jpeg', alt: 'High-Pressure Layflat Canvas Delivery Hose Pipe Bohrapir warehouse inventory', sortOrder: 4 },
         ],
         faqs: [
-          { question: 'Can this canvas hose withstand tractor tires driving over it in agricultural fields?', answer: 'When pressurized with water, driving heavy machinery directly over the hose should be avoided or bridged, but when unpressurized, the tough woven canvas easily withstands field abuse.' },
-          { question: 'How is the canvas delivery hose connected to pump outlets?', answer: 'You can secure it over standard male barbed flanged adapters using heavy galvanized wire binding or stainless steel quick-clamp bands.' },
-          { question: 'What is the benefit of canvas layflat pipe over rigid black HDPE delivery pipes?', answer: 'Canvas layflat pipe is 90% lighter, rolls flat into compact coils that one person can carry, and does not crack when folded or dragged across fields.' },
-        ],
+          {
+                    "question": "What working pressures can canvas delivery hose handle?",
+                    "answer": "Our canvas delivery hoses are rated for 6 Bar to 16 Bar operating pressure (100 PSI to 230 PSI), making them capable of handling heavy pump discharge heads."
+          },
+          {
+                    "question": "What sizes are available in canvas hose?",
+                    "answer": "We stock 1.5\", 2\", 2.5\", 3\", 4\", and 6\" diameters in standard 30-meter, 50-meter, and 100-meter continuous lengths with quick-action camlock or storz couplings."
+          }
+],
         attrValues: [
           { attr: 'Material Base', val: 'Circular Woven Canvas Jacket with Synthetic Rubber Lining' },
           { attr: 'Nominal Diameter (Bore Size)', val: '3" (75mm)' },
@@ -2476,28 +2503,27 @@ async function main() {
         slug: 'corrugated-flexible-pvc-electrical-conduit-pipe',
         price: 1850,
         moq: 5,
-        tradeAliases: 'Jali Pipe, Flexible Conduit, Spring Pipe, Electrical Corrugated Pipe, Chhat Ka Jali Pipe, Wiring Pipe, PVC Flexible Conduit',
-        shortDescription: 'High-impact flexible corrugated PVC conduit pipe for concrete slab electrical wiring, drywall partitions, ceiling drops, and commercial electrical cable routing across Pakistan.',
-        longDescription: 'Tahira Syndicate\'s corrugated flexible PVC electrical conduit pipes (jali pipe / spring pipe) provide reliable, impact-resistant protection for power, lighting, and low-voltage telecommunication cabling. Extruded with precision annular corrugations from virgin flame-retardant PVC, this conduit bends smoothly around structural steel rebar, roof concrete beams, and tight wall recesses without kinking or collapsing the internal wire-pulling diameter. Engineered to withstand concrete pouring slurry and vibrator stress on construction slabs across high-rise residential and industrial building projects in Karachi.',
-        metaTitle: "Corrugated Flexible PVC Conduit Pipe Karachi | Jali",
-        metaDescription: "Heavy-duty corrugated flexible PVC conduit pipes in Karachi. Impact-resistant electrical wire protection for slab casting and building wall wiring nationwide.",
-        usage: 'Concrete roof slab casting rebar wiring, gypsum board drywall wiring, false ceiling lighting drops, and switchboard distribution conduit.',
+        tradeAliases: "Churi Pipe • Corrugated Conduit • Electrical Flexible Pipe • Wiring Churi Pipe • PVC Conduit Roll",
+        shortDescription: "Flexible corrugated PVC electrical wiring conduit pipe (Churi Pipe). Flame-retardant and shock-resistant for concealed wall routing, ceiling slabs, and switchboard wiring.",
+        longDescription: "Routing electrical cables through tight concrete slab corners, brick masonry grooves, and false ceiling channels requires conduit that bends freely without cracking. Corrugated PVC Conduit Pipe (Churi Pipe) features a continuous ribbed profile that gives extreme flexibility while resisting crushing under wet concrete pours. Manufactured with self-extinguishing flame-retardant PVC resin, it protects domestic and commercial wiring from moisture, rodents, and electrical shorts.",
+        metaTitle: "Flexible Corrugated PVC Electrical Conduit Karachi Wholesale",
+        metaDescription: "Flame-retardant corrugated PVC electrical conduit pipes (Churi Pipe) in Karachi (16mm to 32mm). Crush-proof flexible tubing for concealed slab and wall wiring.",
+        usage: "Standard installation material for concealed residential and commercial electrical wiring inside walls, ceiling slabs, false ceilings, and industrial control panels.",
         benefits: [
-          'Annular corrugation profile allows effortless 360-degree bending without cracking or heating elbows.',
-          'Flame-retardant self-extinguishing PVC compound prevents electrical spark propagation.',
-          'High compression strength withstands concrete slurry weight and heavy foot traffic during slab casting.',
-          'Smooth internal bore allows quick pulling of multi-core electrical cables with standard fish tape.',
-        ],
+          "Continuous corrugated ribs allow 360-degree bends without kinking or pinching wires",
+          "Self-extinguishing flame-retardant PVC resin enhances building fire safety",
+          "High impact crush resistance survives concrete pouring and worker foot traffic",
+          "Smooth internal profile allows easy pulling of electrical copper wire cables"
+],
         suitedFor: [
-          'Concrete roof slab casting and structural beam electrical ducting',
-          'Gypsum board drywall partitions and electrical chasing',
-          'False ceiling acoustic tile lighting cable drops',
-          'Distribution panelboard and meter cabinet conduit routing',
-        ],
+          "Concealed concrete roof slab electrical routing",
+          "Brick masonry wall electrical chasing & switchboard drops",
+          "False ceiling & gypsum partition wiring channels",
+          "Industrial electrical control panel & machine wiring"
+],
         notSuitedFor: [
-          'Pressurized liquid or plumbing water transfer (strictly an electrical conduit)',
-          'Direct exposure to high-heat ovens exceeding 75°C',
-        ],
+          "High-pressure fluid transfer (this is strictly an electrical wiring conduit)"
+],
         bulkPricing: [
           { minQty: 5, maxQty: 19, label: 'Electrician Wholesale Pack' },
           { minQty: 20, maxQty: 49, label: 'Commercial Contractor Lot' },
@@ -2508,10 +2534,15 @@ async function main() {
           { src: '/uploads/products/building-flexible-pipes/corrugated-flexible-pvc-electrical-conduit-pipe/pipes-warehouse-stock-1.jpeg', alt: 'Corrugated Flexible PVC Electrical Conduit Pipe Bohrapir warehouse inventory', sortOrder: 2 },
         ],
         faqs: [
-          { question: 'Does this corrugated pipe collapse when construction labor steps on it during slab pouring?', answer: 'No, our heavy-gauge corrugated wall is engineered with high crush resistance that easily withstands concrete pour weight and site foot traffic.' },
-          { question: 'Is it flame retardant for building safety regulations in Pakistan?', answer: 'Yes, it is compounded with self-extinguishing flame-retardant additives that extinguish immediately once the external flame source is removed.' },
-          { question: 'What sizes are most commonly used in building wiring in Karachi?', answer: '1/2" (16mm) for lighting circuits and 3/4" (20mm) for main power lines and AC wiring are standard.' },
-        ],
+          {
+                    "question": "What sizes of Churi pipe are standard for building wiring?",
+                    "answer": "Standard sizes are 1/2\" (16mm), 3/4\" (20mm), 1\" (25mm), and 1.25\" (32mm) supplied in 50m and 100m continuous coils."
+          },
+          {
+                    "question": "Is this conduit flame-retardant?",
+                    "answer": "Yes, it is extruded from grade-A PVC with flame-retardant additives that automatically self-extinguish when the source of flame is removed."
+          }
+],
         attrValues: [
           { attr: 'Material Base', val: 'Flame-Retardant PVC Compound' },
           { attr: 'Nominal Diameter (Bore Size)', val: '3/4" (19mm)' },
@@ -2527,28 +2558,27 @@ async function main() {
         slug: 'transparent-clear-flexible-pvc-water-level-tubing',
         price: 1450,
         moq: 5,
-        tradeAliases: 'Level Pipe, Transparent PVC Tubing, Shisha Pipe, Mistri Level Tube, Water Level Pipe, Clear Vinyl Tubing, Masonry Level Hose',
-        shortDescription: 'Crystal-clear, non-toxic flexible PVC tubing for civil construction leveling, masonry elevation alignment, medical gravity lines, and liquid dispensing in Pakistan.',
-        longDescription: 'Tahira Syndicate\'s transparent clear flexible PVC water level tubings (level pipe / shisha pipe) provide optical clarity and dependable flexibility for construction craftsmen, civil surveyors, and mechanical workshops. Manufactured from 100% virgin crystal-clear plasticized PVC, this tube allows masons and contractors to visually inspect water menisci and air bubbles with absolute precision when establishing horizontal leveling across building columns, floor tiling, and foundation formwork. Resistant to atmospheric oxidation, yellowing, and kinks.',
-        metaTitle: "Clear Flexible PVC Water Level Tubing Karachi",
-        metaDescription: "High-clarity transparent clear flexible PVC water level tubing in Karachi, Pakistan. Smooth non-toxic bore for masonry levelling and precision liquid transfers.",
-        usage: 'Construction building leveling and column height alignment (mistri level tube), aquarium aerator lines, air conditioning condensate drains, and laboratory fluid transfer.',
+        tradeAliases: "Sheesha Pipe • Level Pipe • Transparent PVC Tubing • Clear Water Level Pipe • Non-Toxic Tubing",
+        shortDescription: "Crystal clear flexible PVC tubing (Sheesha Pipe / Level Pipe). Non-toxic, glass-smooth, and highly visible for construction water levels, aquariums, and sanitary fluid transfer.",
+        longDescription: "Masonry and construction contractors need a perfectly clear, bubble-free tube to check level lines between distant building columns. Our Clear Transparent PVC Tubing (Sheesha Pipe / Level Pipe) is extruded from 100% virgin, non-toxic PVC resin. It provides optical glass clarity with zero cloudiness, allowing water levels and fluid flow to be checked instantly. It is non-toxic, odorless, and resistant to mild chemicals, making it equally popular in food and laboratory fluid lines.",
+        metaTitle: "Food Grade Clear PVC Tubing (Sheesha Pipe) Karachi Supply",
+        metaDescription: "Glass-clear virgin transparent PVC tubing (Sheesha Pipe / Level Pipe) in Karachi. Non-toxic, flexible clear tubing for construction leveling and fluid transfer.",
+        usage: "Essential for construction masonry water leveling, aquarium air and water lines, food and beverage dispensing, laboratory fluid transfer, and chemical siphon lines.",
         benefits: [
-          'Crystal-clear optical transparency allows zero-error water meniscus reading for accurate floor leveling.',
-          'Highly flexible with excellent elasticity — bends without creasing or collapsing the internal fluid passage.',
-          'Non-toxic, food-grade compatible virgin PVC polymer free from heavy metal stabilizers.',
-          'Smooth glass-like interior and exterior resists sediment deposition and enables effortless cleaning.',
-        ],
+          "High optical transparency allows instant visual check of water levels and bubbles",
+          "Extruded from 100% virgin non-toxic PVC resin with zero chemical odor",
+          "Glass-smooth interior bore resists bacteria buildup and simplifies cleaning",
+          "Soft and pliable — bends around corners without kinking shut"
+],
         suitedFor: [
-          'Civil masonry elevation alignment and column water leveling',
-          'Air conditioning condensate drainage lines',
-          'Aquarium air pump aeration and fluid dosing',
-          'Laboratory gravity feed and non-corrosive chemical transfer',
-        ],
+          "Construction masonry & tile water level measurements",
+          "Aquarium aeration & fish farm water tubing",
+          "Food, beverage & drinking water dispensing lines",
+          "Laboratory fluid siphon & chemical drain tubes"
+],
         notSuitedFor: [
-          'High-pressure pump delivery lines',
-          'Aromatic hydrocarbons, gasoline, or strong concentrated solvents',
-        ],
+          "Pressurized steam or boiling oil applications exceeding 60°C"
+],
         bulkPricing: [
           { minQty: 5, maxQty: 19, label: 'Masonry Wholesale Pack' },
           { minQty: 20, maxQty: 49, label: 'Hardware Retailer Bundle' },
@@ -2561,10 +2591,15 @@ async function main() {
           { src: '/uploads/products/building-flexible-pipes/transparent-clear-flexible-pvc-water-level-tubing/pipes-warehouse-stock-1.jpeg', alt: 'Transparent Clear Flexible PVC Water Level Tubing Bohrapir warehouse inventory', sortOrder: 4 },
         ],
         faqs: [
-          { question: 'Does this clear tube turn yellow or stiff after outdoor sun exposure?', answer: 'Our virgin compound includes anti-UV and anti-oxidant additives that resist yellowing and maintain pliability far longer than cheap reprocessed PVC tubes.' },
-          { question: 'What size is the gold standard for masonry and building leveling?', answer: '5/16" (8mm) and 3/8" (10mm) inner diameter coils are the universal choice for Pakistani masons and construction surveyors.' },
-          { question: 'Can this tubing be used for drinking water or beverage dispensing?', answer: 'Yes, it is fabricated from non-toxic virgin polymer and is completely odorless and safe for clean water and liquid transfer.' },
-        ],
+          {
+                    "question": "What sizes are commonly used for construction level pipe?",
+                    "answer": "For water leveling, 1/4\" (6mm), 5/16\" (8mm), and 3/8\" (10mm) are standard. We also stock up to 1\" and 2\" for fluid transfer in 30m, 50m, and 100m coils."
+          },
+          {
+                    "question": "Is this tubing food-safe for drinking water and beverages?",
+                    "answer": "Yes, it is extruded from 100% virgin food-grade PVC resin free from heavy metal stabilizers, making it completely safe for potable water and beverage lines."
+          }
+],
         attrValues: [
           { attr: 'Material Base', val: '100% Virgin Flexible PVC' },
           { attr: 'Nominal Diameter (Bore Size)', val: '5/16" (8mm)' },
@@ -2580,28 +2615,27 @@ async function main() {
         slug: 'agricultural-layflat-pe-irrigation-delivery-hose',
         price: 3200,
         moq: 2,
-        tradeAliases: 'Kali Delivery Pipe, Agricultural Delivery Pipe, Polythene Delivery Pipe, Khet Ki Delivery, Layflat PE Tube, Tubewell Kali Pipe',
-        shortDescription: 'Cost-effective heavy-gauge multi-layer black polyethylene layflat irrigation delivery pipe for agricultural field water conveyance, orchard flood watering, and seasonal canal dewatering.',
-        longDescription: 'Tahira Syndicate\'s agricultural layflat PE irrigation delivery hoses (kali delivery pipe) represent the most cost-efficient and lightweight solution for long-distance farmland water conveyance in Sindh and Punjab. Manufactured from high-density virgin and premium recycled polyethylene polymers with heavy carbon-black UV stabilization, this layflat hose connects directly to tubewell pump outlets and rolls out across uneven agricultural fields, sugarcane furrows, and cotton acres without specialized trenching. Designed for seasonal farm operations where metal or rigid pipes are cost-prohibitive.',
-        metaTitle: "Agricultural Layflat PE Delivery Hose Pipe Karachi",
-        metaDescription: "Black agricultural PE layflat water delivery hose pipes in Karachi. UV-stabilized, puncture-resistant roll pipe for farm flood irrigation and pump discharge.",
-        usage: 'Farmland tubewell water conveyance, wheat and sugarcane field flood irrigation, seasonal dewatering channels, and orchard watering across Sindh and Punjab.',
+        tradeAliases: "Delivery Pipe • Kheti Discharge Hose • Flat Nalka Pipe • Blue Layflat Hose • Flooding Water Pipe",
+        shortDescription: "Collapsible blue layflat PVC water delivery hose. Rolls up completely flat for compact storage and handles large water volume discharge for agricultural irrigation and dewatering.",
+        longDescription: "Moving high volumes of water across long farm fields or construction sites with rigid pipes is expensive and back-breaking to relocate. Layflat PVC Delivery Hose rolls out completely flat like a fire hose. Extruded with high-tenacity polyester yarn reinforcement embedded directly between layers of flexible PVC, it handles heavy water discharge pressure without kinking or bursting. When pumping is finished, one person can roll up hundreds of meters into compact coils.",
+        metaTitle: "Layflat PVC Water Discharge Delivery Hose Karachi Wholesale",
+        metaDescription: "Collapsible blue layflat PVC water delivery hoses (1.5\" to 8\") in Karachi. High-volume, lightweight agricultural irrigation and construction pumping hose.",
+        usage: "Designed for agricultural flood irrigation, construction foundation dewatering discharge, emergency floodwater pumping, and mobile water tanker delivery.",
         benefits: [
-          'Extremely lightweight and economical — provides low-cost water conveyance over hundreds of meters.',
-          'Carbon black UV additive protects the polyethylene film from degrading under intense open-field sun.',
-          'Layflat design rolls and unrolls in minutes; easily relocated between different crop plots and orchards.',
-          'Can be easily patched, joined, or punctured for sub-furrow flood irrigation outlets.',
-        ],
+          "Rolls up completely flat for space-saving storage in vehicles and farm sheds",
+          "Continuous polyester reinforcement handles high water volume discharge pressure",
+          "Easy for a single laborer to deploy over hundreds of meters in minutes",
+          "Resists agricultural fertilizers, mild chemicals, and abrasive muddy water"
+],
         suitedFor: [
-          'Agricultural farmland tubewell water conveyance',
-          'Wheat, sugarcane, and cotton flood furrow irrigation',
-          'Seasonal canal water harvesting and orchard flood distribution',
-          'Temporary open-channel dewatering across agricultural land',
-        ],
+          "Agricultural crop flooding & farm irrigation runs",
+          "Construction dewatering pump discharge lines",
+          "Emergency municipal flood water evacuation",
+          "Temporary water bypass & tanker distribution"
+],
         notSuitedFor: [
-          'High-pressure industrial pumping exceeding 3.5 Bar',
-          'Dragging over razor-sharp rocks or broken glass shards',
-        ],
+          "Pump suction intake lines (layflat hoses collapse under vacuum and are for discharge only)"
+],
         bulkPricing: [
           { minQty: 2, maxQty: 9, label: 'Farm Wholesale Pack' },
           { minQty: 10, maxQty: 29, label: 'Landowner / Mandi Volume Pack' },
@@ -2614,10 +2648,15 @@ async function main() {
           { src: '/uploads/products/building-flexible-pipes/agricultural-layflat-pe-irrigation-delivery-hose/pipes-warehouse-stock-1.jpeg', alt: 'Agricultural Layflat PE Irrigation Delivery Hose Bohrapir warehouse inventory', sortOrder: 4 },
         ],
         faqs: [
-          { question: 'How does this black PE delivery pipe compare to canvas layflat pipe?', answer: 'Black PE delivery pipe is significantly more economical for wide agricultural field acreage, whereas canvas hose is thicker and designed for higher pressures and rougher construction sites.' },
-          { question: 'Can it be connected directly to a diesel tubewell engine output?', answer: 'Yes, simply slip the flat hose over the pump delivery flange and secure with standard rubber strip wrapping or heavy hose clamps.' },
-          { question: 'Can holes or small punctures in the field be repaired?', answer: 'Yes, farmers routinely repair field punctures using a piece of PE film and hot iron sealing or heavy waterproof duct tape.' },
-        ],
+          {
+                    "question": "Can Layflat hose be used on the suction side of a pump?",
+                    "answer": "No. Layflat hose is designed exclusively for positive water discharge. On the suction side, vacuum pressure will cause it to flatten immediately; use Green Suction Pipe instead."
+          },
+          {
+                    "question": "What sizes and lengths are stocked?",
+                    "answer": "We supply layflat delivery hose in 1.5\", 2\", 2.5\", 3\", 4\", 6\", and 8\" diameters in standard 50m and 100m continuous rolls."
+          }
+],
         attrValues: [
           { attr: 'Material Base', val: 'UV-Stabilized Polyethylene (PE)' },
           { attr: 'Nominal Diameter (Bore Size)', val: '3" (75mm)' },
@@ -2821,28 +2860,27 @@ async function main() {
         slug: 'heavy-duty-black-construction-agricultural-polythene-sheet',
         price: 4800,
         moq: 5,
-        tradeAliases: 'Kali Shopper Roll, Black Construction Polythene, Foundation DPC Sheet, Khet Ki Plastic Sheet, Black Moisture Barrier, Raft Foundation Polythene, Ground Underlayment Film',
-        shortDescription: 'High-durability black polyethylene moisture barrier sheet roll in 50 to 250 micron thickness for concrete slab curing, foundation waterproofing underlayment, and agricultural field mulching across Pakistan.',
-        longDescription: 'Tahira Syndicate\'s heavy-duty black construction and agricultural polythene sheets (kali shopper roll) are the industry standard for civil engineering moisture proofing and large-scale agricultural operations in Karachi and nationwide. Formulated with high-density carbon-black UV stabilizers and tough polyethylene polymers, this heavy-gauge film creates an impermeable hydrostatic moisture barrier beneath concrete foundation rafts, basement retaining walls, and ground floor slabs. It halts capillary groundwater seepage, prevents rapid loss of concrete mix hydration during summer curing, and protects agricultural crop beds against weed proliferation and soil erosion in interior Sindh and Punjab farmlands.',
-        metaTitle: "Black Construction Polythene Sheet Roll Karachi",
-        metaDescription: "Heavy-duty black recycled polythene plastic sheets in Karachi, Pakistan. Reliable vapor barrier, slab casting moisture proofing, and road construction membrane.",
-        usage: 'Concrete ground slab vapor barrier, basement foundation underlayment, concrete curing moisture containment, and agricultural weed barrier mulching.',
+        tradeAliases: "Dhalai Plastic • Chhat Ka Plastic • Concrete Underlay Film • Vapor Barrier Roll • Slab Plastic",
+        shortDescription: "Heavy-gauge polythene roll (300 to 1200 gauge) for concrete roof casting and slab foundation work. Stops cement water from draining through shuttering and seals out ground moisture.",
+        longDescription: "When pouring a concrete roof slab or basement foundation in Karachi, any gap in the wooden shuttering allows wet cement slurry to escape. This weakens the cured concrete mix and leads to surface cracks. Laying our heavy Dhalai Plastic roll over the shuttering forms a continuous waterproof membrane that holds all cement water inside the slab for proper curing. It also blocks rising dampness when laid underneath ground floor basement concrete.",
+        metaTitle: "Black Construction Polythene Sheet Roll Karachi Wholesale",
+        metaDescription: "Heavy-duty polythene sheets for roof concrete casting (Dhalai Plastic) in Karachi. 300 to 1200 gauge rolls for moisture barrier and basement damp-proofing.",
+        usage: "Laid over roof shuttering before casting concrete slabs, under basement foundations for damp-proofing, and over cured concrete as a moisture-retaining curing blanket.",
         benefits: [
-          'Engineered with carbon-black masterbatch for exceptional opacity, UV light block, and moisture barrier integrity.',
-          'Halts capillary rising damp in building foundations, slab bases, and flooring subgrades.',
-          'Retains concrete moisture during curing, preventing surface micro-cracking and ensuring maximum PSI strength.',
-          'Cost-effective continuous roll widths up to 12 feet for rapid site coverage with minimal overlaps.',
-        ],
+          "Prevents cement slurry from leaking through wooden shuttering gaps",
+          "Acts as a permanent vapor barrier against rising underground dampness",
+          "Heavy puncture resistance survives laborer foot traffic and steel rebar placement",
+          "Available in wide continuous rolls (up to 12 feet wide) for fast site coverage"
+],
         suitedFor: [
-          'Concrete ground slab and raft foundation vapor barrier underlayment',
-          'High-rise building roof and slab water curing moisture containment',
-          'Agricultural field weed suppression and soil solarization mulching',
-          'Temporary weather protection for outdoor building materials and brick stacks',
-        ],
+          "Roof slab concrete casting & shuttering underlay",
+          "Basement floor foundation vapor barriers",
+          "Concrete curing moisture-retention blankets",
+          "Temporary construction dust and rain screening"
+],
         notSuitedFor: [
-          'Permanent exposed architectural sun canopies (use heavy PVC tarpal)',
-          'Puncture protection against loose sharp razor-wire or jagged uncrushed aggregate',
-        ],
+          "Permanent open roofing exposed to years of direct overhead sunlight without concrete cover"
+],
         bulkPricing: [
           { minQty: 15, maxQty: 49, label: 'Standard Construction Contractor Pack' },
           { minQty: 50, maxQty: 199, label: 'Commercial Project / Mandi Dealer Bale' },
@@ -2854,10 +2892,15 @@ async function main() {
           { src: '/uploads/products/polythene-sheets-films/heavy-duty-black-construction-agricultural-polythene-sheet/heavy-duty-black-construction-agricultural-polythene-sheet-3.jpg', alt: 'Heavy-Duty Black Construction & Agricultural Polythene Sheet heavy gauge film texture', sortOrder: 3 },
         ],
         faqs: [
-          { question: 'Which micron thickness is recommended for foundation DPC and basement raft casting?', answer: 'For standard residential and commercial foundation underlayment, 150 micron (600 gauge) to 200 micron (800 gauge) is the civil engineering standard specified by PEC and NESPAK contractors.' },
-          { question: 'What roll widths and packaging weights are available in your Bohrapir warehouse?', answer: 'We stock standard 6 ft, 8 ft, 10 ft, and 12 ft unfolded widths in 20 kg, 25 kg, and 30 kg coils ready for immediate dispatch across Karachi.' },
-          { question: 'Can these rolls be dispatched to construction sites outside Karachi like Gwadar or Multan?', answer: 'Yes, we dispatch full Mazda and 10-wheeler truckloads directly through Maripur and Superhighway freight terminals daily.' },
-        ],
+          {
+                    "question": "What gauge thickness is standard for roof casting in Karachi?",
+                    "answer": "Builders typically use 300 to 600 gauge black or doodhia rolls for roof casting, and 800 to 1200 gauge for heavy basement foundation moisture proofing."
+          },
+          {
+                    "question": "How are the rolls supplied and billed?",
+                    "answer": "Our Dhalai Plastic is extruded at our Karachi plant and supplied in 25kg, 30kg, and 50kg rolls. Every roll is weighed on calibrated digital scales with verified weight slips."
+          }
+],
         attrValues: [
           { attr: 'Polymer Resin Grade', val: 'Premium Recycled Black Polyethylene' },
           { attr: 'Film Thickness (Gauge / Micron)', val: '0.15mm (150 Micron / 600 Gauge)' },
@@ -2873,28 +2916,27 @@ async function main() {
         slug: 'transparent-virgin-clear-ldpe-plastic-roll',
         price: 5400,
         moq: 5,
-        tradeAliases: 'Shisha Shopper Roll, White Transparent Plastic Sheet, Virgin LDPE Sheet, Furniture Packing Plastic, Paint Dust Masking Film, Clear Greenhouse Sheet, Transparent Packaging Roll',
-        shortDescription: '100% virgin crystal-clear LDPE plastic sheeting roll for industrial dust protection, showroom furniture masking, textile fabric wrapping, and temporary glass surface masking in Pakistan.',
-        longDescription: 'Tahira Syndicate\'s transparent virgin clear LDPE plastic rolls (shisha shopper roll) offer superior optical clarity, smooth texture, and exceptional tear resistance. Extruded entirely from 100% prime virgin low-density polyethylene granules without fillers or recycled odors, this crystal-clear film is odorless, moisture-proof, and flexible. Widely demanded by Karachi\'s furniture manufacturers, textile finishing mills, paint contractors, and export logistics warehouses to seal finished goods against humidity, airborne sawdust, industrial soot, and monsoon rains during transit.',
-        metaTitle: "Clear Transparent LDPE Plastic Sheet Roll Karachi",
-        metaDescription: "100% virgin clear transparent LDPE plastic sheeting rolls in Karachi. High tensile clarity and dust protection for industrial packaging and surface shielding.",
-        usage: 'Furniture and mattress dust protection, textile fabric bolt wrapping, architectural painting masking, and nursery plant frost insulation.',
+        tradeAliases: "Doodhia Plastic • White Polythene Roll • Milky Sheeting • Virgin White Plastic • Doodhia Sheet",
+        shortDescription: "Semi-opaque milky white polythene film roll (Doodhia Plastic). Reflects sunlight heat, provides clean packaging protection, and serves as an aesthetic barrier on construction sites.",
+        longDescription: "Black plastic absorbs intense solar heat and can overheat products stored beneath it. Milky White Doodhia Polythene Film reflects sunlight, keeping covered goods and concrete slabs cooler. Extruded from virgin and blended LDPE polymers, it offers a clean, professional appearance for wrapping finished commercial products, covering furniture, masking walls during painting, and wrapping palletized boxes for export transport.",
+        metaTitle: "Virgin Clear LDPE Plastic Roll Wholesale Karachi Supply",
+        metaDescription: "Premium milky white polythene film rolls (Doodhia Plastic) in Karachi. Heat-reflective, tear-resistant sheeting for packaging, wrapping, and construction.",
+        usage: "Used for pallet shrink wrapping, commercial cargo dust covers, furniture protection, paint masking sheets, and light-reflecting greenhouse floor liners across Pakistan.",
         benefits: [
-          'Formulated with 100% prime virgin LDPE for crystal optical clarity and high tensile elongation.',
-          'Completely odorless, non-toxic, and safe for fabric, furniture, and cleanroom goods wrapping.',
-          'Resists surface puncturing, tearing, and electrostatic dust accumulation.',
-          'Available in single-sheet flat or continuous tubular centerfold rolls from 3 ft up to 12 ft widths.',
-        ],
+          "Milky white color reflects solar heat rather than absorbing it like black plastic",
+          "Clean, aesthetic appearance ideal for packaging commercial consumer goods",
+          "Tough puncture and tear resistance for industrial pallet wrapping",
+          "100% waterproof and dust-proof protective barrier"
+],
         suitedFor: [
-          'Luxury wooden furniture, sofa sets, and mattress dust protection',
-          'Textile garment rolls, yarn cones, and export fabric bolt moisture wrapping',
-          'Architectural painting dust masking and floor drop cloth protection',
-          'Temporary greenhouse tunnel and nursery plant frost insulation',
-        ],
+          "Warehouse palletized cargo wrapping",
+          "Commercial furniture & textile dust covers",
+          "Paint overspray masking & interior renovation protection",
+          "Heat-reflective agricultural nursery ground liners"
+],
         notSuitedFor: [
-          'Heavy-duty outdoor solarization exceeding 12 months under direct UV without UV inhibitors',
-          'Heavy pallet stretch tension wrapping on automatic turntable machines (use stretch film)',
-        ],
+          "High-temperature furnace shrink ovens above 150°C"
+],
         bulkPricing: [
           { minQty: 10, maxQty: 29, label: 'Standard Furniture & Retailer Bundle' },
           { minQty: 30, maxQty: 99, label: 'Industrial Textile / Export Factory Pack' },
@@ -2906,10 +2948,15 @@ async function main() {
           { src: '/uploads/products/polythene-sheets-films/transparent-virgin-clear-ldpe-plastic-roll/transparent-virgin-clear-ldpe-plastic-roll-3.webp', alt: 'Transparent Virgin Clear LDPE Plastic Roll roll thickness and transparency', sortOrder: 3 },
         ],
         faqs: [
-          { question: 'Is this film completely clear like glass or milky/cloudy?', answer: 'This is 100% virgin grade (shisha quality), providing crystal-clear transparency so product labels, wood grain, and fabric colors remain completely visible through the sheet.' },
-          { question: 'Does it have any foul recycled plastic smell?', answer: 'No, zero odor. Because it is fabricated from prime virgin polymer granules, it does not release any offensive chemical or burning odor, making it safe for indoor furniture and apparel.' },
-          { question: 'What is the minimum wholesale order quantity for Karachi delivery?', answer: 'Minimum order quantity is 5 commercial rolls, with same-day loading from our Bohrapir or SITE Industrial Area warehouse.' },
-        ],
+          {
+                    "question": "What roll widths and thicknesses are available in Doodhia plastic?",
+                    "answer": "We supply Doodhia plastic from 2 feet up to 12 feet wide (center-folded or single-wound) in thicknesses from 150 gauge (37 micron) up to 800 gauge (200 micron)."
+          },
+          {
+                    "question": "Is Doodhia plastic virgin grade?",
+                    "answer": "We manufacture both 100% virgin grade Doodhia rolls for export packaging and economical commercial blends for construction masking."
+          }
+],
         attrValues: [
           { attr: 'Polymer Resin Grade', val: '100% Virgin LDPE' },
           { attr: 'Film Thickness (Gauge / Micron)', val: '0.10mm (100 Micron / 400 Gauge)' },
@@ -2925,28 +2972,27 @@ async function main() {
         slug: 'heavy-duty-construction-dpc-damp-proof-membrane-sheet',
         price: 3600,
         moq: 5,
-        tradeAliases: 'DPC Sheet, Damp Proof Course Membrane, Plinth Beam Plastic, Wall DPC Strip, Embossed Polyethylene DPC, Foundation Moisture Barrier, Construction Damp Barrier',
-        shortDescription: 'Extra-heavy gauge, embossed damp-proof course (DPC) polyethylene barrier sheet roll engineered to permanently prevent rising damp in brick masonry walls, plinth beams, and basement foundations.',
-        longDescription: 'Tahira Syndicate\'s heavy-duty construction DPC damp-proof membrane sheets provide permanent protection against capillary groundwater absorption and rising damp in building foundations across Pakistan. Extruded with a heavy textured diamond-grid embossed surface from virgin high-polymer polyethylene, this membrane bonds tenaciously with cement mortar beds along plinth beams and brick masonry courses. Engineered to resist chemical mortar alkalinity, soil sulfates, and high hydrostatic water table pressure in coastal zones like Karachi\'s Clifton, DHA, Gwadar, and riverine Punjab.',
-        metaTitle: "Heavy-Duty DPC Damp-Proof Membrane Sheet Karachi",
-        metaDescription: "Thick embossed DPC damp-proof membrane polythene sheets in Karachi, Pakistan. Complete rising damp protection for building foundations and brick masonry layers.",
-        usage: 'Plinth beam horizontal damp proof coursing (DPC) under brickwork, basement retaining wall water isolation, and bridge abutment waterproofing.',
+        tradeAliases: "Kala Plastic • Black Polythene Roll • Basement Damp Proof Membrane • Foundation Liner",
+        shortDescription: "Heavy-duty black carbon polythene roll (500 to 1200 gauge). Built for deep basement foundation damp-proofing, retaining walls, and long-term water seepage control.",
+        longDescription: "Underground moisture and groundwater seepage can destroy basement walls, cause salt efflorescence (shora), and ruin interior paint finishes. Our Heavy-Duty Black Foundation Plastic (Kala Plastic) is loaded with carbon black additives for maximum durability and UV stability. It creates an impenetrable subterranean damp-proof membrane (DPM) underneath basement raft slabs and behind retaining walls, permanently sealing out groundwater.",
+        metaTitle: "Heavy-Duty Black Foundation Plastic Roll Karachi Wholesale",
+        metaDescription: "Heavy-duty black foundation polythene rolls (500–1200 gauge) in Karachi. Carbon-black damp proof membrane (DPM) for basement moisture and seepage prevention.",
+        usage: "Essential under basement foundation raft slabs, behind earth retaining walls, inside civil drainage trenches, and as water pond lining across civil engineering projects.",
         benefits: [
-          'Heavy 250 micron (1000 gauge) thick impermeable structure resists continuous hydrostatic ground moisture.',
-          'Diamond-embossed surface texture ensures mechanical keying and non-slip adhesion with cement mortar.',
-          'Chemically inert against soil salts, alkali mortar attack, and subterranean acidic moisture.',
-          'Pre-slit into standard structural wall widths (4.5", 9", 13.5", and 18") as well as full foundation sheets.',
-        ],
+          "Carbon black formulation provides high puncture resistance against sharp rocks",
+          "Permanent barrier against groundwater seepage and rising capillary dampness",
+          "Resists soil chemicals, sulfate salts, and biological soil degradation",
+          "Available in wide continuous master rolls to minimize on-site overlapping joints"
+],
         suitedFor: [
-          'Plinth beam horizontal damp proof coursing (DPC) under brickwork',
-          'Basement retaining wall exterior vertical water isolation',
-          'Bridge abutment and culvert subterranean waterproofing',
-          'Heavy-traffic concrete paving slab underlayment',
-        ],
+          "Basement foundation raft slab damp-proofing (DPM)",
+          "Earth retaining wall external moisture sealing",
+          "Water canal & civil drainage trench lining",
+          "Outdoor raw material & scrap yard weather covers"
+],
         notSuitedFor: [
-          'Exposed rooftop waterproofing without protective screed or mortar overlay',
-          'Direct heat welding with open bitumen torches',
-        ],
+          "Food packaging where direct contact with edible items is required"
+],
         bulkPricing: [
           { minQty: 10, maxQty: 39, label: 'Civil Contractor Starter Pack' },
           { minQty: 40, maxQty: 99, label: 'Commercial Building Project Lot' },
@@ -2957,10 +3003,15 @@ async function main() {
           { src: '/uploads/products/polythene-sheets-films/heavy-duty-construction-dpc-damp-proof-membrane-sheet/heavy-duty-construction-dpc-damp-proof-membrane-sheet-2.jpg', alt: 'Heavy-Duty Construction DPC Damp-Proof Membrane Sheet plinth beam masonry alignment', sortOrder: 2 },
         ],
         faqs: [
-          { question: 'What pre-cut widths are stocked for standard Pakistani brick masonry walls?', answer: 'We stock standard 4.5-inch (single brick), 9-inch (double brick), 13.5-inch (one-and-a-half brick), and 18-inch widths in 30-meter rolls, alongside full 3 ft and 6 ft wide rolls.' },
-          { question: 'Does the embossed surface prevent masonry wall cracking or slipping?', answer: 'Yes, the heavy embossed grid profile creates high frictional resistance with the mortar joint, preventing brickwork slippage under structural building loads.' },
-          { question: 'How does this DPC sheet compare to traditional bitumen roofing felt (tar paper)?', answer: 'Unlike tar paper which dries out, rots, and cracks over time, heavy polyethylene DPC membranes remain flexible, rot-proof, and moisture-impermeable for the lifetime of the structure.' },
-        ],
+          {
+                    "question": "What gauge thickness is recommended for basement damp-proofing?",
+                    "answer": "For underground basement slabs and retaining walls, we recommend 800 to 1200 gauge (200–300 micron) heavy black plastic to resist puncturing from sub-base gravel."
+          },
+          {
+                    "question": "How should overlapping sheets be sealed on site?",
+                    "answer": "Sheets should overlap by at least 12 to 18 inches and be sealed with heavy bitumen tape or waterproof adhesive sealant to ensure a continuous watertight seal."
+          }
+],
         attrValues: [
           { attr: 'Polymer Resin Grade', val: '100% Virgin LDPE' },
           { attr: 'Film Thickness (Gauge / Micron)', val: '0.25mm (250 Micron / 1000 Gauge)' },
@@ -2976,28 +3027,27 @@ async function main() {
         slug: 'industrial-ldpe-tubular-roll-protective-packaging-film',
         price: 4200,
         moq: 5,
-        tradeAliases: 'Tubular Plastic Roll, Shopper Nali Roll, Continuous LDPE Tube, Plastic Sleeve Roll, Pipe Packaging Film, Heat Sealing Tubular Plastic, Garment Poly Tube',
-        shortDescription: 'Continuous seamless circular extruded LDPE tubular plastic roll for custom-length bag making, industrial pipe and rod bundling, carpet packaging, and spare parts moisture protection.',
-        longDescription: 'Tahira Syndicate\'s industrial LDPE tubular roll and protective packaging film (shopper nali roll) provides continuous, seamless sleeve packaging for manufacturing plants, hardware mills, and textile operations across Pakistan. Produced via blown-film extrusion as an endless seamless tube, packaging operators can simply pull out the desired length, insert lengthy industrial goods (such as steel rods, curtain pipes, fabric rolls, or carpets), and seal both ends with a standard impulse foot heat sealer. Eliminates waste and custom bag sizing constraints.',
-        metaTitle: "LDPE Tubular Roll & Plastic Sleeve Film Karachi",
-        metaDescription: "Continuous LDPE tubular plastic rolls (nali roll) in Karachi, Pakistan. Extruded seamless plastic sleeve film for carpet and industrial roll packaging.",
-        usage: 'Continuous sleeve packaging for metal pipes, aluminum extrusions, carpet rolls, and custom poly bag fabrication.',
+        tradeAliases: "Shopper Thaan • Tubular Plastic Roll • Packaging Film Roll • Continuous Plastic Sleeve • Shopper Roll",
+        shortDescription: "Continuous seamless tubular polythene rolls (Shopper Thaan) in HDPE and LDPE. Ready for automatic bag-making machines or manual heat-sealing for retail and packing sacks.",
+        longDescription: "Packaging factories and plastic bag converters need consistent, uniform tubular film rolls that run smoothly through high-speed sealing and cutting machines without jamming. Our Shopper Roll Thaan is extruded with tight gauge tolerance and uniform bubble cooling. Available in virgin crystal-clear LDPE or high-strength crisp HDPE, it heat-seals cleanly at standard temperatures to produce retail bags, hardware packaging sleeves, and textile liners.",
+        metaTitle: "Packaging Shopper Roll Thaan (Tubular Film) Karachi Supply",
+        metaDescription: "Continuous tubular plastic film rolls (Shopper Thaan) in Karachi. Uniform gauge, heat-sealable film for bag making and industrial sleeve packing.",
+        usage: "Supplied to plastic bag converters, textile garment packing factories, chemical sack producers, retail packaging workshops, and hardware pouch makers across Karachi.",
         benefits: [
-          'Seamless circular extrusion guarantees 100% leak-proof sides with zero longitudinal weak weld seams.',
-          'Formulated for fast, strong heat sealing on standard impulse, pedal, and continuous band heat sealers.',
-          'High puncture strength shields steel rods, sanitary fittings, and machinery parts against surface scratches and oxidation.',
-          'Available in standard sleeve layflat widths from 2 inches up to 36 inches.',
-        ],
+          "Seamless tubular sleeve design allows custom length bag cutting and heat-sealing",
+          "Uniform gauge thickness across the width ensures smooth high-speed machine feeding",
+          "Strong heat-seal strength prevents bag bottom seam splitting under heavy contents",
+          "Available in high-clarity LDPE or high-tensile crisp HDPE formulations"
+],
         suitedFor: [
-          'Packaging long extruded aluminum profiles, steel pipes, and curtain rods',
-          'Industrial textile fabric rolls, carpet bundles, and yarn packaging',
-          'Fabrication of custom-length poly bags for automotive hardware and fasteners',
-          'Moisture barrier protection for machinery spare parts in humid coastal shipping',
-        ],
+          "Plastic shopping bag & carrier bag manufacturing",
+          "Garment & textile fabric roll protective packaging",
+          "Long hardware pipe, rod & aluminum profile protective sleeves",
+          "Chemical & food grain moisture-proof liner bags"
+],
         notSuitedFor: [
-          'Boiling retort food packaging or microwave sterilization',
-          'High-heat shrink oven tunnel applications requiring specialized cross-linked polyolefin',
-        ],
+          "Heavy civil concrete casting where wide flat sheets are required"
+],
         bulkPricing: [
           { minQty: 10, maxQty: 29, label: 'Factory Packaging Pack' },
           { minQty: 30, maxQty: 99, label: 'Industrial Manufacturer Consignment' },
@@ -3009,10 +3059,15 @@ async function main() {
           { src: '/uploads/products/polythene-sheets-films/industrial-ldpe-tubular-roll-protective-packaging-film/industrial-ldpe-tubular-roll-protective-packaging-film-3.jpg', alt: 'Industrial LDPE Tubular Roll protective packaging film roll', sortOrder: 3 },
         ],
         faqs: [
-          { question: 'Can this tubular plastic film be heat sealed with ordinary impulse bench sealers?', answer: 'Yes, our virgin LDPE polymer melts smoothly between 110°C to 135°C, yielding strong, airtight seal lines on standard manual and pneumatic impulse sealers.' },
-          { question: 'What narrow and wide layflat tube widths can be ordered?', answer: 'We stock 4", 6", 8", 12", 18", 24", and 36" layflat sleeve widths in 15 kg and 25 kg rolls at our Bohrapir warehouse. Custom widths can also be manufactured on request.' },
-          { question: 'Is this film compatible with printing for brand logos?', answer: 'Yes, corona-treated rolls for flexographic single and multi-color logo printing are available upon custom factory request.' },
-        ],
+          {
+                    "question": "What tube widths are available in Shopper Thaan rolls?",
+                    "answer": "We manufacture tubular sleeve widths from 3 inches (narrow pouches) up to 48 inches (wide master sleeves) in thicknesses from 80 gauge up to 600 gauge."
+          },
+          {
+                    "question": "Can you produce custom colored tubular rolls?",
+                    "answer": "Yes, we extrude natural crystal clear, milky white, deep black, blue, yellow, and red tubular rolls according to your packaging color BOQ."
+          }
+],
         attrValues: [
           { attr: 'Polymer Resin Grade', val: '100% Virgin LDPE' },
           { attr: 'Film Thickness (Gauge / Micron)', val: '0.10mm (100 Micron / 400 Gauge)' },
@@ -3028,28 +3083,27 @@ async function main() {
         slug: 'high-clarity-industrial-pallet-stretch-wrap-film-roll',
         price: 1850,
         moq: 6,
-        tradeAliases: 'Stretch Wrap, Pallet Wrapping Roll, Plastic Stretch Film, Cling Film Roll, Carton Wrapping Roll, LLDPE Stretch Film, Machine Stretch Roll',
-        shortDescription: 'High-tack 5-layer cast LLDPE pallet stretch wrap film with up to 300% elongation for secure carton unitizing, export container pallet wrapping, and dust-proof cargo transport in Pakistan.',
-        longDescription: 'Tahira Syndicate\'s high-clarity industrial pallet stretch wrap film rolls deliver maximum holding force, puncture resistance, and cling performance for commercial warehouses, FMCG distributors, and containerized export shippers across Pakistan. Manufactured via high-speed 5-layer co-extrusion cast film lines using premium linear low-density polyethylene (LLDPE) resins, this film stretches up to 300% without tearing around sharp carton corners or irregular pallet edges. It locks loaded shipping pallets into a rigid, unified block, preventing cargo shifts during transit on rough highways between Karachi Port, Lahore, and Faisalabad.',
-        metaTitle: "Industrial Pallet Stretch Wrap Film Roll Karachi",
-        metaDescription: "Cast LLDPE 500mm industrial pallet stretch wrap film rolls in Karachi. High puncture resistance with 300% pre-stretch retention for export cargo palletizing.",
-        usage: 'Export container pallet stabilization, FMCG carton box unitizing, and moisture-proof cargo protection during inter-city transit.',
+        tradeAliases: "Shrink Film • Pallet Wrap Roll • Heat Shrink Poly Film • Clear Packaging Roll • Bottle Shrink Wrap",
+        shortDescription: "High-clarity virgin LDPE industrial heat-shrink film. Delivers high puncture resistance and tight, uniform shrinkage around beverage bottles, cans, and palletized cartons.",
+        longDescription: "Packaging beverage bottles, canned goods, and carton bundles into tight, transport-ready multipacks requires heat-shrink film with balanced bidirectional shrinkage and high clarity. Our Virgin LDPE Shrink Film is extruded from prime virgin low-density resin with optical clarity and high puncture resistance. When passed through a heat tunnel, it shrinks uniformly around the products, locking them into rigid, moisture-proof commercial bundles.",
+        metaTitle: "Virgin LDPE Shrink Packaging Film Roll Karachi Wholesale",
+        metaDescription: "Prime virgin LDPE heat shrink packaging film rolls in Karachi. High clarity, balanced shrinkage for beverage bottles, canned goods, and pallet wrapping.",
+        usage: "Used across beverage bottling plants, pharmaceutical packaging lines, canned food multi-packs, carton bundling, and heavy pallet heat-shrink hooding.",
         benefits: [
-          '5-layer cast co-extruded LLDPE construction offers superior tensile yield and high puncture resistance.',
-          'Silent release and aggressive single-sided cling locks layers together without adhesive residue on carton boxes.',
-          'Optical crystal clarity allows barcode scanning and shipping label verification directly through wrapped pallets.',
-          'Compatible with both manual hand dispensers and high-speed semi-automatic turntable wrapping machines.',
-        ],
+          "High optical clarity showcases printed brand graphics on bottles and cartons",
+          "Balanced machine-direction and cross-direction shrinkage creates tight, rigid packs",
+          "High puncture resistance prevents pack bursting during truck transit",
+          "100% prime virgin resin formulation ensures consistent seal strength in shrink tunnels"
+],
         suitedFor: [
-          'Export shipping container pallet stabilization and weather protection',
-          'FMCG carton box unitizing and anti-pilferage tamper evidence',
-          'Electronics, automotive battery, and chemical drum pallet wrapping',
-          'Furniture, ceramic tile, and building material bundling',
-        ],
+          "Beverage bottle & aluminum can multi-pack packaging",
+          "Pharmaceutical & consumer goods bundle wrapping",
+          "Ceramic tile & construction material pallet hooding",
+          "Corrugated box protective weather sealing"
+],
         notSuitedFor: [
-          'Direct heat shrink gun application (stretch film requires tension, not heat shrinking)',
-          'Heavy continuous strapping replacing polyester/steel patti (use PET strapping for heavy timber/steel)',
-        ],
+          "Manual cold stretch wrapping without heat application (use Stretch Wrap instead)"
+],
         bulkPricing: [
           { minQty: 1, maxQty: 9, label: 'Standard Warehouse Trial Pack (6 Rolls/Box)' },
           { minQty: 10, maxQty: 49, label: 'Commercial Logistics / FMCG Distributor Lot' },
@@ -3061,10 +3115,15 @@ async function main() {
           { src: '/uploads/products/polythene-sheets-films/high-clarity-industrial-pallet-stretch-wrap-film-roll/high-clarity-industrial-pallet-stretch-wrap-film-roll-3.jpg', alt: 'High-Clarity Industrial Pallet Stretch Wrap Film pyramid carton packaging rolls', sortOrder: 3 },
         ],
         faqs: [
-          { question: 'What is the weight and core size of your standard manual hand stretch roll?', answer: 'Our popular manual hand roll weighs approximately 2.2 kg to 2.5 kg gross with a lightweight 2-inch or 3-inch inner paper core designed for fatigue-free worker handling.' },
-          { question: 'Does the stretch film leave any sticky adhesive glue on our exported carton boxes?', answer: 'No. The film adheres strictly via natural molecular cling (tackifier additive) and leaves zero adhesive or chemical residue when unwrapped by the consignee.' },
-          { question: 'Can we scan logistics barcodes through the stretch film?', answer: 'Absolutely. Due to cast 5-layer virgin polymer clarity, laser and optical handheld barcode scanners easily read through multiple wrapped layers.' },
-        ],
+          {
+                    "question": "What is the difference between Shrink Film and Stretch Film?",
+                    "answer": "Shrink Film requires heat (from a heat gun or shrink tunnel) to shrink tightly around products. Stretch Film is elastic plastic that stretches and clings tightly around pallets at room temperature without heat."
+          },
+          {
+                    "question": "What thickness range is available for bottle shrink packaging?",
+                    "answer": "We supply shrink film from 150 gauge (37 micron) for light multi-packs up to 600 gauge (150 micron) for heavy master pallet shrink hoods."
+          }
+],
         attrValues: [
           { attr: 'Polymer Resin Grade', val: 'Linear Low-Density (LLDPE) High-Tack' },
           { attr: 'Film Thickness (Gauge / Micron)', val: '23 Micron Stretch' },
@@ -3251,28 +3310,27 @@ async function main() {
         slug: 'manual-polypropylene-pp-strapping-roll-patti',
         price: 2400,
         moq: 5,
-        tradeAliases: 'Manual Strapping Band, PP Patti Roll, Packing Patti, Manual Box Strapping, Plastic Patti Roll, Corrugated Box Patti, Warehouse Strapping Band',
-        shortDescription: 'High-tensile virgin & semi-virgin manual polypropylene strapping roll for carton bundling, bundle packaging, and manual tensioner sealing with metal clips across Pakistan.',
-        longDescription: 'Manufactured for rigorous manual packing operations across Karachi warehouses, wholesale distribution centers, and manufacturing units. Tahira Syndicate\'s Manual PP Strapping Band offers superior tensile strength, minimal elongation, and smooth split-free edges to prevent worker hand injuries and carton corner tearing. Designed with a diamond-embossed grip surface for non-slip mechanical clamping with galvanized metal strapping seals (kundi clips) using standard manual tensioners and sealers.',
-        metaTitle: "Manual PP Strapping Roll (Patti) Wholesale Karachi",
-        metaDescription: "Virgin polypropylene manual strapping band rolls (patti) in Karachi, Pakistan. 12mm to 19mm embossed plastic band for manual tensioners and clip carton sealing.",
-        usage: 'Manual carton bundling, corrugated box reinforcement, textile yarn packing, and master carton securing.',
+        tradeAliases: "Hath Wali Patti • Manual Strapping Roll • Packaging Patti • Heavy Duty PP Patti • Box Patti",
+        shortDescription: "Heavy-gauge manual polypropylene hand strapping roll (Hath Wali Patti). High breaking strength for manual tensioners and metal clips (patti kundi) on crates and pallets.",
+        longDescription: "When packing heavy wooden crates, metal parts, or large warehouse cartons by hand, standard machine strapping is too thin. Our Manual PP Hand Strapping Roll (Hath Wali Patti) is extruded with a thicker gauge and deep diamond embossing. It works seamlessly with manual ratchet tensioners and crimping sealers, holding heavy loads firmly with galvanized metal clips (patti kundi) without splitting along the length.",
+        metaTitle: "Manual PP Hand Strapping Roll (Hath Patti) Karachi Wholesale",
+        metaDescription: "Heavy-duty manual PP hand strapping rolls (Hath Wali Patti) in Karachi. High break strength, diamond embossed for manual tensioners and metal strapping clips.",
+        usage: "The everyday standard for manual carton bundling, wooden crate securing, brick pallet strapping, textile bale lashing, and general warehouse shipping across Pakistan.",
         benefits: [
-          'Embossed diamond grip prevents metal seal slippage under heavy transport tension.',
-          'Superior tensile breaking force of 120 kg to 220 kg depending on width specification.',
-          'Split-resistant formulation ensures smooth feeding through hand tensioning tools.',
-          'Weatherproof, rot-proof, and humidity-resistant for local transit and sea freight.',
-        ],
+          "Thick gauge formulation delivers high break strength for heavy manual packing",
+          "Deep diamond embossing ensures metal clips (patti kundi) grip without slipping",
+          "Supplied in convenient portable dispenser rolls for fast warehouse mobility",
+          "Cost-effective and reliable alternative to expensive steel strapping"
+],
         suitedFor: [
-          'Export carton and corrugated master box reinforcement',
-          'Textile yarn carton strapping and woven fabric bundle securing',
-          'Pharmaceutical, food, and FMCG wholesale distribution packaging',
-          'Hardware, plastic pipe, and industrial component grouping',
-        ],
+          "Manual ratchet tensioner & crimping tool operation",
+          "Heavy corrugated carton & master box securing",
+          "Wooden crate & export wooden pallet strapping",
+          "Textile fabric bale & yarn carton packaging"
+],
         notSuitedFor: [
-          'Arch-feed high-speed automated strapping machines (requires machine-grade straightness)',
-          'Heavy steel ingot or sharp-edged raw sheet metal strapping without corner protectors',
-        ],
+          "High-speed automatic arch strapping machines (use machine-grade PP instead)"
+],
         bulkPricing: [
           { minQty: 10, maxQty: 29, label: 'Warehouse Starter Pack' },
           { minQty: 30, maxQty: 74, label: 'Commercial Distribution Lot' },
@@ -3285,9 +3343,15 @@ async function main() {
           { src: '/uploads/products/packaging-strapping/manual-polypropylene-pp-strapping-roll-patti/manual-pp-strapping-roll-patti-karachi-category-packaging-strapping-overview.jpg', alt: 'Tahira Syndicate industrial packaging and strapping materials wholesale stock Bohrapir Karachi Pakistan', sortOrder: 4 },
         ],
         faqs: [
-          { question: 'What tools are required to use manual PP strapping rolls?', answer: 'Manual PP strapping requires a manual ratchet tensioner, a manual crimping sealer, and galvanized metal strapping seals (patti kundi).' },
-          { question: 'What roll weights and colors are available?', answer: 'Standard roll gross weights range from 8 kg to 12 kg in White, Yellow, Blue, Green, and Black.' },
-        ],
+          {
+                    "question": "What tool set is used with manual PP strapping?",
+                    "answer": "Manual PP strapping uses a manual ratchet tensioner to pull the band tight, a manual sealer tool, and galvanized metal strapping clips (patti kundi) to crimp the joint."
+          },
+          {
+                    "question": "What roll weights and colors are stocked?",
+                    "answer": "We supply manual strapping in 5kg, 8kg, 10kg, and 12kg rolls in White, Blue, Yellow, Green, and Black colors."
+          }
+],
         attrValues: [
           { attr: 'Material Type & Polymer Grade', val: 'High-Tensile Polypropylene (PP)' },
           { attr: 'Standard Width / Gauge Size', val: '12mm / 12.5mm (1/2 Inch)' },
@@ -3301,28 +3365,27 @@ async function main() {
         slug: 'semi-automatic-machine-grade-pp-strapping-band-roll',
         price: 3200,
         moq: 4,
-        tradeAliases: 'Machine Strapping Roll, Heat Seal PP Band, Semi-Auto Packing Strap, Strapping Machine Patti, Transpak Strapping Roll, Box Strapping Machine Roll',
-        shortDescription: 'Precision-extruded heat-sealable machine grade polypropylene strapping roll designed for continuous jam-free cycling on semi-automatic and automatic strapping machines.',
-        longDescription: 'Engineered specifically for high-speed industrial packaging lines across Pakistan. Tahira Syndicate\'s semi-automatic machine grade PP strapping features strict gauge uniformity, exceptional camber-free straightness, and an optimized melt-flow index for instant, durable heat welds without machine cutter or heater jamming. Compatible with Strapack, Transpak, Joinpack, and standard industrial packaging machines.',
-        metaTitle: "Machine Grade PP Strapping Band Roll Karachi",
-        metaDescription: "High-tensile semi-automatic machine grade PP strapping roll in Karachi. Consistent gauge and low camber ensuring zero jams on automatic carton packaging lines.",
-        usage: 'Continuous conveyor case strapping, semi-automatic table packaging, publication bundling, and high-speed parcel processing.',
+        tradeAliases: "Machine Patti • PP Strapping Band • Automatic Box Strapping • Plastic Packaging Patti",
+        shortDescription: "Precision machine-grade virgin polypropylene box strapping band (9mm–15mm). Smooth feeding, zero machine jams, and strong heat-seal joints for high-speed automated carton packing.",
+        longDescription: "High-speed packaging lines cannot afford downtime from brittle strapping bands that jam tensioning rollers or fail to heat-weld properly. Our Machine-Grade PP Strapping Roll (Machine Patti) is extruded with precision width tolerances, consistent curvature camber, and high tensile strength. It feeds smoothly through semi-automatic and fully automatic arch strapping machines, delivering strong friction or heat-welded joints in less than 2 seconds per box.",
+        metaTitle: "PP Machine Box Strapping Roll (Machine Patti) Karachi Supply",
+        metaDescription: "Virgin machine-grade PP plastic box strapping rolls (Machine Patti) in Karachi. Jam-free, high tensile strapping bands for semi-auto and auto packing machines.",
+        usage: "Used in carton packing lines, pharmaceutical logistics, textile export cartons, paper printing presses, food processing plants, and e-commerce distribution centers.",
         benefits: [
-          'Calibrated camber-free straightness prevents arch jamming in semi-automatic and fully automatic machines.',
-          'Fast-melt polymer formula guarantees ultra-strong heat-seal joints in under 0.5 seconds.',
-          'Ultra-low dust formulation protects machine heating elements and blade assemblies from residue buildup.',
-          'Consistent tensile elongation absorbs transit vibration without snapping.',
-        ],
+          "Precision width and thickness tolerances prevent strapping machine jams",
+          "100% virgin PP polymer creates clean, high-strength heat-weld joints",
+          "Embossed surface texture provides positive grip on machine feed rollers",
+          "High shock elasticity prevents carton damage during transit and handling"
+],
         suitedFor: [
-          'Automated pharmaceutical and FMCG end-of-line packaging conveyors',
-          'Commercial print houses, bookbinders, and publication bundling',
-          'Consumer electronics and appliance secondary carton packaging',
-          'E-commerce logistics sorting hub parcel reinforcement',
-        ],
+          "Semi-automatic table-top strapping machines",
+          "Fully automatic arch strapping conveyor lines",
+          "Corrugated carton & export box bundling",
+          "Newspaper, magazine & printed paper batch strapping"
+],
         notSuitedFor: [
-          'Hand tensioning with crimping pliers (not optimized for cold-seal manual buckles)',
-          'Heavy 1-ton brick or raw timber pallet strapping without corner edge protection',
-        ],
+          "Heavy 5-Ton steel coil securing (use Green PET or Steel strapping instead)"
+],
         bulkPricing: [
           { minQty: 10, maxQty: 24, label: 'Factory Monthly Supply Pack' },
           { minQty: 25, maxQty: 49, label: 'Automated Line Project Lot' },
@@ -3333,9 +3396,15 @@ async function main() {
           { src: '/uploads/products/packaging-strapping/semi-automatic-machine-grade-pp-strapping-band-roll/semi-automatic-machine-pp-strapping-band-roll-karachi-category-packaging-strapping-overview.jpg', alt: 'Tahira Syndicate industrial packaging and strapping materials wholesale stock Bohrapir Karachi Pakistan', sortOrder: 2 },
         ],
         faqs: [
-          { question: 'Will this strap jam on Taiwanese or Chinese strapping machines?', answer: 'No. Our machine-grade strapping is precision extruded with zero curvature (camber) and uniform thickness, ensuring 100% jam-free operation on Transpak, Joinpack, and Chinese machines.' },
-          { question: 'What is the core size for machine rolls?', answer: 'Standard 200mm inner diameter paper core with 190mm width, fitting all standard strapping machine dispensers.' },
-        ],
+          {
+                    "question": "What widths and core sizes are available for machine strapping?",
+                    "answer": "We stock 9mm, 12mm, and 15mm widths on standard 200mm (8-inch) industrial paper cores that fit all standard semi-auto and automatic strapping machines."
+          },
+          {
+                    "question": "Does this strapping work with heat-sealing machines without metal clips?",
+                    "answer": "Yes, machine-grade PP strapping is formulated specifically for instant thermal and friction welding inside strapping machines without needing metal seals."
+          }
+],
         attrValues: [
           { attr: 'Material Type & Polymer Grade', val: 'High-Tensile Polypropylene (PP)' },
           { attr: 'Standard Width / Gauge Size', val: '12mm / 12.5mm (1/2 Inch)' },
@@ -3349,28 +3418,27 @@ async function main() {
         slug: 'high-tensile-embossed-pet-polyester-strapping-roll',
         price: 4500,
         moq: 3,
-        tradeAliases: 'PET Strapping Band, Polyester Strapping, Green Plastic Steel Band, Heavy Duty Pallet Strap, Steel Strap Alternative, Plastic Steel Belt',
-        shortDescription: 'Heavy-duty steel strap alternative made from high-strength polyester (PET) for heavy pallet stabilization, lumber, brick, and export cargo securing across Pakistan.',
-        longDescription: 'The modern, cost-effective, and rust-free replacement for dangerous steel strapping. Tahira Syndicate\'s High-Tensile PET Strapping band retains continuous tension even under cargo shifting, timber settling, and thermal expansion. It will not scratch, stain, or rust on outdoor-stored pallets, and delivers up to 50% cost savings compared to traditional steel strapping. Designed for heavy friction weld battery tools and heavy serrated metal seals.',
-        metaTitle: "High-Tensile PET Strapping Roll Wholesale Karachi",
-        metaDescription: "Green embossed polyester PET strapping rolls in Karachi, Pakistan. Steel-grade tensile strength with high elasticity for heavy timber, pallet and cotton baling.",
-        usage: 'Heavy pallet stabilization, ceramic tile palletizing, cotton baling, metal coil bundling, and export container cargo lashing.',
-        benefits: [
-          'High shock absorber elastic recovery retains tension even if pallets shift or settle during sea shipping.',
-          '100% rustproof and non-staining, protecting exported goods from moisture corrosion.',
-          'Zero razor-sharp edges eliminates workplace injuries common with snapped steel bands.',
-          'Compatible with high-speed friction welding battery tools and heavy serrated clips.',
-        ],
-        suitedFor: [
-          'Palletized export ceramic tiles, sanitaryware, and cement bags',
-          'Compressed cotton bales, textile fabric rolls, and raw fiber baling',
-          'Steel pipe bundles, aluminum extrusion profiles, and sheet metal packs',
-          'Timber, plywood packs, and construction concrete block securing',
-        ],
-        notSuitedFor: [
-          'Standard light-duty manual crimping tools designed for thin PP strapping',
-          'Direct exposure to open flame cutting',
-        ],
+        "tradeAliases": "PET Patti • Green Polyester Strapping • Heavy Duty PET Band • Steel Strap Replacement • Polyester Patti",
+        "shortDescription": "High-tensile green PET polyester strapping band. Replaces dangerous steel strapping with high retained tension and shock recovery for lumber, bricks, and heavy machinery pallets.",
+        "longDescription": "Steel strapping rusts, stains valuable cargo, and has dangerous razor-sharp edges that injure warehouse laborers when snapped. Green PET (Polyester) Strapping is the modern, safe industrial alternative to steel. Extruded from high-strength polyester resin, PET strapping provides high tensile break strength with elastic memory — meaning if the pallet settles or shrinks in transit, the PET band contracts and stays tight without going slack.",
+        "metaTitle": "Green PET Polyester Strapping Roll Karachi Wholesale Supply",
+        "metaDescription": "High-tensile green PET polyester strapping bands in Karachi (12mm to 19mm). Safe, rust-free steel strapping replacement for bricks, lumber, and heavy pallets.",
+        "usage": "Used for strapping concrete blocks, brick cubes, timber lumber, metal ingots, heavy appliance pallets, ceramic tiles, and export shipping containers.",
+        "benefits": [
+          "Superior retained tension — stays tight even if pallets settle during long highway trips",
+          "Zero rust — will not leave ugly rust stains on export goods and building stone",
+          "Smooth, safe edges eliminate the severe cuts and hand injuries caused by steel bands",
+          "High shock absorption recovers from heavy forklift bumps without snapping"
+],
+        "suitedFor": [
+          "Battery-powered friction-weld strapping tools",
+          "Pneumatic & manual heavy-duty PET tensioners",
+          "Concrete block & brick cube pallet strapping",
+          "Timber, lumber & aluminum extrusion bundling"
+],
+        "notSuitedFor": [
+          "Lightweight paper cartons where light PP machine strap is sufficient"
+],
         bulkPricing: [
           { minQty: 6, maxQty: 19, label: 'Export Contractor Starter Pack' },
           { minQty: 20, maxQty: 49, label: 'Industrial Palletizing Lot' },
@@ -3381,10 +3449,16 @@ async function main() {
           { src: '/uploads/products/packaging-strapping/high-tensile-embossed-pet-polyester-strapping-roll/high-tensile-embossed-pet-polyester-strapping-roll-karachi-view-2.jpg', alt: 'High-Tensile Embossed PET Strapping Roll view 2 Karachi', sortOrder: 2 },
           { src: '/uploads/products/packaging-strapping/high-tensile-embossed-pet-polyester-strapping-roll/high-tensile-embossed-pet-polyester-strapping-roll-karachi-category-packaging-strapping-overview.jpg', alt: 'Tahira Syndicate industrial packaging and strapping materials wholesale stock Bohrapir Karachi Pakistan', sortOrder: 3 },
         ],
-        faqs: [
-          { question: 'Can PET strapping replace steel strapping safely?', answer: 'Yes, PET strapping offers breaking strength up to 850 kg with superior elastic recovery, meaning it absorbs transit shocks without snapping or damaging product corners.' },
-          { question: 'What sealing methods work with PET strap?', answer: 'It can be sealed using battery-powered friction welding tools or manual heavy-duty tensioners with serrated galvanized metal seals.' },
-        ],
+        "faqs": [
+          {
+                    "question": "Can PET strapping replace steel strapping on heavy pallet loads?",
+                    "answer": "Yes! High-tensile 16mm and 19mm PET strapping matches the effective breaking strength of steel strap while offering superior shock elasticity, zero rust, and much safer handling for workers."
+          },
+          {
+                    "question": "What tools are used to seal PET strapping?",
+                    "answer": "PET strapping can be sealed using battery-powered friction welding tools (which weld without clips) or manual heavy-duty PET tensioners with serrated steel clips."
+          }
+],
         attrValues: [
           { attr: 'Material Type & Polymer Grade', val: 'Oriented PET (Polyester)' },
           { attr: 'Standard Width / Gauge Size', val: '15mm / 15.5mm (5/8 Inch)' },
@@ -3398,28 +3472,27 @@ async function main() {
         slug: 'industrial-clear-brown-bopp-carton-packaging-tape-roll',
         price: 180,
         moq: 36,
-        tradeAliases: 'BOPP Packing Tape, Brown Carton Tape, Transparent Packing Tape, Packaging Adhesive Tape, Box Sealing Tape, Shisha Packing Tape, Tan Tape',
-        shortDescription: 'Industrial-grade Biaxially Oriented Polypropylene (BOPP) carton sealing tape with aggressive pressure-sensitive emulsion acrylic adhesive for corrugated boxes.',
-        longDescription: 'Engineered for high-volume carton sealing across manufacturing and logistics operations. Tahira Syndicate BOPP packaging tapes feature high-shear strength acrylic adhesive coated on premium tensile polypropylene film. Provides an instantaneous bond to virgin and recycled corrugated boxes, resisting extreme temperature fluctuations and humidity without peeling.',
-        metaTitle: 'BOPP Carton Packaging Tape Rolls Wholesale Karachi',
-        metaDescription: 'Industrial 2" and 3" clear and brown BOPP carton packing tapes in Karachi. Strong acrylic adhesive coating for secure corrugated box sealing and freight.',
-        usage: 'Corrugated carton sealing, export box packaging, courier parcel security, and cold storage container taping.',
+        tradeAliases: "Packaging Tape • Brown Tape Roll • Clear Packing Tape • BOPP Tape • Carton Sealing Tape • Khaki Tape",
+        shortDescription: "Industrial-grade BOPP adhesive carton sealing tape (48mm & 72mm) in Clear and Brown. Strong pressure-sensitive acrylic glue sticks instantly to recycled corrugated cartons.",
+        longDescription: "Corrugated cartons opening during warehouse handling or shipping transit leads to product damage and pilferage. Our Industrial BOPP Carton Sealing Tape uses a biaxially oriented polypropylene film coated with high-tack water-based acrylic adhesive. It bonds instantly to single-wall and double-wall kraft cartons, resists humid coastal weather, and will not peel off or turn yellow during prolonged warehouse storage.",
+        metaTitle: "Industrial BOPP Packaging Tape Roll Karachi Wholesale",
+        metaDescription: "Heavy-duty BOPP carton packaging tape rolls (Clear & Brown) in Karachi (48mm & 72mm). High-tack adhesive tape for secure export box sealing.",
+        usage: "Universal standard for corrugated carton sealing, export box packaging, e-commerce parcel packing, and bundling across wholesale commercial hubs.",
         benefits: [
-          'Instant aggressive tack adheres securely to high-recycled content corrugated cartons.',
-          'High-tensile BOPP film resists edge splitting during high-speed manual dispenser application.',
-          'UV and aging-resistant water-based acrylic adhesive prevents yellowing and bond failure in tropical humidity.',
-          'Smooth and silent unwind suitable for factory packaging lines and distribution hubs.',
-        ],
+          "High-tack acrylic adhesive creates a permanent seal on recycled kraft boxes",
+          "Strong BOPP film resists stretching and snapping inside manual tape dispensers",
+          "Weather-resistant adhesive will not dry out, peel, or yellow in coastal humidity",
+          "Available in standard 48mm (2-inch) and wide 72mm (3-inch) master rolls"
+],
         suitedFor: [
-          'Corrugated box and master carton sealing in export shipping',
-          'E-commerce courier flyer and parcel reinforcement',
-          'Cold storage food packaging and temperature-controlled logistics',
-          'Bundling, light grouping, and protective carton lamination',
-        ],
+          "Manual handheld tape gun carton taping",
+          "Automatic case sealer conveyor machines",
+          "E-commerce & retail courier box sealing",
+          "Master export corrugated carton packaging"
+],
         notSuitedFor: [
-          'Oily, wet, or heavily dust-coated rough timber surfaces',
-          'High-temperature baking or powder coating masking',
-        ],
+          "High-temperature baking oven masking (use specialized crepe paper masking tape instead)"
+],
         bulkPricing: [
           { minQty: 72, maxQty: 215, label: 'Carton Sealing Starter Carton (2-6 Cartons)' },
           { minQty: 216, maxQty: 719, label: 'Commercial Warehouse Wholesale Pack' },
@@ -3433,9 +3506,15 @@ async function main() {
           { src: '/uploads/products/packaging-strapping/industrial-clear-brown-bopp-carton-packaging-tape-roll/industrial-clear-brown-bopp-carton-packaging-tape-roll-karachi-category-packaging-strapping-overview.jpg', alt: 'Tahira Syndicate industrial packaging and strapping materials wholesale stock Bohrapir Karachi Pakistan', sortOrder: 5 },
         ],
         faqs: [
-          { question: 'What widths and roll lengths are supplied?', answer: 'Standard 48mm (2 inch) and 72mm (3 inch) widths in 50m, 100m, 200m, and jumbo 500m machine rolls.' },
-          { question: 'Is custom company logo printing available?', answer: 'Yes, we supply custom printed BOPP tape rolls with corporate branding, logos, and warning messages in bulk lots.' },
-        ],
+          {
+                    "question": "What lengths and widths are stocked in BOPP packaging tape?",
+                    "answer": "We supply 48mm (2-inch) and 72mm (3-inch) tape in standard 60-yard, 100-yard, and 500-yard industrial machine rolls in Clear, Brown (Khaki), and custom printed logos."
+          },
+          {
+                    "question": "Does this tape adhere well to recycled corrugated boxes?",
+                    "answer": "Yes, our premium acrylic adhesive is formulated with higher initial tack specifically to penetrate and stick firmly to high-recycled content kraft liners."
+          }
+],
         attrValues: [
           { attr: 'Material Type & Polymer Grade', val: 'BOPP Film + Acrylic Adhesive' },
           { attr: 'Standard Width / Gauge Size', val: '48mm (2 Inch)' },
@@ -3449,28 +3528,27 @@ async function main() {
         slug: 'heavy-duty-woven-cotton-nylon-niwar-strapping-roll',
         price: 850,
         moq: 10,
-        tradeAliases: 'Niwar Patti, Woven Cotton Niwar, Nylon Webbing Patti, Furniture Webbing Tape, Charpai Niwar, Truck Lashing Niwar, Cargo Binding Webbing',
-        shortDescription: 'High-density tightly woven cotton and nylon niwar rolls for industrial tying, heavy machinery binding, furniture webbing, and traditional transport baling across Pakistan.',
-        longDescription: 'Manufactured from premium twisted cotton yarn and high-tenacity nylon filaments on high-speed needle looms. Tahira Syndicate woven niwar rolls offer immense knot strength, soft pliable surface handling without scratching delicate polished surfaces, and reusable durability across transport, defense, and manufacturing sectors.',
-        metaTitle: "Heavy Woven Cotton & Nylon Niwar Roll Karachi",
-        metaDescription: "Heavy-duty woven cotton and nylon niwar rolls in Karachi, Pakistan. Tight weave strap rolls for charpai cots, furniture webbing, and industrial cargo bundling.",
-        usage: 'Truck cargo securing, furniture and charpai webbing, canvas tarpaulin tie-down, and industrial machinery parts bundling.',
+        tradeAliases: "Cotton Niwar • Nylon Niwar • Charpai Patti • Heavy Woven Webbing • Bed Niwar Roll • Niwar Patti",
+        shortDescription: "Heavy-duty woven cotton and nylon niwar webbing (38mm to 75mm). High strength, non-elastic, and comfortable for charpai beds, folding chairs, and cargo bundling.",
+        longDescription: "Traditional charpai beds, folding camp cots, and furniture webbing need high-tensile niwar that does not stretch out or sag over time. Our Heavy-Duty Woven Niwar is tightly woven from pure cotton and high-strength synthetic yarns with dense edge selvedges. It provides firm, non-elastic support, holds up under heavy daily body weight, and is easy to nail, rivet, or weave onto wooden and metal furniture frames.",
+        metaTitle: "Cotton & Nylon Niwar Strapping Roll Karachi Wholesale",
+        metaDescription: "Heavy-duty woven cotton and nylon niwar rolls (38mm to 75mm) in Karachi. Non-sagging furniture webbing for charpai beds, folding chairs, and industrial lashing.",
+        usage: "Used for weaving charpai beds, folding camp cots, patio furniture seating, heavy cotton bale tying, tarpaulin edge reinforcement, and industrial bundle lashing.",
         benefits: [
-          'Dense interlocking weave provides extreme tear and friction resistance under heavy tension.',
-          'Non-abrasive textile face prevents scratching or scuffing on delicate painted surfaces.',
-          'High flexibility allows effortless manual knotting, looping, and tightening.',
-          'Washable, reusable, and resistant to atmospheric moisture degradation.',
-        ],
+          "Dense woven structure prevents sagging and loose body hollows in furniture",
+          "Reinforced selvedge borders resist fraying along the edges during tight weaving",
+          "Soft, breathable natural cotton yarns provide cool comfort in summer heat",
+          "Available in continuous 10kg and 20kg master coils for furniture makers"
+],
         suitedFor: [
-          'Truck cargo tie-down, canvas tarpaulin securing, and goods transport binding',
-          'Folding beds (charpai), camp cots, garden furniture, and sofa webbing support',
-          'Industrial machine component binding and pipe bundle wrapping',
-          'Agricultural produce baling and heavy sack mouth reinforcement',
-        ],
+          "Traditional charpai bed & wooden furniture weaving",
+          "Folding camp cot & lawn chair repair",
+          "Textile fabric bale & cotton roll binding",
+          "Heavy cargo lashing & tarpaulin edge reinforcement"
+],
         notSuitedFor: [
-          'High-speed automated packaging machines',
-          'Direct exposure to strong chemical battery acid baths',
-        ],
+          "Certified crane hoisting (use Duplex Webbing Slings for crane lifts)"
+],
         bulkPricing: [
           { minQty: 20, maxQty: 49, label: 'Transport Depot Starter Lot' },
           { minQty: 50, maxQty: 149, label: 'Furniture & Hardware Mandi Pack' },
@@ -3484,9 +3562,15 @@ async function main() {
           { src: '/uploads/products/packaging-strapping/heavy-duty-woven-cotton-nylon-niwar-strapping-roll/heavy-duty-woven-cotton-nylon-niwar-strapping-roll-karachi-category-packaging-strapping-overview.jpg', alt: 'Tahira Syndicate industrial packaging and strapping materials wholesale stock Bohrapir Karachi Pakistan', sortOrder: 5 },
         ],
         faqs: [
-          { question: 'What widths of niwar are available in stock?', answer: 'Available in 25mm (1"), 38mm (1.5"), 50mm (2"), and 75mm (3") widths in 25m, 50m, and 100m bundles.' },
-          { question: 'Is this suitable for outdoor truck cargo tie-down?', answer: 'Yes, our heavy nylon and reinforced cotton weaves withstand heavy wind vibration, sun exposure, and rough rope tie-down usage.' },
-        ],
+          {
+                    "question": "What widths and colors are available in Niwar rolls?",
+                    "answer": "We stock Niwar in 1.5\" (38mm), 2\" (50mm), 2.5\" (65mm), and 3\" (75mm) widths in Natural White, Grey, Striped, Red, Blue, and Green colors."
+          },
+          {
+                    "question": "Is this niwar 100% cotton or blended with synthetic fibers?",
+                    "answer": "We manufacture both 100% pure cotton traditional niwar and heavy nylon-reinforced synthetic niwar for maximum break strength."
+          }
+],
         attrValues: [
           { attr: 'Material Type & Polymer Grade', val: 'Woven Cotton & Nylon' },
           { attr: 'Standard Width / Gauge Size', val: '25mm - 75mm (1 to 3 Inch Webbing)' },
@@ -3500,28 +3584,27 @@ async function main() {
         slug: 'heavy-galvanized-metal-strapping-seals-clips-patti-kundi',
         price: 1500,
         moq: 5,
-        tradeAliases: 'Strapping Clips, Metal Patti Kundi, Pusher Seals, Open Flange Strapping Seals, Serrated PET Strapping Clips, Steel Packing Patti Kundi',
-        shortDescription: 'High-strength galvanized steel strapping seals, serrated wire buckles, and patti kundi clips designed for leak-free, non-slip joint clamping on PP and PET strapping.',
-        longDescription: 'Engineered from heavy-gauge galvanized cold-rolled steel to guarantee maximum joint efficiency under high tension. Tahira Syndicate metal strapping seals and clips feature interior serrations and aggressive crimping profiles that bite firmly into manual PP and PET bands, preventing strap slippage under severe freight impacts across Pakistan.',
-        metaTitle: "Galvanized Metal Strapping Seals & Patti Kundi Karachi",
-        metaDescription: "Heavy-duty galvanized steel metal strapping seals and open serrated clips (patti kundi) in Karachi. Extreme crimp grip for PP and PET plastic strapping bands.",
-        usage: 'Manual strapping crimp sealing, corrugated carton reinforcement, pallet cargo locking, and heavy bale closure.',
-        benefits: [
-          'Aggressive interior teeth bite deeply into plastic straps, preventing joint slippage under dynamic transit shock.',
-          'Zinc electro-galvanized coating resists rust and prevents unsightly rust stains on export cartons.',
-          'Precision pre-bent open-flange wings allow fast, one-handed placement onto tensioned straps.',
-          'Tested to deliver up to 85% of parent strap breaking strength when crimped with double-notch sealers.',
-        ],
-        suitedFor: [
-          'Manual PP strapping closure on export cartons and wooden crates',
-          'Heavy PET strap clamping on brick pallets, chemical drums, and machinery',
-          'Corrugated container reinforcement in sea cargo shipping',
-          'Textile bale and compressed yarn bundle joint securing',
-        ],
-        notSuitedFor: [
-          'Friction welding tools (designed strictly for manual crimping sealers)',
-          'Acid vat immersion without secondary protective coating',
-        ],
+        "tradeAliases": "Metal Patti Kundi • Strapping Clips • Pusher Seals • Open Flange Seals • Serrated PET Clips • Steel Clips",
+        "shortDescription": "Heavy-duty galvanized steel strapping seals and clips (Patti Kundi) for 12mm–19mm PP, PET, and steel strapping bands. Delivers 100% crimp joint security without slippage.",
+        "longDescription": "Even the strongest strapping band fails if the joint seal slips under tension. Our Heavy Galvanized Metal Strapping Clips (Patti Kundi) are stamped from cold-rolled galvanized steel. Available in open snap-on style for manual PP strapping and deeply serrated grip style for high-tensile PET strapping, these seals bite into the plastic band when crimped with a sealer tool, delivering up to 90% of the band break strength with zero joint slip.",
+        "metaTitle": "Metal Strapping Seals & Clips (Patti Kundi) Karachi Supply",
+        "metaDescription": "Heavy galvanized steel strapping seals and clips (Patti Kundi) in Karachi (12mm to 19mm) for manual PP, PET, and steel strapping tools and crimpers.",
+        "usage": "Essential for crimping manual PP strapping, high-tensile green PET strapping, and heavy steel packing patti on export cartons, wooden crates, and brick pallets.",
+        "benefits": [
+          "Heavy galvanized steel construction prevents rust and corrosion in storage",
+          "Serrated internal teeth bite firmly into PET strap to eliminate joint slippage",
+          "Open-flange design allows quick placement over pre-tensioned strapping bands",
+          "Provides high joint efficiency matching the breaking strength of the strapping band"
+],
+        "suitedFor": [
+          "Manual strapping crimper & sealer tool operations",
+          "PP manual hand strapping (smooth/semi-open clips)",
+          "High-tensile PET polyester strapping (heavy serrated clips)",
+          "Wooden crate & export carton joint locking"
+],
+        "notSuitedFor": [
+          "Automatic friction-welding strapping machines (which weld plastic without metal clips)"
+],
         bulkPricing: [
           { minQty: 10, maxQty: 29, label: 'Warehouse Seal Starter Pack (1,000 pcs/box)' },
           { minQty: 30, maxQty: 99, label: 'Commercial Packaging Lot' },
@@ -3532,10 +3615,16 @@ async function main() {
           { src: '/uploads/products/packaging-strapping/heavy-galvanized-metal-strapping-seals-clips-patti-kundi/heavy-galvanized-metal-strapping-seals-clips-patti-kundi-karachi-view-2.jpg', alt: 'Heavy Galvanized Metal Strapping Seals Clips Patti Kundi view 2 Karachi', sortOrder: 2 },
           { src: '/uploads/products/packaging-strapping/heavy-galvanized-metal-strapping-seals-clips-patti-kundi/heavy-galvanized-metal-strapping-seals-clips-patti-kundi-karachi-category-packaging-strapping-overview.jpg', alt: 'Tahira Syndicate industrial packaging and strapping materials wholesale stock Bohrapir Karachi Pakistan', sortOrder: 3 },
         ],
-        faqs: [
-          { question: 'What sizes do these seals fit?', answer: 'Manufactured for standard 12mm (1/2"), 15mm (5/8"), and 19mm (3/4") PP and PET strapping bands.' },
-          { question: 'What is the packing quantity?', answer: 'Supplied in boxes of 1,000 pieces or master burlap sacks of 5,000 pieces for large industrial consumers.' },
-        ],
+        "faqs": [
+          {
+                    "question": "What is the difference between smooth PP clips and serrated PET clips?",
+                    "answer": "Smooth clips are designed for softer PP strapping. Serrated clips have internal diamond teeth that bite through the hard, glossy surface of PET strapping to prevent slipping under high tension."
+          },
+          {
+                    "question": "What sizes are available in metal strapping clips?",
+                    "answer": "We stock standard 1/2\" (12mm), 5/8\" (16mm), and 3/4\" (19mm) metal seals packed in 1,000-piece cartons and bulk wholesale sacks."
+          }
+],
         attrValues: [
           { attr: 'Material Type & Polymer Grade', val: 'Galvanized Cold-Rolled Steel (CRCA)' },
           { attr: 'Standard Width / Gauge Size', val: '12mm / 12.5mm (1/2 Inch)' },
@@ -3643,7 +3732,7 @@ async function main() {
         image: '/uploads/categories/nets.jpeg',
         status: 'Active',
         metaTitle: 'Wholesale Nets & Netting Supplier Karachi | Tahira Syndicate',
-        metaDescription: 'Factory direct supplier of agricultural shade nets (hara parda), construction safety nets, anti-bird netting, sports turf nets & marine fishing nets in Karachi, Pakistan.',
+        metaDescription: 'Supplier of agricultural shade nets (hara parda), construction safety nets, anti-bird netting, cricket turf nets & fishing nets in Karachi, Pakistan.',
         description: 'Tahira Syndicate is a master wholesale distributor and fabricator of industrial, agricultural, and commercial netting in Karachi. Dispatched directly from our Bohrapir warehouse and SITE Area rigging yard, our inventory covers UV-stabilized green and multi-color shade nets (hara parda) for nurseries and car parking, certified fall-arrest construction safety nets (scaffolding jaal), translucent anti-bird pigeon netting, heavy-ply cricket practice and futsal turf nets, knotted marine fishing nets for deep-sea trawlers, and heavy synthetic cargo containment nets for transport trucks. All nets are available in standard factory rolls (2m to 6m widths) or custom-fabricated dimensions with reinforced border ropes and brass tie grommets.',
       },
       create: {
@@ -3652,7 +3741,7 @@ async function main() {
         image: '/uploads/categories/nets.jpeg',
         status: 'Active',
         metaTitle: 'Wholesale Nets & Netting Supplier Karachi | Tahira Syndicate',
-        metaDescription: 'Factory direct supplier of agricultural shade nets (hara parda), construction safety nets, anti-bird netting, sports turf nets & marine fishing nets in Karachi, Pakistan.',
+        metaDescription: 'Supplier of agricultural shade nets (hara parda), construction safety nets, anti-bird netting, cricket turf nets & fishing nets in Karachi, Pakistan.',
         description: 'Tahira Syndicate is a master wholesale distributor and fabricator of industrial, agricultural, and commercial netting in Karachi. Dispatched directly from our Bohrapir warehouse and SITE Area rigging yard, our inventory covers UV-stabilized green and multi-color shade nets (hara parda) for nurseries and car parking, certified fall-arrest construction safety nets (scaffolding jaal), translucent anti-bird pigeon netting, heavy-ply cricket practice and futsal turf nets, knotted marine fishing nets for deep-sea trawlers, and heavy synthetic cargo containment nets for transport trucks. All nets are available in standard factory rolls (2m to 6m widths) or custom-fabricated dimensions with reinforced border ropes and brass tie grommets.',
       },
     })
@@ -3720,28 +3809,27 @@ async function main() {
         slug: 'agricultural-green-shade-net',
         price: 5200,
         moq: 1,
-        tradeAliases: 'Hara Parda, Green Agro Net, Greenhouse Shade Jaal, Chhat Ki Jali, Nursery Shade Sheet, 75% 90% Hara Jaal, Green Greenhouse Net',
-        shortDescription: 'UV-stabilized virgin HDPE green shade net manufactured in 50%, 75%, and 90% shade densities for agricultural polyhouses, commercial plant nurseries, and rooftop heat insulation across Pakistan.',
-        longDescription: 'Engineered from 100% prime virgin high-density polyethylene (HDPE) compounded with ultra-violet light stabilizers. Tahira Syndicate\'s agricultural green shade nets (hara parda) protect delicate horticultural crops, vegetables, and ornamental nurseries from intense solar heat, moisture loss, and hailstorm damage. Widely deployed across Karachi, interior Sindh, and Punjab farmlands, as well as residential and commercial rooftop thermal shielding.',
-        metaTitle: "Agricultural Green Shade Net Wholesale Karachi | 80%",
-        metaDescription: "Heavy-duty 50% to 80% green shade nets wholesale in Karachi, Pakistan. UV-stabilized HDPE mesh for agriculture, greenhouse crops, and nursery heat protection.",
-        usage: 'Greenhouse crop shading, commercial nursery protection, home terrace and rooftop heat reduction, cattle shed cooling, and building facade screening.',
-        benefits: [
-          'High UV stabilization guarantees multi-year outdoor durability under intense Pakistani summer sun.',
-          'Knitted lock-stitch pattern prevents unraveling when cut to custom lengths.',
-          'Reduces indoor and ground temperatures by up to 8°C–10°C.',
-          'Protects crops against birds, hail, and high-velocity wind damage.',
-        ],
-        suitedFor: [
-          'Agricultural polyhouses, shadehouses, and horticulture nurseries',
-          'Rooftop and balcony residential heat insulation',
-          'Poultry farms and dairy shed temperature management',
-          'Commercial building exterior privacy shielding',
-        ],
-        notSuitedFor: [
-          'Heavy construction personnel fall arrest (requires high-impact knotted safety nets)',
-          'Sub-surface water drainage filtering',
-        ],
+        "tradeAliases": "Hara Parda • Green Agro Net • Greenhouse Shade Jaal • Chhat Ki Jali • Nursery Shade Sheet • 75% 90% Hara Jaal",
+        "shortDescription": "Knitted 100% virgin HDPE green shade net (Hara Parda) in 50%, 75%, and 90% density. Lowers temperature by 5°C to 10°C, protects crops from burning sun, and cools rooftop lawns.",
+        "longDescription": "Summer temperatures in Karachi, Sindh, and Punjab can easily exceed 45°C, burning delicate plant leaves, drying out nursery saplings, and turning rooftop terraces into ovens. Our Green Agro Shade Net (Hara Parda) is knitted from UV-stabilized virgin HDPE monofilament and tape yarns with lock-stitch technology that won’t fray when cut. Available in 50% and 75% for plant growth, and 90% for car parking sheds and rooftop patio cooling.",
+        "metaTitle": "Agricultural Green Shade Net (Hara Parda) Karachi Wholesale",
+        "metaDescription": "UV-stabilized agricultural green shade nets (Hara Parda) in Karachi. 50%, 75%, 90% sun block rolls for nurseries, rooftop cooling, and greenhouse farming.",
+        "usage": "Widely installed over commercial plant nurseries, vegetable farm polyhouses, poultry and dairy shed heat shielding, car parking structures, and rooftop terrace lawns.",
+        "benefits": [
+          "Lowers ambient temperature by 5°C to 10°C while allowing natural breeze to pass",
+          "UV-stabilized virgin HDPE resists sun degradation and brittle snapping for 5+ years",
+          "Lock-stitch knitted construction allows custom cutting without unraveling",
+          "Diffuses harsh direct sunlight into gentle, uniform growth light for crops"
+],
+        "suitedFor": [
+          "Commercial plant nurseries & greenhouse polyhouses",
+          "Vegetable crop sun & hail protection (tomatoes, chilies, herbs)",
+          "Dairy farm & poultry shed roof heat insulation",
+          "Residential rooftop lawns, patios & car parking sheds"
+],
+        "notSuitedFor": [
+          "Structural fall-arrest safety nets for heavy construction workers"
+],
         bulkPricing: [
           { minQty: 3, maxQty: 9, label: 'Nursery Starter Lot (50m roll)' },
           { minQty: 10, maxQty: 24, label: 'Commercial Farm Package' },
@@ -3755,10 +3843,16 @@ async function main() {
           { src: '/uploads/products/nets/agricultural-green-shade-net/agricultural-green-shade-net-karachi-view-5.jpg', alt: 'Agricultural Green Shade Net and industrial netting bundle Bohrapir Karachi warehouse', sortOrder: 5 },
           { src: '/uploads/products/nets/agricultural-green-shade-net/agricultural-green-shade-net-karachi-category-nets-overview.jpg', alt: 'Tahira Syndicate wholesale agro shade nets and industrial netting warehouse stock Bohrapir Karachi Pakistan', sortOrder: 6 },
         ],
-        faqs: [
-          { question: 'What shade densities are best for Karachi heat?', answer: '75% is standard for plant nurseries and general gardens, while 90% is recommended for rooftop heat reduction and car parking.' },
-          { question: 'What standard roll widths are available?', answer: 'Supplied in 2m, 3m, 4m, and 6m widths by 50m lengths.' },
-        ],
+        "faqs": [
+          {
+                    "question": "Which shade percentage should I choose for plants versus rooftop lawns?",
+                    "answer": "For plant nurseries, vegetables, and crops, 50% to 75% shade is recommended to provide optimal light for photosynthesis. For car parking sheds, outdoor seating, and rooftop lawns, 90% density gives maximum cooling and UV relief."
+          },
+          {
+                    "question": "What are the standard factory roll dimensions for Hara Parda?",
+                    "answer": "Standard rolls are 3 meters, 4 meters, 5 meters, and 6 meters wide by 50 meters long. We also stitch custom sheets with heavy black edge webbing and brass eyelets."
+          }
+],
         attrValues: [
           { attr: 'Netting Material Composition', val: '100% Virgin HDPE (High-Density Polyethylene)' },
           { attr: 'Mesh Aperture & Hole Size', val: 'Micro-Mesh Knitted (Agro Shade)' },
@@ -3772,28 +3866,27 @@ async function main() {
         slug: 'commercial-colored-shade-net',
         price: 6800,
         moq: 1,
-        tradeAliases: 'Car Parking Shade Net, Tan Beige Netting, Blue Commercial Shade Net, Striped Canopy Net, School Ground Parda, Architectural Shade Fabric',
-        shortDescription: 'High-density architectural shade netting available in Tan/Beige, Royal Blue, Green/White Striped, and Terracotta colors for car parking canopies, schools, and outdoor commercial venues.',
-        longDescription: 'Formulated for architectural aesthetic appeal and thermal comfort. Tahira Syndicate\'s colored shade nets deliver up to 95% UV blockage while allowing cool breezes to circulate freely. Widely specified for corporate office car parking structures, private residential carports, school sports grounds, swimming pool verandas, and outdoor restaurants across Karachi and Islamabad.',
-        metaTitle: "Commercial Colored Shade Net Wholesale Karachi",
-        metaDescription: "Commercial grade beige and blue shade net mesh rolls in Karachi. Heavy-duty UV sun protection for parking lots, building rooftops, and outdoor canopy venues.",
-        usage: 'Automobile parking shades, school sports grounds, restaurant outdoor patios, swimming pool pergolas, and decorative privacy barriers.',
-        benefits: [
-          'High visual appeal matching modern architectural building exterior facades.',
-          'Blocks harmful UV rays while eliminating trapped heat underneath canopies.',
-          'Mildew-resistant virgin polymer that does not fade, rot, or absorb water.',
-          'Available in fabricated panels with perimeter webbing and brass grommets.',
-        ],
-        suitedFor: [
-          'Corporate and residential car parking canopies',
-          'School playgrounds and assembly grounds',
-          'Resort verandas and outdoor cafe dining areas',
-          'Pergolas, patios, and courtyard overhead shades',
-        ],
-        notSuitedFor: [
-          'Deep agricultural cultivation requiring specialized photosynthetic light spectrums',
-          'Heavy mechanical lifting',
-        ],
+        "tradeAliases": "Car Parking Shade Net • Tan Beige Netting • Blue Commercial Shade Net • Striped Canopy Net • School Ground Parda",
+        "shortDescription": "High-density commercial colored shade netting in Beige, Deep Blue, Sand, and Desert Tan (90% UV block). Ideal for school grounds, restaurant terraces, and car parking sheds.",
+        "longDescription": "Commercial architectural spaces, school assembly areas, and restaurant outdoor patios need effective sun protection that also looks clean and modern. Our Commercial Colored Shade Netting is knitted from premium UV-stabilized HDPE tape yarns in architectural colors including Desert Sand Beige, Deep Marine Blue, Forest Green, and Charcoal. It blocks up to 90% of harsh UV radiation and glare while letting cooling ocean breezes circulate freely.",
+        "metaTitle": "Commercial Colored Shade Netting Karachi Wholesale Supply",
+        "metaDescription": "Architectural colored shade nets in Sand Beige, Blue, and Green in Karachi. 90% UV blocking fabric for commercial car parking, school canopies, and cafes.",
+        "usage": "Installed over commercial car parking lots, school sports grounds, swimming pool sun sails, cafe outdoor seating, resort decks, and architectural shade pergolas.",
+        "benefits": [
+          "90% UV and solar heat blockage creates cool, glare-free shaded environments",
+          "Modern architectural colors (Beige, Blue, Sand, Charcoal) complement modern buildings",
+          "Permeable knitted weave lets hot air rise and escape without trapping stuffy heat",
+          "UV-stabilized formulation resists color fading and brittleness under intense sun"
+],
+        "suitedFor": [
+          "Commercial building & hospital car parking canopies",
+          "School assembly areas & playground shade canopies",
+          "Restaurant outdoor dining terraces & cafe pergolas",
+          "Swimming pool deck sun shade sails & resort patios"
+],
+        "notSuitedFor": [
+          "Complete waterproof rain protection (use PVC Tarpaulin instead)"
+],
         bulkPricing: [
           { minQty: 2, maxQty: 5, label: 'Contractor Starter Roll' },
           { minQty: 6, maxQty: 14, label: 'Commercial Canopy Project Lot' },
@@ -3807,10 +3900,16 @@ async function main() {
           { src: '/uploads/products/nets/commercial-colored-shade-net/commercial-colored-shade-net-karachi-view-5.jpg', alt: 'Commercial Colored Shade Net and industrial netting inventory Bohrapir Karachi warehouse', sortOrder: 5 },
           { src: '/uploads/products/nets/commercial-colored-shade-net/commercial-colored-shade-net-karachi-category-nets-overview.jpg', alt: 'Tahira Syndicate wholesale agro shade nets and industrial netting warehouse stock Bohrapir Karachi Pakistan', sortOrder: 6 },
         ],
-        faqs: [
-          { question: 'Does colored shade net waterproof against rain?', answer: 'Shade net is a porous knitted breathable mesh designed for air circulation and sun shade. For 100% waterproof coverage, see our PVC and HDPE Tarpaulins.' },
-          { question: 'What colors are in stock?', answer: 'Tan/Beige, Royal Blue, Green/White Striped, and Terracotta.' },
-        ],
+        "faqs": [
+          {
+                    "question": "What colors are available in commercial shade netting?",
+                    "answer": "We supply Desert Sand Beige, Deep Blue, Forest Green, Terracotta, and Black in full 50m rolls and custom stitched canopy sails."
+          },
+          {
+                    "question": "Can you supply these nets stitched with border tape and eyelets?",
+                    "answer": "Yes, we fabricate custom shade sails with heavy reinforced black border webbing, corner stainless steel D-rings, and heavy brass eyelets for easy cable rigging."
+          }
+],
         attrValues: [
           { attr: 'Netting Material Composition', val: '100% Virgin HDPE (High-Density Polyethylene)' },
           { attr: 'Mesh Aperture & Hole Size', val: 'Micro-Mesh Knitted (Agro Shade)' },
@@ -3824,28 +3923,27 @@ async function main() {
         slug: 'construction-fall-arrest-safety-net',
         price: 8500,
         moq: 1,
-        tradeAliases: 'Construction Safety Jaal, Fall Arrest Net, Scaffolding Debris Net, Building Safety Mesh, Heavy Duty Industrial Jaal, Dhalai Safety Net',
-        shortDescription: 'High-tenacity knotted polypropylene and nylon safety nets engineered for high-rise construction fall-arrest and debris containment with certified border ropes across Pakistan.',
-        longDescription: 'Compliant with industrial safety standards, Tahira Syndicate\'s construction fall-arrest nets are manufactured from heavy braided polyamide nylon or high-tenacity polypropylene. Featuring knotless or double-knotted diamond mesh reinforced with 10mm to 12mm perimeter border ropes, these nets are designed to catch falling personnel and tools on high-rise building projects, bridge construction, and scaffolding towers in Karachi, Lahore, and Islamabad.',
-        metaTitle: "Construction Fall-Arrest Safety Net Karachi (Jaal)",
-        metaDescription: "Certified high-tenacity nylon construction safety nets in Karachi, Pakistan. Heavy-duty border ropes for multi-story fall-arrest and scaffolding protection.",
-        usage: 'Scaffolding perimeter fall-arrest, floor opening edge protection, bridge construction safety containment, and falling tool/debris interception.',
-        benefits: [
-          'High shock energy absorption rating certified for human personnel fall arrest.',
-          'Heavy 12mm boundary rope with spliced eyelets allows fast scaffolding tie-off.',
-          'Resistant to UV degradation, construction mortar splash, and chemical contaminants.',
-          'Available with secondary micro-debris mesh overlay to catch small hand tools and screws.',
-        ],
-        suitedFor: [
-          'High-rise commercial and residential tower construction',
-          'Flyover, bridge, and motorway infrastructure civil works',
-          'Industrial warehouse roofing installation',
-          'Scaffolding staging and facade renovation',
-        ],
-        notSuitedFor: [
-          'Lightweight mosquito screening',
-          'Direct contact with welding torch sparks without fire-retardant specification',
-        ],
+        "tradeAliases": "Construction Safety Jaal • Fall Arrest Net • Scaffolding Debris Net • Building Safety Mesh • Dhalai Safety Net",
+        "shortDescription": "Heavy-duty knotted polypropylene and nylon safety net (Safety Jaal) with 12mm–16mm border ropes. Certified for catching falling tools, scaffolding debris, and worker fall protection.",
+        "longDescription": "High-rise building construction carries serious safety risks from falling workers, tools, plaster chips, and bricks that can injure laborers and pedestrians below. Our Construction Safety Net (Safety Jaal) is manufactured with high-tenacity knotted polyamide and polypropylene cordage (3mm to 6mm twine thickness) reinforced with heavy 12mm to 16mm perimeter tie ropes. It catches falling debris and cushions accidental worker falls with certified energy absorption.",
+        "metaTitle": "Construction Fall-Arrest Safety Net (Safety Jaal) Karachi",
+        "metaDescription": "Heavy-duty construction safety nets (Safety Jaal) in Karachi. Scaffolding debris mesh and certified worker fall-arrest nets with reinforced border tie ropes.",
+        "usage": "Installed on exterior high-rise building scaffolding, elevator shafts, internal stairwell voids, bridge and flyover construction sites, and factory ceiling maintenance bays.",
+        "benefits": [
+          "Certified high-impact energy absorption catches falling debris and workers safely",
+          "Reinforced with thick 12mm to 16mm perimeter boundary ropes for solid anchoring",
+          "UV-stabilized polymer withstands harsh coastal Karachi sun and sea salt air",
+          "Knotted square mesh design prevents tear propagation if individual strands are cut"
+],
+        "suitedFor": [
+          "External high-rise building scaffolding debris containment",
+          "Internal elevator shaft & stairwell void fall protection",
+          "Bridge, flyover & highway cantilever safety netting",
+          "Factory & warehouse overhead ceiling maintenance barriers"
+],
+        "notSuitedFor": [
+          "Fine sand or liquid cement containment without an additional fine mesh liner layer"
+],
         bulkPricing: [
           { minQty: 2, maxQty: 5, label: 'Civil Contractor Starter Set' },
           { minQty: 6, maxQty: 14, label: 'Tower Construction Package' },
@@ -3859,10 +3957,16 @@ async function main() {
           { src: '/uploads/products/nets/construction-fall-arrest-safety-net/construction-fall-arrest-safety-net-karachi-view-5.jpg', alt: 'Construction Fall Arrest Safety Net bundles and industrial rigging jaal Bohrapir Karachi warehouse', sortOrder: 5 },
           { src: '/uploads/products/nets/construction-fall-arrest-safety-net/construction-fall-arrest-safety-net-karachi-category-nets-overview.jpg', alt: 'Tahira Syndicate wholesale agro shade nets and industrial netting warehouse stock Bohrapir Karachi Pakistan', sortOrder: 6 },
         ],
-        faqs: [
-          { question: 'What mesh size is used for human fall arrest?', answer: '100mm square mesh made with 4mm to 6mm cordage is standard for human fall arrest, combined with 12mm border rope.' },
-          { question: 'Can these nets be customized to custom bay sizes?', answer: 'Yes, our SITE Karachi rigging workshop fabricates custom dimensions to exact floor opening and scaffolding measurements.' },
-        ],
+        "faqs": [
+          {
+                    "question": "What is the standard mesh size for construction safety nets in Pakistan?",
+                    "answer": "For scaffolding debris containment, 25mm × 25mm to 50mm × 50mm square mesh is standard. For heavy fall-arrest nets, 75mm to 100mm knotted mesh made with 4mm to 6mm high-tenacity cord is used."
+          },
+          {
+                    "question": "Do you provide on-site installation rigging in Karachi?",
+                    "answer": "Yes! Our trained rigging team handles complete on-site anchoring, guide wire stringing, and safety net installation across high-rise sites in Karachi and Sindh."
+          }
+],
         attrValues: [
           { attr: 'Netting Material Composition', val: 'High-Tenacity Knotted Polyamide Nylon' },
           { attr: 'Mesh Aperture & Hole Size', val: '100mm (Fall Arrest Safety Net)' },
@@ -3876,28 +3980,27 @@ async function main() {
         slug: 'anti-bird-pigeon-protection-net',
         price: 3800,
         moq: 1,
-        tradeAliases: 'Kabootar Jaal, Anti-Bird Net, Pigeon Safety Net, Bird Spikes Mesh, Balcony Safety Net, Monofilament Bird Netting',
-        shortDescription: 'High-transparency UV-stabilized nylon and HDPE monofilament netting engineered to permanently block pigeons, sparrows, and crows from residential balconies and commercial facades.',
-        longDescription: 'The ultimate humane, durable, and unobtrusive solution to urban bird pest nuisance in Karachi. Tahira Syndicate\'s Anti-Bird Nets are extruded from crystal-clear monofilament polymer or high-tenacity black nylon yarn. Designed to resist bird pecking and clawing while maintaining almost invisible optical aesthetics from ground level, preserving the aesthetic appearance of residential flats, hotels, and corporate offices.',
-        metaTitle: "Anti-Bird & Pigeon Protection Net Wholesale Karachi",
-        metaDescription: "Durable HDPE anti-bird and pigeon barrier nets in Karachi. Lightweight, transparent aesthetic mesh protecting warehouses, balconies, and crops across Pakistan.",
-        usage: 'Balcony pigeon exclusion, air conditioner compressor outdoor units, residential window ducts, warehouse ceiling rafters, and historical monument facade bird protection.',
-        benefits: [
-          'Nearly invisible optical profile preserving exterior building aesthetics.',
-          'UV-treated monofilament does not crack, stretch, or degrade in seaside air.',
-          'Humane barrier preventing bird nesting without harming or trapping birds.',
-          'Resistant to rain, mold, and corrosive bird droppings.',
-        ],
-        suitedFor: [
-          'Residential apartment balconies in Clifton, DHA, Gulshan, and North Nazimabad',
-          'Commercial office building AC service ducts',
-          'Industrial food processing plant warehouse ceilings',
-          'Hospital and hotel open courtyards',
-        ],
-        notSuitedFor: [
-          'Heavy construction personnel fall arrest',
-          'Heavy freight cargo lashing',
-        ],
+        "tradeAliases": "Kabootar Jaal • Anti-Bird Net • Pigeon Safety Net • Bird Spikes Mesh • Balcony Safety Net • Monofilament Bird Net",
+        "shortDescription": "Discreet, high-transparency nylon monofilament anti-bird net (Kabootar Jaal). Keeps pigeons and birds off apartment balconies, AC ledges, and warehouse roofs without blocking light or air.",
+        "longDescription": "Pigeons nesting on balcony railings, AC compressor ledges, and apartment duct shafts create foul odors, stained marble, and dangerous airborne bacteria. Our Anti-Bird Netting (Kabootar Jaal) is woven from ultra-thin, high-strength UV-stabilized nylon monofilament twine. It is virtually invisible from the ground, yet creates an impenetrable physical barrier that harmlessly bounces birds away without trapping or harming them, while keeping 95% of daylight and fresh breeze flowing.",
+        "metaTitle": "Anti-Bird Pigeon Protection Net (Kabootar Jaal) Karachi",
+        "metaDescription": "Discreet nylon anti-bird protection nets (Kabootar Jaal) in Karachi. Rust-proof stainless steel hook installation for apartment balconies and warehouse rafters.",
+        "usage": "Installed on residential apartment balconies, building ventilation air shafts, AC compressor brackets, warehouse roof rafters, and commercial plaza architectural facades.",
+        "benefits": [
+          "High transparency monofilament mesh is virtually invisible from the ground",
+          "Maintains 95% open ventilation and natural daylight in apartment balconies",
+          "100% rust-proof installation with grade-304 stainless steel anchor hooks",
+          "Humane bird exclusion — birds bounce off the taut net safely without getting hurt"
+],
+        "suitedFor": [
+          "Residential apartment balconies & window ledges",
+          "Building ventilation duct shafts & light wells",
+          "Air conditioner outdoor unit compressor brackets",
+          "Warehouse steel rafters & industrial factory ceilings"
+],
+        "notSuitedFor": [
+          "Heavy industrial debris catching or human fall-arrest protection"
+],
         bulkPricing: [
           { minQty: 3, maxQty: 9, label: 'Pest Control Contractor Pack' },
           { minQty: 10, maxQty: 24, label: 'Apartment Building Complex Lot' },
@@ -3910,10 +4013,16 @@ async function main() {
           { src: '/uploads/products/nets/anti-bird-pigeon-protection-net/anti-bird-pigeon-protection-net-karachi-view-4.jpg', alt: 'Anti Bird Pigeon Protection Net rolls and nylon netting stock Bohrapir Karachi warehouse', sortOrder: 4 },
           { src: '/uploads/products/nets/anti-bird-pigeon-protection-net/anti-bird-pigeon-protection-net-karachi-category-nets-overview.jpg', alt: 'Tahira Syndicate wholesale agro shade nets and industrial netting warehouse stock Bohrapir Karachi Pakistan', sortOrder: 5 },
         ],
-        faqs: [
-          { question: 'Will this net block sunlight or ventilation into my balcony?', answer: 'No, with a 15mm–25mm fine mesh, it allows 99% light and natural air circulation while completely blocking birds.' },
-          { question: 'How is it mounted onto walls?', answer: 'Using stainless steel wire anchors, eyelet hooks, and cable zip-ties around the perimeter.' },
-        ],
+        "faqs": [
+          {
+                    "question": "Will anti-bird netting block light or breeze in my balcony?",
+                    "answer": "No. The thin monofilament twine has a 95% open area, allowing sunlight and natural coastal breeze to flow freely while keeping pigeons completely out."
+          },
+          {
+                    "question": "What hardware is used for installation?",
+                    "answer": "We use grade-304 stainless steel anchor hooks, coated wire rope, and brass ferrules to ensure the installation never rusts or stains your balcony tiles in Karachi humid air."
+          }
+],
         attrValues: [
           { attr: 'Netting Material Composition', val: 'UV-Stabilized Monofilament' },
           { attr: 'Mesh Aperture & Hole Size', val: '15mm (Anti-Bird / Pigeon)' },
@@ -3927,28 +4036,27 @@ async function main() {
         slug: 'sports-pitch-cricket-practice-net',
         price: 9500,
         moq: 1,
-        tradeAliases: 'Cricket Net, Box Cricket Jaal, Futsal Turf Net, Football Goal Net, Sports Ground Netting, Golf Impact Net, Tennis Court Mesh',
-        shortDescription: 'Heavy-ply braided nylon and knotted HDPE sports perimeter and practice netting engineered to withstand high-velocity cricket leather balls, futsal turf strikes, and outdoor weather across Pakistan.',
-        longDescription: 'Engineered for intensive sports impacts across cricket academies, box cricket arenas, futsal artificial turfs, and school sports stadiums. Tahira Syndicate sports nets are fabricated from multi-ply braided high-tenacity nylon or high-density polyethylene. The tight knotted square mesh resists leather cricket ball seam cuts, high-velocity football impacts, and seasonal weather exposure without sagging or tearing.',
-        metaTitle: "Sports Pitch & Box Turf Net Wholesale Karachi",
-        metaDescription: "High-impact nylon sports netting for cricket practice pitches, box leagues, and football enclosures in Karachi, Pakistan. Knotted construction for durability.",
-        usage: 'Cricket academy batting practice cages, commercial box cricket arenas, futsal and football boundary netting, and rooftop sports arena enclosures.',
-        benefits: [
-          'Immense impact resistance halts 140+ km/h leather cricket balls safely without yarn breakage.',
-          'Square mesh geometry prevents balls from slipping through or lodging in mesh joints.',
-          'UV-stabilized resin treatment allows year-round outdoor installation without brittleness.',
-          'Available in continuous perimeter rolls or pre-hung boxed enclosures.',
-        ],
-        suitedFor: [
-          'Cricket coaching academies and practice net enclosures',
-          'Commercial Box Cricket turf complexes across Karachi and Lahore',
-          'Futsal artificial turf arenas and football goal nets',
-          'School, college, and university sports grounds',
-        ],
-        notSuitedFor: [
-          'Fine bird exclusion (requires 15mm micro mesh)',
-          'Chemical acid bath immersion',
-        ],
+        "tradeAliases": "Cricket Net • Box Cricket Jaal • Futsal Turf Net • Football Goal Net • Sports Ground Netting • Golf Impact Net",
+        "shortDescription": "Heavy-duty 18 to 48 ply braided nylon and HDPE sports netting (40mm mesh). Built to take 130+ km/h fast bowling cricket ball impacts for batting cages, futsal arenas, and goalposts.",
+        "longDescription": "Hard leather cricket balls and fast football shots quickly rip through cheap, thin netting. That is why we weave 30 to 48 ply braided nylon and high-density HDPE sports nets with tight 40mm mesh and overlocked border ropes. We have rigged complete batting practice cages, box cricket arenas, and futsal turf grounds for top institutions like Karachi Grammar School and commercial rooftop arenas across Karachi.",
+        "metaTitle": "Sports Pitch & Cricket Practice Net Karachi Wholesale Supply",
+        "metaDescription": "Heavy-duty 18–48 ply braided sports nets for cricket practice pitches and futsal turf grounds in Karachi. Tested for hard leather cricket balls.",
+        "usage": "Installed for cricket batting practice cages, commercial box cricket turf arenas, futsal pitch perimeter and ceiling nets, football goalposts, and sports hall divider curtains.",
+        "benefits": [
+          "Heavy 30 to 48-ply braided cordage handles 130+ km/h leather cricket ball strikes",
+          "40mm tight square mesh prevents cricket and futsal balls from squeezing through",
+          "100% waterproof and UV-stabilized — will not rot or weaken under outdoor rain and sun",
+          "Overlocked 8mm–10mm perimeter boundary rope for easy suspension and tie-off"
+],
+        "suitedFor": [
+          "Cricket batting practice tunnels & training cages",
+          "Commercial box cricket & indoor sports arenas",
+          "Futsal turf court perimeter & overhead ceiling nets",
+          "School & college sports grounds and goalposts"
+],
+        "notSuitedFor": [
+          "Heavy construction debris containment where certified safety jaal is required"
+],
         bulkPricing: [
           { minQty: 2, maxQty: 5, label: 'Turf Arena Starter Bay' },
           { minQty: 6, maxQty: 14, label: 'Commercial Sports Facility Package' },
@@ -3961,10 +4069,16 @@ async function main() {
           { src: '/uploads/products/nets/sports-pitch-cricket-practice-net/sports-pitch-cricket-practice-net-karachi-view-4.jpg', alt: 'Sports Pitch Cricket Practice Net rolls and high-impact nylon netting Bohrapir Karachi warehouse', sortOrder: 4 },
           { src: '/uploads/products/nets/sports-pitch-cricket-practice-net/sports-pitch-cricket-practice-net-karachi-category-nets-overview.jpg', alt: 'Tahira Syndicate wholesale agro shade nets and industrial netting warehouse stock Bohrapir Karachi Pakistan', sortOrder: 5 },
         ],
-        faqs: [
-          { question: 'What mesh size is used for cricket practice?', answer: '45mm square mesh made from heavy braided multi-ply nylon cord is standard for leather cricket balls.' },
-          { question: 'Can you supply a full 3-sided enclosed cricket box net?', answer: 'Yes, we fabricate complete ready-to-hang box enclosures with roof and side walls to your exact pitch dimensions.' },
-        ],
+        "faqs": [
+          {
+                    "question": "What ply thickness is recommended for hard leather cricket ball cages?",
+                    "answer": "We recommend 30-ply to 48-ply braided nylon or HDPE with a 40mm (1.5 inch) mesh size. This comfortably absorbs repeated strikes from fast bowlers without snapping."
+          },
+          {
+                    "question": "Do you supply full cricket batting cage kits with steel pole frames?",
+                    "answer": "Yes, we supply complete turnkey kits including steel support poles, overhead guide wire cables, snap hooks, and custom-tailored batting cage nets."
+          }
+],
         attrValues: [
           { attr: 'Netting Material Composition', val: 'High-Tenacity Knotted Polyamide Nylon' },
           { attr: 'Mesh Aperture & Hole Size', val: '45mm (Sports / Box Cricket)' },
@@ -3978,28 +4092,27 @@ async function main() {
         slug: 'marine-commercial-fishing-net',
         price: 7800,
         moq: 1,
-        tradeAliases: 'Machli Ka Jaal, Fishing Net, Marine Trawl Net, Nylon Gill Net, Monofilament Fishing Mesh, Trawler Rigging Net, Aquaculture Net',
-        shortDescription: 'Industrial-grade knotted nylon monofilament and multifilament marine fishing netting designed for deep-sea trawlers, coastal gill netting, and aquaculture fish farms in Karachi and Balochistan.',
-        longDescription: 'Directly serving the coastal maritime trade across Karachi Fish Harbour, Korangi Creek, Gwadar, and Pasni. Tahira Syndicate supplies high-tenacity marine fishing netting engineered for tough ocean currents, salt water immersion, and heavy fish catch loads. Manufactured from prime double-knotted nylon multifilament or high-tensile monofilament yarn with precision mesh consistency and abrasion-resistant selvage borders.',
-        metaTitle: "Commercial Marine & Fishing Net Wholesale Karachi",
-        metaDescription: "Commercial marine fishing nets and trawler gill nets in Karachi. High breaking strength, knot-stabilized nylon for deep-sea fleets and aquaculture fish farming.",
-        usage: 'Deep-sea trawler nets, coastal marine gill netting, aquaculture fish farming pens, harbor debris skimmers, and marine boat rigging.',
-        benefits: [
-          'Double-knotted diamond mesh prevents knot slippage under heavy catch weight.',
-          'High saltwater and marine algae resistance prevents fiber rotting.',
-          'Superior wet tensile strength maintains elasticity under turbulent waves.',
-          'Available in diverse twine plies and mesh sizes matching specific fish species.',
-        ],
-        suitedFor: [
-          'Deep-sea commercial fishing boats and trawlers',
-          'Coastal marine gill netting and cast netting',
-          'Aquaculture fish ponds and shrimp farm containment',
-          'Maritime vessel rope and safety netting',
-        ],
-        notSuitedFor: [
-          'High-rise building fall arrest (not certified for human fall safety loads)',
-          'Agricultural nursery shade',
-        ],
+        "tradeAliases": "Machli Ka Jaal • Fishing Net • Marine Trawl Net • Nylon Gill Net • Monofilament Fishing Mesh • Trawler Net",
+        "shortDescription": "High-tenacity nylon and HDPE commercial fishing net (Machli Ka Jaal). Soft, knot-tight, and highly durable for marine trawlers, gill nets, cast nets, and aquaculture farms.",
+        "longDescription": "Commercial fishing trawlers operating from Karachi Fish Harbour and deep-sea coastal waters need nets that combine high wet breaking strength with soft flexibility for smooth handling. Our Commercial Marine Fishing Netting (Machli Ka Jaal) is woven from high-tenacity nylon 6 monofilament and multifilament yarns with heat-set knots that will not slip under heavy fish loads. It resists abrasion against sandy sea beds and will not rot in salty ocean water.",
+        "metaTitle": "Commercial Marine & Fishing Net (Machli Jaal) Karachi Supply",
+        "metaDescription": "High-tenacity nylon and HDPE commercial fishing nets (Machli Ka Jaal) in Karachi. Knot-tight, saltwater-resistant mesh for trawlers, gill nets, and aquaculture.",
+        "usage": "Used by commercial fishing trawlers for bottom trawling, surface gill netting, shrimp drag nets, cast nets, fish farm cages, and aquaculture pond barriers across coastal Pakistan.",
+        "benefits": [
+          "Heat-set double knots ensure mesh squares stay rigid and will not slip under heavy loads",
+          "High wet breaking strength handles heavy marine fish and shrimp catches",
+          "100% saltwater rot-proof and resistant to marine biological growth",
+          "Soft and pliable — handles smoothly over trawler winches and power blocks"
+],
+        "suitedFor": [
+          "Commercial marine fishing trawlers & shrimp boats",
+          "Coastal gill netting & surface drift nets",
+          "Fish farming & aquaculture pond predator exclusion",
+          "Harbor barrier netting & seafood holding pens"
+],
+        "notSuitedFor": [
+          "Direct contact with sharp sheet metal cutters or high heat sources"
+],
         bulkPricing: [
           { minQty: 3, maxQty: 9, label: 'Harbour Fishermen Starter Pack' },
           { minQty: 10, maxQty: 24, label: 'Commercial Trawler Lot' },
@@ -4012,10 +4125,16 @@ async function main() {
           { src: '/uploads/products/nets/marine-commercial-fishing-net/marine-commercial-fishing-net-karachi-view-4.jpg', alt: 'Commercial Marine and Fishing Net twine rolls and ocean trawler mesh Bohrapir Karachi warehouse', sortOrder: 4 },
           { src: '/uploads/products/nets/marine-commercial-fishing-net/marine-commercial-fishing-net-karachi-category-nets-overview.jpg', alt: 'Tahira Syndicate wholesale agro shade nets and industrial netting warehouse stock Bohrapir Karachi Pakistan', sortOrder: 5 },
         ],
-        faqs: [
-          { question: 'What types of netting are available for fishermen?', answer: 'We stock nylon multifilament knotted nets, monofilament gill nets, and heavy polyethylene trawler mesh.' },
-          { question: 'Do you supply lead line and floats with the netting?', answer: 'Yes, we supply complete fishing accessories including sinker lead ropes, marine floats, and rigging twines.' },
-        ],
+        "faqs": [
+          {
+                    "question": "What mesh sizes and twine thicknesses are available in fishing nets?",
+                    "answer": "We stock mesh sizes from 12mm up to 150mm in 0.20mm to 1.5mm monofilament and 210D/2 to 210D/48 multifilament nylon cordage."
+          },
+          {
+                    "question": "Are the knots double-locked and heat-set?",
+                    "answer": "Yes, all our marine nets undergo computerized thermal knot-setting so the mesh openings stay precise and never distort under tension."
+          }
+],
         attrValues: [
           { attr: 'Netting Material Composition', val: 'High-Tenacity Knotted Polyamide Nylon' },
           { attr: 'Mesh Aperture & Hole Size', val: '25mm (Debris Containment)' },
@@ -4029,28 +4148,27 @@ async function main() {
         slug: 'cargo-truck-bed-containment-net',
         price: 12500,
         moq: 1,
-        tradeAliases: 'Truck Daala Jaal, Cargo Lashing Net, Container Safety Net, Truck Bed Webbing Net, Daala Cover Net, Luggage Mesh Net',
-        shortDescription: 'Heavy-duty polypropylene and polyester cargo containment netting engineered to lash down loose luggage, agricultural sacks, cartons, and industrial goods on flatbed trucks and shipping containers.',
-        longDescription: 'Designed for the demanding freight corridors between Karachi Port, Maripur Truck Stand, Superhighway, and nationwide logistics routes. Tahira Syndicate\'s truck bed cargo nets (daala jaal) prevent cargo spillage, load shifting, and transport loss on rough national highways. Fabricated from high-strength 4mm to 8mm polypropylene cordage or wide polyester webbing with heavy perimeter border ropes for fast, secure lashing.',
-        metaTitle: "Cargo Containment & Truck Bed Net Wholesale Karachi",
-        metaDescription: "Heavy-duty cargo containment and open truck bed netting in Karachi, Pakistan. Elasticated perimeter ropes secure loose freight on transit routes nationwide.",
-        usage: 'Securing loose cargo on Bedford trucks, multi-axle trailers, pickup beds, logistics delivery vans, open railway wagons, and shipping containers leaving Karachi ports.',
-        benefits: [
-          'High tensile load containment prevents cargo loss, highway accidents, and load displacement.',
-          'Heavy 8mm–12mm border cordage and reinforced tie loops allow rapid hooking to truck chassis side-hooks.',
-          'Weatherproof polypropylene and polyester fibers resist monsoon moisture, diesel grime, and intense road dust.',
-          'Custom manufactured to fit all standard Pakistani truck body (daala) and container dimensions.',
-        ],
-        suitedFor: [
-          'Long-haul freight truck beds (Bedford, Hino, Isuzu)',
-          'Multi-axle flatbed container trailers',
-          'Commercial pickup trucks (Hilux, Shahzore, Master)',
-          'Open cargo transport & railway wagon containment',
-        ],
-        notSuitedFor: [
-          'Fine grain filtering (combine with tarpaulin covers)',
-          'Sub-surface fishing',
-        ],
+        "tradeAliases": "Truck Daala Jaal • Cargo Lashing Net • Container Safety Net • Truck Bed Webbing Net • Daala Cover Net",
+        "shortDescription": "Heavy-duty knotted nylon and polypropylene cargo containment net (Truck Daala Jaal) with 12mm border tie ropes. Keeps luggage, cartons, and scrap from falling off open truck beds.",
+        "longDescription": "Transporting corrugated boxes, luggage, plastic goods, or scrap on open truck beds risks items blowing off or bouncing onto the highway, leading to fines and lost cargo. Our Cargo Containment Truck Bed Net (Truck Daala Jaal) is knotted from heavy 3mm–5mm braided polypropylene and nylon cordage with a thick 12mm perimeter rope and brass attachment hooks. It stretches firmly over irregular cargo heaps, locking the load securely onto the truck chassis.",
+        "metaTitle": "Cargo Containment Truck Bed Net (Daala Jaal) Karachi Supply",
+        "metaDescription": "Heavy-duty knotted cargo containment nets (Truck Daala Jaal) in Karachi. Secure open truck beds, pickups, and trailers from cargo spillage on highways.",
+        "usage": "Fitted over open pickup truck beds, Mazda truck cargo daalas, flatbed trailers, waste recycling trucks, and airport luggage trolleys to prevent load spillage.",
+        "benefits": [
+          "Heavy knotted cordage holds irregular cargo heaps securely on open truck beds",
+          "Thick 12mm perimeter tie rope allows fast, tight lashing to truck chassis hooks",
+          "Prevents costly cargo loss, road littering fines, and highway traffic accidents",
+          "UV-stabilized and rot-proof — handles all-weather road transit across Pakistan"
+],
+        "suitedFor": [
+          "Mazda & Shehzore open truck bed (Daala) cargo securing",
+          "Pickup truck & commercial delivery van luggage containment",
+          "Waste recycling & scrap transport containment",
+          "Flatbed trailer & shipping container open-top barrier nets"
+],
+        "notSuitedFor": [
+          "Vertical overhead crane lifting where certified webbing slings must be used"
+],
         bulkPricing: [
           { minQty: 2, maxQty: 4, label: 'Transport Operator Starter Net' },
           { minQty: 5, maxQty: 19, label: 'Commercial Fleet Lot' },
@@ -4063,10 +4181,16 @@ async function main() {
           { src: '/uploads/products/nets/cargo-truck-bed-containment-net/cargo-truck-bed-containment-net-karachi-view-4.jpg', alt: 'Cargo Containment and Truck Bed Netting bundles and transit daala mesh Bohrapir Karachi warehouse', sortOrder: 4 },
           { src: '/uploads/products/nets/cargo-truck-bed-containment-net/cargo-truck-bed-containment-net-karachi-category-nets-overview.jpg', alt: 'Tahira Syndicate wholesale agro shade nets and industrial netting warehouse stock Bohrapir Karachi Pakistan', sortOrder: 5 },
         ],
-        faqs: [
-          { question: 'What sizes are available for commercial Bedford and Hino truck bodies?', answer: 'We stock standard 14ft × 8ft, 18ft × 8ft, and 24ft × 8ft truck bed nets, and can custom fabricate any trailer length within 24 hours.' },
-          { question: 'How is the cargo net secured to the truck body hooks?', answer: 'Each net features integrated perimeter border rope with heavy-duty corner tie loops that attach directly to truck side lashing points.' },
-        ],
+        "faqs": [
+          {
+                    "question": "What sizes are standard for truck bed cargo nets in Pakistan?",
+                    "answer": "Standard sizes include 10ft × 12ft for pickups, 14ft × 18ft for Shehzore/Mazda trucks, and 18ft × 30ft for 10-wheeler open truck daalas."
+          },
+          {
+                    "question": "Does the net come with perimeter tie ropes?",
+                    "answer": "Yes, every cargo net is fabricated with a continuous 12mm thick border tie rope and tie-off tails at all four corners for quick lashing to chassis hooks."
+          }
+],
         attrValues: [
           { attr: 'Netting Material Composition', val: 'Twisted Polypropylene (PP)' },
           { attr: 'Mesh Aperture & Hole Size', val: '75mm (Truck Daala)' },

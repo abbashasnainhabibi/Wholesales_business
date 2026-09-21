@@ -47,14 +47,14 @@ export const installationServices: InstallationService[] = [
     title: 'Custom Polythene & Plastic Film Manufacturing',
     tradeAlias: 'Chhat Ka Plastic • Dhalai Plastic Roll • Shopper Ka Thaan • Doodhia Sheet',
     description:
-      'Direct blown-film extrusion and custom gauge polythene roll manufacturing (Chhat / Dhalai ka plastic roll, shopper thaan, and doodhia plastic sheeting) for industrial packaging, construction slab concrete underlay, moisture vapor barriers, and heavy-duty liner bags. Produced in virgin LDPE/LLDPE and high-tensile recycled blends in Karachi.',
+      'We extrude polythene rolls at our Karachi plant. If you are casting a roof slab or laying basement flooring, our heavy Dhalai Plastic stops cement slurry from leaking through shuttering and seals out ground dampness. We also run packaging shopper thaan, milky doodhia sheets, and thick black liners to order.',
     longDescription:
-      'Tahira Syndicate operates advanced blown-film plastic extrusion lines in Karachi, manufacturing a wide spectrum of low-density polyethylene (LDPE), linear low-density (LLDPE), and high-density (HDPE) plastic rolls. From heavy-gauge construction concrete casting underlay (Dhalai / Chhat ka Plastic) that prevents moisture leaching into structural slabs, to continuous tubular packaging rolls, shopper thaan, and doodhia opaque sheeting, we supply commercial converters and construction contractors with certified micrometer gauge consistency and high puncture resistance.',
+      'When concrete is poured on wooden shuttering, wet cement slurry tends to seep out through gaps, weakening the cured slab. Putting down 300 to 600 gauge dhalai plastic first seals every gap and locks the moisture inside the mix where it belongs. We blow LDPE, LLDPE, and HDPE film from 1 foot up to 12 feet wide. Need 100 gauge for carton wrapping or 1200 gauge for basement foundations? We run both. Every roll gets weighed on calibrated electronic scales before leaving our Shahra-e-Liaquat shop or SITE warehouse.',
     bullets: [
-      'Construction slab vapor & moisture barriers (Dhalai / Chhat ka Plastic)',
-      'Custom gauge thickness from 100 gauge (25 micron) to 1200 gauge (300 micron)',
-      'Continuous tubular rolls, shopper roll thaan & flat single-wound sheets',
-      'Bulk pallet & jumbo roll dispatch with verified weighbridge slips',
+      'Roof concrete casting & moisture barrier rolls (Dhalai / Chhat ka Plastic)',
+      'Thickness made to order from 100 gauge (25 micron) to 1200 gauge (300 micron)',
+      'Continuous tubular packaging rolls, shopper thaan & flat single-wound sheets',
+      'Clear electronic weight slips stamped on every bundle before dispatch',
     ],
     specs: [
       { label: 'Market & Trade Names', value: 'Chhat / Dhalai Ka Plastic Roll / Shopper Ka Thaan / Doodhia Polythene Sheet' },
@@ -84,39 +84,39 @@ export const installationServices: InstallationService[] = [
     applications: [
       {
         title: 'Building Roof & Slab Concrete Casting (Dhalai Plastic)',
-        description: 'Laid over roof shuttering before concrete pouring to lock in cement slurry hydration and create a permanent moisture barrier.',
+        description: 'Spread over shuttering before pouring concrete to keep cement slurry inside the slab and seal out moisture.',
       },
       {
-        title: 'Industrial Pallet Wrapping & Export Cargo Liners',
-        description: 'Tough tubular and flat plastic sheeting protecting palletized cartons from moisture and dust during transit.',
+        title: 'Pallet Wrapping & Warehouse Cargo Protection',
+        description: 'Heavy plastic wrap and sheets that keep carton boxes dry and clean in transit and warehouse storage.',
       },
       {
-        title: 'Agricultural Mulching & Greenhouse Liners',
-        description: 'UV-treated plastic sheeting to retain soil moisture, suppress weeds, and accelerate crop growth.',
+        title: 'Agricultural Mulching & Farm Liners',
+        description: 'UV-treated sheets spread over soil to hold moisture around plant roots and protect crops from harsh heat.',
       },
       {
-        title: 'Chemical & Fertilizer Heavy Duty Liner Bags',
-        description: 'Seamless tubular polythene sleeves converted into moisture-proof inner bags for 50kg woven sacks.',
+        title: 'Chemical & Fertilizer Liner Bags',
+        description: 'Tubular plastic sleeves heat-sealed into moisture-proof inner liners for 50kg fertilizer and chemical sacks.',
       },
     ],
     processSteps: [
-      { title: 'Polymer Formulation & Daana Blending', description: 'Formulating exact virgin and grade-A recycled polymer granules to meet tensile and gauge specs.' },
-      { title: 'Blown-Film Extrusion & Gauge Control', description: 'Extruding molten polymer through precision annular circular dies with real-time micrometer thickness control.' },
-      { title: 'Cooling, Corona Treatment & Slitting', description: 'Air-ring bubble stabilization, continuous cooling, and precision edge slitting.' },
-      { title: 'Core Winding & Certified Weighing', description: 'Winding onto heavy kraft paper cores with verified gross/tare weight marking on every roll.' },
+      { title: 'Resin Selection', description: 'We weigh out virgin LDPE granules or high-strength recycled polymer blends to match your required gauge and flexibility.' },
+      { title: 'Film Blowing & Gauge Control', description: 'The extruder melts and blows molten plastic into a continuous tubular bubble, checking wall thickness across the roll.' },
+      { title: 'Cooling & Edge Slitting', description: 'High-velocity air rings cool the bubble before rotary blades slit the sides to make flat sheets or center-fold rolls.' },
+      { title: 'Core Winding & Scale Check', description: 'The film winds tightly onto heavy paper cores. We weigh each roll on digital scales and stamp the exact weight slip.' },
     ],
     faqs: [
       {
-        question: 'What gauge is standard for construction roof dhalai / concrete casting in Karachi?',
-        answer: 'For building roofs and ground floor foundation slabs, 300 gauge to 600 gauge black or doodhia polythene rolls are standard. They prevent cement water leakage and block underground rising dampness.',
+        question: 'What gauge plastic is normally used for roof dhalai in Karachi?',
+        answer: 'Most local contractors use 300 to 600 gauge black or doodhia sheets. It is thick enough that walking laborers will not puncture it, and it keeps cement water from draining through shuttering planks.',
       },
       {
-        question: 'Can you produce custom widths and thicknesses to order?',
-        answer: 'Yes! We manufacture custom widths from 12 inches up to 12 feet (single or center-folded) and thicknesses from 100 gauge (25 micron) up to 1200 gauge (300 micron) in our Karachi factory.',
+        question: 'Can you extrude custom widths and gauges for our factory?',
+        answer: 'Yes. We run custom widths from 12 inches up to 12 feet wide, in thicknesses from 100 gauge (25 micron) up to 1200 gauge (300 micron) at our Karachi plant.',
       },
       {
-        question: 'Do you provide certified weighbridge slips for bulk wholesale rolls?',
-        answer: 'Yes. Every roll and consignment dispatched from our Shahra-e-Liaquat Road counter or SITE warehouse is weighed on calibrated electronic scales with gross, tare, and net weights certified.',
+        question: 'Do you give certified weight slips with wholesale roll orders?',
+        answer: 'Always. We weigh every roll on electronic scales at our Shahra-e-Liaquat Road counter or SITE warehouse so your invoice reflects exact scale weight.',
       },
     ],
     moqOrLeadTime: 'Standard Dhalai rolls in stock for immediate dispatch; custom extrusion runs in 2–4 business days.',
@@ -129,14 +129,14 @@ export const installationServices: InstallationService[] = [
     title: 'Tarpaulin / Canopy Installation',
     tradeAlias: 'Tarpal Shed • Waterproof Godown Canopy • Loading Bay Parda • Tarpal Cover',
     description:
-      'Heavy-duty waterproof tarpaulin canopies (Tarpal Shed & Godown Parda) fitted for loading docks, factory sheds, and open yard storage areas. Supplied and installed to size, built to hold up against heavy monsoon rains and daily loading traffic in Karachi.',
+      'We fabricate and rig heavy waterproof tarpaulin canopies and sliding parda for factory yards, godowns, and truck bays. Karachi monsoons ruin cardboard packaging fast — our PVC and HDPE covers keep goods dry without the cost and delay of building permanent roofs.',
     longDescription:
-      'Tahira Syndicate designs, custom-fabricates, and installs industrial-grade waterproof tarpaulin canopies and retractable side curtains (Tarpal Parda) across factory yards, loading docks, container staging zones, and commercial godowns in Karachi. Made from high-GSM multi-layer PVC-coated polyester and cross-laminated HDPE tarpaulin fabrics, our canopies provide cost-effective, rapid, and weather-proof storage cover without the massive expense and lead time of permanent civil construction.',
+      'Pouring concrete roofs over loading docks takes months and costs a fortune. Our waterproof tarpaulin canopies get the job done in days. We use 350 to 750+ GSM PVC fabric and cross-laminated HDPE with heat-welded seams so water cannot leak through. Our riggers set up steel wire ropes, turnbuckles, and sliding track curtains that your warehouse crew can pull open whenever cargo trucks pull in.',
     bullets: [
-      'Warehouse loading docks & dispatch bays (Tarpal Parda)',
-      'Open factory storage yards & raw material godowns',
-      'Heavy-duty 100% waterproof PVC / HDPE tarpaulin fabric',
-      'Rigid steel frame anchoring & cable tension rigging',
+      'Loading bays & warehouse truck docks (Sliding Tarpal Parda)',
+      'Open factory yards & raw material storage godowns',
+      'Heavy-duty 100% waterproof PVC & cross-laminated HDPE sheets',
+      'Rigid steel frame anchoring, cable rigging & turnbuckle tensioning',
     ],
     specs: [
       { label: 'Market & Trade Names', value: 'Waterproof Tarpal Shed / Godown Canopy / Loading Bay Parda' },
@@ -164,39 +164,39 @@ export const installationServices: InstallationService[] = [
     applications: [
       {
         title: 'Factory Loading & Unloading Bays',
-        description: 'Weatherproof drop curtains and overhead canopies keeping goods dry during active truck loading in heavy rains.',
+        description: 'Drop curtains and overhead canopies that keep goods dry while staff load and unload trucks in the rain.',
       },
       {
-        title: 'Temporary Godown Storage Expansions',
-        description: 'Converting open concrete yards into dry, protected storage for corrugated boxes, plastic resins, and drums.',
+        title: 'Extra Godown & Yard Storage',
+        description: 'Turning open factory yards into dry, protected storage for boxes, polymer sacks, and steel drums.',
       },
       {
-        title: 'Commercial Plant Machine Covers',
-        description: 'Custom fitted tarpaulin hoods protecting expensive outdoor industrial machinery from dust and rain.',
+        title: 'Outdoor Machinery Covers',
+        description: 'Custom-tailored tarpaulins protecting plant equipment and generator sets from sun and heavy rain.',
       },
       {
-        title: 'Agricultural Crop Procurement Yards',
-        description: 'Large-span canopy shelters over grain sorting, cotton ginning, and weighbridge areas.',
+        title: 'Grain & Crop Procurement Yards',
+        description: 'Wide canopy covers over grain sorting yards, cotton ginning setups, and truck weighbridge scales.',
       },
     ],
     processSteps: [
-      { title: 'Site Survey & Span Measurement', description: 'Evaluating wind exposure, drainage slope, support structures, and clearance heights.' },
-      { title: 'High-Frequency Seam Welding', description: 'Thermal-welding multi-width tarpaulin panels for 100% leak-proof seam integrity.' },
-      { title: 'Cable & Track Infrastructure Setup', description: 'Fixing heavy galvanized steel guide cables, pully rollers, or framework anchors.' },
-      { title: 'Canopy Tensioning & Final Waterproof Check', description: 'Rigging and tensioning the tarpaulin sheet to prevent water pooling.' },
+      { title: 'Site Survey & Sizing', description: 'Our team checks your wall anchors, roof slope, wind direction, and the clearance needed for cargo trucks.' },
+      { title: 'Thermal Seam Welding', description: 'We heat-fuse wide tarpaulin sections using high-frequency welders so seams are 100% waterproof and will not pull apart.' },
+      { title: 'Cable & Track Rigging', description: 'We anchor galvanized steel cables, pulleys, and overhead sliding tracks along the building structure.' },
+      { title: 'Tensioning & Water Flow Test', description: 'We pull the canopy taut with heavy turnbuckles, checking that rainwater drains off freely without pooling.' },
     ],
     faqs: [
       {
-        question: 'How do you prevent rainwater from pooling on large tarpaulin canopies?',
-        answer: 'Our installation crew designs proper gradient slope angles and tensions internal cross-cable support webbing so rainwater drains instantly without sagging the fabric.',
+        question: 'How do you stop rainwater from gathering on large flat canopies?',
+        answer: 'We build a noticeable slope into the frame and run tight cross-cables under the tarpal. Water slides off immediately instead of collecting in heavy puddles.',
       },
       {
-        question: 'Can you install sliding curtains (Tarpal Parda) that open and close for trucks?',
-        answer: 'Yes! We fabricate sliding curtain track systems equipped with heavy-duty metal rollers, allowing warehouse staff to effortlessly slide the tarpaulin open during loading and lock it shut after hours.',
+        question: 'Can you make sliding curtains that staff can pull aside for loading?',
+        answer: 'Yes. We fit steel roller tracks with heavy-duty metal pulleys. Your staff can slide the parda back in seconds when a truck arrives and pull it shut when loading is finished.',
       },
       {
-        question: 'What is the life expectancy of heavy PVC tarpaulin in Karachi?',
-        answer: 'Our commercial 550+ GSM PVC tarpaulin canopies have an outdoor working life of 4 to 7+ years under continuous Karachi sun and monsoon conditions.',
+        question: 'How long does heavy PVC tarpaulin last under the Karachi sun?',
+        answer: 'Our 550+ GSM commercial PVC fabric usually lasts 4 to 7+ years under direct sunlight and Karachi coastal weather.',
       },
     ],
     moqOrLeadTime: 'Custom sheets ready in 24–48 hours; on-site canopy rigging scheduled within 48 hours.',
@@ -209,14 +209,14 @@ export const installationServices: InstallationService[] = [
     title: 'Canvas Relief Tents & Heavy-Duty Tarpaulin Fabrication',
     tradeAlias: 'Heavy Tarpal Sheet • Moom Jama • Relief Tambu • Khaima • Truck Tirpal',
     description:
-      'Direct fabrication and bulk supply of heavy cotton canvas emergency relief tents (Relief Tambu / Khaima), army field shelters, and waterproof truck tarpaulins (Tarpal / Moom Jama). Manufactured with double-stitched reinforced seams, heavy brass eyelets, guy ropes, and durable PVC groundsheets for disaster relief, camps, and logistics across Pakistan.',
+      'We stitch cotton canvas relief tents (tambus and khaimas) and heavy waxed moom jama tarpaulins in volume. Complete with double-stitched seams, solid brass eyelets, steel poles, and ground sheets for NGO relief missions, security checkpoints, and highway cargo trucks.',
     longDescription:
-      'Tahira Syndicate specializes in large-scale fabrication and wholesale supply of heavy cotton duck canvas tents, disaster relief shelters (Tambu / Khaima), and commercial waterproof truck tarpaulins (Moom Jama). Engineered for NGOs, government disaster management authorities, military field operations, and interstate freight fleets, our tents provide robust shelter against harsh weather, heavy rain, and extreme temperature variations.',
+      'When floods or emergencies hit, relief camps need tough canvas shelters that will not tear in rough weather. We cut and stitch heavy cotton duck canvas and waxed moom jama right in our Karachi workshop. Our standard 4m × 4m and 5m × 4m family tents come ready with center poles, tie ropes, and ground pegs. For transport fleets, our moom jama covers keep open truckloads of wheat and cement completely dry on the highway.',
     bullets: [
-      'Disaster & emergency relief tents (Relief Tambu / Khaima)',
-      '100% waterproof cotton canvas & waxed Moom Jama duck fabric',
-      'Heavy-duty truck & trailer waterproof Tarpal sheets',
-      'Complete steel frame structures, center poles & guy ropes',
+      'Emergency relief tents for families (Relief Tambu / Khaima)',
+      '100% waterproof cotton duck canvas & waxed Moom Jama sheets',
+      'Heavy-duty truck & trailer cargo tarpaulins',
+      'Supplied complete with steel center poles, ground pegs & tie ropes',
     ],
     specs: [
       { label: 'Market & Trade Names', value: 'Heavy Truck Tarpal / Moom Jama (Waxed Canvas) / Relief Tambu / Disaster Khaima' },
@@ -255,40 +255,40 @@ export const installationServices: InstallationService[] = [
     ],
     applications: [
       {
-        title: 'Flood & Disaster Emergency Relief Camps',
-        description: 'Rapid-deployment family relief tents (Khaima / Tambu) supplied in bulk to NGOs and relief agencies.',
+        title: 'Flood & Disaster Relief Camps',
+        description: 'Family relief tents (khaima / tambu) supplied in bulk for disaster relief work and charity aid setups.',
       },
       {
-        title: 'Long-Haul Freight Truck Cargo Tarpal',
-        description: 'Heavy waterproof waxed canvas and PVC Moom Jama sheets to protect wheat, cement, and cargo on national highways.',
+        title: 'Long-Haul Truck Cargo Tarpal',
+        description: 'Tough waxed canvas and moom jama sheets protecting grain, cement, and goods on highway trucks.',
       },
       {
-        title: 'Military & Security Field Base Camps',
-        description: 'Durable multi-person tactical shelter tents with mosquito net windows and chimney outlets.',
+        title: 'Field & Security Work Camps',
+        description: 'Multi-person canvas tents with mosquito-mesh windows for remote construction and guard posts.',
       },
       {
-        title: 'Agricultural & Grain Bulk Godown Covers',
-        description: 'Heavy protective canvas tarpaulins covering outdoor wheat and cotton bails during seasonal storage.',
+        title: 'Outdoor Grain & Cotton Godown Covers',
+        description: 'Breathable canvas tarpaulins covering outdoor wheat and cotton bails during harvest seasons.',
       },
     ],
     processSteps: [
-      { title: 'Canvas Grading & Waterproof Proofing', description: 'Selecting heavy cotton duck fabric treated with water-repellent wax or PVC coating.' },
-      { title: 'Pattern Cutting & Heavy Stitching', description: 'Precision cutting and double-stitching with rot-resistant bonded nylon threads.' },
-      { title: 'Hardware & Eyelet Installation', description: 'Installing solid brass grommets, guy rope corner brackets, and pole socket reinforcements.' },
-      { title: 'Inspection & Bulk Packing', description: 'Complete pitching test, bundling with steel pegs and poles, and protective bale wrapping.' },
+      { title: 'Fabric Selection & Wax Inspection', description: 'We inspect heavy cotton duck canvas treated with water-resistant wax or rubberized PVC.' },
+      { title: 'Pattern Cutting & Double-Stitching', description: 'Our tailors cut panels to size and double-lock every seam using heavy bonded nylon thread.' },
+      { title: 'Eyelets & Guy Rope Points', description: 'We stamp solid brass eyelets and add reinforced canvas patches at all corner tension points.' },
+      { title: 'Assembly Check & Packing', description: 'We test-pitch sample tents, pack the steel poles and ground stakes, and bundle them into durable carry bags.' },
     ],
     faqs: [
       {
-        question: 'What is the standard family size relief tent specification?',
-        answer: 'Our standard relief tent is 4m × 4m (160 sq ft) or 5m × 4m, accommodating 6 to 8 people. It features a center ridge pole, side walls, mosquito-net mesh windows, and a heavy waterproof groundsheet.',
+        question: 'What are the standard dimensions for an emergency relief tent?',
+        answer: 'Our most popular family tents are 4m × 4m (160 sq ft) and 5m × 4m, easily fitting 6 to 8 people. They include a steel ridge pole, sidewalls, mosquito-mesh windows, and a waterproof ground sheet.',
       },
       {
-        question: 'Can Tahira Syndicate handle bulk NGO emergency supply orders?',
-        answer: 'Yes. With extensive inventory and scalable production in Karachi, we can fulfill emergency disaster response orders of 500 to 5,000+ relief tents on expedited schedules.',
+        question: 'Can you handle bulk orders for NGOs on short notice?',
+        answer: 'Yes. We have our own stitching floor and large canvas rolls in Karachi, allowing us to deliver batches of 500 to 5,000+ relief tents quickly.',
       },
       {
-        question: 'What is the difference between Cotton Canvas Moom Jama and PVC Tarpal?',
-        answer: 'Waxed cotton canvas (Moom Jama) is breathable, heavy-duty, and tear-resistant, ideal for long-term tents and dry grain transport. PVC Tarpal is 100% impermeable plastic-coated fabric, ideal for harsh torrential rains.',
+        question: 'What is the practical difference between Moom Jama and PVC Tarpal?',
+        answer: 'Moom Jama is waxed cotton canvas that breathes naturally, preventing moisture buildup inside grain sacks and tents. PVC tarpal is rubberized plastic that is completely impenetrable to driving rain.',
       },
     ],
     moqOrLeadTime: 'Standard truck tarpaulins in stock; relief tent batches produced in 3–7 business days.',
@@ -301,14 +301,14 @@ export const installationServices: InstallationService[] = [
     title: 'Industrial Rope & Custom Cordage Manufacturing',
     tradeAlias: 'Jahazi Rassa • Kaath Seerhi • Pilot Rope Ladder • Plastic Rassi • Sootli',
     description:
-      'Direct in-house manufacturing of 3-strand Jahazi Rassa (hawser rope), braided polypropylene cord, nylon plastic rassi, sootli twines, and custom Kaath Seerhi (rope ladders with seasoned wooden rungs) for marine pilot boarding, industrial silos, construction scaffolding, and rescue operations in Karachi.',
+      'We spin and twist 3-strand Jahazi Rassa, nylon rassi, and packing sootli at our Karachi factory. We also hand-build wooden-rung rope ladders (Kaath Seerhi) for cargo ships, grain silos, and high-rise scaffolding access.',
     longDescription:
-      'Tahira Syndicate is a premier cordage and rope manufacturer headquartered in Shahra-e-Liaquat Road, Karachi. Operating high-speed yarn twisting, strand winding, and rope braiding machinery in our Karachi production facility, we produce industrial 3-strand hawser ropes (Jahazi Rassa), virgin polypropylene plastic rassi, nylon cords, and high-tensile packaging sootli. We also hand-craft certified marine pilot boarding ladders and industrial access rope ladders (Kaath Seerhi) featuring seasoned hardwood rungs, non-slip grooving, and reinforced spliced thimbles.',
+      'Our shop on Shahra-e-Liaquat Road has supplied ropes to Karachi maritime and industrial markets for over a decade. We twist 6mm to 32mm 3-strand polypropylene and nylon hawser coils right on our own machines. For ships docking at KPT or maintenance workers descending into industrial silos, our craftsmen hand-splice Kaath Seerhi ladders using grooved, non-slip hardwood rungs bound securely with marine cordage.',
     bullets: [
-      'Custom 3-strand Jahazi Rassa & braided cordage',
-      'Marine pilot boarding & Kaath Seerhi (rope ladders)',
-      'Industrial silo, scaffolding & marine vessel access',
-      'Hardwood seasoned rungs with non-slip grooved tread',
+      '3-strand Jahazi Rassa (hawser) & braided nylon cordage',
+      'Marine pilot boarding & Kaath Seerhi (wooden rope ladders)',
+      'Access ladders for industrial silos, ship holds & scaffolding',
+      'Seasoned hardwood rungs with grooved non-slip tread',
     ],
     specs: [
       { label: 'Market & Trade Names', value: 'Jahazi Rassa (Hawser) / Kaath Seerhi (Pilot Ladder) / Plastic Rassi / Sootli / Niwar' },
@@ -343,40 +343,40 @@ export const installationServices: InstallationService[] = [
     ],
     applications: [
       {
-        title: 'Port & Marine Vessel Pilot Boarding',
-        description: 'Certified marine pilot ladders (Kaath Seerhi) for safe vessel embarkation at Karachi Port (KPT) and Port Qasim.',
+        title: 'Port & Ship Pilot Boarding',
+        description: 'Handmade marine pilot ladders (Kaath Seerhi) for pilots and crew boarding cargo ships at KPT and Port Qasim.',
       },
       {
-        title: 'Industrial Grain Silos & Chemical Tank Inspection',
-        description: 'Flexible drop-down rope ladders allowing maintenance engineers to enter and inspect deep vertical storage tanks.',
+        title: 'Grain Silos & Storage Tank Inspection',
+        description: 'Flexible drop-down rope ladders for engineers inspecting deep cement, flour, and chemical storage tanks.',
       },
       {
-        title: 'High-Rise Construction Scaffolding Access',
-        description: 'Rapid-deployment secondary emergency escape ladders for facade scaffolding structures.',
+        title: 'Scaffolding & Emergency Exit Ladders',
+        description: 'Quick-hanging rope ladders for building scaffolding access and emergency escape routes on job sites.',
       },
       {
-        title: 'Heavy Logistics Mooring & Cargo Lashing',
-        description: '3-strand Jahazi Rassa coils for truck freight tying, port barge mooring, and heavy crane slinging.',
+        title: 'Truck Cargo Lashing & Mooring',
+        description: 'Thick 3-strand Jahazi Rassa coils for tying heavy cargo on trucks and securing harbor barges.',
       },
     ],
     processSteps: [
-      { title: 'Polymer Extrusion & Yarn Twisting', description: 'Extruding high-tenacity polypropylene or nylon filament yarn into continuous strands.' },
-      { title: 'Hawser 3-Strand Twisting', description: 'Precision machine-twisting strands into balanced, kink-free rope coils.' },
-      { title: 'Hardwood Rung Milling & Grooving', description: 'Machining hardwood steps with non-slip grooves and counter-sunk rope holes.' },
-      { title: 'Master Splicing & Hand Binding', description: 'Experienced craftsmen hand-knot and seize each rung with heavy whipping cord.' },
+      { title: 'Polymer Yarn Spinning', description: 'We extrude and spin high-tenacity polypropylene and nylon into balanced, high-strength yarns.' },
+      { title: '3-Strand Rope Twisting', description: 'Yarns are twisted into even 3-strand hawser coils that resist kinking under heavy pulling loads.' },
+      { title: 'Hardwood Step Milling', description: 'We cut seasoned hardwood rungs, drill counter-sunk rope holes, and carve anti-slip grooves on the stepping surface.' },
+      { title: 'Hand Splicing & Whipping', description: 'Our craftsmen thread the rope, tie secure marine knots, and hand-whip each step tightly so it cannot shift.' },
     ],
     faqs: [
       {
-        question: 'What is the standard length and rung spacing for Kaath Seerhi (rope ladders)?',
-        answer: 'Standard rope ladders are produced in 20ft, 30ft, 50ft, and 100ft lengths with 12-inch (300mm) rung pitch. We also fabricate custom lengths to match specific ship freeboards or industrial silo depths.',
+        question: 'What lengths and step spacing do you make for Kaath Seerhi (rope ladders)?',
+        answer: 'Standard ladders come in 20ft, 30ft, 50ft, and 100ft lengths with 12-inch (300mm) rung spacing. We can also custom-build exact lengths to match your ship freeboard or tank depth.',
       },
       {
-        question: 'What type of wood is used for the ladder rungs?',
-        answer: 'We use high-density seasoned hardwood (such as Shisham / Acacia) treated with protective sealant to ensure zero cracking under heavy industrial load.',
+        question: 'What wood do you use for the ladder rungs?',
+        answer: 'We use seasoned hardwood (Shisham or Acacia) treated to resist moisture and rot, ensuring the rungs will not crack under heavy worker loads.',
       },
       {
-        question: 'Can you supply bulk rope coils directly to ship chandlers and logistics fleets?',
-        answer: 'Yes. We supply 100m, 200m, and 500m coils of 6mm to 32mm Jahazi Rassa on same-day notice from our Shahra-e-Liaquat Road warehouse to Karachi Port, Port Qasim, and trucking terminals.',
+        question: 'Do you keep full rope coils in stock for immediate dispatch?',
+        answer: 'Yes. We keep 100m, 200m, and 500m coils of 6mm to 32mm Jahazi Rassa ready at our shop for same-day delivery to Karachi Port, Port Qasim, or trucking terminals.',
       },
     ],
     moqOrLeadTime: 'Rope coils in stock for immediate dispatch; custom Kaath Seerhi ladders assembled in 24–48 hours.',
@@ -389,14 +389,14 @@ export const installationServices: InstallationService[] = [
     title: 'Green & Blue Shade Net Supply & Installation',
     tradeAlias: 'Hara Parda • Sabz Shade Jali • 50% 75% 90% Dhoop Net • Agro Mesh',
     description:
-      '50% to 90% density UV-treated shade netting (Hara Parda & Sabz Jali) installed over garden nurseries, outdoor cafes, car parking sheds, and rooftop lawns. Supplied in full factory rolls or custom-stitched with reinforced webbing and brass eyelets to block harsh Karachi summer heat.',
+      'We stock 50%, 75%, and 90% green shade net (Hara Parda) in 50-meter master rolls and custom-stitched sheets with border webbing and brass eyelets. Cuts ambient heat by 5°C to 10°C over plant nurseries, rooftop terraces, and car parking sheds.',
     longDescription:
-      'Tahira Syndicate manufactures and supplies commercial agro-shade mesh (popularly known as Hara Parda or Sabz Jali) in 50%, 75%, and 90% sun-blocking densities. Crafted from 100% virgin high-density polyethylene (HDPE) with heavy-duty UV stabilizers, our shade cloth cools ambient temperatures by 5°C to 10°C, protects crops from scorching heat and hail, and provides outdoor privacy for residential compounds, rooftop lounges, and commercial car parking shades across Karachi.',
+      'Karachi summer heat can be brutal. Installing 90% green agro mesh (Hara Parda) blocks harsh sun radiation and makes open rooftops and driveways comfortable again. For agricultural nurseries and farm tunnels, 50% to 75% density lets through just the right amount of sunlight for crops to thrive. We sell full rolls from our Shahra-e-Liaquat Road counter and stitch custom sheets with heavy black border tape and brass eyelets for quick hanging.',
     bullets: [
-      '50%, 75% & 90% sun block density options (Hara Parda)',
-      'Agricultural nursery, greenhouse & vegetable patch shading',
-      'Car parking sheds, rooftop lawns & outdoor restaurant canopies',
-      'Full roll supply or custom hemmed edges with brass eyelets',
+      '50%, 75% & 90% sun-blocking density options (Hara Parda)',
+      'Shade covers for plant nurseries, farm tunnels & vegetable patches',
+      'Cooling canopies for car parking, rooftop lawns & outdoor cafes',
+      'Full 50m factory rolls or custom-stitched sheets with brass eyelets',
     ],
     specs: [
       { label: 'Market & Trade Names', value: 'Hara Parda (50%, 75%, 90%) / Sabz Shade Jali / Agro Mesh / Dhoop Net' },
@@ -429,40 +429,40 @@ export const installationServices: InstallationService[] = [
     ],
     applications: [
       {
-        title: 'Agricultural Nurseries & Greenhouses',
-        description: 'Protecting delicate plants, ornamental saplings, and vegetable crops from scorching summer sun and heat stress.',
+        title: 'Plant Nurseries & Greenhouses',
+        description: 'Shielding saplings, flowers, and vegetables from burning summer sun so they do not dry out.',
       },
       {
-        title: 'Commercial & Residential Car Parking Sheds',
-        description: 'Tensioned car parking canopies that protect vehicle paint and reduce interior cockpit temperatures.',
+        title: 'Car Parking Sheds & Driveways',
+        description: 'Tensioned parking canopies that protect vehicle paint and keep car interiors noticeably cooler.',
       },
       {
-        title: 'Rooftop Lounges & Swimming Pools',
-        description: 'Creating cool, shaded outdoor living areas on terrace roofs and poolside recreational decks.',
+        title: 'Rooftops & Garden Seating',
+        description: 'Creating cool, breezy shade over open terrace lawns, pool decks, and cafe sitting spaces.',
       },
       {
-        title: 'Construction Site Dust & Visual Screening',
-        description: 'Boundary perimeter fence wrapping for privacy and dust containment on urban development sites.',
+        title: 'Construction Site Dust Screening',
+        description: 'Wrapping boundary fences around building sites to contain dust and provide privacy.',
       },
     ],
     processSteps: [
-      { title: 'Density & Sizing Selection', description: 'Selecting appropriate shading factor (50%, 75%, 90%) and taking precise framework measurements.' },
-      { title: 'Edge Webbing & Eyelet Fabrication', description: 'Stitching heavy black polyester perimeter webbing and crimping heavy brass eyelets.' },
-      { title: 'Framework Rigging', description: 'Attaching shade netting to MS iron frames, pergola beams, or steel wire spans using UV-treated tie cords.' },
-      { title: 'Tension Adjustment', description: 'Tensioning to ensure a taut, wrinkle-free canopy that sheds rainwater and resists wind flutter.' },
+      { title: 'Density & Sizing Check', description: 'We help you choose 50%, 75%, or 90% density depending on whether you are shading crops or people, then take exact measurements.' },
+      { title: 'Border Webbing & Eyelet Pressing', description: 'We stitch heavy-duty black webbing along the entire perimeter and punch solid brass eyelets every 1 to 2 feet.' },
+      { title: 'Frame & Cable Rigging', description: 'Our team ties the net securely to iron pergolas, pipes, or guide wire cables using UV-resistant rope.' },
+      { title: 'Tensioning', description: 'We pull the sheet taut so it looks clean, lets wind pass without violent flapping, and will not sag over time.' },
     ],
     faqs: [
       {
-        question: 'Which shade percentage should I choose for plants versus car parking?',
-        answer: 'For plants, nursery saplings, and agriculture, 50% to 75% shade is recommended. For car parking sheds, outdoor cafe seating, and rooftop lawns, 90% high-density Hara Parda provides maximum cooling and UV relief.',
+        question: 'Which shade density is best for plants versus car parking?',
+        answer: 'For plant nurseries and crops, 50% to 75% shade gives plants the light they need without burning them. For car parking sheds, open rooftops, and outdoor seating, 90% density offers the best heat and UV reduction.',
       },
       {
-        question: 'Can you supply custom-stitched shade net sheets with rings/eyelets?',
-        answer: 'Yes! We custom-cut, hem the borders with heavy-duty black webbing tape, and install brass grommets/eyelets at 1-foot or 2-foot intervals to your exact BOQ dimensions.',
+        question: 'Can you stitch custom sheets with eyelets to match our frame?',
+        answer: 'Yes. Give us your frame dimensions and we will cut the net, stitch reinforced black border tape all around, and press brass eyelets at 1-foot or 2-foot intervals.',
       },
       {
-        question: 'What is the wholesale roll size of Hara Parda?',
-        answer: 'Standard factory rolls are 3 meters, 4 meters, or 5 meters wide by 50 meters long. We also supply custom sliced widths and bulk contractor bundles.',
+        question: 'What are the standard factory roll dimensions for Hara Parda?',
+        answer: 'Standard rolls are 3 meters, 4 meters, 5 meters, or 6 meters wide by 50 meters long. We also cut custom lengths for contractors.',
       },
     ],
     moqOrLeadTime: 'Full factory rolls dispatched same-day from Shahra-e-Liaquat Road; custom stitched sheets ready in 24 hours.',
@@ -475,14 +475,14 @@ export const installationServices: InstallationService[] = [
     title: 'Anti-Bird Net Installation & Balcony Protection',
     tradeAlias: 'Kabootar Jali • Chiriya Net • Balcony Pigeon Mesh • Rooftop Parda',
     description:
-      'Durable UV-stabilized nylon anti-bird mesh (Kabootar Jali & Chiriya Net) installed across apartment balconies, factory roofs, warehouse rafters, and duct shafts. Fixed firmly using stainless steel anchor hooks and tension wire to keep pigeons and birds out without blocking sunlight or ventilation.',
+      'We install durable nylon anti-bird net (Kabootar Jali) across apartment balconies, building duct shafts, and warehouse roofs. We use grade-304 stainless steel hooks and perimeter tension wires so pigeons stay out without rusting your walls or blocking fresh air.',
     longDescription:
-      'Tahira Syndicate provides discreet, high-tensile anti-bird and pigeon exclusion netting systems for residential buildings, commercial plazas, hotels, food processing facilities, and industrial godowns across Karachi. Pigeons and birds cause significant property damage, health hazards, and aesthetic fouling in building light wells, AC compressor ledges, balcony railings, and warehouse steel trusses. Our Kabootar Jali is virtually invisible from a distance, highly durable, and installed with non-corrosive stainless steel fixtures.',
+      'Pigeons nesting on balcony railings and AC units create constant mess, bad odors, and health hazards. Our Kabootar Jali is made from thin, transparent monofilament that is barely noticeable from the ground, yet strong enough that birds cannot push through. Our crew drills grade-304 stainless steel anchor hooks, pulls a tight perimeter wire with mini turnbuckles, and fixes the net neatly so it stays taut for years.',
     bullets: [
-      'Balcony Kabootar Jali & apartment duct shafts',
-      'Industrial warehouse rafter & godown protection',
-      'Rust-proof SS anchor hooks, wire rope & turnbuckles',
-      'Discreet, 95% light transmission with zero ventilation loss',
+      'Balcony Kabootar Jali & apartment ventilation duct shafts',
+      'Warehouse rafter & factory roof pigeon exclusion',
+      'Rust-free grade-304 stainless steel hooks, cable & turnbuckles',
+      'Almost invisible from below with 95% light and airflow transmission',
     ],
     specs: [
       { label: 'Market & Trade Names', value: 'Kabootar Jali / Chiriya Net / Balcony Pigeon Parda' },
@@ -515,40 +515,40 @@ export const installationServices: InstallationService[] = [
     ],
     applications: [
       {
-        title: 'Residential Balconies & Terraces',
-        description: 'Protecting home balconies from pigeon nesting, droppings, and bad odors while maintaining an open outdoor view.',
+        title: 'Home Balconies & Terraces',
+        description: 'Keeping pigeons off balcony railings, ending bird mess and droppings while keeping your outdoor view clear.',
       },
       {
         title: 'Building Duct Shafts & AC Ledges',
-        description: 'Sealing off deep vertical light shafts and air conditioning compressor niches where birds congregate.',
+        description: 'Sealing off ventilation shafts and AC outdoor unit ledges where pigeons roost and build nests.',
       },
       {
-        title: 'Industrial Warehouse Steel Trusses',
-        description: 'Horizontal rafter netting to prevent birds from perching above finished goods and food manufacturing lines.',
+        title: 'Warehouse Steel Trusses & Rafters',
+        description: 'Horizontal rafter netting that keeps birds from perching above finished goods and food storage bags.',
       },
       {
-        title: 'Commercial Office Facades & Signage',
-        description: 'Netting behind architectural cladding and billboard structures to preserve building facade cleanliness.',
+        title: 'Plaza Facades & Signage Cladding',
+        description: 'Netting behind architectural exterior panels and billboard signs to keep building fronts clean.',
       },
     ],
     processSteps: [
-      { title: 'Balcony & Shaft Inspection', description: 'Measuring dimensions, assessing drilling substrates (concrete, marble, metal), and selecting mesh size.' },
-      { title: 'Stainless Steel Frame Anchoring', description: 'Installing stainless steel anchor hooks along the perimeter at 1-foot intervals.' },
-      { title: 'Cable Tensioning', description: 'Running a 304 SS perimeter wire rope and tensioning it with miniature turnbuckles.' },
-      { title: 'Net Fastening & Trimming', description: 'Fixing the anti-bird mesh to the cable with stainless rings and trimming for a tight, invisible finish.' },
+      { title: 'Balcony Inspection & Measurement', description: 'We measure the opening and check the surface (concrete, tile, or marble) to select the right drill bits and plugs.' },
+      { title: 'Stainless Anchor Installation', description: 'We drill and fit grade-304 stainless steel anchor hooks every 12 inches around the perimeter.' },
+      { title: 'Perimeter Wire Tensioning', description: 'We string a stainless steel wire rope through the hooks and tighten it with turnbuckles until completely rigid.' },
+      { title: 'Net Fixing & Clean Trim', description: 'We clip the mesh to the wire using stainless steel hog rings and trim off any excess netting for a clean finish.' },
     ],
     faqs: [
       {
-        question: 'Will anti-bird netting block fresh air or daylight in my balcony?',
-        answer: 'No. Our high-transparency monofilament mesh has a 95% open area, allowing complete natural airflow and sunlight while remaining nearly invisible from street level.',
+        question: 'Will bird netting make my balcony dark or block the breeze?',
+        answer: 'Not at all. The monofilament twine is ultra-thin and has a 95% open mesh area, so sunlight and natural air flow through freely while birds stay out.',
       },
       {
-        question: 'Do your installation fixtures rust in Karachi’s humid coastal climate?',
-        answer: 'We exclusively use grade-304 stainless steel anchor hooks, plastic plugs, and coated stainless perimeter wire to guarantee zero rusting and zero wall staining.',
+        question: 'Will the hooks and hardware rust in Karachi humid air?',
+        answer: 'No. We strictly use grade-304 stainless steel hooks, coated wire, and nylon wall plugs. They will not rust or leave ugly stains on your walls.',
       },
       {
-        question: 'Can birds get trapped or injured in the net?',
-        answer: 'Our nets are tightly tensioned during installation, creating a solid barrier that birds bounce off harmlessly without getting tangled.',
+        question: 'Can pigeons get tangled or hurt in the netting?',
+        answer: 'No. Because our crew pulls the net tight against a rigid perimeter cable, birds simply bounce off harmlessly and fly away.',
       },
     ],
     moqOrLeadTime: 'Immediate roll dispatch from Shahra-e-Liaquat Road; Karachi balcony installation within 24–48 hours.',
@@ -561,14 +561,14 @@ export const installationServices: InstallationService[] = [
     title: 'Sports Net Manufacturing & Ground Supply',
     tradeAlias: 'Cricket Pitch Jaal • Futsal Turf Ground Net • Goalpost Net',
     description:
-      'Braided nylon and high-density HDPE netting (Cricket Jaal & Futsal Ground Net) manufactured in custom ply and mesh sizes for cricket practice pitches, futsal grounds, football goal cages, and indoor sports complexes. Built to withstand continuous hard ball impact and Karachi coastal weather.',
+      'We manufacture 18 to 48 ply braided nylon and HDPE sports nets for cricket practice pitches, futsal turf grounds, and goal cages. Built thick and UV-treated so hard leather cricket balls and powerful kicks will not tear the mesh.',
     longDescription:
-      'Tahira Syndicate is Karachi’s trusted manufacturer and supplier of heavy-duty sports netting systems. From private rooftop cricket pitches and commercial futsal turf arenas to school sports complexes and sports club academies, we fabricate knotted and knotless sports nets engineered to absorb high-velocity ball impacts. We manufacture complete 3D batting practice cages, overhead roof containment nets, perimeter boundary barriers, and indoor gymnasium divider curtains.',
+      'A hard leather cricket ball hit at pace will rip through cheap, thin netting in no time. That is why we weave 30 to 48 ply braided nylon and high-density HDPE netting with a tight 40mm mesh. We have supplied and installed practice tunnels and boundary nets for schools like Karachi Grammar School and private rooftop sports arenas across Karachi, complete with steel posts and suspension wire rigging.',
     bullets: [
-      'Cricket batting pitch cages & boundary nets (Cricket Jaal)',
-      'Futsal turf arena boundary & overhead ceiling nets',
-      'Football, hockey & handball goalpost netting',
-      'Heavy-duty nylon divider curtains with canvas weighted base',
+      'Cricket batting practice cages & boundary nets (Cricket Jaal)',
+      'Futsal turf arena perimeter & overhead ceiling netting',
+      'Football, hockey & handball goalpost nets',
+      'Heavy-duty gym divider curtains with weighted bottoms',
     ],
     specs: [
       { label: 'Market & Trade Names', value: 'Cricket Pitch Jaal / Futsal Ground Net / Goalpost Netting' },
@@ -601,40 +601,40 @@ export const installationServices: InstallationService[] = [
     ],
     applications: [
       {
-        title: 'Commercial Futsal Turf Arenas',
-        description: 'Complete ceiling, sidewall, and goal cage netting that withstands non-stop ball rebounds without sagging.',
+        title: 'Commercial Futsal Arenas',
+        description: 'Complete ceiling, perimeter, and goal netting built to withstand continuous ball impacts without sagging.',
       },
       {
         title: 'Rooftop & Ground Cricket Practice Cages',
-        description: 'Tunnel-style enclosed batting cages with dense mesh to ensure leather cricket balls never escape the practice zone.',
+        description: 'Enclosed batting tunnels with dense 40mm mesh so fast leather balls stay safely contained.',
       },
       {
-        title: 'School & University Sports Complexes',
-        description: 'Perimeter barrier nets for multi-purpose basketball, tennis, and volleyball courts.',
+        title: 'School & College Sports Grounds',
+        description: 'High boundary nets around basketball, volleyball, tennis courts, and football pitches.',
       },
       {
-        title: 'Indoor Sports Hall Divider Curtains',
-        description: 'Track-mounted retractable divider curtains that split large sports arenas into independent practice zones.',
+        title: 'Sports Hall Divider Curtains',
+        description: 'Sliding track netting that divides large indoor multi-sport halls into separate play zones.',
       },
     ],
     processSteps: [
-      { title: 'Ground Measurement & Height Planning', description: 'Determining exact cage length, height, post span, and cable sag allowances.' },
-      { title: 'Net Extrusion & Knotting', description: 'Braiding high-ply nylon or HDPE cordage with reinforced perimeter edges.' },
-      { title: 'Steel Post & Wire Suspension Setup', description: 'Installing guy wire cables, turnbuckles, and carabiner clip attachments.' },
-      { title: 'Net Rigging & Tension Tuning', description: 'Hanging and tensioning the net to eliminate loose sagging and ground gaps.' },
+      { title: 'Ground Layout & Sizing', description: 'We measure cage dimensions, support pole positions, and suspension cable heights to plan the layout.' },
+      { title: 'Net Weaving & Border Roping', description: 'We braid the net to your required ply and stitch a thick 8mm to 10mm border rope all around the edges.' },
+      { title: 'Support Poles & Cable Setup', description: 'We install steel support posts, tension the galvanized overhead guide cables, and attach snap hooks.' },
+      { title: 'Net Hanging & Tuning', description: 'We hang the net and adjust the tension so balls drop cleanly without bouncing dangerously back into the batsman.' },
     ],
     faqs: [
       {
-        question: 'Which ply is recommended for leather cricket ball batting cages?',
-        answer: 'We recommend 30-ply to 48-ply braided nylon or HDPE cordage with a 40mm (1.5 inch) square mesh. This easily absorbs 140+ km/h fast bowling leather ball strikes without breaking.',
+        question: 'What ply do you recommend for leather cricket ball batting cages?',
+        answer: 'We recommend 30-ply to 48-ply braided nylon or HDPE with a 40mm (1.5 inch) mesh. It easily takes repeated hits from fast bowlers without breaking.',
       },
       {
         question: 'Do you provide complete turnkey installation with steel pole structures?',
-        answer: 'Yes, we supply complete turn-key solutions including steel pole fabrication, suspension wire rigging, and netting installation across Karachi and nearby cities.',
+        answer: 'Yes. We take care of the entire job — from fabricating steel posts and stringing guide cables to hanging and securing the net across Karachi.',
       },
       {
-        question: 'Are your futsal nets water-resistant for outdoor rooftop venues?',
-        answer: 'Our virgin HDPE and treated nylon nets are 100% waterproof and UV-stabilized, preventing water absorption, rot, and sun brittleness.',
+        question: 'Can your futsal nets handle outdoor rooftop weather?',
+        answer: 'Yes. Our virgin HDPE and treated nylon nets are completely waterproof and UV-stabilized, so they will not rot, absorb rain, or get brittle in the sun.',
       },
     ],
     moqOrLeadTime: 'Standard pitch kits in stock; custom ground layouts fabricated in 2–4 working days.',
@@ -647,14 +647,14 @@ export const installationServices: InstallationService[] = [
     title: 'Safety Net Manufacturing & Site Installation',
     tradeAlias: 'Safety Jaal • Scaffolding Debris Net • Building Fall Protection Jaal',
     description:
-      'High-tenacity polypropylene and polyamide nylon safety nets (Safety Jaal) manufactured for high-rise scaffolding, debris containment, and worker fall protection. Supplied in factory rolls or installed on site by our experienced rigging crew with heavy-duty anchors across Karachi.',
+      'We make heavy polypropylene and nylon safety nets (Safety Jaal) for high-rise scaffolding, elevator shafts, and worker fall protection. Available in factory rolls or installed on site by our experienced height rigging crew in Karachi.',
     longDescription:
-      'Tahira Syndicate manufactures certified industrial safety netting engineered specifically for high-rise construction, civil engineering projects, elevator shafts, and structural renovation works across Karachi and Sindh industrial corridors. Produced with high-tenacity polypropylene (PP) and high-tensile polyamide nylon, our safety jaal provides dependable debris containment and worker fall protection in compliance with international safety protocols. We supply direct factory rolls or deploy our certified rigging team equipped with heavy-duty galvanized anchor brackets, tensioning wire ropes, and perimeter border cords.',
+      'Falling tools, brick pieces, and plaster chunks from high scaffolding are a major hazard on building sites. Our high-tenacity polypropylene and nylon safety jaal catches falling debris and protects workers on the ground. We weave custom sizes with thick 12mm to 16mm border tie ropes and provide heavy galvanized anchor bolts and turnbuckles so the net stays rigged tight and secure.',
     bullets: [
-      'Scaffolding debris containment (Safety Jaal)',
-      'High-altitude fall protection & worker safety',
-      'Elevator shaft, stairwell & light well coverage',
-      'Heavy-duty border ropes & galvanized anchors',
+      'Scaffolding debris containment & worker protection (Safety Jaal)',
+      'High-rise building fall protection & perimeter barrier nets',
+      'Elevator shaft, stairwell & light well catch nets',
+      'Heavy 12mm–16mm border tie ropes with galvanized anchors',
     ],
     specs: [
       { label: 'Market & Trade Names', value: 'Safety Jaal / Scaffolding Debris Net / Building Protection Net' },
@@ -687,40 +687,40 @@ export const installationServices: InstallationService[] = [
     ],
     applications: [
       {
-        title: 'High-Rise Scaffolding Debris Containment',
-        description: 'Enclosing external facade scaffolding to catch falling plaster, brick chips, and construction tools.',
+        title: 'Scaffolding & Facade Debris Catching',
+        description: 'Wrapping external scaffolding to stop falling plaster chips, bricks, and tools from hitting pedestrians.',
       },
       {
-        title: 'Elevator Shaft & Stairwell Void Protection',
-        description: 'Horizontal catch nets installed inside internal building voids to prevent fatal falls during core construction.',
+        title: 'Elevator Shafts & Internal Voids',
+        description: 'Catch nets placed inside elevator shafts and stair openings to protect workers during high-rise construction.',
       },
       {
-        title: 'Industrial Warehouse Ceiling Protection',
-        description: 'Under-roof net installations in production plants and godowns to protect personnel and inventory from falling tiles or fixtures.',
+        title: 'Factory & Warehouse Ceiling Protection',
+        description: 'Under-roof net installations that protect floor workers and inventory from falling roof tiles or loose fittings.',
       },
       {
-        title: 'Bridge & Flyover Cantilever Protection',
-        description: 'Heavy perimeter net structures extended outward over active vehicular roadways during bridge construction.',
+        title: 'Bridge & Flyover Cantilever Nets',
+        description: 'Heavy netting extended outward over active roads during bridge and flyover construction.',
       },
     ],
     processSteps: [
-      { title: 'Site Inspection & BOQ Assessment', description: 'Our engineering crew assesses height, wind loads, anchor points, and net aperture requirements.' },
-      { title: 'Custom Netting Fabrication', description: 'Nets are knotted or braided in our factory with heavy perimeter boundary ropes.' },
-      { title: 'Anchor Rigging & Tensioning', description: 'Riggers install galvanized expansion anchors, stainless wire ropes, and tension turnbuckles.' },
-      { title: 'Load Test & Handover', description: 'Final tension check and safety certification inspection before project sign-off.' },
+      { title: 'Site Inspection & BOQ Review', description: 'We inspect the building elevation, anchor points, wind exposure, and required mesh density.' },
+      { title: 'Custom Net Fabrication', description: 'We knot the net to size at our factory and stitch thick 12mm to 16mm boundary ropes on all four sides.' },
+      { title: 'Anchor Bolting & Cable Rigging', description: 'Our riggers drill galvanized expansion bolts, string heavy steel guide cables, and tension them with turnbuckles.' },
+      { title: 'Load Inspection & Handover', description: 'We conduct a thorough tension check and safety inspection before signing off on the installation.' },
     ],
     faqs: [
       {
-        question: 'What is the standard mesh size for construction scaffolding safety nets in Pakistan?',
-        answer: 'For scaffolding debris containment, a 25mm × 25mm to 50mm × 50mm square mesh is standard. For heavy personnel fall-arrest catch nets, a 75mm to 100mm knotted mesh braided with 4mm to 6mm high-tenacity cords is used.',
+        question: 'What mesh size is standard for scaffolding safety nets in Pakistan?',
+        answer: 'For debris containment, 25mm × 25mm to 50mm × 50mm square mesh is standard. For heavier fall-arrest nets, we use a 75mm to 100mm knotted mesh made with 4mm to 6mm heavy cord.',
       },
       {
-        question: 'Can Tahira Syndicate provide both material supply and on-site rigging in Karachi?',
-        answer: 'Yes. We provide both bulk roll/fabricated net delivery across Pakistan and turnkey on-site rigging services with experienced height-certified teams in Karachi and Sindh industrial zones.',
+        question: 'Can you supply materials across Pakistan as well as install in Karachi?',
+        answer: 'Yes. We ship safety net rolls and custom stitched sizes to contractors nationwide, and our rigging team handles on-site installations throughout Karachi and Sindh.',
       },
       {
-        question: 'How does coastal Karachi weather affect safety net lifespan?',
-        answer: 'Our nets are manufactured with virgin UV-stabilized polymer resins containing 300 to 500 KLY stabilizers, resisting saline humidity and harsh sunlight for 3 to 5+ continuous years.',
+        question: 'How do your nets hold up against Karachi salty coastal air?',
+        answer: 'Our nets are made with UV-stabilized virgin polymer resin (300 to 500 KLY) that resists humid, salty sea air and harsh sunlight for 3 to 5+ years.',
       },
     ],
     moqOrLeadTime: 'Custom sizes dispatched in 24–48 hours; on-site installation scheduled within 48 hours.',
