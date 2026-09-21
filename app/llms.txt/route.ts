@@ -1,0 +1,67 @@
+import { NextResponse } from 'next/server'
+import fs from 'fs'
+import path from 'path'
+
+export const dynamic = 'force-static'
+export const revalidate = 86400 // 24 hours
+
+export async function GET() {
+  try {
+    const filePath = path.join(process.cwd(), 'public', 'llms.txt')
+    if (fs.existsSync(filePath)) {
+      const content = fs.readFileSync(filePath, 'utf8')
+      return new NextResponse(content, {
+        status: 200,
+        headers: {
+          'Content-Type': 'text/plain; charset=utf-8',
+          'Cache-Control': 'public, max-age=86400, stale-while-revalidate=604800',
+        },
+      })
+    }
+  } catch (err) {
+    console.error('Error reading llms.txt:', err)
+  }
+
+  // Guaranteed fallback markdown containing valid # H1 heading
+  const fallback = `# Tahira Syndicate
+
+> Direct manufacturer and wholesale master distributor of industrial ropes, agricultural shade nets, heavy-duty tarpaulins, flexible pipes, polymers, and synthetic webbing in Karachi, Pakistan.
+
+Tahira Syndicate provides bulk wholesale pricing, technical specifications, and factory-direct dispatch for commercial buyers, contractors, and industrial plants across Pakistan.
+
+## Primary Sections
+
+- [Wholesale Products Catalog](https://tahirasyndicate.com/products): Complete B2B inventory of ropes, shade nets, tarpaulins, PVC pipes, polymers, and strapping.
+- [Product Categories](https://tahirasyndicate.com/categories): Categorized material hubs for rapid procurement and bulk ordering.
+- [Installation Services](https://tahirasyndicate.com/services): Professional rigging, tensile canopy construction, basketball court covers, and shade netting installation.
+- [Projects & Case Studies](https://tahirasyndicate.com/projects): Documented real-world installations for Beaconhouse, Karachi Grammar School, and SLM Tyres.
+- [About Company](https://tahirasyndicate.com/about): Corporate history, warehouse facilities, wholesale manufacturing standards, and trade background.
+- [Contact & RFQ](https://tahirasyndicate.com/contact): Physical warehouse location on Shahra-e-Liaquat Road, Google Business profile, and direct WhatsApp RFQ line.
+
+## Product Silos & Specifications
+
+- [Ropes & Cordage](https://tahirasyndicate.com/categories/ropes): Manila natural fiber ropes, 3-strand PP Danline ropes, braided nylon cords, and polyester rigging ropes.
+- [Agricultural & Safety Nets](https://tahirasyndicate.com/categories/nets): 50%-90% UV-stabilized virgin HDPE green shade nets (hara parda), construction debris netting, and sports mesh.
+- [Webbing & Cargo Slings](https://tahirasyndicate.com/categories/safety-belts-webbing-slings): 1-10 Ton polyester webbing lifting slings, ratchet tie-down cargo belts, and safety harnesses.
+- [Tarpaulins & Canvas Tents](https://tahirasyndicate.com/categories/tarpaulins-canvas-tents): Waterproof multi-layer HDPE tarpaulins, wax-treated cotton canvas covers, and emergency relief tents.
+- [Pipes & Flexible Hosing](https://tahirasyndicate.com/categories/building-flexible-pipes): Heliflex suction hoses, deep-well boring pipes, and reinforced cotton PVC tubing.
+- [Polymers & Raw Materials](https://tahirasyndicate.com/categories/polythene-sheets-films): Virgin & recycled HDPE, LDPE, LLDPE, and PP plastic granules (plastic daana).
+- [Industrial Strapping & Packaging](https://tahirasyndicate.com/categories/packaging-strapping): Semi-automatic PP strapping rolls, high-tensile PET strapping, and metal crimp seals (patti kundi).
+
+## Business & Contact Details
+
+- **Company Name**: Tahira Syndicate
+- **Address**: Shop # 1, Thakurdwara Ln, Main Shahra-e-Liaquat Road, opp. Sindh Madarsa-tul-Islam, Serai Quarters, Karachi, 74000, Pakistan
+- **Phone / WhatsApp**: +92 321 2043552
+- **Email**: sales@tahirasyndicate.com
+- **Operating Hours**: Monday - Saturday: 10:00 AM - 7:00 PM PKT
+- **Payment & RFQ**: Wholesale Quotations via WhatsApp & On-Site Inquiries
+`
+  return new NextResponse(fallback, {
+    status: 200,
+    headers: {
+      'Content-Type': 'text/plain; charset=utf-8',
+      'Cache-Control': 'public, max-age=86400, stale-while-revalidate=604800',
+    },
+  })
+}
