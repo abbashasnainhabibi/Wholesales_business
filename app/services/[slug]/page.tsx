@@ -23,7 +23,9 @@ import { ServiceGallery } from '@/components/service-gallery'
 import { ServiceFaqAccordion } from '@/components/service-faq-accordion'
 import { ReviewForm } from '@/components/review-form'
 import { ReviewsList } from '@/components/reviews-list'
-import { getCompanySettings, getCategories, getApprovedReviews } from '@/lib/api/crm'
+import { getCompanySettings, getCategories, getApprovedReviews, getProducts } from '@/lib/api/crm'
+import { resolveMediaUrl } from '@/lib/utils'
+import type { ProductItem } from '@/lib/types/crm'
 import {
   getServices,
   getServiceBySlug,
@@ -102,11 +104,29 @@ export default async function ServiceDetailPage({
     notFound()
   }
 
-  const [settings, categories, reviews] = await Promise.all([
+  const [settings, categories, reviews, allProducts] = await Promise.all([
     getCompanySettings(),
     getCategories(),
     getApprovedReviews({ serviceId: service.id }),
+    getProducts(),
   ])
+
+  // Map service slug to related category slugs/keywords to show direct product internal links
+  const serviceCategoryMap: Record<string, string[]> = {
+    'shade-nets': ['nets-tarpaulins', 'shade', 'net'],
+    'bird-nets': ['nets-tarpaulins', 'bird', 'balcony', 'pigeon', 'net'],
+    'safety-nets': ['nets-tarpaulins', 'safety', 'construction', 'fall', 'net'],
+    'sport-nets': ['nets-tarpaulins', 'sport', 'cricket', 'futsal', 'net'],
+    'polythene-manufacturing': ['polythene-sheeting', 'polythene', 'dhalai', 'chhat', 'plastic', 'sheet'],
+    'tarpaulin-canopy': ['nets-tarpaulins', 'tarpaulin', 'canvas', 'sheet', 'tarpal'],
+  }
+
+  const keywords = serviceCategoryMap[service.slug] || [service.slug]
+  const relatedProducts: ProductItem[] = allProducts.filter((p: ProductItem) => {
+    const catSlug = p.category?.slug || ''
+    const pName = p.name.toLowerCase()
+    return keywords.some((kw) => catSlug.includes(kw) || pName.includes(kw))
+  }).slice(0, 4)
 
   const relatedServices = getRelatedServices(service.slug, 3)
   const cleanWhatsapp = settings.whatsapp.replace(/[^0-9]/g, '')
@@ -516,6 +536,76 @@ export default async function ServiceDetailPage({
               </div>
             </div>
           </section>
+
+          {/* Section: Related Wholesale Products Catalog (SEO Internal Linking to Products) */}
+          {relatedProducts.length > 0 && (
+            <section className="mt-16 sm:mt-20 border-t border-slate-200 pt-12 sm:pt-16">
+              <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
+                <div>
+                  <p className={eyebrowText}>Direct Factory Inventory</p>
+                  <h2 className={h2Text}>Related Wholesale Materials &amp; Products</h2>
+                  <p className={`mt-2 ${bodyText}`}>
+                    Browse wholesale materials in stock at our Shahra-e-Liaquat Road counter for immediate pickup or delivery.
+                  </p>
+                </div>
+                <Link
+                  href="/products"
+                  className="inline-flex items-center gap-1 text-xs sm:text-base font-bold text-[#1877F2] hover:underline pb-1 shrink-0"
+                >
+                  Browse Full Catalog &rarr;
+                </Link>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                {relatedProducts.map((prod: ProductItem) => {
+                  const prodImg = prod.images?.[0]?.src
+                    ? resolveMediaUrl(prod.images[0].src)
+                    : resolveMediaUrl(null)
+                  return (
+                    <article
+                      key={prod.id}
+                      className="group rounded-none border border-slate-200 bg-white p-4 hover:border-slate-400 transition flex flex-col justify-between shadow-xs"
+                    >
+                      <div>
+                        <div className="relative h-40 w-full overflow-hidden bg-slate-100 mb-3">
+                          <Image
+                            src={prodImg}
+                            alt={prod.images?.[0]?.alt || prod.name}
+                            fill
+                            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                            className="object-cover transition duration-500 group-hover:scale-105"
+                          />
+                          <div className="absolute top-2 left-2 rounded-xs bg-[#0F172A]/90 px-2 py-0.5 text-[10px] font-bold text-white uppercase">
+                            {prod.category?.name || 'Wholesale'}
+                          </div>
+                        </div>
+                        <h3 className="text-sm font-black text-[#0F172A] group-hover:text-[#1877F2] transition line-clamp-2 leading-snug">
+                          <Link href={`/products/${prod.slug}`}>{prod.name}</Link>
+                        </h3>
+                        {prod.usage && (
+                          <p className="mt-1.5 text-xs text-slate-500 line-clamp-2 leading-relaxed">
+                            {prod.usage}
+                          </p>
+                        )}
+                      </div>
+
+                      <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+                        <span className="text-[11px] font-bold text-[#059669]">
+                          Trade Rate Available
+                        </span>
+                        <Link
+                          href={`/products/${prod.slug}`}
+                          className="inline-flex items-center gap-1 text-xs font-bold text-[#1877F2] hover:underline"
+                        >
+                          View Specs &rarr;
+                        </Link>
+                      </div>
+                    </article>
+                  )
+                })}
+              </div>
+            </section>
+          )}
 
           {/* Section: Related Services */}
           {relatedServices.length > 0 && (
