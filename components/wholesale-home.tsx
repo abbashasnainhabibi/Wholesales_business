@@ -549,7 +549,7 @@ export function WholesaleHome({
 
             <div className="grid gap-4 sm:gap-6 grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
               {products.slice(0, 4).map((prod) => {
-                const rawImg = prod.images?.[0]?.src || 'https://images.unsplash.com/photo-1586864387789-628af9feed72?auto=format&fit=crop&w=800&q=80'
+                const rawImg = prod.images?.[0]?.src || '/logo.png'
                 const imgSrc = resolveMediaUrl(rawImg)
                 const imgAlt = prod.images?.[0]?.alt || `${prod.name} wholesale supply Shahra-e-Liaquat Road Karachi - Tahira Syndicate`
                 return (

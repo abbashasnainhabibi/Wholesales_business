@@ -153,7 +153,7 @@ export function CategoriesView({
           <div className="space-y-10">
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 sm:gap-7">
               {paginatedCategories.map((cat, idx) => {
-                const defaultFallback = categoryImages[cat.slug] || 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1000&q=80'
+                const defaultFallback = categoryImages[cat.slug] || '/logo.png'
                 const img = resolveMediaUrl(cat.image, resolveMediaUrl(defaultFallback))
                 return (
 

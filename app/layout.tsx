@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import Script from 'next/script'
 import { Outfit } from 'next/font/google'
 import './globals.css'
-import { getCompanySettings } from '@/lib/api/crm'
+import { getCompanySettings, fallbackSettings } from '@/lib/api/crm'
 
 const outfit = Outfit({
   subsets: ['latin'],
@@ -66,8 +66,14 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  const settings = await getCompanySettings()
-  const cleanWhatsapp = settings.whatsapp.replace(/[^0-9]/g, '')
+  let settings = fallbackSettings
+  try {
+    const fetched = await getCompanySettings()
+    if (fetched) settings = fetched
+  } catch (err) {
+    console.error('Failed to load company settings in root layout, using fallbackSettings:', err)
+  }
+  const cleanWhatsapp = (settings.whatsapp || fallbackSettings.whatsapp).replace(/[^0-9]/g, '')
 
   const businessSchema = {
     '@context': 'https://schema.org',

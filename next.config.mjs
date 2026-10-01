@@ -55,7 +55,7 @@ const nextConfig = {
       frame-src 'self' https://challenges.cloudflare.com https://www.google.com https://maps.google.com https://www.openstreetmap.org;
       frame-ancestors 'none';
       base-uri 'self';
-      form-action 'self' https://wa.me;
+      form-action 'self' https://wa.me https://api.whatsapp.com https://web.whatsapp.com;
     `.replace(/\s{2,}/g, ' ').trim()
 
     const securityHeaders = [
