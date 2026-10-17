@@ -424,26 +424,26 @@ async function main() {
         "slug": "nylon-industrial-rope",
         "price": 0,
         "moq": 1,
-        "tradeAliases": "Nylon Rassa • Polyamide Rope • High Elasticity Rassa • Resham Rassi • White Nylon Rope",
-        "shortDescription": "High-strength 3-strand polyamide nylon rope. Delivers superior shock energy absorption, high breaking strength, and resistance to repeated sudden impact pulls.",
-        "longDescription": "When heavy vessels pitch against dock pilings or tow lines face sudden jerk loads, rigid ropes snap under shock. 3-strand Nylon (Polyamide) rope acts as a natural mechanical shock absorber, stretching safely under peak loads and springing back without structural damage. It delivers the highest tensile strength among common synthetic ropes and resists friction wear against bollards and fairleads.",
+        "tradeAliases": "Nylon Rassa • Polyamide Rope • High Tensile Nylon Rassi • Nylon Mooring Line",
+        "shortDescription": "High-strength polyamide nylon rope with built-in elasticity. Absorbs sudden heavy shock loads without snapping, making it the top choice for vehicle towing and ship mooring.",
+        "longDescription": "When pulling heavy trucks out of mud or securing ships against rough harbor waves, rigid ropes snap from sudden shock loads. Nylon (Polyamide) rope stretches under shock and snaps back without losing strength, absorbing the impact safely. It has the highest tensile breaking strength among commercial cordage and excellent wear resistance. We supply 3-strand and 8-strand nylon coils from 6mm to 36mm across Pakistan.",
         "metaTitle": "Nylon Industrial Rope Wholesale Karachi & Pakistan",
-        "metaDescription": "High-tenacity nylon 3-strand industrial ropes in Karachi. Superior shock absorption and breaking strength for marine towing, mooring, and heavy rigging.",
-        "usage": "Essential for ship towing hawsers, anchor rode lines, harbor mooring, recovery pull lines, heavy machinery tie-downs, and industrial safety lifelines.",
+        "metaDescription": "High tensile 3-strand and braided nylon industrial ropes in Karachi. Superior shock absorption and elastic strength for marine and heavy transport operations.",
+        "usage": "Engineered for recovery towing, heavy vehicle snatch lines, harbor ship mooring, anchor lines, and crane guide taglines where high elasticity and shock absorption are critical.",
         "benefits": [
-          "Highest shock absorption and elasticity among commercial synthetic ropes",
-          "High tensile breaking strength handles sudden heavy jerks",
-          "Excellent resistance against bollard and fairlead friction wear",
-          "Stays supple and easy for deckhands to coil even after heavy use"
+          "Highest breaking strength among standard synthetic fiber ropes",
+          "High elasticity absorbs sudden shock loads without snapping",
+          "High surface wear resistance against rough metal edges",
+          "Remains flexible even after prolonged outdoor exposure"
 ],
         "suitedFor": [
-          "Vessel mooring lines & harbor anchor rodes",
-          "Towing hawsers & vehicle kinetic recovery lines",
-          "Industrial fall-arrest lifelines & safety lines",
-          "Heavy equipment dynamic tie-down lashing"
+          "Vehicle recovery & dynamic tow ropes",
+          "Harbor vessel mooring & anchor lines",
+          "Crane tagline guides & heavy lifting tag ropes",
+          "Safety lifeline rigging & fall arrest systems"
 ],
         "notSuitedFor": [
-          "High-precision positioning lifts where zero stretch is required"
+          "Static lashing where zero stretch is required (use Polyester instead)"
 ],
         "bulkPricing": [],
         "images": [
@@ -465,12 +465,12 @@ async function main() {
         ],
         "faqs": [
           {
-                    "question": "Why is Nylon rope preferred for marine anchor and mooring lines?",
-                    "answer": "Nylon has natural elasticity that absorbs the shock of waves, wind gusts, and sudden vessel movements, protecting boat deck cleats and dock anchors from breaking under impact."
+                    "question": "Why is Nylon rope preferred for towing and mooring over polyester?",
+                    "answer": "Nylon can stretch up to 20-25% under peak load without snapping, acting like a shock absorber that dampens sudden jerks from waves or vehicle pulls."
           },
           {
-                    "question": "What sizes of Nylon rope do you supply in Karachi?",
-                    "answer": "We stock Nylon rope from 4mm up to 40mm in standard 100m and 220m coils, as well as custom lengths for marine and industrial projects."
+                    "question": "Does Nylon rope lose strength when wet?",
+                    "answer": "Nylon experiences a temporary 10-15% reduction in breaking strength while fully saturated with water, but recovers 100% of its strength once dried out."
           }
 ],
         "attrValues": [
@@ -598,21 +598,21 @@ async function main() {
         "longDescription": "Jute (Patson) is Pakistan most economical natural cordage. Spun from golden jute plant fibers, it is soft to handle, easy to cut with scissors or a knife, and grips tightly without snapping easily under hand tension. Wholesale traders and farmers across Pakistan use Jute Sutli to stitch 50kg grain bags, tie agricultural bundles, and wrap nursery roots. It decomposes naturally in soil without harming crops.",
         "metaTitle": "Jute & Hessian Twine Rope Wholesale Karachi & Pakistan",
         "metaDescription": "Wholesale Jute twine (sutli) and hessian ropes in Karachi, Pakistan. Eco-friendly, golden fiber cordage for sack stitching, agriculture, and packaging.",
-        "usage": "Used for stitching hessian and jute sacks, tying cotton bales, nursery tree root wrapping, handicraft production, and light packaging across wholesale markets.",
+        "usage": "Widely used for stitching burlap grain bags, tying cotton bales, securing nursery sapling roots, parcel packing, handicraft work, and vegetable patch support.",
         "benefits": [
-          "Very economical cordage for high-volume commercial tying and stitching",
-          "Soft natural fibers that will not cut into plant stems or tender tree bark",
-          "100% compostable and eco-friendly — breaks down safely in farm soil",
-          "Holds tight friction knots with zero back-slip"
+          "Most economical natural tying twine for bulk packing",
+          "Soft and flexible fiber that will not cut into hands or delicate plants",
+          "100% biodegradable — decomposes naturally in soil",
+          "Holds tight, secure knots with zero slip"
 ],
         "suitedFor": [
-          "Jute bag & agricultural grain sack stitching",
-          "Plant nursery root ball wrapping & vine training",
-          "Textile fabric roll binding & carton parcel tying",
-          "Handicraft macramé & eco-friendly packaging"
+          "Burlap & PP sack mouth stitching",
+          "Agricultural crop tying & nursery root ball wrapping",
+          "Warehouse parcel packaging & post bundling",
+          "Handicraft, macrame & rustic packaging"
 ],
         "notSuitedFor": [
-          "Mooring boats or permanent outdoor exposure to wet weather"
+          "Heavy structural pulling or wet marine mooring lines"
 ],
         "bulkPricing": [],
         "images": [
@@ -639,12 +639,12 @@ async function main() {
         ],
         "faqs": [
           {
-                    "question": "What plies and thicknesses are available for Jute twine?",
-                    "answer": "We supply 2-ply, 3-ply, 4-ply, and multi-strand Jute cords and twisted ropes from 1mm up to 24mm in spools, balls, and 50kg pressed bales."
+                    "question": "What packaging formats is Jute Sutli supplied in?",
+                    "answer": "We supply Jute twine in 200g, 500g, 1kg balls, 5kg spools, and heavy 50kg master bales for commercial wholesale buyers."
           },
           {
-                    "question": "Is Jute twine suitable for agricultural composting and organic farming?",
-                    "answer": "Yes, our natural jute is completely free of synthetic plastic additives and breaks down into natural organic matter in soil within months."
+                    "question": "Is Jute twine strong enough for stitching 50kg fertilizer or grain sacks?",
+                    "answer": "Yes, our 2-ply and 3-ply heavy jute twines are specifically spun for fast, reliable bag stitching on packing lines and manual sewing."
           }
 ],
         "attrValues": [
@@ -680,26 +680,26 @@ async function main() {
         "slug": "pure-cotton-twisted-rope",
         "price": 0,
         "moq": 1,
-        "tradeAliases": "Sooti Rassi • Cotton Dori • White Cotton Cord • Cotton Twisted Rope • Soft Cotton Rassa",
-        "shortDescription": "Soft, 100% pure natural cotton twisted rope (Sooti Rassi). Skin-friendly, non-abrasive, and easy to wash for awnings, tent lacing, theater rigging, and crafts.",
-        "longDescription": "When you need a rope that feels gentle in bare hands, never causes friction rope burns, and ties into smooth decorative knots, Pure Cotton rope (Sooti Rassi) is the ideal choice. Spun from unbleached natural cotton yarns, it is soft, flexible, and completely free of harsh synthetic chemicals. It absorbs dyes easily, operates quietly through pulleys, and is widely used for awning cords, theater stage rigging, tent lacing, and interior decor.",
-        "metaTitle": "Pure Cotton Twisted Rope Wholesale Karachi & Pakistan",
-        "metaDescription": "Soft 100% pure cotton twisted ropes (Sooti Rassi) in Karachi. Non-abrasive, natural cotton cordage for awnings, stage rigging, crafts, and commercial use.",
-        "usage": "Best for shop awning pull cords, marquee tent lacing, theater stage curtain rigging, domestic clotheslines, pet toys, and handicraft macramé art.",
+        "tradeAliases": "Sooti Rassa • Cotton Dori • Pure Cotton Rassi • White Cotton Cord",
+        "shortDescription": "Ultra-soft, non-abrasive 3-strand pure cotton rope. Gentle on hands and delicate surfaces, easy to dye, and ideal for animal halters, theater rigging, and crafts.",
+        "longDescription": "Pure cotton twisted rope is the softest cordage available. Unlike synthetic plastic ropes that cause friction burns when handled quickly, cotton is completely non-abrasive and comfortable in bare hands. It absorbs dyes cleanly and will not generate static electricity. We manufacture 3-strand white and natural unbleached cotton ropes from 4mm up to 24mm for dairy animal halters, theater rigging, tent lacing, and interior decor.",
+        "metaTitle": "Pure Cotton Twisted Rope Wholesale Karachi Pakistan",
+        "metaDescription": "Soft 3-strand pure cotton ropes and cotton dori in Karachi. Non-abrasive, natural white, ideal for agriculture, animal halters, and decorative rigging.",
+        "usage": "Used for livestock halters, dairy farm lead ropes, theater stage rigging, tent lacing, sports tug-of-war lines, and garment dori manufacturing.",
         "benefits": [
-          "Ultra-soft natural feel that never causes rope burns on bare hands",
-          "Ties and unties easily without jamming or kinking",
-          "Absorbs moisture and dye evenly for custom color treatments",
-          "Runs quietly and smoothly through small wooden and brass pulleys"
+          "Extremely soft on hands with zero risk of friction rope burns",
+          "Does not generate static electricity sparks",
+          "100% natural cotton fiber that accepts dyes easily",
+          "Pliable and easy to knot, splice, and unfasten"
 ],
         "suitedFor": [
-          "Awning & canopy retractable pull cords",
-          "Theater stage curtain rigging & backstage lines",
-          "Tent lacing & decorative marquee finishes",
-          "Macramé crafts, wall hangings & pet toys"
+          "Dairy farm cattle halters & horse leads",
+          "Theater stage rigging & backdrop lacing",
+          "Tug-of-war ropes & gym training",
+          "Decorative macrame & interior architecture"
 ],
         "notSuitedFor": [
-          "Harsh chemical wash plants or industrial high-tonnage lifting"
+          "Continuous exposure to outdoor rain without regular drying"
 ],
         "bulkPricing": [],
         "images": [
@@ -726,12 +726,12 @@ async function main() {
         ],
         "faqs": [
           {
-                    "question": "Can cotton rope be washed and reused?",
-                    "answer": "Yes, pure cotton rope can be hand-washed with mild soap and air-dried. It retains its soft texture and strength through repeated gentle washings."
+                    "question": "Does cotton rope stretch under load?",
+                    "answer": "Cotton rope has moderate elasticity that softens sudden pulls, making it comfortable for handling livestock without injuring animals."
           },
           {
-                    "question": "What diameters of Cotton rope are available?",
-                    "answer": "We stock Cotton rope from 4mm up to 24mm in standard 50m, 100m, and 200m hanks and master spools."
+                    "question": "What sizes of cotton rope are stocked?",
+                    "answer": "We stock pure cotton rope from 4mm, 6mm, 8mm, 10mm, 12mm, 16mm, 18mm, 20mm, up to 24mm in continuous wholesale coils and hanks."
           }
 ],
         "attrValues": [
@@ -767,26 +767,26 @@ async function main() {
         "slug": "polyester-industrial-rope",
         "price": 0,
         "moq": 1,
-        "tradeAliases": "Polyester Rassa • PES Mooring Rope • High UV Resistance Rope • Low Stretch Marine Rope",
-        "shortDescription": "Premium low-stretch polyester industrial rope. Delivers high UV resistance, smooth winching performance, and wet breaking strength for marine yachting and heavy transport.",
-        "longDescription": "Unlike nylon which stretches under load or polypropylene which degrades faster under UV sun, Polyester (PES) rope maintains consistent length, does not lose strength when wet, and provides superior resistance against UV sunlight. It handles abrasive winch drums and capstans without melting or losing flexibility. Yacht captains, industrial riggers, and antenna mast technicians rely on polyester cordage for long-term outdoor installations.",
+        "tradeAliases": "Polyester Rassa • Terylene Rope • Low Stretch Marine Rope • PES Rigging Rope",
+        "shortDescription": "Heavy-duty, low-stretch polyester industrial rope. Offers outstanding UV resistance, high breaking strength, and retains 100% of its strength when wet for marine rigging.",
+        "longDescription": "When you need maximum strength with almost zero stretch, Polyester (PES / Terylene) is the industrial standard. Unlike nylon, polyester does not stretch out under load and loses zero strength when wet. It has superior resistance to UV sunlight and harsh weather, making it the preferred rope for sailboat rigging, crane guide lines, marine winch ropes, and heavy billboard installations where sagging cannot be tolerated.",
         "metaTitle": "Polyester Industrial Rope Wholesale Karachi Pakistan",
-        "metaDescription": "High-tenacity low-stretch polyester industrial ropes in Karachi. Maximum UV resistance, high wet strength for marine rigging, winching, and transport.",
-        "usage": "The preferred choice for yacht running rigging, antenna guy lines, flagpole halyards, utility winch lines, and heavy-duty cargo securing across Pakistan.",
+        "metaDescription": "Low stretch polyester (PES) 3-strand and braided industrial ropes in Karachi. Superior UV resistance and wet strength retention for marine and rigging work.",
+        "usage": "Designed for static rigging lines, sailboat halyards, crane taglines, solar panel structure guy wires, and billboard lashing across coastal and industrial environments.",
         "benefits": [
-          "Superior UV sunlight resistance for multi-year outdoor installations",
-          "Low elongation — holds exact tension without sagging over time",
-          "Retains 100% of its rated tensile breaking strength when wet",
-          "High resistance against abrasive surface rubbing and friction wear"
+          "Very low stretch under heavy static pulling loads",
+          "Retains 100% of its breaking strength even when completely wet",
+          "Highest UV and sunlight resistance among common synthetic fibers",
+          "High surface abrasion resistance against metal edges and pulleys"
 ],
         "suitedFor": [
-          "Marine yacht running rigging & halyards",
-          "Telecommunication tower & antenna guy lines",
-          "Flagpole ropes & outdoor commercial banner suspension",
-          "Winch pull lines & industrial safety barricades"
+          "Marine rigging & sailboat halyards",
+          "Crane guide taglines & static lifting guides",
+          "Tower guy wires & solar frame lashing",
+          "Commercial billboard & banner tension lines"
 ],
         "notSuitedFor": [
-          "Applications requiring high kinetic shock absorption (use Nylon instead)"
+          "Dynamic snatch vehicle towing where high elastic shock stretch is needed"
 ],
         "bulkPricing": [],
         "images": [
@@ -809,11 +809,11 @@ async function main() {
         "faqs": [
           {
                     "question": "What is the main advantage of Polyester rope over Nylon rope?",
-                    "answer": "Polyester has significantly lower stretch than nylon and retains full strength when wet, making it better for guy lines, halyards, and applications where maintaining tight tension without sag is essential."
+                    "answer": "Polyester has very low stretch (static stability), does not lose strength when wet, and has superior resistance to UV sunlight, making it ideal for permanent outdoor rigging."
           },
           {
-                    "question": "What sizes are available in Polyester ropes?",
-                    "answer": "We stock 3-strand and braided Polyester ropes from 4mm up to 32mm in standard 100m and 220m coils for wholesale orders."
+                    "question": "Does Polyester rope float on water?",
+                    "answer": "No, polyester has a specific gravity of 1.38 and sinks in water, making it stable for submerged anchor lines and dock rigging."
           }
 ],
         "attrValues": [
@@ -849,26 +849,26 @@ async function main() {
         "slug": "coconut-coir-fiber-rope",
         "price": 0,
         "moq": 1,
-        "tradeAliases": "Naryal Ka Rassa • Coir Yarn Rope • Natural Coconut Cordage • Kathya Rassa • Coir Twine",
-        "shortDescription": "Traditional 100% natural coconut husk coir fiber rope (Naryal Ka Rassa). Lightweight, buoyant in seawater, naturally textured, and rot-resistant for marine and organic farm use.",
-        "longDescription": "Spun from the fibrous husk of coconuts, Coir rope (Naryal Ka Rassa) is one of nature most water-tolerant natural cordages. Unlike other natural fibers that rot quickly in water, coir fibers are naturally rich in lignin, giving them resistance to saltwater, mold, and bacterial breakdown. Coir rope floats on water, provides a coarse, high-friction grip, and is widely used for wooden boat caulking, tree staking, aquaculture oyster farming, and eco-geotextiles.",
-        "metaTitle": "Coconut Coir Fiber Rope Wholesale Karachi & Pakistan",
-        "metaDescription": "Natural coconut coir fiber ropes (Naryal Ka Rassa) in Karachi. Rot-resistant, eco-friendly cordage for marine caulking, farming, and soil erosion control.",
-        "usage": "Used for traditional wooden boat caulking, coastal aquaculture lines, agricultural plant and tree staking, soil erosion control, and rustic landscaping projects.",
+        "tradeAliases": "Naryal Ka Rassa • Coir Rassi • Coconut Fiber Rope • Kathya Rassa",
+        "shortDescription": "Traditional coconut husk coir fiber rope. Naturally floats, grips wet surfaces securely, and resists rot in saltwater for marine fenders, boat bumpers, and oyster farming.",
+        "longDescription": "Coconut Coir (Naryal Ka Rassa) is spun from the natural fibers of coconut husks. It is naturally buoyant, highly elastic, and remarkably resistant to saltwater rot without any chemical treatment. Fishing boats and harbor barges use Coir rope for boat bumper fenders because it cushions heavy impacts against concrete jetties and absorbs shock without rotting in seawater.",
+        "metaTitle": "Coconut Coir Fiber Rope Wholesale Karachi Pakistan",
+        "metaDescription": "Authentic 3-strand coconut coir fiber ropes (Naryal Rassa) in Karachi. Naturally buoyant, saltwater rot-proof for marine boat fenders and agriculture.",
+        "usage": "Widely used for boat bumper fenders, harbor jetty cushions, oyster farming lines, soil erosion control netting, and traditional charpai bed weaving across coastal Pakistan.",
         "benefits": [
-          "Naturally resistant to saltwater rot and marine microorganism decay",
-          "Lightweight and buoyant — floats on surface water",
-          "100% biodegradable and organic natural coconut husk material",
-          "Rough coarse surface texture holds knots and binds soil naturally"
+          "Natural buoyancy — floats freely on saltwater",
+          "Naturally rot-proof and mildew-resistant in wet marine conditions",
+          "High elasticity cushions boat impacts against concrete docks",
+          "100% natural, eco-friendly coconut husk fiber"
 ],
         "suitedFor": [
-          "Wooden fishing boat & dhow plank caulking",
-          "Tree staking, vineyard training & organic farming",
-          "Soil erosion control logs & coir geotextile blankets",
-          "Rustic themed landscape architecture & eco fencing"
+          "Fishing boat bumper fenders & dock cushions",
+          "Marine aquaculture & oyster line rigging",
+          "Geotextile soil erosion mats & slope stabilization",
+          "Traditional wooden furniture & charpai weaving"
 ],
         "notSuitedFor": [
-          "High-tonnage mechanical lifting or motorized winch drums"
+          "Overhead crane lifting or precision winch cable replacement"
 ],
         "bulkPricing": [],
         "images": [
@@ -900,12 +900,12 @@ async function main() {
         ],
         "faqs": [
           {
-                    "question": "Why is Coir rope used for wooden boat caulking in Karachi Fish Harbour?",
-                    "answer": "Coconut coir fiber swells slightly when wet, creating a tight, natural waterproof seal between wooden boat planks that resists saltwater rotting for years."
+                    "question": "Why is Coir rope used for marine boat fenders?",
+                    "answer": "Coir fibers are naturally buoyant, absorb heavy impact shocks, and do not rot or decay in salty seawater, making them the classic durable material for boat bumper pads."
           },
           {
-                    "question": "What coil sizes are available for wholesale Coir rope?",
-                    "answer": "We supply Coir ropes from 6mm up to 28mm in standard bundles and bulk wholesale bales ready for immediate dispatch."
+                    "question": "What sizes of Coconut Coir rope are available?",
+                    "answer": "We supply Coir rope from 6mm, 8mm, 12mm, 16mm, 20mm up to heavy 32mm and 36mm thick coils for wholesale maritime buyers."
           }
 ],
         "attrValues": [
@@ -941,26 +941,26 @@ async function main() {
         "slug": "georgette-marine-mooring-rope",
         "price": 0,
         "moq": 1,
-        "tradeAliases": "Georgette Rassa • High-Grip Synthetic Rope • Marine Mooring Line • Georgette Cordage",
-        "shortDescription": "Heavy-duty blended synthetic marine rope with crinkled georgette texture. Delivers non-slip grip in wet hands and high tensile strength for trawlers and cargo vessels.",
-        "longDescription": "Deckhands on marine trawlers at Karachi Fish Harbour and cargo barges face slippery decks where smooth plastic ropes slip from wet hands. Georgette Marine Rope is engineered with a specialized crinkled filament texture that gives a coarse, non-slip grip even when soaked with ocean water and fish slime. It combines high tensile strength, rot resistance, and UV protection for tough coastal maritime operations.",
-        "metaTitle": "Georgette Marine Mooring Rope Wholesale Karachi Supply",
-        "metaDescription": "Heavy-duty Georgette marine ropes in Karachi. Textured non-slip grip, rot-proof synthetic cordage for fishing trawlers, barge mooring, and coastal docking.",
-        "usage": "The go-to rope for fishing trawler nets, cargo vessel docking lines, harbor barge mooring, coastal fish farm anchoring, and heavy marine transport lashing.",
+        "tradeAliases": "Georgette Rassa • Marine Mooring Line • Jahazi Georgette Rope • High Tenacity Ship Rope",
+        "shortDescription": "Heavy poly-composite marine hawser rope that floats on water. Built with high breaking strength and cyclic fatigue resistance for ship and barge mooring at KPT and Port Qasim.",
+        "longDescription": "Docking large cargo vessels and barges requires a mooring line that combines high breaking strength with easy deck handling. Georgette marine rope is manufactured from a high-tenacity poly-composite blend that floats on water, meaning crew members do not have to haul waterlogged, heavy lines out of the harbor. It resists rubbing wear on dock bollards and holds up against harsh coastal sunlight year after year.",
+        "metaTitle": "Georgette Marine Mooring Rope Wholesale Karachi Port",
+        "metaDescription": "High tenacity Georgette marine mooring ropes in Karachi. Floating poly-composite 3-strand and 8-strand hawsers for commercial ships and barge mooring.",
+        "usage": "Engineered for ship and barge mooring lines, harbor tug towing hawsers, deep-sea fishing trawler rigging, and shipboard mooring winches at Karachi Port and Port Qasim.",
         "benefits": [
-          "Crinkled surface texture gives positive, non-slip hand grip when wet",
-          "100% waterproof and impervious to saltwater, fish slime, and oil",
-          "High tensile breaking strength handles heavy vessel surge loads",
-          "Resists fraying and abrasion against concrete docks and steel bollards"
+          "Positive buoyancy — floats on water for easy, safe deck handling",
+          "High breaking load capacity for commercial vessel mooring",
+          "Will not absorb water or become stiff and heavy when wet",
+          "High cyclic fatigue resistance against dock bollard friction"
 ],
         "suitedFor": [
-          "Fishing trawler net lines & deck rigging",
-          "Harbor tug & barge mooring lines",
-          "Coastal fish farm cage anchoring",
-          "Heavy cargo transport deck tie-downs"
+          "Commercial ship & container vessel mooring lines",
+          "Harbor tugboat towing & barge hawsers",
+          "Offshore marine platform rigging",
+          "Heavy-duty deep-sea trawler winch lines"
 ],
         "notSuitedFor": [
-          "High-heat industrial furnace lines exceeding 90°C"
+          "Direct contact with hot vehicle exhaust pipes or open welding flames"
 ],
         "bulkPricing": [],
         "images": [
@@ -987,12 +987,12 @@ async function main() {
         ],
         "faqs": [
           {
-                    "question": "What makes Georgette rope better than standard smooth PP rope on fishing boats?",
-                    "answer": "Standard PP rope becomes very slippery when wet with seawater and fish slime. Georgette rope has a textured, ribbed filament surface that provides a secure hand grip even under wet deck conditions."
+                    "question": "Why is Georgette rope preferred for ship mooring?",
+                    "answer": "Georgette rope combines massive breaking strength with positive buoyancy (it floats) and high resistance to friction against metal dock bollards without absorbing water."
           },
           {
-                    "question": "What diameters are stocked in Georgette marine rope?",
-                    "answer": "We stock Georgette ropes from 8mm up to 36mm in standard 100m, 200m, and 220m coils at our Karachi wholesale warehouse."
+                    "question": "What coil lengths and diameters are supplied?",
+                    "answer": "We supply Georgette rope in standard 220m ship mooring coils and custom cut lengths from 6mm up to 36mm."
           }
 ],
         "attrValues": [
@@ -1210,26 +1210,26 @@ async function main() {
         slug: 'flat-woven-duplex-webbing-sling',
         price: 1850,
         moq: 1,
-        "tradeAliases": "Webbing Sling • Crane Patta • Flat Lifting Belt • Duplex Sling • Polyester Hoist Belt • Chatta Patta",
-        "shortDescription": "Double-ply polyester duplex flat webbing sling (1-Ton to 10-Ton). Features reinforced becket eyes, color-coded capacities, and 6:1 safety factor for crane lifts without surface scratches.",
-        "longDescription": "Lifting heavy finished machinery, polished marble, painted steel, or yacht hulls with steel wire ropes leaves deep dents and scratches. Duplex Flat Webbing Slings provide high lifting strength with a broad, soft contact surface. Manufactured from 100% high-tenacity polyester webbing with reinforced folded becket eyes, these slings wrap securely around loads without damaging sensitive surfaces. Every sling is color-coded to international standards with woven capacity stripes.",
-        "metaTitle": "Flat Woven Duplex Webbing Sling (1T-10T) Karachi Wholesale",
-        "metaDescription": "Double-ply polyester duplex webbing slings (1 Ton to 10 Ton) in Karachi. Color-coded, SF 6:1 certified lifting belts for cranes, factories, and rigging.",
-        "usage": "Used across steel pipe handling, machinery assembly plants, shipping container yards, granite slab lifting, yacht hoisting, and high-rise construction crane rigging in Pakistan.",
+        "tradeAliases": "Lifting Belt • Webbing Patta • Crane Sling • Flat Duplex Belt • 1T to 10T Lifting Sling",
+        "shortDescription": "Certified 100% high-tenacity polyester flat webbing slings (1 Ton to 10 Ton). Built with reinforced becketted eyes and standard international color coding for safe crane lifting.",
+        "longDescription": "Lifting steel pipes, polished machinery, and marble crates with rough chains damages their surface and risks slippage. Our duplex flat webbing slings are stitched from double-ply 100% high-tenacity polyester webbing with a 6:1 or 7:1 safety factor. They hug heavy loads tightly without scratching painted or polished finishes. Each capacity is color-coded to international lifting standards (1T Violet, 2T Green, 3T Yellow, 5T Red, 10T Orange) with reinforced eyes that fit standard crane hooks.",
+        "metaTitle": "Polyester Webbing Sling Belt Wholesale Karachi (1T–10T)",
+        "metaDescription": "Certified duplex polyester webbing lifting slings (1 Ton to 10 Ton) in Karachi. Color-coded, low stretch, high-safety factor belts for industrial crane rigging.",
+        "usage": "Designed for factory overhead crane lifting, shipyard cargo handling, steel pipe and bundle hoisting, generator rigging, and container loading across Karachi and industrial ports.",
         "benefits": [
-          "Wide flat surface distributes lifting pressure and protects delicate painted finishes",
-          "Color-coded webbing with woven capacity stripes for instant safe load identification",
-          "Reinforced folded becket eye loops resist hook abrasion and wear",
-          "Lightweight and flexible — easy for crane riggers to handle and position"
+          "Soft flat webbing will not scratch or dent polished cargo surfaces",
+          "Low stretch (<4%) prevents dangerous load bouncing during crane lifts",
+          "Standard international color coding for instant tonnage identification",
+          "Reinforced becketted eye loops with anti-wear protective sleeves"
 ],
         "suitedFor": [
-          "Machinery, transformer & generator hoisting",
-          "Polished stone, marble & glass pack handling",
-          "Painted pipe & structural steel bundle lifting",
-          "Marine boat & yacht haul-out lifting"
+          "Factory overhead crane & gantry lifting",
+          "Machinery, pump & motor installation",
+          "Steel bundle & finished pipe hoisting",
+          "Container loading & port terminal handling"
 ],
         "notSuitedFor": [
-          "Lifting sharp, bare metal edges without protective corner cut sleeves"
+          "Lifting sharp, unprotected steel edges without corner protection pads"
 ],
         bulkPricing: [
           { minQty: 1, maxQty: 9, pricePerUnit: 1850, label: 'Standard Counter Rate' },
@@ -1245,12 +1245,12 @@ async function main() {
         ],
         "faqs": [
           {
-                    "question": "How do I identify the lifting capacity of a duplex webbing sling?",
-                    "answer": "Each sling follows international color codes: Violet (1 Ton), Green (2 Ton), Yellow (3 Ton), Grey (4 Ton), Red (5 Ton), Brown (6 Ton), Blue (8 Ton), and Orange (10 Ton). Each 25mm of webbing width corresponds to 1 Ton of capacity."
+                    "question": "What safety factor rating do these lifting slings follow?",
+                    "answer": "Our duplex polyester slings are manufactured to international standards with a minimum 6:1 and 7:1 safety factor, meaning a 3-Ton sling has a minimum breaking strength of 18–21 Tons."
           },
           {
                     "question": "What capacities and lengths are available in stock?",
-                    "answer": "We stock 1 Ton to 10 Ton slings in 1m, 2m, 3m, 4m, 6m, 8m, 10m, and 12m lengths, with custom multi-ton orders fabricated upon request."
+                    "answer": "We stock 1 Ton (Violet), 2 Ton (Green), 3 Ton (Yellow), 4 Ton (Grey), 5 Ton (Red), 8 Ton (Blue), and 10 Ton (Orange) slings in 1m, 2m, 3m, 4m, 6m, 8m, 10m, and 12m lengths."
           }
 ],
         attrValues: [
