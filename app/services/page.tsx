@@ -3,23 +3,14 @@ import { ServicesPage } from '@/components/site-pages'
 import { getCompanySettings, getProducts, getCategories } from '@/lib/api/crm'
 
 
-export const metadata: Metadata = {
-  title: 'Manufacturing, Custom Supply & Installation Services Shahra-e-Liaquat Road Karachi | Tahira Syndicate',
-  description: 'Custom polythene film manufacturing, sports netting, construction safety nets, anti-bird mesh, agro shade nets (hara parda), rope ladders & tarpaulin canopy installation across Shahra-e-Liaquat Road, Bolton Market, Jodia Bazaar, SITE Area Karachi and Pakistan.',
-  alternates: { canonical: '/services' },
-  openGraph: {
-    title: 'Manufacturing, Custom Supply & Installation Services Shahra-e-Liaquat Road Karachi | Tahira Syndicate',
-    description: 'Custom polythene roll manufacturing, safety nets, sports nets, rope ladders, tarpaulin canopies, and on-site rigging across Shahra-e-Liaquat Road, Bolton Market, and Karachi, Pakistan.',
-    type: 'website',
-    url: 'https://tahirasyndicate.com/services',
-    siteName: 'Tahira Syndicate',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Manufacturing, Custom Supply & Installation Services Shahra-e-Liaquat Road Karachi | Tahira Syndicate',
-    description: 'B2B polythene film extrusion, netting manufacturing, rope ladders, tarpaulins, and installation for construction, sports, and industrial packing in Shahra-e-Liaquat Road & SITE Area Karachi.',
-  },
-}
+import { buildPageMetadata } from '@/lib/seo'
+
+export const metadata: Metadata = buildPageMetadata({
+  title: 'Net & Canopy Installation, Karachi',
+  description:
+    'Custom polythene film manufacturing, sports netting, construction safety nets, anti-bird mesh, agro shade nets (hara parda), rope ladders & tarpaulin canopy installation across Shahra-e-Liaquat Road, Bolton Market, Jodia Bazaar, SITE Area Karachi and Pakistan.',
+  path: '/services',
+})
 
 export default async function Page() {
   const [settings, products, categories] = await Promise.all([

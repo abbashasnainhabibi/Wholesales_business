@@ -539,8 +539,8 @@ export function WholesaleHome({
           <div className={`${siteContainer}`}>
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 sm:mb-12">
               <div>
-                <p className={`mb-2.5 ${eyebrowText}`}>Verified Stock</p>
-                <h2 className={h2Text}>In Stock at Our Shahra-e-Liaquat Road Warehouse</h2>
+                <p className={`mb-2.5 ${eyebrowText}`}>Popular Products</p>
+                <h2 className={h2Text}>Popular Wholesale Products</h2>
               </div>
               <Link href="/products" className="mt-4 md:mt-0 inline-flex items-center gap-1.5 text-sm sm:text-base md:text-lg font-bold text-[#1877F2] hover:underline">
                 Open Complete Catalog <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />
@@ -569,9 +569,13 @@ export function WholesaleHome({
                             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 50vw, 25vw"
                             className="object-cover transition duration-700 group-hover:scale-105"
                           />
-                          {prod.availability === 'InStock' && (
+                          {(prod.availability === 'In Stock' || prod.availability === 'InStock') ? (
                             <div className="absolute right-2 top-2 sm:right-3 sm:top-3 rounded-sm bg-[#25D366] px-2 py-0.5 sm:px-2.5 sm:py-1 text-[9px] sm:text-[11px] font-black uppercase tracking-wider text-[#0F172A] shadow-xs">
                               In Stock
+                            </div>
+                          ) : (
+                            <div className="absolute right-2 top-2 sm:right-3 sm:top-3 rounded-sm bg-slate-200 px-2 py-0.5 sm:px-2.5 sm:py-1 text-[9px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-700 shadow-xs">
+                              Out of Stock
                             </div>
                           )}
                         </Link>
@@ -590,7 +594,7 @@ export function WholesaleHome({
                           </h3>
 
                           <p className="mt-2 text-xs sm:text-sm md:text-base line-clamp-2 text-slate-600 leading-relaxed">
-                            {prod.usage || prod.metaDescription || 'In stock at our Shahra-e-Liaquat Road warehouse — ready for same-day pickup or dispatch.'}
+                            {prod.usage || prod.metaDescription || 'Request a trade quote and current stock on WhatsApp.'}
                           </p>
                         </div>
                       </div>

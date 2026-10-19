@@ -5,6 +5,8 @@ import { ChevronRight, HelpCircle, Phone, Boxes, ShieldCheck, ArrowRight } from 
 import { SiteHeader, SiteFooter } from '@/components/site-navigation'
 import { CatalogView } from '@/components/catalog-view'
 import { getCompanySettings, getProducts, getCategories, getCategoryBySlug } from '@/lib/api/crm'
+import { buildPageMetadata, cleanTitleString } from '@/lib/seo'
+import { resolveMediaUrl } from '@/lib/utils'
 import {
   siteContainer,
   siteContainerWide,
@@ -28,26 +30,27 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params
   const category = await getCategoryBySlug(slug)
   if (!category) {
-    return { title: 'Category Not Found | Tahira Syndicate Karachi' }
+    return {
+      title: 'Category Not Found',
+      robots: { index: false, follow: false },
+    }
   }
 
-  return {
-    title: category.metaTitle || `${category.name} Wholesale Shahra-e-Liaquat Road Karachi | Tahira Syndicate`,
-    description: category.metaDescription || category.description || `Buy wholesale ${category.name} in bulk at factory direct rates from Tahira Syndicate Shahra-e-Liaquat Road, Bolton Market, Jodia Bazaar & SITE Area Karachi.`,
-    alternates: { canonical: `/categories/${slug}` },
-    openGraph: {
-      title: `${category.name} Wholesale Shahra-e-Liaquat Road Karachi | Tahira Syndicate`,
-      description: category.description || `Wholesale supply of ${category.name} in Shahra-e-Liaquat Road and Karachi.`,
-      url: `https://tahirasyndicate.com/categories/${slug}`,
-      type: 'website',
-      siteName: 'Tahira Syndicate',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: `${category.name} Wholesale Shahra-e-Liaquat Road Karachi | Tahira Syndicate`,
-      description: category.description || `Wholesale supply of ${category.name} in Shahra-e-Liaquat Road and Karachi.`,
-    },
-  }
+  const title = category.metaTitle
+    ? cleanTitleString(category.metaTitle)
+    : `${category.name} Wholesale Karachi`
+  const description =
+    category.metaDescription ||
+    category.description ||
+    `Buy wholesale ${category.name} in bulk at factory direct rates from Tahira Syndicate Shahra-e-Liaquat Road, Bolton Market, Jodia Bazaar & SITE Area Karachi.`
+  const image = category.image ? resolveMediaUrl(category.image) : undefined
+
+  return buildPageMetadata({
+    title,
+    description,
+    path: `/categories/${slug}`,
+    image,
+  })
 }
 
 export default async function CategorySiloPage({ params }: { params: Promise<{ slug: string }> }) {

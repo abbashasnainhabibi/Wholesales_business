@@ -11,8 +11,8 @@ import { ReviewsList } from '@/components/reviews-list'
 import { getCompanySettings, getProducts, getCategories, getProductBySlug, getApprovedReviews } from '@/lib/api/crm'
 
 import { resolveMediaUrl } from '@/lib/utils'
+import { cleanTitleString, pickImages, trimDescription } from '@/lib/seo'
 import {
-
   siteContainer,
   siteContainerWide,
   eyebrowText,
@@ -35,29 +35,47 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params
   const product = await getProductBySlug(slug)
   if (!product) {
-    return { title: 'Product Not Found | Tahira Syndicate Karachi' }
+    return {
+      title: 'Product Not Found',
+      robots: { index: false, follow: false },
+    }
   }
 
-  const rawTitle = (product.metaTitle || `${product.name} Wholesale Shahra-e-Liaquat Road Karachi`).trim()
-  const cleanTitle = rawTitle.replace(/\s*\|\s*Tahira Syndicate$/i, '').trim()
+  const rawTitle = (product.metaTitle || product.name).trim()
+  const cleanTitle = cleanTitleString(rawTitle)
+
+  const rawDescription =
+    product.metaDescription ||
+    product.shortDescription ||
+    `${product.name} (SKU ${product.sku}) wholesale supply in Karachi. Request a trade quote on WhatsApp.`
+  const description = trimDescription(rawDescription, 155)
+
+  const ogTitle = product.ogTitle?.trim() || `${cleanTitle} | Tahira Syndicate`
+  const ogDescription = product.ogDescription?.trim() || description
+  const imageCandidates = product.ogImage?.trim()
+    ? [resolveMediaUrl(product.ogImage.trim())]
+    : (product.images || []).map((img) => resolveMediaUrl(img.src))
+  const images = pickImages(imageCandidates)
+  const productUrl = `https://tahirasyndicate.com/products/${slug}`
 
   return {
     title: cleanTitle,
-    description: product.metaDescription || product.usage || `Buy ${product.name} at wholesale rates in Shahra-e-Liaquat Road, Bolton Market, Jodia Bazaar & SITE Area Karachi from Tahira Syndicate.`,
-    alternates: { canonical: `/products/${slug}` },
+    description,
+    alternates: { canonical: productUrl },
     openGraph: {
-      title: `${cleanTitle} | Tahira Syndicate`,
-      description: product.usage,
-      url: `https://tahirasyndicate.com/products/${slug}`,
-      images: product.images?.map((img) => resolveMediaUrl(img.src)) || [resolveMediaUrl(null)],
       type: 'website',
+      locale: 'en_PK',
       siteName: 'Tahira Syndicate',
+      url: productUrl,
+      title: ogTitle,
+      description: ogDescription,
+      images,
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${product.name} | Tahira Syndicate Wholesale Shahra-e-Liaquat Road Karachi`,
-      description: product.usage || product.metaDescription,
-      images: product.images?.map((img) => resolveMediaUrl(img.src)) || [resolveMediaUrl(null)],
+      title: ogTitle,
+      description: ogDescription,
+      images,
     },
   }
 }
@@ -113,7 +131,9 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
     priceCurrency: 'PKR',
     price: numericPrice > 0 ? numericPrice : 0,
     priceValidUntil: '2028-12-31',
-    availability: product.availability === 'OutOfStock' ? 'https://schema.org/OutOfStock' : 'https://schema.org/InStock',
+    availability: (product.availability === 'In Stock' || product.availability === 'InStock')
+      ? 'https://schema.org/InStock'
+      : 'https://schema.org/OutOfStock',
     itemCondition: 'https://schema.org/NewCondition',
     seller: {
       '@type': 'Organization',
@@ -273,9 +293,15 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
                   <span className="rounded-sm bg-slate-100 px-3 py-1.5 text-xs sm:text-sm font-semibold text-slate-700">
                     SKU: {product.sku}
                   </span>
-                  <span className="rounded-sm bg-emerald-50 px-3 py-1.5 text-xs sm:text-sm font-bold text-emerald-700 flex items-center gap-1.5 border border-emerald-200">
-                    <CheckCircle2 className="h-4 w-4" /> Ready in Shahra-e-Liaquat Road Stock
-                  </span>
+                  {(product.availability === 'In Stock' || product.availability === 'InStock') ? (
+                    <span className="rounded-sm bg-emerald-50 px-3 py-1.5 text-xs sm:text-sm font-bold text-emerald-700 flex items-center gap-1.5 border border-emerald-200">
+                      <CheckCircle2 className="h-4 w-4" /> Ready in Shahra-e-Liaquat Road Stock
+                    </span>
+                  ) : (
+                    <span className="rounded-sm bg-slate-100 px-3 py-1.5 text-xs sm:text-sm font-bold text-slate-600 flex items-center gap-1.5 border border-slate-200">
+                      Out of Stock - ask us for availability
+                    </span>
+                  )}
                 </div>
 
                 <h1 className="font-heading text-3xl sm:text-4xl lg:text-[40px] font-black tracking-tight text-[#0F172A] leading-tight">

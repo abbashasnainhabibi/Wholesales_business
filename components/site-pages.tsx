@@ -843,9 +843,9 @@ export function ServicesPage({
         {/* Dynamic Products Catalog Grid */}
         <section className={`${siteContainer} py-20`}>
           <p className="mb-2 text-xs sm:text-sm font-black uppercase tracking-[.2em] text-[#1877F2]">Wholesale Product Catalog</p>
-          <h2 className="mb-3 text-3xl sm:text-4xl lg:text-5xl font-black text-[#0F172A]">Stocked &amp; Ready for Delivery</h2>
+          <h2 className="mb-3 text-3xl sm:text-4xl lg:text-5xl font-black text-[#0F172A]">Products We Supply</h2>
           <p className="mb-10 max-w-3xl text-base sm:text-lg lg:text-xl text-slate-600">
-            Direct warehouse stock ready for same-day dispatch across Karachi and up-country.
+            Ask us for current stock and delivery across Karachi and up-country.
           </p>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {products.map((prod: ProductItem, i: number) => {
@@ -862,7 +862,11 @@ export function ServicesPage({
                       <div>
                         <div className="flex items-center justify-between text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
                           <span className="text-[#1877F2] font-semibold">{prod.category?.name || 'Wholesale Material'}</span>
-                          <span className="text-[#25D366]">In Stock</span>
+                          {(prod.availability === 'In Stock' || prod.availability === 'InStock') ? (
+                            <span className="text-[#25D366]">In Stock</span>
+                          ) : (
+                            <span className="text-slate-500">Out of Stock</span>
+                          )}
                         </div>
                         <h3 className="mt-1 text-base sm:text-lg font-black text-[#0F172A] leading-snug">{prod.name}</h3>
                         <p className="mt-2 text-sm leading-relaxed text-slate-600 line-clamp-2">{prod.usage || prod.category?.description || 'Factory sealed wholesale trade stock.'}</p>

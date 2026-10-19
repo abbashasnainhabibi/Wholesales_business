@@ -30,12 +30,14 @@ export const metadata: Metadata = {
     title: 'Tahira Syndicate | Industrial Plastics, Polymers & Netting Shahra-e-Liaquat Road Karachi',
     description:
       'Direct manufacturer and wholesale supplier of polymers, pressure pipes, shade nets, tarpaulins, and industrial ropes serving Shahra-e-Liaquat Road, Bolton Market, Jodia Bazaar, and SITE Area Karachi.',
+    images: ['/opengraph-image'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Tahira Syndicate | Industrial Plastics, Polymers & Netting Shahra-e-Liaquat Road Karachi',
     description:
       'Bulk plastic daana, pipes, agro shade nets, and packaging materials factory direct from Shahra-e-Liaquat Road, Bolton Market & SITE Area Karachi.',
+    images: ['/opengraph-image'],
   },
   icons: {
     icon: [

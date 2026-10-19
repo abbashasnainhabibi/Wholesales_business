@@ -60,6 +60,9 @@ export interface ProductItem {
   seoStatus?: string
   metaTitle?: string
   metaDescription?: string
+  ogTitle?: string | null
+  ogDescription?: string | null
+  ogImage?: string | null
   moq?: number
   shortDescription?: string | null
   longDescription?: string | null

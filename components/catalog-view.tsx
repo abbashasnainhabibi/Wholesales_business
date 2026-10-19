@@ -490,10 +490,14 @@ function CatalogViewContent({
                               sizes="(max-width: 1024px) 50vw, 33vw"
                               className="object-cover transition duration-500 group-hover:scale-105"
                             />
-                            {prod.availability === 'InStock' && (
+                            {(prod.availability === 'In Stock' || prod.availability === 'InStock') ? (
                               <div className="absolute right-2.5 top-2.5 bg-white/95 backdrop-blur-xs px-2 py-0.5 text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-emerald-800 border border-emerald-200 shadow-xs flex items-center gap-1">
                                 <CheckCircle2 className="h-3 w-3 text-emerald-600" />
                                 <span className="hidden sm:inline">In Stock</span>
+                              </div>
+                            ) : (
+                              <div className="absolute right-2.5 top-2.5 bg-white/95 backdrop-blur-xs px-2 py-0.5 text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-slate-600 border border-slate-200 shadow-xs flex items-center gap-1">
+                                <span className="hidden sm:inline">Out of Stock</span>
                               </div>
                             )}
                           </Link>

@@ -2,18 +2,14 @@ import type { Metadata } from 'next'
 import { ProjectsPage } from '@/components/site-pages'
 import { getCompanySettings, getCategories } from '@/lib/api/crm'
 
-export const metadata: Metadata = {
-  title: 'Verified Supply & Installation Projects Shahra-e-Liaquat Road Karachi | Tahira Syndicate',
+import { buildPageMetadata } from '@/lib/seo'
+
+export const metadata: Metadata = buildPageMetadata({
+  title: 'Canopy & Netting Projects in Karachi',
   description:
     'Documented tensile canopies, sports netting, and industrial shade installations for Beaconhouse School, Karachi Grammar School, SLM Tyres Nooriabad, and commercial rooftops across Shahra-e-Liaquat Road, Bolton Market, Saddar, and SITE Area Karachi.',
-  alternates: { canonical: '/projects' },
-  openGraph: {
-    title: 'Verified Supply & Installation Projects Shahra-e-Liaquat Road Karachi | Tahira Syndicate',
-    description:
-      'Explore on-site photo and video records of completed canopy sheds, sports netting structures, and large-scale industrial shade projects dispatched from Shahra-e-Liaquat Road & SITE Area Karachi.',
-    type: 'website',
-  },
-}
+  path: '/projects',
+})
 
 export default async function Page() {
   const [settings, categories] = await Promise.all([

@@ -7,22 +7,14 @@ import { SiteHeader, SiteFooter } from '@/components/site-navigation'
 import { getCompanySettings, getCategories } from '@/lib/api/crm'
 import { siteContainer } from '@/lib/typography'
 
-export const metadata: Metadata = {
-  title: 'Wholesale Material Categories Shahra-e-Liaquat Road Karachi | Tahira Syndicate',
+import { buildPageMetadata } from '@/lib/seo'
+
+export const metadata: Metadata = buildPageMetadata({
+  title: 'Wholesale Material Categories',
   description: 'Browse bulk wholesale product categories: Polymer Granules (plastic daana), HDPE & uPVC Pressure Pipes, Agro Shade Nets (hara parda), and Commercial Ropes across Shahra-e-Liaquat Road, Bolton Market, Jodia Bazaar, and SITE Area Karachi.',
-  alternates: { canonical: '/categories' },
-  openGraph: {
-    title: 'Wholesale Material Categories Shahra-e-Liaquat Road Karachi | Tahira Syndicate',
-    description: 'Direct manufacturer and master distributor for plastic granules, piping, safety/shade nets and packaging materials serving Shahra-e-Liaquat Road, Bolton Market, and Karachi.',
-    url: 'https://tahirasyndicate.com/categories',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Wholesale Material Categories Shahra-e-Liaquat Road Karachi | Tahira Syndicate',
-    description: 'Bulk plastics, pipes, agro shade nets, and packaging materials factory direct from Shahra-e-Liaquat Road & Bolton Market Karachi.',
-  },
-}
+  path: '/categories',
+})
+
 
 export default async function CategoriesHubPage() {
   const [settings, categories] = await Promise.all([

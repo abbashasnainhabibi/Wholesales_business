@@ -58,6 +58,8 @@ export async function generateStaticParams() {
   }))
 }
 
+import { buildPageMetadata, cleanTitleString } from '@/lib/seo'
+
 export async function generateMetadata({
   params,
 }: {
@@ -67,30 +69,23 @@ export async function generateMetadata({
   const service = getServiceBySlug(slug)
 
   if (!service) {
-    return { title: 'Service Not Found | Tahira Syndicate Karachi' }
+    return {
+      title: 'Service Not Found',
+      robots: { index: false, follow: false },
+    }
   }
 
-  const primaryImage = service.images?.[0]?.poster || service.images?.[0]?.src || ''
+  const primaryImage = service.images?.[0]?.poster || service.images?.[0]?.src || undefined
+  const title = (service as any).metaTitle
+    ? cleanTitleString((service as any).metaTitle)
+    : service.title
 
-  return {
-    title: `${service.title} Shahra-e-Liaquat Road Karachi | Tahira Syndicate`,
+  return buildPageMetadata({
+    title,
     description: `${service.description} Direct factory manufacturing and professional site installation in Shahra-e-Liaquat Road, Bolton Market, SITE Area & Karachi.`,
-    alternates: { canonical: `/services/${slug}` },
-    openGraph: {
-      title: `${service.title} | Tahira Syndicate Karachi`,
-      description: service.description,
-      url: `https://tahirasyndicate.com/services/${slug}`,
-      images: primaryImage ? [primaryImage] : undefined,
-      type: 'website',
-      siteName: 'Tahira Syndicate',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: `${service.title} | Tahira Syndicate Karachi`,
-      description: service.description,
-      images: primaryImage ? [primaryImage] : undefined,
-    },
-  }
+    path: `/services/${slug}`,
+    image: primaryImage ? resolveMediaUrl(primaryImage) : undefined,
+  })
 }
 
 export default async function ServiceDetailPage({
