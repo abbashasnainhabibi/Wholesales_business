@@ -38,6 +38,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return {
       title: 'Product Not Found',
       robots: { index: false, follow: false },
+      alternates: { canonical: null },
     }
   }
 

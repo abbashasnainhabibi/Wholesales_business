@@ -72,12 +72,13 @@ export async function generateMetadata({
     return {
       title: 'Service Not Found',
       robots: { index: false, follow: false },
+      alternates: { canonical: null },
     }
   }
 
   const primaryImage = service.images?.[0]?.poster || service.images?.[0]?.src || undefined
-  const title = (service as any).metaTitle
-    ? cleanTitleString((service as any).metaTitle)
+  const title = service.metaTitle
+    ? cleanTitleString(service.metaTitle)
     : service.title
 
   return buildPageMetadata({

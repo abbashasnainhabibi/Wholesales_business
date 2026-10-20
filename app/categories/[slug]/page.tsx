@@ -33,6 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return {
       title: 'Category Not Found',
       robots: { index: false, follow: false },
+      alternates: { canonical: null },
     }
   }
 

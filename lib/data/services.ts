@@ -25,6 +25,7 @@ export interface InstallationService {
   slug: string
   eyebrow: string
   title: string
+  metaTitle?: string
   tradeAlias: string
   description: string
   longDescription: string
@@ -45,6 +46,7 @@ export const installationServices: InstallationService[] = [
     slug: 'polythene-manufacturing',
     eyebrow: 'Industrial Film & Packaging Extrusion',
     title: 'Custom Polythene & Plastic Film Manufacturing',
+    metaTitle: 'Custom Polythene Film Manufacturing',
     tradeAlias: 'Chhat Ka Plastic • Dhalai Plastic Roll • Shopper Ka Thaan • Doodhia Sheet',
     description:
       'We extrude polythene rolls at our Karachi plant. If you are casting a roof slab or laying basement flooring, our heavy Dhalai Plastic stops cement slurry from leaking through shuttering and seals out ground dampness. We also run packaging shopper thaan, milky doodhia sheets, and thick black liners to order.',
@@ -207,6 +209,7 @@ export const installationServices: InstallationService[] = [
     slug: 'canvas-tents-tarpaulins',
     eyebrow: 'Emergency Relief & Heavy Canvas Fabrication',
     title: 'Canvas Relief Tents & Heavy-Duty Tarpaulin Fabrication',
+    metaTitle: 'Canvas Relief Tents & Tarpaulins',
     tradeAlias: 'Heavy Tarpal Sheet • Moom Jama • Relief Tambu • Khaima • Truck Tirpal',
     description:
       'We stitch cotton canvas relief tents (tambus and khaimas) and heavy waxed moom jama tarpaulins in volume. Complete with double-stitched seams, solid brass eyelets, steel poles, and ground sheets for NGO relief missions, security checkpoints, and highway cargo trucks.',
@@ -299,6 +302,7 @@ export const installationServices: InstallationService[] = [
     slug: 'rope-products',
     eyebrow: 'Marine, Industrial & Rescue Access',
     title: 'Industrial Rope & Custom Cordage Manufacturing',
+    metaTitle: 'Industrial Rope Manufacturing',
     tradeAlias: 'Jahazi Rassa • Kaath Seerhi • Pilot Rope Ladder • Plastic Rassi • Sootli',
     description:
       'We spin and twist 3-strand Jahazi Rassa, nylon rassi, and packing sootli at our Karachi factory. We also hand-build wooden-rung rope ladders (Kaath Seerhi) for cargo ships, grain silos, and high-rise scaffolding access.',
@@ -387,6 +391,7 @@ export const installationServices: InstallationService[] = [
     slug: 'shade-nets',
     eyebrow: 'Gardens, Farms & Shade Canopies',
     title: 'Green & Blue Shade Net Supply & Installation',
+    metaTitle: 'Shade Net Supply & Installation',
     tradeAlias: 'Hara Parda • Sabz Shade Jali • 50% 75% 90% Dhoop Net • Agro Mesh',
     description:
       'We stock 50%, 75%, and 90% green shade net (Hara Parda) in 50-meter master rolls and custom-stitched sheets with border webbing and brass eyelets. Cuts ambient heat by 5°C to 10°C over plant nurseries, rooftop terraces, and car parking sheds.',
@@ -473,6 +478,7 @@ export const installationServices: InstallationService[] = [
     slug: 'bird-nets',
     eyebrow: 'Commercial & Residential Pest Control',
     title: 'Anti-Bird Net Installation & Balcony Protection',
+    metaTitle: 'Anti-Bird Net Installation',
     tradeAlias: 'Kabootar Jali • Chiriya Net • Balcony Pigeon Mesh • Rooftop Parda',
     description:
       'We install durable nylon anti-bird net (Kabootar Jali) across apartment balconies, building duct shafts, and warehouse roofs. We use grade-304 stainless steel hooks and perimeter tension wires so pigeons stay out without rusting your walls or blocking fresh air.',
@@ -645,6 +651,7 @@ export const installationServices: InstallationService[] = [
     slug: 'safety-nets',
     eyebrow: 'Construction & Building Safety',
     title: 'Safety Net Manufacturing & Site Installation',
+    metaTitle: 'Safety Net Manufacturing & Installation',
     tradeAlias: 'Safety Jaal • Scaffolding Debris Net • Building Fall Protection Jaal',
     description:
       'We make heavy polypropylene and nylon safety nets (Safety Jaal) for high-rise scaffolding, elevator shafts, and worker fall protection. Available in factory rolls or installed on site by our experienced height rigging crew in Karachi.',
