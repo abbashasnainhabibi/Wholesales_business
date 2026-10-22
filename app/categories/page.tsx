@@ -9,6 +9,8 @@ import { siteContainer } from '@/lib/typography'
 
 import { buildPageMetadata } from '@/lib/seo'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = buildPageMetadata({
   title: 'Wholesale Material Categories',
   description: 'Browse bulk wholesale product categories: Polymer Granules (plastic daana), HDPE & uPVC Pressure Pipes, Agro Shade Nets (hara parda), and Commercial Ropes across Shahra-e-Liaquat Road, Bolton Market, Jodia Bazaar, and SITE Area Karachi.',

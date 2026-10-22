@@ -82,12 +82,57 @@ function CatalogViewContent({
   const queryParam = searchParams?.get('q') || searchParams?.get('search') || ''
 
   const settings = initialSettings || fallbackSettings
-  const products = initialProducts || []
+  const [products, setProducts] = useState<ProductItem[]>(initialProducts || [])
+  const [categoriesList, setCategoriesList] = useState<ProductCategory[]>(initialCategories || [])
+  const [isFetchingFallback, setIsFetchingFallback] = useState(false)
+
+  // Resilient client-side fallback if SSR data was empty or statically cached
+  useEffect(() => {
+    if (initialProducts && initialProducts.length > 0) {
+      setProducts(initialProducts)
+    } else {
+      let isMounted = true
+      setIsFetchingFallback(true)
+      fetch('/api/products?pageSize=100')
+        .then((res) => (res.ok ? res.json() : null))
+        .then((json) => {
+          if (isMounted && json && Array.isArray(json.data) && json.data.length > 0) {
+            setProducts(json.data)
+          }
+        })
+        .catch((err) => console.error('Failed to load fallback catalog products:', err))
+        .finally(() => {
+          if (isMounted) setIsFetchingFallback(false)
+        })
+      return () => {
+        isMounted = false
+      }
+    }
+  }, [initialProducts])
+
+  useEffect(() => {
+    if (initialCategories && initialCategories.length > 0) {
+      setCategoriesList(initialCategories)
+    } else {
+      let isMounted = true
+      fetch('/api/categories?pageSize=50')
+        .then((res) => (res.ok ? res.json() : null))
+        .then((json) => {
+          if (isMounted && json && Array.isArray(json.data) && json.data.length > 0) {
+            setCategoriesList(json.data)
+          }
+        })
+        .catch(() => {})
+      return () => {
+        isMounted = false
+      }
+    }
+  }, [initialCategories])
   const cleanWhatsapp = settings.whatsapp.replace(/[^0-9]/g, '')
   const wa = `https://wa.me/${cleanWhatsapp}`
 
   const categories = useMemo(() => {
-    if (initialCategories && initialCategories.length > 0) return initialCategories
+    if (categoriesList && categoriesList.length > 0) return categoriesList
     const seen = new Set<string>()
     const cats: ProductCategory[] = []
     for (const p of products) {
@@ -97,7 +142,7 @@ function CatalogViewContent({
       }
     }
     return cats
-  }, [initialCategories, products])
+  }, [categoriesList, products])
 
   const [searchQuery, setSearchQuery] = useState(queryParam)
   const [selectedCategory, setSelectedCategory] = useState<string>(categorySlug || 'all')
@@ -434,7 +479,17 @@ function CatalogViewContent({
 
           {/* 2. RIGHT PRODUCT GRID / LIST */}
           <main className="lg:col-span-9 xl:col-span-9">
-            {filteredProducts.length === 0 ? (
+            {isFetchingFallback ? (
+              <div className="grid grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-6 animate-pulse">
+                {Array.from({ length: 6 }).map((_, i) => (
+                  <div key={i} className="border border-slate-200 bg-white p-4 space-y-3">
+                    <div className="aspect-[4/3] bg-slate-100 rounded-xs" />
+                    <div className="h-4 bg-slate-100 rounded-xs w-3/4" />
+                    <div className="h-3 bg-slate-100 rounded-xs w-1/2" />
+                  </div>
+                ))}
+              </div>
+            ) : filteredProducts.length === 0 ? (
               <div className="border border-slate-200 bg-white p-8 sm:p-14 text-center">
                 <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-none bg-slate-100 text-slate-400 mb-4">
                   <Search className="h-7 w-7" />
