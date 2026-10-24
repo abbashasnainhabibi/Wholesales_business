@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { ArrowRight, Search, Phone, Boxes, X, ChevronLeft, ChevronRight } from 'lucide-react'
 import type { ProductCategory, CompanySettings } from '@/lib/types/crm'
 import { fallbackSettings } from '@/lib/api/crm'
+import { sortCategoriesByPriority, isPrimaryCategory } from '@/lib/category-order'
 import { resolveMediaUrl, scrollToElement, scrollToTop } from '@/lib/utils'
 import {
   siteContainer,
@@ -47,9 +48,10 @@ export function CategoriesView({
   }, [searchQuery])
 
   const filteredCategories = useMemo(() => {
-    if (!searchQuery.trim()) return categories
+    const sorted = sortCategoriesByPriority(categories)
+    if (!searchQuery.trim()) return sorted
     const q = searchQuery.toLowerCase().trim()
-    return categories.filter((cat) => {
+    return sorted.filter((cat) => {
       const name = (cat.name || '').toLowerCase()
       const desc = (cat.description || '').toLowerCase()
       const slug = (cat.slug || '').toLowerCase()
@@ -178,6 +180,11 @@ export function CategoriesView({
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-slate-950/20 to-transparent pointer-events-none" />
                         <div className="absolute bottom-4 left-4 right-4 text-white">
+                          {isPrimaryCategory(cat.slug) && (
+                            <span className="inline-block mb-1.5 px-2 py-0.5 text-[10px] font-black uppercase tracking-wider bg-[#1877F2] text-white rounded-2xs shadow-xs">
+                              Core Product Line
+                            </span>
+                          )}
                           <h2 className="font-heading text-xl sm:text-2xl lg:text-3xl font-black text-white tracking-tight drop-shadow-xs">
                             {cat.name}
                           </h2>

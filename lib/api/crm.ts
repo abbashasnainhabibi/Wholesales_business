@@ -1,6 +1,7 @@
 import { cache } from 'react'
 import { prisma } from '@/lib/prisma'
 import type { CompanySettings, ProductItem, ProductCategory, ReviewItem } from '@/lib/types/crm'
+import { sortCategoriesByPriority, sortProductsByCategoryPriority } from '@/lib/category-order'
 
 export const fallbackSettings: CompanySettings = {
   name: 'Tahira Syndicate',
@@ -55,7 +56,7 @@ export const getCategories = cache(async function getCategories(): Promise<Produ
       orderBy: { name: 'asc' },
     })
 
-    return cats.map((c) => ({
+    const mapped = cats.map((c) => ({
       id: c.id,
       name: c.name,
       slug: c.slug,
@@ -65,6 +66,8 @@ export const getCategories = cache(async function getCategories(): Promise<Produ
       metaDescription: c.metaDescription,
       _count: { products: c._count.products },
     }))
+
+    return sortCategoriesByPriority(mapped)
   } catch {
     return []
   }
@@ -140,7 +143,7 @@ export const getProducts = cache(async function getProducts(filters?: { category
       orderBy: { createdAt: 'desc' },
     })
 
-    return prods.map((p) => ({
+    const mapped: ProductItem[] = prods.map((p) => ({
       id: p.id,
       name: p.name,
       sku: p.sku,
@@ -153,7 +156,7 @@ export const getProducts = cache(async function getProducts(filters?: { category
         image: p.category.image,
       } : undefined,
       price: Number(p.price),
-      availability: p.availability === 'InStock' ? 'In Stock' : 'Out of Stock',
+      availability: (p.availability === 'InStock' ? 'In Stock' : 'Out of Stock') as 'In Stock' | 'Out of Stock',
       status: p.status as 'Active' | 'Draft',
       seoStatus: p.seoStatus,
       metaTitle: p.metaTitle,
@@ -189,6 +192,12 @@ export const getProducts = cache(async function getProducts(filters?: { category
       })),
       createdAt: p.createdAt.toISOString(),
     }))
+
+    if (!filters?.categorySlug) {
+      return sortProductsByCategoryPriority(mapped)
+    }
+
+    return mapped
   } catch {
     return []
   }
@@ -237,7 +246,7 @@ export const getProductBySlug = cache(async function getProductBySlug(slug: stri
         image: p.category.image,
       } : undefined,
       price: Number(p.price),
-      availability: p.availability === 'InStock' ? 'In Stock' : 'Out of Stock',
+      availability: (p.availability === 'InStock' ? 'In Stock' : 'Out of Stock') as 'In Stock' | 'Out of Stock',
       status: p.status as 'Active' | 'Draft',
       seoStatus: p.seoStatus,
       metaTitle: p.metaTitle,

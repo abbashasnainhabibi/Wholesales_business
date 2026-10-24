@@ -7,6 +7,7 @@ import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Search, Filter, ArrowRight, Phone, Grid, List, X, ShieldCheck, CheckCircle2, Check, ChevronLeft, ChevronRight } from 'lucide-react'
 import { fallbackSettings } from '@/lib/api/crm'
+import { isPrimaryCategory, sortCategoriesByPriority, sortProductsByCategoryPriority } from '@/lib/category-order'
 import type { CompanySettings, ProductItem, ProductCategory } from '@/lib/types/crm'
 import { resolveMediaUrl, scrollToElement, scrollToTop } from '@/lib/utils'
 import {
@@ -97,7 +98,7 @@ function CatalogViewContent({
         .then((res) => (res.ok ? res.json() : null))
         .then((json) => {
           if (isMounted && json && Array.isArray(json.data) && json.data.length > 0) {
-            setProducts(json.data)
+            setProducts(sortProductsByCategoryPriority(json.data, categoriesList))
           }
         })
         .catch((err) => console.error('Failed to load fallback catalog products:', err))
@@ -132,7 +133,7 @@ function CatalogViewContent({
   const wa = `https://wa.me/${cleanWhatsapp}`
 
   const categories = useMemo(() => {
-    if (categoriesList && categoriesList.length > 0) return categoriesList
+    if (categoriesList && categoriesList.length > 0) return sortCategoriesByPriority(categoriesList)
     const seen = new Set<string>()
     const cats: ProductCategory[] = []
     for (const p of products) {
@@ -141,8 +142,11 @@ function CatalogViewContent({
         cats.push(p.category)
       }
     }
-    return cats
+    return sortCategoriesByPriority(cats)
   }, [categoriesList, products])
+
+  const primaryCategories = useMemo(() => categories.filter((c) => isPrimaryCategory(c.slug)), [categories])
+  const secondaryCategories = useMemo(() => categories.filter((c) => !isPrimaryCategory(c.slug)), [categories])
 
   const [searchQuery, setSearchQuery] = useState(queryParam)
   const [selectedCategory, setSelectedCategory] = useState<string>(categorySlug || 'all')
@@ -409,28 +413,68 @@ function CatalogViewContent({
                     {products.length}
                   </span>
                 </button>
-                {categories.map((cat) => {
-                  const count = products.filter(
-                    (p) => (p.category?.slug || categories.find(c => c.id === p.categoryId)?.slug) === cat.slug
-                  ).length
-                  const isActive = selectedCategory === cat.slug
-                  return (
-                    <button
-                      key={cat.id}
-                      onClick={() => setSelectedCategory(cat.slug)}
-                      className={`w-full flex items-center justify-between px-3 py-2 text-xs sm:text-sm font-semibold transition text-left ${
-                        isActive
-                          ? 'bg-[#1877F2] text-white font-bold shadow-xs'
-                          : 'text-slate-700 hover:bg-slate-50 hover:text-slate-900'
-                      }`}
-                    >
-                      <span className="truncate pr-2">{cat.name}</span>
-                      <span className={`text-xs font-mono px-1.5 py-0.5 ${isActive ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-600'}`}>
-                        {count}
-                      </span>
-                    </button>
-                  )
-                })}
+
+                {/* Core Manufacturing Product Lines */}
+                {primaryCategories.length > 0 && (
+                  <div className="pt-2">
+                    <div className="px-2 pb-1 text-[11px] font-black uppercase tracking-wider text-slate-400">
+                      Core Product Lines
+                    </div>
+                    {primaryCategories.map((cat) => {
+                      const count = products.filter(
+                        (p) => (p.category?.slug || categories.find(c => c.id === p.categoryId)?.slug) === cat.slug
+                      ).length
+                      const isActive = selectedCategory === cat.slug
+                      return (
+                        <button
+                          key={cat.id}
+                          onClick={() => setSelectedCategory(cat.slug)}
+                          className={`w-full flex items-center justify-between px-3 py-2 text-xs sm:text-sm font-semibold transition text-left ${
+                            isActive
+                              ? 'bg-[#1877F2] text-white font-bold shadow-xs'
+                              : 'text-slate-700 hover:bg-slate-50 hover:text-slate-900'
+                          }`}
+                        >
+                          <span className="truncate pr-2">{cat.name}</span>
+                          <span className={`text-xs font-mono px-1.5 py-0.5 ${isActive ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-600'}`}>
+                            {count}
+                          </span>
+                        </button>
+                      )
+                    })}
+                  </div>
+                )}
+
+                {/* Commercial & Hardware Supplies */}
+                {secondaryCategories.length > 0 && (
+                  <div className="pt-2">
+                    <div className="px-2 pb-1 text-[11px] font-black uppercase tracking-wider text-slate-400 border-t border-slate-100 pt-2">
+                      Commercial Supplies
+                    </div>
+                    {secondaryCategories.map((cat) => {
+                      const count = products.filter(
+                        (p) => (p.category?.slug || categories.find(c => c.id === p.categoryId)?.slug) === cat.slug
+                      ).length
+                      const isActive = selectedCategory === cat.slug
+                      return (
+                        <button
+                          key={cat.id}
+                          onClick={() => setSelectedCategory(cat.slug)}
+                          className={`w-full flex items-center justify-between px-3 py-2 text-xs sm:text-sm font-semibold transition text-left ${
+                            isActive
+                              ? 'bg-[#1877F2] text-white font-bold shadow-xs'
+                              : 'text-slate-700 hover:bg-slate-50 hover:text-slate-900'
+                          }`}
+                        >
+                          <span className="truncate pr-2">{cat.name}</span>
+                          <span className={`text-xs font-mono px-1.5 py-0.5 ${isActive ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-600'}`}>
+                            {count}
+                          </span>
+                        </button>
+                      )
+                    })}
+                  </div>
+                )}
               </div>
 
               {/* Availability Filter */}
@@ -842,31 +886,74 @@ function CatalogViewContent({
                         {products.length}
                       </span>
                     </button>
-                    {categories.map((cat) => {
-                      const count = products.filter(
-                        (p) => (p.category?.slug || categories.find(c => c.id === p.categoryId)?.slug) === cat.slug
-                      ).length
-                      const isActive = selectedCategory === cat.slug
-                      return (
-                        <button
-                          key={cat.id}
-                          onClick={() => {
-                            setSelectedCategory(cat.slug)
-                            setMobileFilterOpen(false)
-                          }}
-                          className={`w-full flex items-center justify-between px-3.5 py-2.5 text-xs sm:text-sm font-semibold transition text-left ${
-                            isActive
-                              ? 'bg-[#1877F2] text-white font-bold shadow-xs'
-                              : 'text-slate-700 hover:bg-slate-50'
-                          }`}
-                        >
-                          <span className="truncate pr-2">{cat.name}</span>
-                          <span className={`text-xs font-mono px-1.5 py-0.5 ${isActive ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-600'}`}>
-                            {count}
-                          </span>
-                        </button>
-                      )
-                    })}
+
+                    {/* Core Manufacturing Product Lines */}
+                    {primaryCategories.length > 0 && (
+                      <div className="pt-2">
+                        <div className="px-2 pb-1 text-[11px] font-black uppercase tracking-wider text-slate-400">
+                          Core Product Lines
+                        </div>
+                        {primaryCategories.map((cat) => {
+                          const count = products.filter(
+                            (p) => (p.category?.slug || categories.find(c => c.id === p.categoryId)?.slug) === cat.slug
+                          ).length
+                          const isActive = selectedCategory === cat.slug
+                          return (
+                            <button
+                              key={cat.id}
+                              onClick={() => {
+                                setSelectedCategory(cat.slug)
+                                setMobileFilterOpen(false)
+                              }}
+                              className={`w-full flex items-center justify-between px-3.5 py-2.5 text-xs sm:text-sm font-semibold transition text-left ${
+                                isActive
+                                  ? 'bg-[#1877F2] text-white font-bold shadow-xs'
+                                  : 'text-slate-700 hover:bg-slate-50'
+                              }`}
+                            >
+                              <span className="truncate pr-2">{cat.name}</span>
+                              <span className={`text-xs font-mono px-1.5 py-0.5 ${isActive ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-600'}`}>
+                                {count}
+                              </span>
+                            </button>
+                          )
+                        })}
+                      </div>
+                    )}
+
+                    {/* Commercial & Hardware Supplies */}
+                    {secondaryCategories.length > 0 && (
+                      <div className="pt-2">
+                        <div className="px-2 pb-1 text-[11px] font-black uppercase tracking-wider text-slate-400 border-t border-slate-100 pt-2">
+                          Commercial Supplies
+                        </div>
+                        {secondaryCategories.map((cat) => {
+                          const count = products.filter(
+                            (p) => (p.category?.slug || categories.find(c => c.id === p.categoryId)?.slug) === cat.slug
+                          ).length
+                          const isActive = selectedCategory === cat.slug
+                          return (
+                            <button
+                              key={cat.id}
+                              onClick={() => {
+                                setSelectedCategory(cat.slug)
+                                setMobileFilterOpen(false)
+                              }}
+                              className={`w-full flex items-center justify-between px-3.5 py-2.5 text-xs sm:text-sm font-semibold transition text-left ${
+                                isActive
+                                  ? 'bg-[#1877F2] text-white font-bold shadow-xs'
+                                  : 'text-slate-700 hover:bg-slate-50'
+                              }`}
+                            >
+                              <span className="truncate pr-2">{cat.name}</span>
+                              <span className={`text-xs font-mono px-1.5 py-0.5 ${isActive ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-600'}`}>
+                                {count}
+                              </span>
+                            </button>
+                          )
+                        })}
+                      </div>
+                    )}
                   </div>
                 </div>
 

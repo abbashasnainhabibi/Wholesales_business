@@ -1,5 +1,6 @@
 import { prisma, json, pagination, parseBody, requireAdmin, notFound } from '@/lib/api'
 import { z } from 'zod'
+import { sortCategoriesByPriority } from '@/lib/category-order'
 
 import { promises as fs } from 'fs'
 import path from 'path'
@@ -80,7 +81,8 @@ export async function listCatalog(request: Request, model: CatalogModel) {
     d.findMany({ where, skip, take: pageSize, orderBy: { name: 'asc' }, include }),
     d.count({ where }),
   ])
-  return json({ data, meta: { page: Math.floor(skip / pageSize) + 1, pageSize, total } })
+  const finalData = model === 'category' ? sortCategoriesByPriority(data as any[]) : data
+  return json({ data: finalData, meta: { page: Math.floor(skip / pageSize) + 1, pageSize, total } })
 }
 
 export async function createCatalog(request: Request, model: CatalogModel) {

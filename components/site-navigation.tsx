@@ -6,6 +6,7 @@ import { ChevronDown, Phone, Menu, X, ShieldCheck, ArrowRight } from 'lucide-rea
 import { AnimatePresence, motion } from 'framer-motion'
 import type { CompanySettings, ProductCategory } from '@/lib/types/crm'
 import { fallbackSettings } from '@/lib/api/crm'
+import { sortCategoriesByPriority, isPrimaryCategory } from '@/lib/category-order'
 
 // Shared module-level cache & in-flight fetch promise for client deduplication
 let cachedCategories: ProductCategory[] | null = null
@@ -20,8 +21,9 @@ function fetchClientCategories(): Promise<ProductCategory[]> {
       .then((res) => (res.ok ? res.json() : null))
       .then((json) => {
         if (json && Array.isArray(json.data) && json.data.length > 0) {
-          cachedCategories = json.data
-          return json.data
+          const sorted = sortCategoriesByPriority<ProductCategory>(json.data as ProductCategory[])
+          cachedCategories = sorted
+          return sorted
         }
         return []
       })
@@ -33,16 +35,19 @@ function fetchClientCategories(): Promise<ProductCategory[]> {
         categoriesFetchPromise = null
       })
   }
-  return categoriesFetchPromise
+  return categoriesFetchPromise || Promise.resolve([])
 }
 
 export function SiteHeader({ settings: customSettings, categories: customCategories }: { settings?: CompanySettings; categories?: ProductCategory[] }) {
   const settings = customSettings || fallbackSettings
-  const [categories, setCategories] = useState<ProductCategory[]>(customCategories || [])
+  const [categories, setCategories] = useState<ProductCategory[]>(customCategories ? sortCategoriesByPriority(customCategories) : [])
   const [mobileOpen, setMobileOpen] = useState(false)
   const [categoryDropdownOpen, setCategoryDropdownOpen] = useState(false)
   const [mobileCategoryOpen, setMobileCategoryOpen] = useState(false)
   const [isVisible, setIsVisible] = useState(true)
+
+  const primaryCategories = categories.filter((c) => isPrimaryCategory(c.slug))
+  const secondaryCategories = categories.filter((c) => !isPrimaryCategory(c.slug))
   const [isScrolled, setIsScrolled] = useState(false)
   const lastScrollY = useRef(0)
   const dropdownRef = useRef<HTMLDivElement>(null)
@@ -53,8 +58,9 @@ export function SiteHeader({ settings: customSettings, categories: customCategor
   // Update categories if prop updates or fetch live CRM categories
   useEffect(() => {
     if (customCategories && customCategories.length > 0) {
-      setCategories(customCategories)
-      cachedCategories = customCategories
+      const sorted = sortCategoriesByPriority(customCategories)
+      setCategories(sorted)
+      cachedCategories = sorted
     } else {
       let isMounted = true
       fetchClientCategories().then((cats) => {
@@ -175,7 +181,43 @@ export function SiteHeader({ settings: customSettings, categories: customCategor
                     className="absolute left-0 top-full mt-1 w-64 rounded-none border border-slate-200 bg-white py-2 shadow-xl ring-1 ring-black/5 z-50"
                   >
                     <div className="flex flex-col">
-                      {categories.map((cat) => (
+                      {primaryCategories.length > 0 && (
+                        <div>
+                          <div className="px-4 pt-1.5 pb-1 text-[11px] font-black uppercase tracking-wider text-slate-400">
+                            Core Manufacturing
+                          </div>
+                          {primaryCategories.map((cat) => (
+                            <Link
+                              key={cat.id}
+                              href={`/categories/${cat.slug}`}
+                              onClick={() => setCategoryDropdownOpen(false)}
+                              className="px-4 py-2 text-sm font-semibold text-slate-800 hover:bg-slate-50 hover:text-[#1877F2] transition flex items-center justify-between"
+                            >
+                              <span>{cat.name}</span>
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+
+                      {secondaryCategories.length > 0 && (
+                        <div className="border-t border-slate-100 mt-1.5 pt-1.5">
+                          <div className="px-4 pt-1 pb-1 text-[11px] font-black uppercase tracking-wider text-slate-400">
+                            Commercial Supplies
+                          </div>
+                          {secondaryCategories.map((cat) => (
+                            <Link
+                              key={cat.id}
+                              href={`/categories/${cat.slug}`}
+                              onClick={() => setCategoryDropdownOpen(false)}
+                              className="px-4 py-1.5 text-sm font-medium text-slate-600 hover:bg-slate-50 hover:text-[#1877F2] transition flex items-center justify-between"
+                            >
+                              <span>{cat.name}</span>
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+
+                      {primaryCategories.length === 0 && secondaryCategories.length === 0 && categories.map((cat) => (
                         <Link
                           key={cat.id}
                           href={`/categories/${cat.slug}`}
@@ -337,14 +379,15 @@ export function SiteHeader({ settings: customSettings, categories: customCategor
 
 export function SiteFooter({ settings: customSettings, categories: customCategories }: { settings?: CompanySettings; categories?: ProductCategory[] }) {
   const settings = customSettings || fallbackSettings
-  const [categories, setCategories] = useState<ProductCategory[]>(customCategories || [])
+  const [categories, setCategories] = useState<ProductCategory[]>(customCategories ? sortCategoriesByPriority(customCategories) : [])
   const cleanWhatsapp = settings.whatsapp.replace(/[^0-9]/g, '')
   const wa = `https://wa.me/${cleanWhatsapp}`
 
   useEffect(() => {
     if (customCategories && customCategories.length > 0) {
-      setCategories(customCategories)
-      cachedCategories = customCategories
+      const sorted = sortCategoriesByPriority(customCategories)
+      setCategories(sorted)
+      cachedCategories = sorted
     } else {
       let isMounted = true
       fetchClientCategories().then((cats) => {

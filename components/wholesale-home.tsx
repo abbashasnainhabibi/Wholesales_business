@@ -17,6 +17,7 @@ import {
 } from 'lucide-react'
 import type { CompanySettings, ProductItem, ProductCategory } from '@/lib/types/crm'
 import { fallbackSettings, submitInquiry } from '@/lib/api/crm'
+import { sortCategoriesByPriority } from '@/lib/category-order'
 import { SiteHeader, SiteFooter } from '@/components/site-navigation'
 import { SourcingEstimator } from '@/components/sourcing-estimator'
 import Image from 'next/image'
@@ -69,7 +70,7 @@ export function WholesaleHome({
   const router = useRouter()
   const settings = initialSettings || fallbackSettings
   const products = initialProducts || []
-  const categories = initialCategories || []
+  const categories = useMemo(() => sortCategoriesByPriority(initialCategories || []), [initialCategories])
   const reviews = initialReviews || []
 
   // Live Material Search State
