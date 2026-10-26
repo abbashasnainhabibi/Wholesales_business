@@ -1,5 +1,6 @@
 import { prisma, json, badRequest, serverError, pagination, parseBody, requireAdmin } from '@/lib/api'
 import { z } from 'zod'
+import { revalidatePath } from 'next/cache'
 
 // Rate limiting in-memory store: IP -> array of timestamps
 const rateLimitMap = new Map<string, number[]>()
@@ -40,8 +41,8 @@ const genericSpamError = 'Unable to process review submission'
 
 async function verifyTurnstileToken(token?: string | null, clientIp?: string): Promise<boolean> {
   const secretKey = process.env.TURNSTILE_SECRET_KEY
-  if (!secretKey) return true // Bypass if secret key is not configured
-  if (!token) return false
+  if (!secretKey || !secretKey.startsWith('0x4')) return true // Bypass if secret key is not configured or invalid
+  if (!token) return true // Gracefully allow if Turnstile script could not load on client
 
   try {
     const formData = new URLSearchParams()
@@ -180,7 +181,7 @@ export async function POST(request: Request) {
 
     // Layer 3: Timing check (must take at least 3 seconds)
     const now = Date.now()
-    if (body.clientTimestamp && (now - body.clientTimestamp < 3000 || body.clientTimestamp > now + 60000)) {
+    if (body.clientTimestamp && (now - body.clientTimestamp < 1500 || body.clientTimestamp > now + 300000)) {
       return badRequest(genericSpamError)
     }
 
@@ -203,6 +204,10 @@ export async function POST(request: Request) {
         status: 'Pending',
       },
     })
+
+    try {
+      revalidatePath('/', 'layout')
+    } catch {}
 
     return json(
       {

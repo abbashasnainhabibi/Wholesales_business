@@ -1,5 +1,6 @@
 import { prisma, json, parseBody, requireAdmin } from '@/lib/api'
 import { z } from 'zod'
+import { revalidatePath } from 'next/cache'
 
 const schema = z.object({
   name: z.string().min(1).max(180).optional(),
@@ -28,11 +29,17 @@ export async function PUT(request: Request) {
     await requireAdmin(request)
     const data = await parseBody(request, schema)
     const current = await prisma.companySettings.findFirst()
-    return json(
-      current
-        ? await prisma.companySettings.update({ where: { id: current.id }, data: data as never })
-        : await prisma.companySettings.create({ data: data as never })
-    )
+    const updated = current
+      ? await prisma.companySettings.update({ where: { id: current.id }, data: data as never })
+      : await prisma.companySettings.create({ data: data as never })
+
+    try {
+      revalidatePath('/', 'layout')
+    } catch {
+      // Ignore if called in environment without full router context
+    }
+
+    return json(updated)
   } catch (error) {
     return error instanceof Response ? error : json({ error: 'Unable to save company settings' }, { status: 500 })
   }

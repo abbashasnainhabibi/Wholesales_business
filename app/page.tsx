@@ -4,6 +4,8 @@ import { getCompanySettings, getProducts, getCategories, getApprovedReviews } fr
 
 import { buildPageMetadata } from '@/lib/seo'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = buildPageMetadata({
   title: 'Ropes, Nets & Tarpaulins in Karachi | Tahira Syndicate',
   description:

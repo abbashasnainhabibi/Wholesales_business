@@ -1,5 +1,6 @@
 import { prisma, json, badRequest, notFound, serverError, parseBody, requireAdmin } from '@/lib/api'
 import { z } from 'zod'
+import { revalidatePath } from 'next/cache'
 import { promises as fs } from 'fs'
 import path from 'path'
 
@@ -50,6 +51,17 @@ export async function PATCH(
       include: { product: { select: { id: true, name: true } } },
     })
 
+    try {
+      revalidatePath('/', 'layout')
+      revalidatePath('/')
+      if (updated.productId) {
+        revalidatePath(`/products/${updated.productId}`)
+      }
+      if (updated.serviceId) {
+        revalidatePath(`/services/${updated.serviceId}`)
+      }
+    } catch {}
+
     return json(updated)
   } catch (error) {
     return error instanceof Response ? error : serverError()
@@ -87,6 +99,11 @@ export async function DELETE(
     await prisma.review.delete({
       where: { id: reviewId },
     })
+
+    try {
+      revalidatePath('/', 'layout')
+      revalidatePath('/')
+    } catch {}
 
     return json({ success: true, message: 'Review deleted successfully' })
   } catch (error) {

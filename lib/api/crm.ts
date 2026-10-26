@@ -10,7 +10,7 @@ export const fallbackSettings: CompanySettings = {
   address: 'Shop # 1, Thakurdwara Ln, Main Shahra-e-Liaquat Road, opp. Sindh Madarsa-tul-Islam, near Karachi Chamber of Commerce, Serai Quarters, Shahra-e-Liaquat Road, Karachi, 74000',
   phone: '+92 321 2043552',
   whatsapp: '+923212043552',
-  email: 'info@tahirasyndicate.com',
+  email: 'tahirasyndicate@gmail.com',
   facebook: 'https://facebook.com/tahirasyndicate',
   instagram: 'https://instagram.com/tahirasyndicate',
   hours: 'Mon - Sat: 10:00 AM - 7:00 PM',

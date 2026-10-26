@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
-import { ChevronDown, Phone, Menu, X, ShieldCheck, ArrowRight } from 'lucide-react'
+import { ChevronDown, Phone, Menu, X, ShieldCheck, ArrowRight, Mail } from 'lucide-react'
 import { AnimatePresence, motion } from 'framer-motion'
 import type { CompanySettings, ProductCategory } from '@/lib/types/crm'
 import { fallbackSettings } from '@/lib/api/crm'
@@ -111,6 +111,14 @@ export function SiteHeader({ settings: customSettings, categories: customCategor
           </div>
 
           <div className="hidden sm:flex items-center gap-4 text-slate-500 font-medium shrink-0">
+            {settings.email && (
+              <>
+                <a href={`mailto:${settings.email}`} className="hover:text-[#1877F2] transition flex items-center gap-1.5 font-semibold text-slate-700">
+                  <Mail className="h-3.5 w-3.5 text-slate-400" /> {settings.email}
+                </a>
+                <span className="text-slate-300">|</span>
+              </>
+            )}
             <span>{settings.hours}</span>
           </div>
         </div>
@@ -358,7 +366,7 @@ export function SiteHeader({ settings: customSettings, categories: customCategor
                 <Link onClick={() => setMobileOpen(false)} href="/contact" className="py-2 text-sm font-semibold text-slate-800">
                   Contact
                 </Link>
-                <div className="pt-3">
+                <div className="pt-3 space-y-2">
                   <a
                     href={wa}
                     target="_blank"
@@ -367,6 +375,14 @@ export function SiteHeader({ settings: customSettings, categories: customCategor
                   >
                     <Phone className="h-4 w-4" /> WhatsApp Quote
                   </a>
+                  {settings.email && (
+                    <a
+                      href={`mailto:${settings.email}`}
+                      className="flex w-full items-center justify-center gap-2 rounded-sm border border-slate-200 bg-slate-50 py-2.5 text-xs font-semibold text-slate-700 hover:text-[#1877F2]"
+                    >
+                      <Mail className="h-3.5 w-3.5 text-slate-400" /> {settings.email}
+                    </a>
+                  )}
                 </div>
               </div>
             </motion.nav>
@@ -492,6 +508,14 @@ export function SiteFooter({ settings: customSettings, categories: customCategor
                   className="inline-flex items-center gap-2 text-sm sm:text-base font-semibold text-slate-700 hover:text-[#1877F2]"
                 >
                   <Phone className="h-4 w-4 shrink-0 text-slate-400" /> Phone: {settings.phone}
+                </a>
+              )}
+              {settings.email && (
+                <a
+                  href={`mailto:${settings.email}`}
+                  className="inline-flex items-center gap-2 text-sm sm:text-base font-semibold text-slate-700 hover:text-[#1877F2] transition"
+                >
+                  <Mail className="h-4 w-4 shrink-0 text-slate-400" /> {settings.email}
                 </a>
               )}
             </div>

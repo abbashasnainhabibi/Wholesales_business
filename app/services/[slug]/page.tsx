@@ -60,6 +60,8 @@ export async function generateStaticParams() {
 
 import { buildPageMetadata, cleanTitleString } from '@/lib/seo'
 
+export const dynamic = 'force-dynamic'
+
 export async function generateMetadata({
   params,
 }: {

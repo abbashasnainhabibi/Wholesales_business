@@ -84,6 +84,7 @@ export default async function RootLayout({
     name: settings.name || 'Tahira Syndicate',
     url: siteUrl,
     telephone: settings.phone,
+    email: settings.email,
     priceRange: '$$',
     description: settings.description,
     address: {
@@ -107,6 +108,7 @@ export default async function RootLayout({
       {
         '@type': 'ContactPoint',
         telephone: settings.phone,
+        email: settings.email,
         contactType: 'sales',
         areaServed: 'PK',
         availableLanguage: ['English', 'Urdu'],

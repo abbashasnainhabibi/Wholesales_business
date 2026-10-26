@@ -4,6 +4,8 @@ import { getCompanySettings, getCategories } from '@/lib/api/crm'
 
 import { buildPageMetadata } from '@/lib/seo'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = buildPageMetadata({
   title: 'About Us – Rope & Net Maker, Karachi',
   description:

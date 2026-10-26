@@ -4,6 +4,8 @@ import { getCompanySettings, getProducts, getCategories } from '@/lib/api/crm'
 
 import { buildPageMetadata } from '@/lib/seo'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = buildPageMetadata({
   title: 'Contact & Get a Wholesale Quote',
   description:

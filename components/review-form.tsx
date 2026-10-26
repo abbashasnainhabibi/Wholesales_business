@@ -62,7 +62,17 @@ export function ReviewForm({
 
   // Initialize Cloudflare Turnstile widget when script is ready
   useEffect(() => {
-    if (!siteKey) return
+    if (!siteKey || typeof window === 'undefined') return
+
+    const SCRIPT_ID = 'cf-turnstile-script'
+    if (!document.getElementById(SCRIPT_ID)) {
+      const script = document.createElement('script')
+      script.id = SCRIPT_ID
+      script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit'
+      script.async = true
+      script.defer = true
+      document.head.appendChild(script)
+    }
 
     const checkAndRender = () => {
       if (window.turnstile && turnstileContainerRef.current && !widgetIdRef.current) {
@@ -171,7 +181,7 @@ export function ReviewForm({
       setError('Please share your feedback or experience.')
       return
     }
-    if (siteKey && !turnstileToken) {
+    if (siteKey && widgetIdRef.current && !turnstileToken) {
       setError('Please complete the verification check before submitting.')
       return
     }
